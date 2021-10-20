@@ -24,12 +24,12 @@
   </registry>
   <node concept="3yWWWu" id="5ByJnQV4EQX">
     <property role="3yWWWp" value="zes" />
-    <node concept="3yWWW$" id="5ByJnQV4NAO" role="3yWWWr">
-      <property role="3yWWWB" value="dsa" />
-      <property role="3yWulV" value="dw" />
-    </node>
     <node concept="3yWWW_" id="5ByJnQV4Pw4" role="3yWWWl">
       <property role="3yWWWx" value="dsa" />
+    </node>
+    <node concept="3yWWW$" id="5ByJnQV55Ib" role="3yWWWr">
+      <property role="3yWWWB" value="myPod" />
+      <property role="3yWulV" value="default" />
     </node>
   </node>
 </model>
