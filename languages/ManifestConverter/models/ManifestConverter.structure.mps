@@ -57,10 +57,12 @@
     <property role="EcuMT" value="6476947561819239000" />
     <property role="TrG5h" value="PodSpec" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5ByJnQV4n9s" role="1TKVEl">
-      <property role="IQ2nx" value="6476947561819239004" />
-      <property role="TrG5h" value="containers" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="4vmbu8OeuzD" role="1TKVEi">
+      <property role="IQ2ns" value="5176375271271033065" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="containers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4vmbu8Oeub$" resolve="Container" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ByJnQV4n9p">
@@ -87,6 +89,7 @@
       <property role="IQ2ns" value="6476947561819239016" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="podSpec" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
     </node>
     <node concept="PrWs8" id="4vmbu8Od$Mi" role="PzmwI">
@@ -142,7 +145,46 @@
       <property role="IQ2ns" value="5176375271270796432" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="metadata" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ByJnQV4n9p" resolve="ManifestMetadata" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4vmbu8Oeub$">
+    <property role="EcuMT" value="5176375271271031524" />
+    <property role="TrG5h" value="Container" />
+    <property role="34LRSv" value="Container" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="4vmbu8Oeub_" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271271031525" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4vmbu8OeubE" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271271031530" />
+      <property role="TrG5h" value="image" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4vmbu8OeubK" role="1TKVEi">
+      <property role="IQ2ns" value="5176375271271031536" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ports" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4vmbu8OeubM" resolve="Port" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4vmbu8OeubM">
+    <property role="EcuMT" value="5176375271271031538" />
+    <property role="TrG5h" value="Port" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="4vmbu8Of8Vn" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271271206615" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4vmbu8OeubN" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271271031539" />
+      <property role="TrG5h" value="containerPort" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

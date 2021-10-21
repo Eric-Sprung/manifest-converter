@@ -16,7 +16,7 @@
         <property id="6476947561819239002" name="name" index="3yWWWB" />
       </concept>
       <concept id="6476947561819239000" name="ManifestConverter.structure.PodSpec" flags="ng" index="3yWWW_">
-        <property id="6476947561819239004" name="containers" index="3yWWWx" />
+        <child id="5176375271271033065" name="containers" index="1NVWkb" />
       </concept>
       <concept id="5176375271270796426" name="ManifestConverter.structure.IManifest" flags="ng" index="1NS65C">
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
@@ -24,25 +24,45 @@
       <concept id="5176375271270609795" name="ManifestConverter.structure.Specification" flags="ng" index="1NTlTx">
         <child id="5176375271270609796" name="manifests" index="1NTlTA" />
       </concept>
+      <concept id="5176375271271031524" name="ManifestConverter.structure.Container" flags="ng" index="1NVWW6">
+        <property id="5176375271271031525" name="name" index="1NVWW7" />
+        <property id="5176375271271031530" name="image" index="1NVWW8" />
+        <child id="5176375271271031536" name="ports" index="1NVWWi" />
+      </concept>
+      <concept id="5176375271271031538" name="ManifestConverter.structure.Port" flags="ng" index="1NVWWg">
+        <property id="5176375271271206615" name="name" index="1NUEcP" />
+        <property id="5176375271271031539" name="containerPort" index="1NVWWh" />
+      </concept>
     </language>
   </registry>
   <node concept="1NTlTx" id="4vmbu8OdAjB">
-    <node concept="3yWWWu" id="4vmbu8OdAjC" role="1NTlTA">
-      <node concept="3yWWW$" id="4vmbu8OdDIy" role="1NS65M">
+    <node concept="3yWWWu" id="4vmbu8OdDIP" role="1NTlTA">
+      <node concept="3yWWW$" id="4vmbu8OdFCg" role="1NS65M">
+        <property role="3yWWWB" value="nginx" />
+        <property role="3yWulV" value="default" />
+      </node>
+      <node concept="3yWWW_" id="4vmbu8Oeuzz" role="3yWWWl">
+        <node concept="1NVWW6" id="4vmbu8OeA2M" role="1NVWkb">
+          <property role="1NVWW7" value="nginx" />
+          <property role="1NVWW8" value="nginx:1.14.2" />
+          <node concept="1NVWWg" id="4vmbu8OeA2O" role="1NVWWi">
+            <property role="1NVWWh" value="80" />
+            <property role="1NUEcP" value="http" />
+          </node>
+          <node concept="1NVWWg" id="4vmbu8Of8Vk" role="1NVWWi">
+            <property role="1NUEcP" value="https" />
+            <property role="1NVWWh" value="443" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yWWWu" id="4vmbu8OfdG6" role="1NTlTA">
+      <node concept="3yWWW_" id="4vmbu8OfdG8" role="3yWWWl" />
+      <node concept="3yWWW$" id="4vmbu8OfdGa" role="1NS65M">
         <property role="3yWWWB" value="myCustomPod" />
         <property role="3yWulV" value="default" />
       </node>
-      <node concept="3yWWW_" id="4vmbu8OdDI$" role="3yWWWl">
-        <property role="3yWWWx" value="dsa" />
-      </node>
     </node>
-    <node concept="3yWWWu" id="4vmbu8OdDIP" role="1NTlTA">
-      <node concept="3yWWW$" id="4vmbu8OdFCg" role="1NS65M">
-        <property role="3yWWWB" value="myCustomPod" />
-        <property role="3yWulV" value="de" />
-      </node>
-    </node>
-    <node concept="3yWWWu" id="4vmbu8OdDJ6" role="1NTlTA" />
   </node>
 </model>
 
