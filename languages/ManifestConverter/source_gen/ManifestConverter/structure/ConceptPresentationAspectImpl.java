@@ -9,15 +9,30 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_IManifest;
+  private ConceptPresentation props_ManifestMetadata;
   private ConceptPresentation props_Pod;
-  private ConceptPresentation props_PodMetadata;
   private ConceptPresentation props_PodSpec;
+  private ConceptPresentation props_Specification;
 
   @Override
   @Nullable
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.IManifest:
+        if (props_IManifest == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_IManifest = cpb.create();
+        }
+        return props_IManifest;
+      case LanguageConceptSwitch.ManifestMetadata:
+        if (props_ManifestMetadata == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("ManifestMetadata");
+          props_ManifestMetadata = cpb.create();
+        }
+        return props_ManifestMetadata;
       case LanguageConceptSwitch.Pod:
         if (props_Pod == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -25,13 +40,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Pod = cpb.create();
         }
         return props_Pod;
-      case LanguageConceptSwitch.PodMetadata:
-        if (props_PodMetadata == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("PodMetadata");
-          props_PodMetadata = cpb.create();
-        }
-        return props_PodMetadata;
       case LanguageConceptSwitch.PodSpec:
         if (props_PodSpec == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -39,6 +47,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PodSpec = cpb.create();
         }
         return props_PodSpec;
+      case LanguageConceptSwitch.Specification:
+        if (props_Specification == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Specification");
+          props_Specification = cpb.create();
+        }
+        return props_Specification;
     }
     return null;
   }

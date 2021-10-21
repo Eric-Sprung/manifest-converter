@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="3t1y8hb43thfr82zfu8j2b2qn7zu5px">
-  <files names="EditorAspectDescriptorImpl.java:PodMetadata_Editor.java:PodMetadata_EditorBuilder_a.java:PodSpec_Editor.java:PodSpec_EditorBuilder_a.java:Pod_Editor.java:Pod_EditorBuilder_a.java" />
+<product version="3" modelHash="-dvygs4s76uvx56o5d4od1di85ygwe9d">
+  <files names="EditorAspectDescriptorImpl.java:ManifestMetadata_Editor.java:ManifestMetadata_EditorBuilder_a.java:PodSpec_Editor.java:PodSpec_EditorBuilder_a.java:Pod_Editor.java:Pod_EditorBuilder_a.java:Specification_Editor.java:Specification_EditorBuilder_a.java" />
 </product>
 

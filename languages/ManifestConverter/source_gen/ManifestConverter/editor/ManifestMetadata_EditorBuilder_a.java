@@ -29,11 +29,11 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
-/*package*/ class PodMetadata_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class ManifestMetadata_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public PodMetadata_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public ManifestMetadata_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }
@@ -50,7 +50,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private EditorCell createCollection_0() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Indent());
-    editorCell.setCellId("Collection_xtnmk_a");
+    editorCell.setCellId("Collection_5p7okn_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
@@ -60,8 +60,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "name: ");
-    editorCell.setCellId("Constant_xtnmk_a0");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "name:");
+    editorCell.setCellId("Constant_5p7okn_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -94,8 +94,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "namespace: ");
-    editorCell.setCellId("Constant_xtnmk_c0");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "namespace:");
+    editorCell.setCellId("Constant_5p7okn_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }

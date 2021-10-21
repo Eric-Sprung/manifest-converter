@@ -10,14 +10,30 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -25,6 +41,7 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
@@ -39,7 +56,7 @@
   <node concept="1TIwiD" id="5ByJnQV4n9o">
     <property role="EcuMT" value="6476947561819239000" />
     <property role="TrG5h" value="PodSpec" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5ByJnQV4n9s" role="1TKVEl">
       <property role="IQ2nx" value="6476947561819239004" />
       <property role="TrG5h" value="containers" />
@@ -48,7 +65,7 @@
   </node>
   <node concept="1TIwiD" id="5ByJnQV4n9p">
     <property role="EcuMT" value="6476947561819239001" />
-    <property role="TrG5h" value="PodMetadata" />
+    <property role="TrG5h" value="ManifestMetadata" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="5ByJnQV4n9q" role="1TKVEl">
       <property role="IQ2nx" value="6476947561819239002" />
@@ -64,24 +81,69 @@
   <node concept="1TIwiD" id="5ByJnQV4n9z">
     <property role="EcuMT" value="6476947561819239011" />
     <property role="TrG5h" value="Pod" />
+    <property role="34LRSv" value="Pod" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="5ByJnQV4n9$" role="1TKVEl">
-      <property role="IQ2nx" value="6476947561819239012" />
-      <property role="TrG5h" value="apiVersion" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5ByJnQV4n9A" role="1TKVEi">
-      <property role="IQ2ns" value="6476947561819239014" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="podMetadata" />
-      <ref role="20lvS9" node="5ByJnQV4n9p" resolve="PodMetadata" />
-    </node>
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5ByJnQV4n9C" role="1TKVEi">
       <property role="IQ2ns" value="6476947561819239016" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="podSpec" />
       <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
+    </node>
+    <node concept="PrWs8" id="4vmbu8Od$Mi" role="PzmwI">
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="IManifest" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4vmbu8OcPoz">
+    <property role="3F6X1D" value="5176375271270602275" />
+    <property role="TrG5h" value="ManifestKinds" />
+    <ref role="1H5jkz" node="4vmbu8OcPo$" resolve="Pod" />
+    <node concept="25R33" id="4vmbu8OcPo$" role="25R1y">
+      <property role="3tVfz5" value="5176375271270602276" />
+      <property role="TrG5h" value="Pod" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4vmbu8OcRe3">
+    <property role="EcuMT" value="5176375271270609795" />
+    <property role="TrG5h" value="Specification" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Specification" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="4vmbu8OcRe4" role="1TKVEi">
+      <property role="IQ2ns" value="5176375271270609796" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="manifests" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4vmbu8Od$Ma" resolve="IManifest" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4vmbu8OduJd">
+    <property role="3F6X1D" value="5176375271270771661" />
+    <property role="TrG5h" value="ApiVersions" />
+    <ref role="1H5jkz" node="4vmbu8OduJe" resolve="v1" />
+    <node concept="25R33" id="4vmbu8OduJe" role="25R1y">
+      <property role="3tVfz5" value="5176375271270771662" />
+      <property role="TrG5h" value="v1" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4vmbu8Od$Ma">
+    <property role="EcuMT" value="5176375271270796426" />
+    <property role="TrG5h" value="IManifest" />
+    <node concept="1TJgyi" id="4vmbu8Od$Mb" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271270796427" />
+      <property role="TrG5h" value="apiVersion" />
+      <ref role="AX2Wp" node="4vmbu8OduJd" resolve="ApiVersions" />
+    </node>
+    <node concept="1TJgyi" id="4vmbu8Od$Md" role="1TKVEl">
+      <property role="IQ2nx" value="5176375271270796429" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="4vmbu8OcPoz" resolve="ManifestKinds" />
+    </node>
+    <node concept="1TJgyj" id="4vmbu8Od$Mg" role="1TKVEi">
+      <property role="IQ2ns" value="5176375271270796432" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="metadata" />
+      <ref role="20lvS9" node="5ByJnQV4n9p" resolve="ManifestMetadata" />
     </node>
   </node>
 </model>

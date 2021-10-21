@@ -9,15 +9,19 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Pod = 0;
-  public static final int PodMetadata = 1;
-  public static final int PodSpec = 2;
+  public static final int IManifest = 0;
+  public static final int ManifestMetadata = 1;
+  public static final int Pod = 2;
+  public static final int PodSpec = 3;
+  public static final int Specification = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xdd310849d074035L, 0x939dcb69bd123423L);
+    builder.put(0x47d62de234364c8aL, IManifest);
+    builder.put(0x59e2bd7dbb117259L, ManifestMetadata);
     builder.put(0x59e2bd7dbb117263L, Pod);
-    builder.put(0x59e2bd7dbb117259L, PodMetadata);
     builder.put(0x59e2bd7dbb117258L, PodSpec);
+    builder.put(0x47d62de234337383L, Specification);
     myIndex = builder.seal();
   }
 

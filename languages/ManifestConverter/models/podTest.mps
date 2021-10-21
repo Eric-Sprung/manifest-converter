@@ -9,27 +9,43 @@
   <registry>
     <language id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestConverter">
       <concept id="6476947561819239011" name="ManifestConverter.structure.Pod" flags="ng" index="3yWWWu">
-        <property id="6476947561819239012" name="apiVersion" index="3yWWWp" />
         <child id="6476947561819239016" name="podSpec" index="3yWWWl" />
-        <child id="6476947561819239014" name="podMetadata" index="3yWWWr" />
       </concept>
-      <concept id="6476947561819239001" name="ManifestConverter.structure.PodMetadata" flags="ng" index="3yWWW$">
+      <concept id="6476947561819239001" name="ManifestConverter.structure.ManifestMetadata" flags="ng" index="3yWWW$">
         <property id="6476947561819363334" name="namespace" index="3yWulV" />
         <property id="6476947561819239002" name="name" index="3yWWWB" />
       </concept>
       <concept id="6476947561819239000" name="ManifestConverter.structure.PodSpec" flags="ng" index="3yWWW_">
         <property id="6476947561819239004" name="containers" index="3yWWWx" />
       </concept>
+      <concept id="5176375271270796426" name="ManifestConverter.structure.IManifest" flags="ng" index="1NS65C">
+        <child id="5176375271270796432" name="metadata" index="1NS65M" />
+      </concept>
+      <concept id="5176375271270609795" name="ManifestConverter.structure.Specification" flags="ng" index="1NTlTx">
+        <child id="5176375271270609796" name="manifests" index="1NTlTA" />
+      </concept>
     </language>
   </registry>
-  <node concept="3yWWWu" id="5ByJnQV4EQX">
-    <property role="3yWWWp" value="zes" />
-    <node concept="3yWWW_" id="5ByJnQV4Pw4" role="3yWWWl">
-      <property role="3yWWWx" value="dsa" />
+  <node concept="1NTlTx" id="4vmbu8OdAjB">
+    <node concept="3yWWWu" id="4vmbu8OdAjC" role="1NTlTA">
+      <node concept="3yWWW$" id="4vmbu8OdDIy" role="1NS65M">
+        <property role="3yWWWB" value="myCustomPod" />
+        <property role="3yWulV" value="default" />
+      </node>
+      <node concept="3yWWW_" id="4vmbu8OdDI$" role="3yWWWl">
+        <property role="3yWWWx" value="dsa" />
+      </node>
     </node>
-    <node concept="3yWWW$" id="5ByJnQV55Ib" role="3yWWWr">
-      <property role="3yWWWB" value="myPod" />
+    <node concept="3yWWWu" id="4vmbu8OdDIP" role="1NTlTA" />
+    <node concept="3yWWWu" id="4vmbu8OdDJ6" role="1NTlTA" />
+  </node>
+  <node concept="3yWWWu" id="4vmbu8OdDIV">
+    <node concept="3yWWW$" id="4vmbu8OdDIW" role="1NS65M">
+      <property role="3yWWWB" value="myCustomPod" />
       <property role="3yWulV" value="default" />
+    </node>
+    <node concept="3yWWW_" id="4vmbu8OdDIY" role="3yWWWl">
+      <property role="3yWWWx" value="dsad" />
     </node>
   </node>
 </model>
