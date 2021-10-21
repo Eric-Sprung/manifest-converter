@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e7188282-4fe3-4c79-9fd9-949ba6c72b93(podTest)">
+<model ref="r:e7188282-4fe3-4c79-9fd9-949ba6c72b93(Models)">
   <persistence version="9" />
   <languages>
     <use id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestConverter" version="0" />
@@ -36,17 +36,13 @@
         <property role="3yWWWx" value="dsa" />
       </node>
     </node>
-    <node concept="3yWWWu" id="4vmbu8OdDIP" role="1NTlTA" />
+    <node concept="3yWWWu" id="4vmbu8OdDIP" role="1NTlTA">
+      <node concept="3yWWW$" id="4vmbu8OdFCg" role="1NS65M">
+        <property role="3yWWWB" value="myCustomPod" />
+        <property role="3yWulV" value="de" />
+      </node>
+    </node>
     <node concept="3yWWWu" id="4vmbu8OdDJ6" role="1NTlTA" />
-  </node>
-  <node concept="3yWWWu" id="4vmbu8OdDIV">
-    <node concept="3yWWW$" id="4vmbu8OdDIW" role="1NS65M">
-      <property role="3yWWWB" value="myCustomPod" />
-      <property role="3yWulV" value="default" />
-    </node>
-    <node concept="3yWWW_" id="4vmbu8OdDIY" role="3yWWWl">
-      <property role="3yWWWx" value="dsad" />
-    </node>
   </node>
 </model>
 

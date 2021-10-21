@@ -1,8 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="8,0,14,0" name="ManifestConverter.generator.templates.QueriesGenerated" />
+      <unit at="25,0,28,0" name="ManifestConverter.generator.templates.QueriesGenerated$PROPS" />
+      <unit at="20,0,24,0" name="ManifestConverter.generator.templates.QueriesGenerated$LINKS" />
+      <unit at="14,0,29,0" name="ManifestConverter.generator.templates.QueriesGenerated" />
+    </file>
+    <file name="TemplateModelImpl.java">
+      <unit at="20,0,57,0" name="ManifestConverter.generator.templates.TemplateModelImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)/5176375271270819327">
+    <file name="Mapping_main.java">
+      <node id="5176375271270819327" at="25,0,26,0" concept="3" trace="rootRules" />
+      <node id="5176375271270819327" at="26,53,27,174" concept="10" />
+      <node id="5176375271270819327" at="27,174,28,91" concept="2" />
+      <node id="5176375271270819327" at="31,61,32,21" concept="7" />
+      <node id="5176375271270829079" at="35,31,36,184" concept="10" />
+      <node id="5176375271270829079" at="39,103,40,80" concept="6" />
+      <node id="5176375271270829079" at="40,80,41,235" concept="6" />
+      <node id="5176375271270829079" at="41,235,42,20" concept="7" />
+      <node id="5176375271270819327" at="53,0,54,0" concept="8" trace="Specification$j4" />
+      <node id="5176375271270829079" at="35,0,38,0" concept="1" trace="RootMappingRule0#()V" />
+      <node id="5176375271270819327" at="26,0,30,0" concept="1" trace="Mapping_main#(Ljetbrains/mps/generator/runtime/TemplateModel;)V" />
+      <node id="5176375271270819327" at="30,0,34,0" concept="5" trace="getRootRules#()Ljava/util/Collection;" />
+      <node id="5176375271270829079" at="38,0,44,0" concept="5" trace="apply#(Ljetbrains/mps/generator/runtime/TemplateContext;)Ljava/util/Collection;" />
+      <scope id="5176375271270819327" at="31,61,32,21" />
+      <scope id="5176375271270829079" at="35,31,36,184" />
+      <scope id="5176375271270819327" at="26,53,28,91" />
+      <scope id="5176375271270829079" at="35,0,38,0" />
+      <scope id="5176375271270829079" at="39,103,42,20">
+        <var name="environment" id="5176375271270829079" />
+        <var name="result" id="5176375271270829079" />
+      </scope>
+      <scope id="5176375271270819327" at="26,0,30,0">
+        <var name="model" id="5176375271270819327" />
+      </scope>
+      <scope id="5176375271270819327" at="30,0,34,0" />
+      <scope id="5176375271270829079" at="38,0,44,0">
+        <var name="context" id="5176375271270829079" />
+      </scope>
+      <unit id="5176375271270819327" at="52,0,55,0" name="ManifestConverter.generator.templates.Mapping_main$CONCEPTS" />
+      <unit id="5176375271270819327" at="46,0,51,0" name="ManifestConverter.generator.templates.Mapping_main$MO" />
+      <unit id="5176375271270829079" at="34,0,45,0" name="ManifestConverter.generator.templates.Mapping_main$RootMappingRule0" />
+      <unit id="5176375271270819327" at="23,0,56,0" name="ManifestConverter.generator.templates.Mapping_main" />
+    </file>
+  </root>
+  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)/5176375271270957182">
+    <file name="QueriesGenerated.java">
+      <node id="5176375271270967727" at="16,88,17,211" concept="7" />
+      <node id="5176375271270967076" at="16,0,19,0" concept="9" trace="propertyMacro_GetValue_1_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <scope id="5176375271270967077" at="16,88,17,211" />
+      <scope id="5176375271270967076" at="16,0,19,0">
+        <var name="_context" id="5176375271270967076" />
+      </scope>
+    </file>
+    <file name="TemplateModelImpl.java">
+      <node id="5176375271270957182" at="51,158,52,46" concept="7" />
+      <node id="5176375271270957182" at="50,56,53,5" concept="4" />
+      <scope id="5176375271270957182" at="51,158,52,46" />
+    </file>
+    <file name="Template_map_Specification.java">
+      <node id="5176375271270957182" at="26,39,27,20" concept="10" />
+      <node id="5176375271270957182" at="30,43,31,32" concept="7" />
+      <node id="5176375271270957182" at="35,89,36,78" concept="6" />
+      <node id="5176375271270957182" at="36,78,37,69" concept="6" />
+      <node id="5176375271270957182" at="38,5,39,112" concept="2" />
+      <node id="5176375271270967075" at="39,112,40,198" concept="2" />
+      <node id="5176375271270957182" at="40,198,41,54" concept="6" />
+      <node id="5176375271270962121" at="42,7,43,73" concept="6" />
+      <node id="5176375271270962121" at="43,73,44,69" concept="2" />
+      <node id="5176375271270964670" at="46,7,47,73" concept="6" />
+      <node id="5176375271270964670" at="47,73,48,69" concept="2" />
+      <node id="5176375271270957183" at="50,7,51,73" concept="6" />
+      <node id="5176375271270957183" at="51,73,52,69" concept="2" />
+      <node id="5176375271270957182" at="54,5,55,55" concept="2" />
+      <node id="5176375271270957182" at="60,34,61,38" concept="6" />
+      <node id="5176375271270957182" at="61,38,62,179" concept="2" />
+      <node id="5176375271270957182" at="62,179,63,190" concept="2" />
+      <node id="5176375271270957182" at="63,190,64,184" concept="2" />
+      <node id="5176375271270957182" at="64,184,65,16" concept="7" />
+      <node id="5176375271270957182" at="69,37,70,40" concept="6" />
+      <node id="5176375271270957182" at="70,40,71,127" concept="2" />
+      <node id="5176375271270957182" at="71,127,72,16" concept="7" />
+      <node id="5176375271270957182" at="77,46,78,54" concept="6" />
+      <node id="5176375271270957182" at="78,54,79,141" concept="2" />
+      <node id="5176375271270957182" at="79,141,80,140" concept="2" />
+      <node id="5176375271270957182" at="80,140,81,16" concept="7" />
+      <node id="5176375271270957182" at="84,0,85,0" concept="8" trace="template_imd019_a0a3" />
+      <node id="5176375271270957182" at="85,0,86,0" concept="8" trace="propertyMacro_imd019_c0a2a1a2a5" />
+      <node id="5176375271270957182" at="26,0,29,0" concept="1" trace="Template_map_Specification#()V" />
+      <node id="5176375271270957182" at="30,0,33,0" concept="5" trace="getTemplateNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5176375271270962121" at="41,54,45,7" concept="0" />
+      <node id="5176375271270964670" at="45,7,49,7" concept="0" />
+      <node id="5176375271270957183" at="49,7,53,7" concept="0" />
+      <node id="5176375271270957182" at="68,0,74,0" concept="5" trace="properties#()[Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="5176375271270957182" at="76,0,83,0" concept="5" trace="aggregations#()[Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="5176375271270957182" at="59,0,67,0" concept="5" trace="concepts#()[Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="5176375271270957182" at="37,69,54,5" concept="0" />
+      <node id="5176375271270957182" at="34,0,57,0" concept="5" trace="apply#(Ljetbrains/mps/generator/runtime/TemplateContext;Ljetbrains/mps/generator/runtime/ApplySink;)V" />
+      <scope id="5176375271270957182" at="26,39,27,20" />
+      <scope id="5176375271270957182" at="30,43,31,32" />
+      <scope id="5176375271270962121" at="42,7,44,69">
+        <var name="tnode2" id="5176375271270962121" />
+      </scope>
+      <scope id="5176375271270964670" at="46,7,48,69">
+        <var name="tnode3" id="5176375271270964670" />
+      </scope>
+      <scope id="5176375271270957183" at="50,7,52,69">
+        <var name="tnode4" id="5176375271270957183" />
+      </scope>
+      <scope id="5176375271270957182" at="26,0,29,0" />
+      <scope id="5176375271270957182" at="30,0,33,0" />
+      <scope id="5176375271270957182" at="69,37,72,16">
+        <var name="rv" id="5176375271270957182" />
+      </scope>
+      <scope id="5176375271270957182" at="77,46,81,16">
+        <var name="rv" id="5176375271270957182" />
+      </scope>
+      <scope id="5176375271270957182" at="60,34,65,16">
+        <var name="rv" id="5176375271270957182" />
+      </scope>
+      <scope id="5176375271270957182" at="68,0,74,0" />
+      <scope id="5176375271270957182" at="76,0,83,0" />
+      <scope id="5176375271270957182" at="59,0,67,0" />
+      <scope id="5176375271270957182" at="38,5,53,7">
+        <var name="context1" id="5176375271270957182" />
+      </scope>
+      <scope id="5176375271270957182" at="35,89,55,55">
+        <var name="environment" id="5176375271270957182" />
+        <var name="tnode1" id="5176375271270957182" />
+      </scope>
+      <scope id="5176375271270957182" at="34,0,57,0">
+        <var name="context" id="5176375271270957182" />
+        <var name="sink" id="5176375271270957182" />
+      </scope>
+      <unit id="5176375271270957182" at="58,0,84,0" name="ManifestConverter.generator.templates.Template_map_Specification$MO" />
+      <unit id="5176375271270957182" at="23,0,87,0" name="ManifestConverter.generator.templates.Template_map_Specification" />
     </file>
   </root>
 </debug-info>

@@ -82,7 +82,6 @@
     <property role="EcuMT" value="6476947561819239011" />
     <property role="TrG5h" value="Pod" />
     <property role="34LRSv" value="Pod" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5ByJnQV4n9C" role="1TKVEi">
       <property role="IQ2ns" value="6476947561819239016" />

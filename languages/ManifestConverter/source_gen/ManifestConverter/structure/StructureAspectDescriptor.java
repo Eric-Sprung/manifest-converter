@@ -89,7 +89,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForPod() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ManifestConverter", "Pod", 0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117263L);
-    b.class_(false, false, true);
+    b.class_(false, false, false);
     b.parent(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL);
     b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestConverter.structure)/6476947561819239011");
     b.version(2);

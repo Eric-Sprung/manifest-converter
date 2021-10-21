@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="ManifestConverter.generator" uuid="62ef9ec5-31a1-4c3b-9e07-1eefc10859aa">
+    <generator alias="main" namespace="ManifestConverter.generator" uuid="62ef9ec5-31a1-4c3b-9e07-1eefc10859aa" generate-templates="true">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
