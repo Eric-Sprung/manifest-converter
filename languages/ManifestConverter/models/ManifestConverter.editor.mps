@@ -121,7 +121,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="4vmbu8Od_lN" role="3EZMnx">
-        <ref role="1NtTu8" to="80f9:5ByJnQV4n9C" resolve="podSpec" />
+        <ref role="1NtTu8" to="80f9:6A7cZx1FSFw" resolve="specification" />
         <node concept="ljvvj" id="4vmbu8Od_m_" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

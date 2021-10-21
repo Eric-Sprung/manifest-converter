@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
@@ -68,7 +69,7 @@
   <node concept="1TIwiD" id="5ByJnQV4n9p">
     <property role="EcuMT" value="6476947561819239001" />
     <property role="TrG5h" value="ManifestMetadata" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5ByJnQV4n9q" role="1TKVEl">
       <property role="IQ2nx" value="6476947561819239002" />
       <property role="TrG5h" value="name" />
@@ -85,13 +86,6 @@
     <property role="TrG5h" value="Pod" />
     <property role="34LRSv" value="Pod" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5ByJnQV4n9C" role="1TKVEi">
-      <property role="IQ2ns" value="6476947561819239016" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="podSpec" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
-    </node>
     <node concept="PrWs8" id="4vmbu8Od$Mi" role="PzmwI">
       <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="IManifest" />
     </node>
@@ -110,7 +104,7 @@
     <property role="TrG5h" value="Specification" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Specification" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4vmbu8OcRe4" role="1TKVEi">
       <property role="IQ2ns" value="5176375271270609796" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -126,6 +120,12 @@
     <node concept="25R33" id="4vmbu8OduJe" role="25R1y">
       <property role="3tVfz5" value="5176375271270771662" />
       <property role="TrG5h" value="v1" />
+      <property role="1L1pqM" value="v1" />
+    </node>
+    <node concept="25R33" id="6A7cZx1EYv8" role="25R1y">
+      <property role="3tVfz5" value="7604103637185062856" />
+      <property role="TrG5h" value="v2" />
+      <property role="1L1pqM" value="v2" />
     </node>
   </node>
   <node concept="PlHQZ" id="4vmbu8Od$Ma">
@@ -148,12 +148,19 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ByJnQV4n9p" resolve="ManifestMetadata" />
     </node>
+    <node concept="1TJgyj" id="6A7cZx1FSFw" role="1TKVEi">
+      <property role="IQ2ns" value="7604103637185301216" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="specification" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4vmbu8Oeub$">
     <property role="EcuMT" value="5176375271271031524" />
     <property role="TrG5h" value="Container" />
     <property role="34LRSv" value="Container" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4vmbu8Oeub_" role="1TKVEl">
       <property role="IQ2nx" value="5176375271271031525" />
       <property role="TrG5h" value="name" />
@@ -175,7 +182,7 @@
   <node concept="1TIwiD" id="4vmbu8OeubM">
     <property role="EcuMT" value="5176375271271031538" />
     <property role="TrG5h" value="Port" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4vmbu8Of8Vn" role="1TKVEl">
       <property role="IQ2nx" value="5176375271271206615" />
       <property role="TrG5h" value="name" />

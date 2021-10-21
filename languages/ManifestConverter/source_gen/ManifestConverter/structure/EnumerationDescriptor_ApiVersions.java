@@ -16,9 +16,10 @@ public class EnumerationDescriptor_ApiVersions extends EnumerationDescriptorBase
   }
 
   private final EnumerationDescriptor.MemberDescriptor myMember_v1_0 = new EnumerationDescriptor.MemberDescriptor("v1", "v1", 0x47d62de23435ebceL, "r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestConverter.structure)/5176375271270771662");
+  private final EnumerationDescriptor.MemberDescriptor myMember_v2_0 = new EnumerationDescriptor.MemberDescriptor("v2", "v2", 0x698733f841abe7c8L, "r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestConverter.structure)/7604103637185062856");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23435ebcdL, 0x47d62de23435ebceL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_v1_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23435ebcdL, 0x47d62de23435ebceL, 0x698733f841abe7c8L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_v1_0, myMember_v2_0);
 
   @Nullable
   @Override
@@ -41,6 +42,8 @@ public class EnumerationDescriptor_ApiVersions extends EnumerationDescriptorBase
     switch (memberName) {
       case "v1":
         return myMember_v1_0;
+      case "v2":
+        return myMember_v2_0;
     }
     return null;
   }

@@ -45,7 +45,7 @@ public class Generator extends TemplateModuleBase {
   @Override
   public Collection<SLanguage> getTargetLanguages() {
     SLanguage[] rv = new SLanguage[1];
-    rv[0] = MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
+    rv[0] = MetaAdapterFactory.getLanguage(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, "com.dslfoundry.plaintextgen");
     return Arrays.asList(rv);
   }
 

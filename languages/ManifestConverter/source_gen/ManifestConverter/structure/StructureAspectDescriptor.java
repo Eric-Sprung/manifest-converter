@@ -93,6 +93,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("apiVersion", 0x47d62de234364c8bL).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23435ebcdL)).origin("5176375271270796427").done();
     b.property("kind", 0x47d62de234364c8dL).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234335623L)).origin("5176375271270796429").done();
     b.aggregate("metadata", 0x47d62de234364c90L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L).optional(false).ordered(true).multiple(false).origin("5176375271270796432").done();
+    b.aggregate("specification", 0x698733f841af8ae0L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117258L).optional(false).ordered(true).multiple(false).origin("7604103637185301216").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForManifestMetadata() {
@@ -110,7 +111,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL);
     b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestConverter.structure)/6476947561819239011");
     b.version(2);
-    b.aggregate("podSpec", 0x59e2bd7dbb117268L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117258L).optional(false).ordered(true).multiple(false).origin("6476947561819239016").done();
     b.alias("Pod");
     return b.create();
   }

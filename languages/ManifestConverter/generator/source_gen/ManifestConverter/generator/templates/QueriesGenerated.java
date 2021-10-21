@@ -5,24 +5,40 @@ package ManifestConverter.generator.templates;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 @Generated
 public class QueriesGenerated {
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(Sequence.fromIterable(SLinkOperations.collect(SLinkOperations.getChildren(_context.getNode(), LINKS.manifests$UVQc), LINKS.metadata$FS4A)).first(), PROPS.namespace$qveQ);
+    return "apiVersion: " + SPropertyOperations.getEnum(_context.getNode(), PROPS.apiVersion$FLYc).toString();
   }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink manifests$UVQc = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234337383L, 0x47d62de234337384L, "manifests");
-    /*package*/ static final SContainmentLink metadata$FS4A = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c90L, "metadata");
+  public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
+    return "kind: " + SPropertyOperations.getEnum(_context.getNode(), PROPS.kind$FMse).toString();
+  }
+  public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
+    return "name: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.name$TRQG);
+  }
+  public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
+    return "namespace: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.namespace$qveQ);
+  }
+  public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), LINKS.manifests$UVQc);
   }
 
   private static final class PROPS {
+    /*package*/ static final SProperty apiVersion$FLYc = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c8bL, "apiVersion");
+    /*package*/ static final SProperty kind$FMse = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c8dL, "kind");
+    /*package*/ static final SProperty name$TRQG = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb11725aL, "name");
     /*package*/ static final SProperty namespace$qveQ = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb135806L, "namespace");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink metadata$FS4A = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c90L, "metadata");
+    /*package*/ static final SContainmentLink manifests$UVQc = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234337383L, 0x47d62de234337384L, "manifests");
   }
 }
