@@ -50,6 +50,10 @@
             <property role="1NUEcP" value="portname1" />
             <property role="1NVWWh" value="1" />
           </node>
+          <node concept="1NVWWg" id="3SjK9NOmHED" role="1NVWWi">
+            <property role="1NUEcP" value="portname1.1" />
+            <property role="1NVWWh" value="11" />
+          </node>
         </node>
         <node concept="1NVWW6" id="6A7cZx1GnyS" role="1NVWkb">
           <property role="1NVWW7" value="containername2" />
