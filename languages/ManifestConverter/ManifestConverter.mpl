@@ -25,6 +25,7 @@
       </facets>
       <external-templates />
       <languageVersions>
+        <language slang="l:cf681fc9-c798-4f89-af38-ba3c0ac342d9:com.dslfoundry.plaintextflow" version="0" />
         <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />

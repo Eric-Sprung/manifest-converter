@@ -2,17 +2,14 @@
 apiVersion: v2
 kind: Pod
 metadata:
-  name: test
-  namespace: test
+  name: name
+  namespace: namesapce
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
-    ports:
-    - name: http
-      containerPort: 80
-    - name: https
-      containerPort: 443
+    name: containername1  name: containername2
+    image: image1         image: image2
+    ports:                ports: 
+
 ...
 ---
 apiVersion: v1
@@ -22,13 +19,10 @@ metadata:
   namespace: default
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
-    ports:
-    - name: http
-      containerPort: 80
-    - name: https
-      containerPort: 443
+    name: portname2
+    image: sdadsadsa
+    ports: 
+
 ...
 ---
 apiVersion: v2
@@ -38,11 +32,8 @@ metadata:
   namespace: default2
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
-    ports:
-    - name: http
-      containerPort: 80
-    - name: https
-      containerPort: 443
+    name: portname4
+    image: sdadsa
+    ports: 
+
 ...

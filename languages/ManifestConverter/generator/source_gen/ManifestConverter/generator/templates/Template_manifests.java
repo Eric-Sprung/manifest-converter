@@ -49,7 +49,7 @@ public class Template_manifests extends TemplateDeclarationBase {
           TemplateContext context2 = context1.subContext();
           {
             final List<SNode> tlist3 = new ArrayList<SNode>();
-            final Iterable<SNode> loopList3 = QueriesGenerated.sourceNodesQuery_1_0(new SourceSubstituteMacroNodesContext(context2, loopMacroRef_5wgllr_b0a0a1a1a1a4a2a5));
+            final Iterable<SNode> loopList3 = QueriesGenerated.sourceNodesQuery_1_1(new SourceSubstituteMacroNodesContext(context2, loopMacroRef_5wgllr_b0a0a1a1a1a4a2a5));
             for (SNode itnode3 : loopList3) {
               if (itnode3 == null) {
                 continue;
@@ -203,16 +203,151 @@ public class Template_manifests extends TemplateDeclarationBase {
                   {
                     TemplateContext context13 = context4.subContext();
                     {
-                      final SNode tnode32 = environment.createOutputNode(myConcepts[3]);
-                      tnode32.setProperty(myProperties[0], "...");
+                      final SNode tnode32 = environment.createOutputNode(myConcepts[5]);
+                      {
+                        tnode32.setProperty(myProperties[2], "  ");
+                        TemplateContext context14 = context13.subContext();
+                        {
+                          final SNode tnode33 = environment.createOutputNode(myConcepts[2]);
+                          {
+                            TemplateContext context15 = context14.subContext();
+                            {
+                              final SNode tnode34 = environment.createOutputNode(myConcepts[4]);
+                              environment.aggregate(tnode33, myAggregationLinks[1], tnode34);
+                            }
+                            {
+                              final SNode tnode35 = environment.createOutputNode(myConcepts[3]);
+                              tnode35.setProperty(myProperties[0], "containers:");
+                              environment.aggregate(tnode33, myAggregationLinks[0], tnode35);
+                            }
+                          }
+                          environment.aggregate(tnode32, myAggregationLinks[2], tnode33);
+                        }
+                        {
+                          final SNode tnode36 = environment.createOutputNode(myConcepts[2]);
+                          {
+                            TemplateContext context16 = context14.subContext();
+                            {
+                              final List<SNode> tlist37 = new ArrayList<SNode>();
+                              final Iterable<SNode> loopList37 = QueriesGenerated.sourceNodesQuery_1_0(new SourceSubstituteMacroNodesContext(context16, loopMacroRef_5wgllr_b0a0a1a1a1a3a1a1a1a7a3a2a1a1a4a2a5));
+                              for (SNode itnode37 : loopList37) {
+                                if (itnode37 == null) {
+                                  continue;
+                                }
+                                TemplateContext context17 = context16.subContext(itnode37);
+                                final SNode tnode38 = environment.createOutputNode(myConcepts[1]);
+                                {
+                                  TemplateContext context18 = context17.subContext();
+                                  {
+                                    final SNode tnode39 = environment.createOutputNode(myConcepts[2]);
+                                    {
+                                      TemplateContext context19 = context18.subContext();
+                                      {
+                                        final SNode tnode40 = environment.createOutputNode(myConcepts[3]);
+                                        tnode40.setProperty(myProperties[0], "- ");
+                                        environment.aggregate(tnode39, myAggregationLinks[0], tnode40);
+                                      }
+                                      {
+                                        final SNode tnode41 = environment.createOutputNode(myConcepts[3]);
+                                        tnode41.setProperty(myProperties[0], "name: ");
+                                        environment.aggregate(tnode39, myAggregationLinks[0], tnode41);
+                                      }
+                                      {
+                                        final SNode tnode42 = environment.createOutputNode(myConcepts[3]);
+                                        SNodeAccessUtil.setPropertyValue(tnode42, myProperties[0], QueriesGenerated.propertyMacro_GetValue_1_4(new PropertyMacroContext(context19, "default_container_name", propertyMacro_5wgllr_c0a2a0a1a3a1a1a3a2a1a1a3a1a1a1a7a3a2a1a1a4a2a5)));
+                                        environment.aggregate(tnode39, myAggregationLinks[0], tnode42);
+                                      }
+                                      {
+                                        final SNode tnode43 = environment.createOutputNode(myConcepts[4]);
+                                        environment.aggregate(tnode39, myAggregationLinks[1], tnode43);
+                                      }
+                                    }
+                                    environment.aggregate(tnode38, myAggregationLinks[2], tnode39);
+                                  }
+                                  {
+                                    final SNode tnode44 = environment.createOutputNode(myConcepts[2]);
+                                    {
+                                      TemplateContext context20 = context18.subContext();
+                                      {
+                                        final SNode tnode45 = environment.createOutputNode(myConcepts[4]);
+                                        environment.aggregate(tnode44, myAggregationLinks[1], tnode45);
+                                      }
+                                      {
+                                        final SNode tnode46 = environment.createOutputNode(myConcepts[3]);
+                                        tnode46.setProperty(myProperties[0], "  ");
+                                        environment.aggregate(tnode44, myAggregationLinks[0], tnode46);
+                                      }
+                                      {
+                                        final SNode tnode47 = environment.createOutputNode(myConcepts[3]);
+                                        tnode47.setProperty(myProperties[0], "image: ");
+                                        environment.aggregate(tnode44, myAggregationLinks[0], tnode47);
+                                      }
+                                      {
+                                        final SNode tnode48 = environment.createOutputNode(myConcepts[3]);
+                                        SNodeAccessUtil.setPropertyValue(tnode48, myProperties[0], QueriesGenerated.propertyMacro_GetValue_1_5(new PropertyMacroContext(context20, "default_container_image", propertyMacro_5wgllr_c0a2a0a1a4a1a2a3a2a1a1a3a1a1a1a7a3a2a1a1a4a2a5)));
+                                        environment.aggregate(tnode44, myAggregationLinks[0], tnode48);
+                                      }
+                                    }
+                                    environment.aggregate(tnode38, myAggregationLinks[2], tnode44);
+                                  }
+                                  {
+                                    final SNode tnode49 = environment.createOutputNode(myConcepts[2]);
+                                    {
+                                      TemplateContext context21 = context18.subContext();
+                                      {
+                                        final SNode tnode50 = environment.createOutputNode(myConcepts[3]);
+                                        tnode50.setProperty(myProperties[0], "  ");
+                                        environment.aggregate(tnode49, myAggregationLinks[0], tnode50);
+                                      }
+                                      {
+                                        final SNode tnode51 = environment.createOutputNode(myConcepts[3]);
+                                        tnode51.setProperty(myProperties[0], "ports: ");
+                                        environment.aggregate(tnode49, myAggregationLinks[0], tnode51);
+                                      }
+                                      {
+                                        final SNode tnode52 = environment.createOutputNode(myConcepts[4]);
+                                        environment.aggregate(tnode49, myAggregationLinks[1], tnode52);
+                                      }
+                                    }
+                                    environment.aggregate(tnode38, myAggregationLinks[2], tnode49);
+                                  }
+                                }
+                                tlist37.add(tnode38);
+                              }
+                              environment.aggregate(tnode36, myAggregationLinks[0], tlist37);
+                            }
+                            {
+                              final SNode tnode53 = environment.createOutputNode(myConcepts[4]);
+                              environment.aggregate(tnode36, myAggregationLinks[1], tnode53);
+                            }
+                          }
+                          environment.aggregate(tnode32, myAggregationLinks[2], tnode36);
+                        }
+                      }
                       environment.aggregate(tnode31, myAggregationLinks[0], tnode32);
                     }
                     {
-                      final SNode tnode33 = environment.createOutputNode(myConcepts[4]);
-                      environment.aggregate(tnode31, myAggregationLinks[1], tnode33);
+                      final SNode tnode54 = environment.createOutputNode(myConcepts[4]);
+                      environment.aggregate(tnode31, myAggregationLinks[1], tnode54);
                     }
                   }
                   environment.aggregate(tnode4, myAggregationLinks[2], tnode31);
+                }
+                {
+                  final SNode tnode55 = environment.createOutputNode(myConcepts[2]);
+                  {
+                    TemplateContext context22 = context4.subContext();
+                    {
+                      final SNode tnode56 = environment.createOutputNode(myConcepts[3]);
+                      tnode56.setProperty(myProperties[0], "...");
+                      environment.aggregate(tnode55, myAggregationLinks[0], tnode56);
+                    }
+                    {
+                      final SNode tnode57 = environment.createOutputNode(myConcepts[4]);
+                      environment.aggregate(tnode55, myAggregationLinks[1], tnode57);
+                    }
+                  }
+                  environment.aggregate(tnode4, myAggregationLinks[2], tnode55);
                 }
               }
               tlist3.add(tnode4);
@@ -265,4 +400,7 @@ public class Template_manifests extends TemplateDeclarationBase {
   private static final SNodePointer propertyMacro_5wgllr_c0a2a0a1a2a1a3a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255403364");
   private static final SNodePointer propertyMacro_5wgllr_c0a2a0a1a2a1a2a1a5a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255417596");
   private static final SNodePointer propertyMacro_5wgllr_c0a2a0a1a2a1a3a1a5a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255423490");
+  private static final SNodePointer loopMacroRef_5wgllr_b0a0a1a1a1a3a1a1a1a7a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255690126");
+  private static final SNodePointer propertyMacro_5wgllr_c0a2a0a1a3a1a1a3a2a1a1a3a1a1a1a7a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255771300");
+  private static final SNodePointer propertyMacro_5wgllr_c0a2a0a1a4a1a2a3a2a1a1a3a1a1a1a7a3a2a1a1a4a2a5 = new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "4473130635255796704");
 }

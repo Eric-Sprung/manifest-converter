@@ -39,21 +39,25 @@
     <node concept="3yWWWu" id="6A7cZx1GmI2" role="1NTlTA">
       <property role="1NS65D" value="6A7cZx1EYv8/v2" />
       <node concept="3yWWW$" id="6A7cZx1GmI4" role="1NS65M">
-        <property role="3yWWWB" value="test" />
-        <property role="3yWulV" value="test" />
+        <property role="3yWWWB" value="name" />
+        <property role="3yWulV" value="namesapce" />
       </node>
       <node concept="3yWWW_" id="6A7cZx1GnyM" role="Cab$o">
         <node concept="1NVWW6" id="6A7cZx1GnyO" role="1NVWkb">
-          <property role="1NVWW7" value="test" />
-          <property role="1NVWW8" value="test" />
+          <property role="1NVWW7" value="containername1" />
+          <property role="1NVWW8" value="image1" />
           <node concept="1NVWWg" id="6A7cZx1GnyQ" role="1NVWWi">
-            <property role="1NUEcP" value="dsa" />
+            <property role="1NUEcP" value="portname1" />
             <property role="1NVWWh" value="1" />
           </node>
         </node>
         <node concept="1NVWW6" id="6A7cZx1GnyS" role="1NVWkb">
-          <property role="1NVWW7" value="dsada" />
-          <property role="1NVWW8" value="dsadsa" />
+          <property role="1NVWW7" value="containername2" />
+          <property role="1NVWW8" value="image2" />
+          <node concept="1NVWWg" id="3SjK9NOlc0E" role="1NVWWi">
+            <property role="1NUEcP" value="portname2" />
+            <property role="1NVWWh" value="2" />
+          </node>
         </node>
       </node>
     </node>
@@ -62,7 +66,12 @@
         <property role="3yWWWB" value="myCustomPod" />
         <property role="3yWulV" value="default" />
       </node>
-      <node concept="3yWWW_" id="3SjK9NOjTHi" role="Cab$o" />
+      <node concept="3yWWW_" id="3SjK9NOjTHi" role="Cab$o">
+        <node concept="1NVWW6" id="3SjK9NOlc0G" role="1NVWkb">
+          <property role="1NVWW7" value="portname2" />
+          <property role="1NVWW8" value="sdadsadsa" />
+        </node>
+      </node>
     </node>
     <node concept="3yWWWu" id="3SjK9NOjTHC" role="1NTlTA">
       <property role="1NS65D" value="6A7cZx1EYv8/v2" />
@@ -70,7 +79,16 @@
         <property role="3yWWWB" value="myCustomPod2" />
         <property role="3yWulV" value="default2" />
       </node>
-      <node concept="3yWWW_" id="3SjK9NOjTHG" role="Cab$o" />
+      <node concept="3yWWW_" id="3SjK9NOjTHG" role="Cab$o">
+        <node concept="1NVWW6" id="3SjK9NOlc0I" role="1NVWkb">
+          <property role="1NVWW7" value="portname4" />
+          <property role="1NVWW8" value="sdadsa" />
+          <node concept="1NVWWg" id="3SjK9NOlK2Q" role="1NVWWi">
+            <property role="1NUEcP" value="dsad" />
+            <property role="1NVWWh" value="45" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
