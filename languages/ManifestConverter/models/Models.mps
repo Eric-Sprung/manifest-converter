@@ -57,6 +57,21 @@
         </node>
       </node>
     </node>
+    <node concept="3yWWWu" id="3SjK9NOjTHe" role="1NTlTA">
+      <node concept="3yWWW$" id="3SjK9NOjTHg" role="1NS65M">
+        <property role="3yWWWB" value="myCustomPod" />
+        <property role="3yWulV" value="default" />
+      </node>
+      <node concept="3yWWW_" id="3SjK9NOjTHi" role="Cab$o" />
+    </node>
+    <node concept="3yWWWu" id="3SjK9NOjTHC" role="1NTlTA">
+      <property role="1NS65D" value="6A7cZx1EYv8/v2" />
+      <node concept="3yWWW$" id="3SjK9NOjTHE" role="1NS65M">
+        <property role="3yWWWB" value="myCustomPod2" />
+        <property role="3yWulV" value="default2" />
+      </node>
+      <node concept="3yWWW_" id="3SjK9NOjTHG" role="Cab$o" />
+    </node>
   </node>
 </model>
 

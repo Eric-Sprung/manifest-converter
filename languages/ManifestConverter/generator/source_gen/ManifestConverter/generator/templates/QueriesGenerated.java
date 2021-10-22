@@ -15,16 +15,16 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 @Generated
 public class QueriesGenerated {
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return "apiVersion: " + SPropertyOperations.getEnum(_context.getNode(), PROPS.apiVersion$FLYc).toString();
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.apiVersion$FLYc).toString();
   }
   public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
-    return "kind: " + SPropertyOperations.getEnum(_context.getNode(), PROPS.kind$FMse).toString();
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.kind$FMse).toString();
   }
   public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
-    return "name: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.name$TRQG);
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.name$TRQG);
   }
   public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
-    return "namespace: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.namespace$qveQ);
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.namespace$qveQ);
   }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.manifests$UVQc);

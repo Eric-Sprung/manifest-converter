@@ -38,7 +38,7 @@ public class Mapping_main extends MapConfigBase implements TemplateMappingConfig
     @Override
     public Collection<SNode> apply(@NotNull final TemplateContext context) throws GenerationException {
       final TemplateExecutionEnvironment environment = context.getEnvironment();
-      Collection<SNode> result = environment.callSite(new Template_manifest(), new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "5176375271270829079")).apply(context);
+      Collection<SNode> result = environment.callSite(new Template_manifests(), new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "5176375271270829079")).apply(context);
       return result;
     }
   }

@@ -49,7 +49,7 @@ public class TemplateModelImpl extends TemplateModelBase {
     }
     final SNodeReference template = key.getSourceNode();
     if (template.equals(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(ManifestConverter.generator.templates@generator)", "7604103637184947011"))) {
-      return new Template_manifest();
+      return new Template_manifests();
     }
     return null;
   }
