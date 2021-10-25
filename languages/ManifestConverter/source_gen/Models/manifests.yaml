@@ -6,11 +6,18 @@ metadata:
   namespace: namesapce
 spec:
   containers:
-  - name: containername1                 - name: containername2
-    image: image1                          image: image2
-    ports:                                 ports: 
-    - name: portname1 - name: portname1.1  - name: portname2
-      containerPort: 1  containerPort: 11    containerPort: 2
+  - name: containername1
+    image: image1
+    ports: 
+    - name: portname1
+      containerPort: 1
+    - name: portname1.1
+      containerPort: 11
+  - name: containername2
+    image: image2
+    ports: 
+    - name: portname2
+      containerPort: 2
 ...
 ---
 apiVersion: v1
@@ -23,7 +30,8 @@ spec:
   - name: portname2
     image: sdadsadsa
     ports: 
-
+    - name: dasds
+      containerPort: 2
 ...
 ---
 apiVersion: v2

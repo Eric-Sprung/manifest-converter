@@ -74,6 +74,10 @@
         <node concept="1NVWW6" id="3SjK9NOlc0G" role="1NVWkb">
           <property role="1NVWW7" value="portname2" />
           <property role="1NVWW8" value="sdadsadsa" />
+          <node concept="1NVWWg" id="3SjK9NOocTa" role="1NVWWi">
+            <property role="1NUEcP" value="dasds" />
+            <property role="1NVWWh" value="2" />
+          </node>
         </node>
       </node>
     </node>
