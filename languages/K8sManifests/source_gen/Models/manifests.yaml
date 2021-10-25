@@ -1,0 +1,49 @@
+---
+apiVersion: v2
+kind: Pod
+metadata:
+  name: name
+  namespace: namesapce
+spec:
+  containers:
+  - name: containername1
+    image: image1
+    ports: 
+    - name: portname1
+      containerPort: 1
+    - name: portname1.1
+      containerPort: 11
+  - name: containername2
+    image: image2
+    ports: 
+    - name: portname2
+      containerPort: 2
+...
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myCustomPod
+  namespace: default
+spec:
+  containers:
+  - name: portname2
+    image: sdadsadsa
+    ports: 
+    - name: dasds
+      containerPort: 2
+...
+---
+apiVersion: v2
+kind: Pod
+metadata:
+  name: myCustomPod2
+  namespace: default2
+spec:
+  containers:
+  - name: portname4
+    image: sdadsa
+    ports: 
+    - name: dsad
+      containerPort: 45
+...

@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -41,9 +40,14 @@
   <node concept="1TIwiD" id="PQdWAF8_RN">
     <property role="EcuMT" value="970024109044030963" />
     <property role="TrG5h" value="HelmChart" />
-    <property role="34LRSv" value="chart" />
+    <property role="34LRSv" value="HelmChart" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1wNjaVsugPw" role="1TKVEl">
+      <property role="IQ2nx" value="1743821794629455200" />
+      <property role="TrG5h" value="test" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="PQdWAF8_RR" role="1TKVEi">
       <property role="IQ2ns" value="970024109044030967" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -68,7 +72,7 @@
   <node concept="1TIwiD" id="PQdWAF8_RO">
     <property role="EcuMT" value="970024109044030964" />
     <property role="TrG5h" value="HelmChartInfo" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="PQdWAF8Ah9" role="1TKVEl">
       <property role="IQ2nx" value="970024109044032585" />
       <property role="TrG5h" value="apiVersion" />
@@ -89,17 +93,27 @@
       <property role="TrG5h" value="kubeVersion" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1wNjaVsx2uV" role="1TKVEl">
+      <property role="IQ2nx" value="1743821794630182843" />
+      <property role="TrG5h" value="appVersion" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="PQdWAF8_S0">
     <property role="EcuMT" value="970024109044030976" />
     <property role="TrG5h" value="HelmChartTemplates" />
     <property role="34LRSv" value="templates" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1wNjaVsv_jt" role="1TKVEl">
+      <property role="IQ2nx" value="1743821794629801181" />
+      <property role="TrG5h" value="test" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="PQdWAF8_S1">
     <property role="EcuMT" value="970024109044030977" />
     <property role="TrG5h" value="HelmChartValues" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

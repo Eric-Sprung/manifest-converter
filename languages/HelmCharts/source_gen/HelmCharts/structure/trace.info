@@ -15,15 +15,15 @@
       <unit at="10,0,34,0" name="HelmCharts.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="15,0,97,0" name="HelmCharts.structure.StructureAspectDescriptor" />
+      <unit at="15,0,100,0" name="HelmCharts.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030963">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="970024109044030963" at="12,0,13,0" concept="1" trace="props_HelmChart" />
       <node id="970024109044030963" at="23,38,24,76" concept="3" />
-      <node id="970024109044030963" at="24,76,25,39" concept="0" />
-      <node id="970024109044030963" at="25,39,26,41" concept="0" />
+      <node id="970024109044030963" at="24,76,25,43" concept="0" />
+      <node id="970024109044030963" at="25,43,26,41" concept="0" />
       <node id="970024109044030963" at="27,9,28,31" concept="4" />
       <node id="970024109044030963" at="22,43,27,9" concept="2" />
       <scope id="970024109044030963" at="23,38,26,41">
@@ -42,17 +42,18 @@
       <node id="970024109044030963" at="60,153,61,33" concept="0" />
       <node id="970024109044030963" at="61,33,62,96" concept="0" />
       <node id="970024109044030963" at="62,96,63,17" concept="0" />
-      <node id="970024109044030967" at="63,17,64,204" concept="0" />
-      <node id="970024109044030969" at="64,204,65,205" concept="0" />
-      <node id="970024109044030972" at="65,205,66,207" concept="0" />
-      <node id="970024109044030963" at="66,207,67,21" concept="0" />
-      <node id="970024109044030963" at="67,21,68,22" concept="4" />
-      <node id="970024109044030963" at="59,0,70,0" concept="6" trace="createDescriptorForHelmChart#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="1743821794629455200" at="63,17,64,110" concept="0" />
+      <node id="970024109044030967" at="64,110,65,204" concept="0" />
+      <node id="970024109044030969" at="65,204,66,205" concept="0" />
+      <node id="970024109044030972" at="66,205,67,207" concept="0" />
+      <node id="970024109044030963" at="67,207,68,25" concept="0" />
+      <node id="970024109044030963" at="68,25,69,22" concept="4" />
+      <node id="970024109044030963" at="59,0,71,0" concept="6" trace="createDescriptorForHelmChart#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="970024109044030963" at="41,43,42,34" />
-      <scope id="970024109044030963" at="59,67,68,22">
+      <scope id="970024109044030963" at="59,67,69,22">
         <var name="b" id="970024109044030963" />
       </scope>
-      <scope id="970024109044030963" at="59,0,70,0" />
+      <scope id="970024109044030963" at="59,0,71,0" />
     </file>
   </root>
   <root nodeRef="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030964">
@@ -75,21 +76,22 @@
     <file name="StructureAspectDescriptor.java">
       <node id="970024109044030964" at="17,0,18,0" concept="1" trace="myConceptHelmChartInfo" />
       <node id="970024109044030964" at="43,47,44,38" concept="4" />
-      <node id="970024109044030964" at="70,71,71,157" concept="3" />
-      <node id="970024109044030964" at="71,157,72,34" concept="0" />
-      <node id="970024109044030964" at="72,34,73,96" concept="0" />
-      <node id="970024109044030964" at="73,96,74,17" concept="0" />
-      <node id="970024109044032585" at="74,17,75,114" concept="0" />
-      <node id="970024109044032587" at="75,114,76,108" concept="0" />
-      <node id="970024109044032590" at="76,108,77,111" concept="0" />
-      <node id="970024109044032594" at="77,111,78,115" concept="0" />
-      <node id="970024109044030964" at="78,115,79,22" concept="4" />
-      <node id="970024109044030964" at="70,0,81,0" concept="6" trace="createDescriptorForHelmChartInfo#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="970024109044030964" at="71,71,72,157" concept="3" />
+      <node id="970024109044030964" at="72,157,73,34" concept="0" />
+      <node id="970024109044030964" at="73,34,74,96" concept="0" />
+      <node id="970024109044030964" at="74,96,75,17" concept="0" />
+      <node id="970024109044032585" at="75,17,76,114" concept="0" />
+      <node id="970024109044032587" at="76,114,77,108" concept="0" />
+      <node id="970024109044032590" at="77,108,78,111" concept="0" />
+      <node id="970024109044032594" at="78,111,79,115" concept="0" />
+      <node id="1743821794630182843" at="79,115,80,116" concept="0" />
+      <node id="970024109044030964" at="80,116,81,22" concept="4" />
+      <node id="970024109044030964" at="71,0,83,0" concept="6" trace="createDescriptorForHelmChartInfo#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="970024109044030964" at="43,47,44,38" />
-      <scope id="970024109044030964" at="70,71,79,22">
+      <scope id="970024109044030964" at="71,71,81,22">
         <var name="b" id="970024109044030964" />
       </scope>
-      <scope id="970024109044030964" at="70,0,81,0" />
+      <scope id="970024109044030964" at="71,0,83,0" />
     </file>
   </root>
   <root nodeRef="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030976">
@@ -112,18 +114,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="970024109044030976" at="18,0,19,0" concept="1" trace="myConceptHelmChartTemplates" />
       <node id="970024109044030976" at="45,52,46,43" concept="4" />
-      <node id="970024109044030976" at="81,76,82,162" concept="3" />
-      <node id="970024109044030976" at="82,162,83,34" concept="0" />
-      <node id="970024109044030976" at="83,34,84,96" concept="0" />
-      <node id="970024109044030976" at="84,96,85,17" concept="0" />
-      <node id="970024109044030976" at="85,17,86,25" concept="0" />
-      <node id="970024109044030976" at="86,25,87,22" concept="4" />
-      <node id="970024109044030976" at="81,0,89,0" concept="6" trace="createDescriptorForHelmChartTemplates#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="970024109044030976" at="83,76,84,162" concept="3" />
+      <node id="970024109044030976" at="84,162,85,34" concept="0" />
+      <node id="970024109044030976" at="85,34,86,96" concept="0" />
+      <node id="970024109044030976" at="86,96,87,17" concept="0" />
+      <node id="1743821794629801181" at="87,17,88,110" concept="0" />
+      <node id="970024109044030976" at="88,110,89,25" concept="0" />
+      <node id="970024109044030976" at="89,25,90,22" concept="4" />
+      <node id="970024109044030976" at="83,0,92,0" concept="6" trace="createDescriptorForHelmChartTemplates#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="970024109044030976" at="45,52,46,43" />
-      <scope id="970024109044030976" at="81,76,87,22">
+      <scope id="970024109044030976" at="83,76,90,22">
         <var name="b" id="970024109044030976" />
       </scope>
-      <scope id="970024109044030976" at="81,0,89,0" />
+      <scope id="970024109044030976" at="83,0,92,0" />
     </file>
   </root>
   <root nodeRef="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030977">
@@ -146,17 +149,17 @@
     <file name="StructureAspectDescriptor.java">
       <node id="970024109044030977" at="19,0,20,0" concept="1" trace="myConceptHelmChartValues" />
       <node id="970024109044030977" at="47,49,48,40" concept="4" />
-      <node id="970024109044030977" at="89,73,90,159" concept="3" />
-      <node id="970024109044030977" at="90,159,91,34" concept="0" />
-      <node id="970024109044030977" at="91,34,92,96" concept="0" />
-      <node id="970024109044030977" at="92,96,93,17" concept="0" />
-      <node id="970024109044030977" at="93,17,94,22" concept="4" />
-      <node id="970024109044030977" at="89,0,96,0" concept="6" trace="createDescriptorForHelmChartValues#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="970024109044030977" at="92,73,93,159" concept="3" />
+      <node id="970024109044030977" at="93,159,94,34" concept="0" />
+      <node id="970024109044030977" at="94,34,95,96" concept="0" />
+      <node id="970024109044030977" at="95,96,96,17" concept="0" />
+      <node id="970024109044030977" at="96,17,97,22" concept="4" />
+      <node id="970024109044030977" at="92,0,99,0" concept="6" trace="createDescriptorForHelmChartValues#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="970024109044030977" at="47,49,48,40" />
-      <scope id="970024109044030977" at="89,73,94,22">
+      <scope id="970024109044030977" at="92,73,97,22">
         <var name="b" id="970024109044030977" />
       </scope>
-      <scope id="970024109044030977" at="89,0,96,0" />
+      <scope id="970024109044030977" at="92,0,99,0" />
     </file>
   </root>
 </debug-info>

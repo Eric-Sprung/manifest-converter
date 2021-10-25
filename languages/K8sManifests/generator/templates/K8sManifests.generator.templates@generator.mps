@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.templates@generator)">
+<model ref="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
@@ -7,7 +7,7 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="80f9" ref="r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestConverter.structure)" />
+    <import index="80f9" ref="r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -107,7 +107,7 @@
     <node concept="3lhOvk" id="4vmbu8OdGKn" role="3lj3bC">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="80f9:4vmbu8OcRe3" resolve="Specification" />
-      <ref role="3lhOvi" node="6A7cZx1Eyd3" resolve="map_Specification" />
+      <ref role="3lhOvi" node="6A7cZx1Eyd3" resolve="manifests" />
     </node>
   </node>
   <node concept="356sEV" id="6A7cZx1Eyd3">

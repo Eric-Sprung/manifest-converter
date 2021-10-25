@@ -11,6 +11,7 @@ import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import HelmCharts.generator.templates.QueriesGenerated;
 import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Arrays;
 
 public class Generator extends TemplateModuleInterpreted2 {
@@ -33,7 +34,8 @@ public class Generator extends TemplateModuleInterpreted2 {
 
   @Override
   public Collection<SLanguage> getTargetLanguages() {
-    SLanguage[] rv = new SLanguage[0];
+    SLanguage[] rv = new SLanguage[1];
+    rv[0] = MetaAdapterFactory.getLanguage(0xdd310849d074035L, 0x939dcb69bd123423L, "K8sManifests");
     return Arrays.asList(rv);
   }
 

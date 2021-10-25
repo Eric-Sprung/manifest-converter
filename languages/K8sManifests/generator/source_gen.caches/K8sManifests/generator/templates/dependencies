@@ -17,8 +17,8 @@
   <uses module="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
   <uses module="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt+dp" />
-  <dependency className="K8sManifests.templates.Mapping_main">
-    <classNode dependClassName="K8sManifests.templates.Template_manifests" />
+  <dependency className="K8sManifests.generator.templates.Mapping_main">
+    <classNode dependClassName="K8sManifests.generator.templates.Template_manifests" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.Generated" />
@@ -38,7 +38,7 @@
     <classNode extendsClassName="jetbrains.mps.generator.runtime.MapConfigBase" />
     <classNode extendsClassName="jetbrains.mps.generator.runtime.TemplateMappingConfiguration" />
   </dependency>
-  <dependency className="K8sManifests.templates.QueriesGenerated">
+  <dependency className="K8sManifests.generator.templates.QueriesGenerated">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
@@ -52,9 +52,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
-  <dependency className="K8sManifests.templates.TemplateModelImpl">
-    <classNode dependClassName="K8sManifests.templates.Mapping_main" />
-    <classNode dependClassName="K8sManifests.templates.Template_manifests" />
+  <dependency className="K8sManifests.generator.templates.TemplateModelImpl">
+    <classNode dependClassName="K8sManifests.generator.templates.Mapping_main" />
+    <classNode dependClassName="K8sManifests.generator.templates.Template_manifests" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Collection" />
@@ -72,8 +72,8 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
     <classNode extendsClassName="jetbrains.mps.generator.runtime.TemplateModelBase" />
   </dependency>
-  <dependency className="K8sManifests.templates.Template_manifests">
-    <classNode dependClassName="K8sManifests.templates.QueriesGenerated" />
+  <dependency className="K8sManifests.generator.templates.Template_manifests">
+    <classNode dependClassName="K8sManifests.generator.templates.QueriesGenerated" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.ArrayList" />

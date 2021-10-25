@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-172ytd13yadytapnjr5wq0imp3mgtvd" />
+<product version="3" modelHash="1gf8k1righp0h8s8lmv116gg1j6bonv">
+  <files names="EditorAspectDescriptorImpl.java:HelmChartInfo_Editor.java:HelmChartInfo_EditorBuilder_a.java:HelmChartTemplates_Editor.java:HelmChartTemplates_EditorBuilder_a.java:HelmChart_Editor.java:HelmChart_EditorBuilder_a.java" />
+</product>
 

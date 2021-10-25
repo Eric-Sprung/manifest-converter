@@ -15,31 +15,31 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="62,0,69,0" name="K8sManifests.templates.QueriesGenerated$LINKS" />
-      <unit at="51,0,61,0" name="K8sManifests.templates.QueriesGenerated$PROPS" />
-      <unit at="15,0,70,0" name="K8sManifests.templates.QueriesGenerated" />
+      <unit at="62,0,69,0" name="K8sManifests.generator.templates.QueriesGenerated$LINKS" />
+      <unit at="51,0,61,0" name="K8sManifests.generator.templates.QueriesGenerated$PROPS" />
+      <unit at="15,0,70,0" name="K8sManifests.generator.templates.QueriesGenerated" />
     </file>
     <file name="TemplateModelImpl.java">
-      <unit at="20,0,57,0" name="K8sManifests.templates.TemplateModelImpl" />
+      <unit at="20,0,57,0" name="K8sManifests.generator.templates.TemplateModelImpl" />
     </file>
   </root>
-  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.templates@generator)/5176375271270819327">
+  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)/5176375271270819327">
     <file name="Mapping_main.java">
       <node id="5176375271270819327" at="25,0,26,0" concept="4" trace="rootRules" />
-      <node id="5176375271270819327" at="26,53,27,159" concept="12" />
-      <node id="5176375271270819327" at="27,159,28,91" concept="3" />
+      <node id="5176375271270819327" at="26,53,27,169" concept="12" />
+      <node id="5176375271270819327" at="27,169,28,91" concept="3" />
       <node id="5176375271270819327" at="31,61,32,21" concept="9" />
-      <node id="5176375271270829079" at="35,31,36,169" concept="12" />
+      <node id="5176375271270829079" at="35,31,36,179" concept="12" />
       <node id="5176375271270829079" at="39,103,40,80" concept="8" />
-      <node id="5176375271270829079" at="40,80,41,212" concept="8" />
-      <node id="5176375271270829079" at="41,212,42,20" concept="9" />
+      <node id="5176375271270829079" at="40,80,41,222" concept="8" />
+      <node id="5176375271270829079" at="41,222,42,20" concept="9" />
       <node id="5176375271270819327" at="53,0,54,0" concept="10" trace="Specification$j4" />
       <node id="5176375271270829079" at="35,0,38,0" concept="1" trace="RootMappingRule0#()V" />
       <node id="5176375271270819327" at="26,0,30,0" concept="1" trace="Mapping_main#(Ljetbrains/mps/generator/runtime/TemplateModel;)V" />
       <node id="5176375271270819327" at="30,0,34,0" concept="7" trace="getRootRules#()Ljava/util/Collection;" />
       <node id="5176375271270829079" at="38,0,44,0" concept="7" trace="apply#(Ljetbrains/mps/generator/runtime/TemplateContext;)Ljava/util/Collection;" />
       <scope id="5176375271270819327" at="31,61,32,21" />
-      <scope id="5176375271270829079" at="35,31,36,169" />
+      <scope id="5176375271270829079" at="35,31,36,179" />
       <scope id="5176375271270819327" at="26,53,28,91" />
       <scope id="5176375271270829079" at="35,0,38,0" />
       <scope id="5176375271270829079" at="39,103,42,20">
@@ -53,13 +53,13 @@
       <scope id="5176375271270829079" at="38,0,44,0">
         <var name="context" id="5176375271270829079" />
       </scope>
-      <unit id="5176375271270819327" at="52,0,55,0" name="K8sManifests.templates.Mapping_main$CONCEPTS" />
-      <unit id="5176375271270819327" at="46,0,51,0" name="K8sManifests.templates.Mapping_main$MO" />
-      <unit id="5176375271270829079" at="34,0,45,0" name="K8sManifests.templates.Mapping_main$RootMappingRule0" />
-      <unit id="5176375271270819327" at="23,0,56,0" name="K8sManifests.templates.Mapping_main" />
+      <unit id="5176375271270819327" at="52,0,55,0" name="K8sManifests.generator.templates.Mapping_main$CONCEPTS" />
+      <unit id="5176375271270819327" at="46,0,51,0" name="K8sManifests.generator.templates.Mapping_main$MO" />
+      <unit id="5176375271270829079" at="34,0,45,0" name="K8sManifests.generator.templates.Mapping_main$RootMappingRule0" />
+      <unit id="5176375271270819327" at="23,0,56,0" name="K8sManifests.generator.templates.Mapping_main" />
     </file>
   </root>
-  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.templates@generator)/7604103637184947011">
+  <root nodeRef="r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)/7604103637184947011">
     <file name="QueriesGenerated.java">
       <node id="4473130635255391588" at="17,88,18,93" concept="9" />
       <node id="4473130635255403390" at="20,88,21,87" concept="9" />
@@ -129,9 +129,9 @@
       </scope>
     </file>
     <file name="TemplateModelImpl.java">
-      <node id="7604103637184947011" at="51,143,52,38" concept="9" />
+      <node id="7604103637184947011" at="51,153,52,38" concept="9" />
       <node id="7604103637184947011" at="50,56,53,5" concept="6" />
-      <scope id="7604103637184947011" at="51,143,52,38" />
+      <scope id="7604103637184947011" at="51,153,52,38" />
     </file>
     <file name="Template_manifests.java">
       <node id="7604103637184947011" at="29,31,30,20" concept="12" />
@@ -799,8 +799,8 @@
         <var name="context" id="7604103637184947011" />
         <var name="sink" id="7604103637184947011" />
       </scope>
-      <unit id="7604103637184947011" at="441,0,475,0" name="K8sManifests.templates.Template_manifests$MO" />
-      <unit id="7604103637184947011" at="26,0,488,0" name="K8sManifests.templates.Template_manifests" />
+      <unit id="7604103637184947011" at="441,0,475,0" name="K8sManifests.generator.templates.Template_manifests$MO" />
+      <unit id="7604103637184947011" at="26,0,488,0" name="K8sManifests.generator.templates.Template_manifests" />
     </file>
   </root>
 </debug-info>

@@ -22,7 +22,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.HelmChart:
         if (props_HelmChart == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("chart");
+          cpb.rawPresentation("HelmChart");
           props_HelmChart = cpb.create();
         }
         return props_HelmChart;

@@ -61,10 +61,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, true);
     b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030963");
     b.version(2);
+    b.property("test", 0x18334caedc790d60L).type(PrimitiveTypeId.STRING).origin("1743821794629455200").done();
     b.aggregate("helmChartInfo", 0xd7637c9ab225df7L).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L).optional(false).ordered(true).multiple(false).origin("970024109044030967").done();
     b.aggregate("helmChartValues", 0xd7637c9ab225df9L).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e01L).optional(true).ordered(true).multiple(false).origin("970024109044030969").done();
     b.aggregate("helmChartTemplates", 0xd7637c9ab225dfcL).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L).optional(true).ordered(true).multiple(true).origin("970024109044030972").done();
-    b.alias("chart");
+    b.alias("HelmChart");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForHelmChartInfo() {
@@ -76,6 +77,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("name", 0xd7637c9ab22644bL).type(PrimitiveTypeId.STRING).origin("970024109044032587").done();
     b.property("version", 0xd7637c9ab22644eL).type(PrimitiveTypeId.STRING).origin("970024109044032590").done();
     b.property("kubeVersion", 0xd7637c9ab226452L).type(PrimitiveTypeId.STRING).origin("970024109044032594").done();
+    b.property("appVersion", 0x18334caedc8427bbL).type(PrimitiveTypeId.STRING).origin("1743821794630182843").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForHelmChartTemplates() {
@@ -83,6 +85,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030976");
     b.version(2);
+    b.property("test", 0x18334caedc7e54ddL).type(PrimitiveTypeId.STRING).origin("1743821794629801181").done();
     b.alias("templates");
     return b.create();
   }
