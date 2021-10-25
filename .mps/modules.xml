@@ -2,7 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/ManifestConverter/ManifestConverter.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/HelmCharts/HelmCharts.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/K8sManifests/K8sManifests.mpl" folder="" />
     </projectModules>
   </component>
 </project>
