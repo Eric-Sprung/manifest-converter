@@ -6,9 +6,10 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.SourceNodesQuery;
 import java.util.HashMap;
@@ -21,6 +22,7 @@ import jetbrains.mps.generator.impl.query.PropertyValueQuery;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.annotations.Nullable;
+import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 @Generated
@@ -29,10 +31,13 @@ public class QueriesGenerated extends QueryProviderBase {
     super(1);
   }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.test$4UMQ);
+    return SPropertyOperations.getString(_context.getNode(), PROPS.helmChartTemplateAttribute$4UMQ);
   }
   public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.test$4UMQ);
+    return SPropertyOperations.getString(_context.getNode(), PROPS.helmChartTemplateAttribute$4UMQ);
+  }
+  public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
+    return SPropertyOperations.getEnum(SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(_context.getNode(), CONCEPTS.HelmChart$_c, false, false), LINKS.helmChartInfo$z4Ud), PROPS.apiVersion$JCcy);
   }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.helmChartTemplates$zb0B);
@@ -40,7 +45,7 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
   {
     int i = 0;
-    snsqMethods.put("1743821794629800222", new SNsQ(i++));
+    snsqMethods.put("1342799179540897569", new SNsQ(i++));
   }
   @NotNull
   @Override
@@ -66,8 +71,9 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
   {
     int i = 0;
-    pvqMethods.put("1743821794630071517", new PVQ(i++, MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb135806L, "namespace"), "default_namesapce"));
-    pvqMethods.put("1743821794630169688", new PVQ(i++, MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb11725aL, "name"), "default_name"));
+    pvqMethods.put("1342799179541015715", new PVQ(i++, MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb11725aL, "name"), "myCustomPod"));
+    pvqMethods.put("1342799179541016639", new PVQ(i++, MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb135806L, "namespace"), "default"));
+    pvqMethods.put("6743764627779050701", new PVQ(i++, MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c8bL, "apiVersion"), null));
   }
   @NotNull
   @Override
@@ -88,6 +94,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
           return QueriesGenerated.propertyMacro_GetValue_1_1(ctx);
+        case 2:
+          return QueriesGenerated.propertyMacro_GetValue_1_2(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -95,10 +103,16 @@ public class QueriesGenerated extends QueryProviderBase {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty test$4UMQ = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0x18334caedc7e54ddL, "test");
+    /*package*/ static final SProperty helmChartTemplateAttribute$4UMQ = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0x18334caedc7e54ddL, "helmChartTemplateAttribute");
+    /*package*/ static final SProperty apiVersion$JCcy = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L, 0xd7637c9ab226449L, "apiVersion");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept HelmChart$_c = MetaAdapterFactory.getConcept(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, "HelmCharts.structure.HelmChart");
   }
 
   private static final class LINKS {
+    /*package*/ static final SContainmentLink helmChartInfo$z4Ud = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225df7L, "helmChartInfo");
     /*package*/ static final SContainmentLink helmChartTemplates$zb0B = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225dfcL, "helmChartTemplates");
   }
 }

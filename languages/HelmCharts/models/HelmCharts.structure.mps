@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="80f9" ref="r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -43,11 +44,6 @@
     <property role="34LRSv" value="HelmChart" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1wNjaVsugPw" role="1TKVEl">
-      <property role="IQ2nx" value="1743821794629455200" />
-      <property role="TrG5h" value="test" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="PQdWAF8_RR" role="1TKVEi">
       <property role="IQ2ns" value="970024109044030967" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -76,7 +72,7 @@
     <node concept="1TJgyi" id="PQdWAF8Ah9" role="1TKVEl">
       <property role="IQ2nx" value="970024109044032585" />
       <property role="TrG5h" value="apiVersion" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="80f9:4vmbu8OduJd" resolve="ApiVersions" />
     </node>
     <node concept="1TJgyi" id="PQdWAF8Ahb" role="1TKVEl">
       <property role="IQ2nx" value="970024109044032587" />
@@ -106,7 +102,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1wNjaVsv_jt" role="1TKVEl">
       <property role="IQ2nx" value="1743821794629801181" />
-      <property role="TrG5h" value="test" />
+      <property role="TrG5h" value="helmChartTemplateAttribute" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

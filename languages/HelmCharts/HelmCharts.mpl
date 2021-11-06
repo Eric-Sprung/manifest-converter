@@ -25,7 +25,6 @@
       </facets>
       <external-templates />
       <languageVersions>
-        <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmCharts" version="0" />
         <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:K8sManifests" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -62,7 +61,6 @@
   </dependencies>
   <languageVersions>
     <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmCharts" version="0" />
-    <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:K8sManifests" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
