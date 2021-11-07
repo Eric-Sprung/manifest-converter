@@ -1,0 +1,9 @@
+---
+apiVersion: v2
+kind: Pod
+metadata:
+  name: name1
+  namespace: namesapce1
+spec:
+  containers:
+...

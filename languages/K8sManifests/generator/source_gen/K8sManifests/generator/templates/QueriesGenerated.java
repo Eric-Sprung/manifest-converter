@@ -39,7 +39,7 @@ public class QueriesGenerated {
     return String.valueOf(SPropertyOperations.getInteger(_context.getNode(), PROPS.containerPort$ZGpG));
   }
   public static Object propertyMacro_GetValue_1_8(final PropertyMacroContext _context) {
-    return SPropertyOperations.getEnum(_context.getNode(), PROPS.kind$FMse).toString() + "_" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.name$TRQG);
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.kind$FMse).toString() + "_" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.namespace$qveQ) + "_" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.metadata$FS4A), PROPS.name$TRQG);
   }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.ports$ZFrG);
