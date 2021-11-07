@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="K8sManifestDevKit" uuid="9672b8c2-f13d-447c-9ca3-bc872e2aa433">
+  <exported-language name="0dd31084-9d07-4035-939d-cb69bd123423(K8sManifests)" />
+  <exported-language name="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" />
+  <exported-solutions>
+    <exported-solution>192a5e62-b2a0-455f-aa1d-ffa34f1c3e72(GenerationPlans)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:31212846-05b3-4100-aec8-90203a64db2a(GenerationPlans.K8sManifests)" />
+</dev-kit>
+

@@ -7,7 +7,6 @@ import jetbrains.mps.generator.impl.query.QueryProviderBase;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.Map;
@@ -22,7 +21,6 @@ import jetbrains.mps.generator.impl.query.PropertyValueQuery;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.annotations.Nullable;
-import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 @Generated
@@ -31,13 +29,13 @@ public class QueriesGenerated extends QueryProviderBase {
     super(1);
   }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.helmChartTemplateAttribute$4UMQ);
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.templateMetadata$BXdE), PROPS.name$Mlpa);
   }
   public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.helmChartTemplateAttribute$4UMQ);
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.templateMetadata$BXdE), PROPS.namespace$MlRc);
   }
   public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
-    return SPropertyOperations.getEnum(SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(_context.getNode(), CONCEPTS.HelmChart$_c, false, false), LINKS.helmChartInfo$z4Ud), PROPS.apiVersion$JCcy);
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.apiVersion$RKxP);
   }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.helmChartTemplates$zb0B);
@@ -102,17 +100,14 @@ public class QueriesGenerated extends QueryProviderBase {
     }
   }
 
-  private static final class PROPS {
-    /*package*/ static final SProperty helmChartTemplateAttribute$4UMQ = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0x18334caedc7e54ddL, "helmChartTemplateAttribute");
-    /*package*/ static final SProperty apiVersion$JCcy = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L, 0xd7637c9ab226449L, "apiVersion");
-  }
-
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept HelmChart$_c = MetaAdapterFactory.getConcept(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, "HelmCharts.structure.HelmChart");
-  }
-
   private static final class LINKS {
-    /*package*/ static final SContainmentLink helmChartInfo$z4Ud = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225df7L, "helmChartInfo");
+    /*package*/ static final SContainmentLink templateMetadata$BXdE = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0xcbfdf38c8397c0eL, "templateMetadata");
     /*package*/ static final SContainmentLink helmChartTemplates$zb0B = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225dfcL, "helmChartTemplates");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$Mlpa = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xcbfdf38c8397c08L, 0xcbfdf38c8397c09L, "name");
+    /*package*/ static final SProperty namespace$MlRc = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xcbfdf38c8397c08L, 0xcbfdf38c8397c0bL, "namespace");
+    /*package*/ static final SProperty apiVersion$RKxP = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0xcbfdf38c839aa55L, "apiVersion");
   }
 }

@@ -55,8 +55,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createRefNode_1());
     editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createRefNode_1());
+    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createRefNodeList_0());
     return editorCell;
   }
@@ -128,7 +130,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Values.yaml");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_7sqfa_c0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -136,15 +138,24 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
+  private EditorCell createConstant_2() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Values.yaml");
+    editorCell.setCellId("Constant_7sqfa_d0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new helmChartValuesSingleRoleHandler_7sqfa_d0(myNode, LINKS.helmChartValues$z5of, getEditorContext());
+    SingleRoleCellProvider provider = new helmChartValuesSingleRoleHandler_7sqfa_e0(myNode, LINKS.helmChartValues$z5of, getEditorContext());
     return provider.createCell();
   }
-  private static class helmChartValuesSingleRoleHandler_7sqfa_d0 extends SingleRoleCellProvider {
+  private static class helmChartValuesSingleRoleHandler_7sqfa_e0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public helmChartValuesSingleRoleHandler_7sqfa_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public helmChartValuesSingleRoleHandler_7sqfa_e0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -194,9 +205,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return "<no helmChartValues>";
     }
   }
-  private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Templates");
-    editorCell.setCellId("Constant_7sqfa_e0");
+  private EditorCell createConstant_3() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_7sqfa_f0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_4() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Templates-Folder");
+    editorCell.setCellId("Constant_7sqfa_g0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
@@ -204,17 +224,20 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new helmChartTemplatesListHandler_7sqfa_f0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new helmChartTemplatesListHandler_7sqfa_h0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_helmChartTemplates");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class helmChartTemplatesListHandler_7sqfa_f0 extends RefNodeListHandler {
+  private static class helmChartTemplatesListHandler_7sqfa_h0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public helmChartTemplatesListHandler_7sqfa_f0(SNode ownerNode, EditorContext context) {
+    public helmChartTemplatesListHandler_7sqfa_h0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -227,7 +250,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.helmChartTemplates$zb0B;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.HelmChartTemplates$PE;
+      return CONCEPTS.HelmChartTemplate$PE;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -237,7 +260,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(helmChartTemplatesListHandler_7sqfa_f0.this.getNode(), LINKS.helmChartTemplates$zb0B));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(helmChartTemplatesListHandler_7sqfa_h0.this.getNode(), LINKS.helmChartTemplates$zb0B));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -285,6 +308,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept HelmChartTemplates$PE = MetaAdapterFactory.getConcept(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, "HelmCharts.structure.HelmChartTemplates");
+    /*package*/ static final SConcept HelmChartTemplate$PE = MetaAdapterFactory.getConcept(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, "HelmCharts.structure.HelmChartTemplate");
   }
 }

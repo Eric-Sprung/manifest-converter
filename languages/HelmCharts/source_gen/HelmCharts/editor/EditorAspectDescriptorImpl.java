@@ -22,7 +22,11 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 1:
         return Collections.<ConceptEditor>singletonList(new HelmChartInfo_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new HelmChartTemplates_Editor());
+        return Collections.<ConceptEditor>singletonList(new HelmChartTemplate_Editor());
+      case 3:
+        return Collections.<ConceptEditor>singletonList(new HelmChartValues_Editor());
+      case 4:
+        return Collections.<ConceptEditor>singletonList(new TemplateMetadata_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -30,5 +34,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e01L), MetaIdFactory.conceptId(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xcbfdf38c8397c08L)).seal();
 }

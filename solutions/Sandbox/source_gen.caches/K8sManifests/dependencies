@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <uses language="l:0dd31084-9d07-4035-939d-cb69bd123423:K8sManifests" />
+  <uses language="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" />
+</dependenciesRoot>
+

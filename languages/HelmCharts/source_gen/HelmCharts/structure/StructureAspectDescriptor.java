@@ -16,8 +16,9 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptHelmChart = createDescriptorForHelmChart();
   /*package*/ final ConceptDescriptor myConceptHelmChartInfo = createDescriptorForHelmChartInfo();
-  /*package*/ final ConceptDescriptor myConceptHelmChartTemplates = createDescriptorForHelmChartTemplates();
+  /*package*/ final ConceptDescriptor myConceptHelmChartTemplate = createDescriptorForHelmChartTemplate();
   /*package*/ final ConceptDescriptor myConceptHelmChartValues = createDescriptorForHelmChartValues();
+  /*package*/ final ConceptDescriptor myConceptTemplateMetadata = createDescriptorForTemplateMetadata();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -32,7 +33,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptHelmChart, myConceptHelmChartInfo, myConceptHelmChartTemplates, myConceptHelmChartValues);
+    return Arrays.asList(myConceptHelmChart, myConceptHelmChartInfo, myConceptHelmChartTemplate, myConceptHelmChartValues, myConceptTemplateMetadata);
   }
 
   @Override
@@ -43,10 +44,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptHelmChart;
       case LanguageConceptSwitch.HelmChartInfo:
         return myConceptHelmChartInfo;
-      case LanguageConceptSwitch.HelmChartTemplates:
-        return myConceptHelmChartTemplates;
+      case LanguageConceptSwitch.HelmChartTemplate:
+        return myConceptHelmChartTemplate;
       case LanguageConceptSwitch.HelmChartValues:
         return myConceptHelmChartValues;
+      case LanguageConceptSwitch.TemplateMetadata:
+        return myConceptTemplateMetadata;
       default:
         return null;
     }
@@ -80,12 +83,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("appVersion", 0x18334caedc8427bbL).type(PrimitiveTypeId.STRING).origin("1743821794630182843").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForHelmChartTemplates() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HelmCharts", "HelmChartTemplates", 0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L);
+  private static ConceptDescriptor createDescriptorForHelmChartTemplate() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HelmCharts", "HelmChartTemplate", 0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L);
     b.class_(false, false, false);
     b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030976");
     b.version(2);
-    b.property("helmChartTemplateAttribute", 0x18334caedc7e54ddL).type(PrimitiveTypeId.STRING).origin("1743821794629801181").done();
+    b.property("apiVersion", 0xcbfdf38c839aa55L).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23435ebcdL)).origin("918698283977255509").done();
+    b.property("kind", 0xcbfdf38c839aa57L).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234335623L)).origin("918698283977255511").done();
+    b.aggregate("templateMetadata", 0xcbfdf38c8397c0eL).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xcbfdf38c8397c08L).optional(false).ordered(true).multiple(false).origin("918698283977243662").done();
     b.alias("templates");
     return b.create();
   }
@@ -94,6 +99,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030977");
     b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTemplateMetadata() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HelmCharts", "TemplateMetadata", 0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xcbfdf38c8397c08L);
+    b.class_(false, false, false);
+    b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/918698283977243656");
+    b.version(2);
+    b.property("name", 0xcbfdf38c8397c09L).type(PrimitiveTypeId.STRING).origin("918698283977243657").done();
+    b.property("namespace", 0xcbfdf38c8397c0bL).type(PrimitiveTypeId.STRING).origin("918698283977243659").done();
     return b.create();
   }
 }

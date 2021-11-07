@@ -11,8 +11,9 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_HelmChart;
   private ConceptPresentation props_HelmChartInfo;
-  private ConceptPresentation props_HelmChartTemplates;
+  private ConceptPresentation props_HelmChartTemplate;
   private ConceptPresentation props_HelmChartValues;
+  private ConceptPresentation props_TemplateMetadata;
 
   @Override
   @Nullable
@@ -33,13 +34,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_HelmChartInfo = cpb.create();
         }
         return props_HelmChartInfo;
-      case LanguageConceptSwitch.HelmChartTemplates:
-        if (props_HelmChartTemplates == null) {
+      case LanguageConceptSwitch.HelmChartTemplate:
+        if (props_HelmChartTemplate == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.rawPresentation("templates");
-          props_HelmChartTemplates = cpb.create();
+          props_HelmChartTemplate = cpb.create();
         }
-        return props_HelmChartTemplates;
+        return props_HelmChartTemplate;
       case LanguageConceptSwitch.HelmChartValues:
         if (props_HelmChartValues == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -47,6 +48,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_HelmChartValues = cpb.create();
         }
         return props_HelmChartValues;
+      case LanguageConceptSwitch.TemplateMetadata:
+        if (props_TemplateMetadata == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TemplateMetadata");
+          props_TemplateMetadata = cpb.create();
+        }
+        return props_TemplateMetadata;
     }
     return null;
   }

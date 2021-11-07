@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/HelmChartDevKit/HelmChartDevKit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/K8sManifestDevKit/K8sManifestDevKit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/HelmCharts/HelmCharts.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/K8sManifests/K8sManifests.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/GenerationPlans/GenerationPlans.msd" folder="" />

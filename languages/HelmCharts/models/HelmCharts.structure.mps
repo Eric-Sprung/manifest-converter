@@ -62,7 +62,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="helmChartTemplates" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="PQdWAF8_S0" resolve="HelmChartTemplates" />
+      <ref role="20lvS9" node="PQdWAF8_S0" resolve="HelmChartTemplate" />
     </node>
   </node>
   <node concept="1TIwiD" id="PQdWAF8_RO">
@@ -97,19 +97,46 @@
   </node>
   <node concept="1TIwiD" id="PQdWAF8_S0">
     <property role="EcuMT" value="970024109044030976" />
-    <property role="TrG5h" value="HelmChartTemplates" />
+    <property role="TrG5h" value="HelmChartTemplate" />
     <property role="34LRSv" value="templates" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1wNjaVsv_jt" role="1TKVEl">
-      <property role="IQ2nx" value="1743821794629801181" />
-      <property role="TrG5h" value="helmChartTemplateAttribute" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="MZRNz8enKe" role="1TKVEi">
+      <property role="IQ2ns" value="918698283977243662" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="templateMetadata" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="MZRNz8enK8" resolve="TemplateMetadata" />
+    </node>
+    <node concept="1TJgyi" id="MZRNz8eqDl" role="1TKVEl">
+      <property role="IQ2nx" value="918698283977255509" />
+      <property role="TrG5h" value="apiVersion" />
+      <ref role="AX2Wp" to="80f9:4vmbu8OduJd" resolve="ApiVersions" />
+    </node>
+    <node concept="1TJgyi" id="MZRNz8eqDn" role="1TKVEl">
+      <property role="IQ2nx" value="918698283977255511" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" to="80f9:4vmbu8OcPoz" resolve="ManifestKinds" />
     </node>
   </node>
   <node concept="1TIwiD" id="PQdWAF8_S1">
     <property role="EcuMT" value="970024109044030977" />
     <property role="TrG5h" value="HelmChartValues" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="MZRNz8enK8">
+    <property role="EcuMT" value="918698283977243656" />
+    <property role="TrG5h" value="TemplateMetadata" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="MZRNz8enK9" role="1TKVEl">
+      <property role="IQ2nx" value="918698283977243657" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="MZRNz8enKb" role="1TKVEl">
+      <property role="IQ2nx" value="918698283977243659" />
+      <property role="TrG5h" value="namespace" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
