@@ -2,7 +2,7 @@
 <model ref="r:fa3d24ad-32b8-49ff-b1c8-0ed9cc127c12(HelmCharts)">
   <persistence version="9" />
   <languages>
-    <use id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmCharts" version="0" />
+    <devkit ref="cad6b811-ca74-4c61-89c4-aaa129793a9e(HelmChartDevKit)" />
   </languages>
   <imports />
   <registry>

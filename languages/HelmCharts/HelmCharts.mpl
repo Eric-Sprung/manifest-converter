@@ -57,7 +57,7 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false" scope="generate-into">0dd31084-9d07-4035-939d-cb69bd123423(K8sManifests)</dependency>
+    <dependency reexport="false">0dd31084-9d07-4035-939d-cb69bd123423(K8sManifests)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
