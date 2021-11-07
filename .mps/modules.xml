@@ -4,6 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/HelmCharts/HelmCharts.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/K8sManifests/K8sManifests.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GenerationPlans/GenerationPlans.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Sandbox/Sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:be63cd20-d776-4468-9ac4-e0e45e44f8f9(Models)">
+<model ref="r:fa3d24ad-32b8-49ff-b1c8-0ed9cc127c12(HelmCharts)">
   <persistence version="9" />
   <languages>
     <use id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmCharts" version="0" />
@@ -23,19 +23,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="2Al6CU" id="5QmEzbJG3_s">
-    <node concept="2Al6B9" id="5QmEzbJG3_w" role="2Al6CP">
-      <property role="34jhxN" value="xyz" />
+  <node concept="2Al6CU" id="4AW8xIolqaO">
+    <node concept="2Al6B9" id="4AW8xIolqaR" role="2Al6CP">
+      <property role="34jhxN" value="sad" />
     </node>
-    <node concept="2Al6B9" id="4AW8xIolc81" role="2Al6CP">
-      <property role="34jhxN" value="abc" />
+    <node concept="2Al6B9" id="4AW8xIolqaS" role="2Al6CP">
+      <property role="34jhxN" value="das" />
     </node>
-    <node concept="2Al6CX" id="5QmEzbJG3_t" role="2Al6CY">
-      <property role="2Al5e2" value="sda" />
-      <property role="2Al5e7" value="dsa" />
-      <property role="2Al5er" value="sa" />
+    <node concept="2Al6CX" id="4AW8xIolqaP" role="2Al6CY">
+      <property role="2Al5e2" value="test" />
+      <property role="2Al5e7" value="v1" />
+      <property role="2Al5er" value="abc" />
     </node>
-    <node concept="2Al6B8" id="5QmEzbJG3AU" role="2Al6CK" />
+    <node concept="2Al6B8" id="4AW8xIolqaQ" role="2Al6CK" />
   </node>
 </model>
 
