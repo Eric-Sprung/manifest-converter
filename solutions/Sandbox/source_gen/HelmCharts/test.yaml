@@ -2,8 +2,8 @@
 apiVersion: placeholder
 kind: placehodler
 metadata:
-  name: name1
-  namespace: namesapce1
+  name: name2
+  namespace: namespace2
 spec:
   containers:
 ...

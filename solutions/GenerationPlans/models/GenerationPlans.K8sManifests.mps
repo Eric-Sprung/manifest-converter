@@ -52,9 +52,9 @@
     <node concept="2VgMA2" id="11wAX3Idda2" role="2VgMA7">
       <property role="1s431M" value="true" />
       <node concept="2Qf6Nf" id="11wAX3Iddaa" role="2Qf7GQ">
-        <node concept="2V$Bhx" id="11wAX3Iddae" role="2Qf6Ng">
-          <property role="2V$B1T" value="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" />
-          <property role="2V$B1Q" value="HelmCharts" />
+        <node concept="2V$Bhx" id="6rx7QHuaJrb" role="2Qf6Ng">
+          <property role="2V$B1T" value="b83431fe-5c8f-40bc-8a36-65e25f4dd253" />
+          <property role="2V$B1Q" value="jetbrains.mps.lang.textGen" />
         </node>
       </node>
     </node>

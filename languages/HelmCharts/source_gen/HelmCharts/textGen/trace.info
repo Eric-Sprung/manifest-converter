@@ -1,8 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="12,0,27,0" name="HelmCharts.textGen.TextGenAspectDescriptor" />
+      <unit at="58,0,61,0" name="HelmCharts.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="62,0,65,0" name="HelmCharts.textGen.TextGenAspectDescriptor$LINKS" />
+      <unit at="66,0,69,0" name="HelmCharts.textGen.TextGenAspectDescriptor$PROPS" />
+      <unit at="21,0,70,0" name="HelmCharts.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:0f4ca60a-33fc-4084-86e2-c8bf6bebaa86(HelmCharts.textGen)/7413241007630251456">
+    <file name="HelmChart_TextGen.java">
+      <node id="7413241007630251456" at="16,54,17,55" concept="4" />
+      <node id="7413241007630257187" at="17,55,18,29" concept="1" />
+      <node id="7413241007630257255" at="18,29,19,18" concept="1" />
+      <node id="7413241007630257353" at="19,18,20,25" concept="1" />
+      <node id="7413241007630257421" at="20,25,21,139" concept="1" />
+      <node id="7413241007630260127" at="21,139,22,18" concept="1" />
+      <node id="7413241007630260419" at="22,18,23,33" concept="1" />
+      <node id="7413241007630260517" at="23,33,24,142" concept="1" />
+      <node id="7413241007630263106" at="24,142,25,18" concept="1" />
+      <node id="7413241007630263161" at="25,18,26,0" concept="6" />
+      <node id="7413241007630260182" at="26,0,27,0" concept="6" />
+      <node id="7413241007630251456" at="31,0,32,0" concept="7" trace="helmChartInfo$z4Ud" />
+      <node id="7413241007630251456" at="35,0,36,0" concept="7" trace="name$JCE$" />
+      <node id="7413241007630251456" at="36,0,37,0" concept="7" trace="version$JIiW" />
+      <node id="7413241007630251456" at="15,0,29,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7413241007630251456" at="16,54,27,0">
+        <var name="tgs" id="7413241007630251456" />
+      </scope>
+      <scope id="7413241007630251456" at="15,0,29,0">
+        <var name="ctx" id="7413241007630251456" />
+      </scope>
+      <unit id="7413241007630251456" at="30,0,33,0" name="HelmCharts.textGen.HelmChart_TextGen$LINKS" />
+      <unit id="7413241007630251456" at="34,0,38,0" name="HelmCharts.textGen.HelmChart_TextGen$PROPS" />
+      <unit id="7413241007630251456" at="14,0,39,0" name="HelmCharts.textGen.HelmChart_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7413241007630251456" at="31,43,32,39" concept="5" />
+      <node id="7413241007630251456" at="40,60,41,51" concept="4" />
+      <node id="7413241007630251456" at="41,51,42,54" concept="4" />
+      <node id="7413241007630251456" at="42,54,43,126" concept="1" />
+      <node id="7413241007630251456" at="43,126,44,17" concept="0" />
+      <node id="7413241007630251756" at="48,59,49,127" concept="5" />
+      <node id="7413241007630251456" at="51,64,52,16" concept="5" />
+      <node id="7413241007630251456" at="54,49,55,19" concept="5" />
+      <node id="7413241007630251456" at="48,0,51,0" concept="8" trace="getFileName_HelmChart#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7413241007630251456" at="51,0,54,0" concept="8" trace="getFileExtension_HelmChart#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7413241007630251456" at="54,0,57,0" concept="8" trace="getEncoding_HelmChart#()Ljava/lang/String;" />
+      <node id="7413241007630251456" at="39,58,45,7" concept="2" />
+      <scope id="7413241007630251456" at="31,43,32,39" />
+      <scope id="7413241007630251456" at="48,59,49,127" />
+      <scope id="7413241007630251456" at="51,64,52,16" />
+      <scope id="7413241007630251456" at="54,49,55,19" />
+      <scope id="7413241007630251456" at="48,0,51,0">
+        <var name="node" id="7413241007630251456" />
+      </scope>
+      <scope id="7413241007630251456" at="51,0,54,0">
+        <var name="node" id="7413241007630251456" />
+      </scope>
+      <scope id="7413241007630251456" at="54,0,57,0" />
+      <scope id="7413241007630251456" at="40,60,44,17">
+        <var name="ext" id="7413241007630251456" />
+        <var name="fname" id="7413241007630251456" />
+      </scope>
     </file>
   </root>
 </debug-info>
