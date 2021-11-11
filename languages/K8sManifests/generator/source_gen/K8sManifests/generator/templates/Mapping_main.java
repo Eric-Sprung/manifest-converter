@@ -33,12 +33,12 @@ public class Mapping_main extends MapConfigBase implements TemplateMappingConfig
   }
   /*package*/ final class RootMappingRule0 extends MapRootRuleBase implements TemplateRootMappingRule {
     public RootMappingRule0() {
-      super(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "5176375271270829079"), CONCEPTS.Specification$j4, true, false);
+      super(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "1180114424019746837"), CONCEPTS.Specification$j4, true, false);
     }
     @Override
     public Collection<SNode> apply(@NotNull final TemplateContext context) throws GenerationException {
       final TemplateExecutionEnvironment environment = context.getEnvironment();
-      Collection<SNode> result = environment.callSite(new Template_manifests(), new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "5176375271270829079")).apply(context);
+      Collection<SNode> result = environment.callSite(new Template_manifests(), new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "1180114424019746837")).apply(context);
       return result;
     }
   }

@@ -24,7 +24,11 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">3b6d7df4-fc22-41a3-8f3d-efa521cb700c(HelmCharts)</dependency>
+      </dependencies>
       <languageVersions>
+        <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmCharts" version="0" />
         <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -45,6 +49,7 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+        <module reference="3b6d7df4-fc22-41a3-8f3d-efa521cb700c(HelmCharts)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="0dd31084-9d07-4035-939d-cb69bd123423(K8sManifests)" version="1" />
         <module reference="62ef9ec5-31a1-4c3b-9e07-1eefc10859aa(K8sManifests)" version="0" />
