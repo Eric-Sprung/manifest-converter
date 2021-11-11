@@ -14,7 +14,6 @@
   <languageVersions>
     <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmCharts" version="0" />
     <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:K8sManifests" version="0" />
-    <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>

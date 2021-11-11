@@ -61,17 +61,14 @@
     <node concept="19BiC4" id="4AW8xIopBph" role="2VgMA7">
       <property role="TrG5h" value="afterK8sManifest" />
     </node>
-    <node concept="2VgMA2" id="4AW8xIoq$yZ" role="2VgMA7">
+    <node concept="2VgMA2" id="11wAX3IdtGO" role="2VgMA7">
       <property role="1s431M" value="true" />
-      <node concept="2Qf6Nf" id="4AW8xIoq$z1" role="2Qf7GQ">
-        <node concept="2V$Bhx" id="4AW8xIoq$z3" role="2Qf6Ng">
-          <property role="2V$B1T" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
-          <property role="2V$B1Q" value="com.dslfoundry.plaintextgen" />
+      <node concept="2Qf6Nf" id="11wAX3IdtH0" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="11wAX3IdtH4" role="2Qf6Ng">
+          <property role="2V$B1T" value="0dd31084-9d07-4035-939d-cb69bd123423" />
+          <property role="2V$B1Q" value="K8sManifests" />
         </node>
       </node>
-    </node>
-    <node concept="19BiC4" id="4AW8xIoqWN$" role="2VgMA7">
-      <property role="TrG5h" value="aftertextgen" />
     </node>
   </node>
 </model>

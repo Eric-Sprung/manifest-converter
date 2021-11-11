@@ -46,25 +46,13 @@
         </node>
       </node>
     </node>
-    <node concept="19BiC4" id="11wAX3I1_6l" role="2VgMA7">
-      <property role="TrG5h" value="afterhelmchart" />
+    <node concept="19BiC4" id="11wAX3Idd9O" role="2VgMA7">
+      <property role="TrG5h" value="bli" />
     </node>
-    <node concept="2VgMA2" id="11wAX3I1QK5" role="2VgMA7">
+    <node concept="2VgMA2" id="11wAX3Idda2" role="2VgMA7">
       <property role="1s431M" value="true" />
-      <node concept="2Qf6Nf" id="11wAX3I1QKg" role="2Qf7GQ">
-        <node concept="2V$Bhx" id="11wAX3I1QKk" role="2Qf6Ng">
-          <property role="2V$B1T" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
-          <property role="2V$B1Q" value="com.dslfoundry.plaintextgen" />
-        </node>
-      </node>
-    </node>
-    <node concept="19BiC4" id="11wAX3I3DFE" role="2VgMA7">
-      <property role="TrG5h" value="helmchart" />
-    </node>
-    <node concept="2VgMA2" id="11wAX3I3DG0" role="2VgMA7">
-      <property role="1s431M" value="true" />
-      <node concept="2Qf6Nf" id="11wAX3I3DGc" role="2Qf7GQ">
-        <node concept="2V$Bhx" id="11wAX3I3DGg" role="2Qf6Ng">
+      <node concept="2Qf6Nf" id="11wAX3Iddaa" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="11wAX3Iddae" role="2Qf6Ng">
           <property role="2V$B1T" value="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" />
           <property role="2V$B1Q" value="HelmCharts" />
         </node>

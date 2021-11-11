@@ -15,7 +15,6 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.generator.runtime.TemplateDeclaration;
 import jetbrains.mps.generator.runtime.TemplateDeclarationKey;
 import org.jetbrains.mps.openapi.model.SNodeReference;
-import jetbrains.mps.smodel.SNodePointer;
 
 @Generated
 public class TemplateModelImpl extends TemplateModelBase {
@@ -48,9 +47,6 @@ public class TemplateModelImpl extends TemplateModelBase {
       return null;
     }
     final SNodeReference template = key.getSourceNode();
-    if (template.equals(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "7604103637184947011"))) {
-      return new Template_manifests();
-    }
     return null;
   }
 }

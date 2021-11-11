@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="88139afut9bf7f7bag8p0pr4sh18lfx">
-  <files names="Pod_namesapce1_name1.yaml:Pod_namespace2_name2.yaml" />
+  <files names="test.yaml" />
 </product>
 

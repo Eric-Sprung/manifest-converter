@@ -126,7 +126,7 @@
   <node concept="1TIwiD" id="MZRNz8enK8">
     <property role="EcuMT" value="918698283977243656" />
     <property role="TrG5h" value="TemplateMetadata" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="MZRNz8enK9" role="1TKVEl">
       <property role="IQ2nx" value="918698283977243657" />
       <property role="TrG5h" value="name" />

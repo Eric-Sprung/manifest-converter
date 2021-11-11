@@ -1,6 +1,6 @@
 ---
-apiVersion: v2
-kind: Pod
+apiVersion: placeholder
+kind: placehodler
 metadata:
   name: name1
   namespace: namesapce1

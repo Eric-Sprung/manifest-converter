@@ -1,9 +1,0 @@
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: das
-  namespace: das
-spec:
-  containers:
-...

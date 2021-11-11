@@ -1,9 +1,0 @@
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: myCustomPod
-  namespace: default
-spec:
-  containers:
-...

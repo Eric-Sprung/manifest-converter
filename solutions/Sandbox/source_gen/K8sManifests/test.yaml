@@ -1,0 +1,35 @@
+---
+apiVersion: placeholder
+kind: placehodler
+metadata:
+  name: name1
+  namespace: namespace1
+spec:
+  containers:
+  - name: container1
+    image: image1
+    ports:
+    - name: port1
+      containerPort: 80
+    - name: pro12
+      containerPort: 81
+  - name: container12
+    image: image12
+    ports:
+    - name: porttest
+      containerPort: 7
+...
+---
+apiVersion: placeholder
+kind: placehodler
+metadata:
+  name: name2
+  namespace: namespace2
+spec:
+  containers:
+  - name: container2
+    image: image2
+    ports:
+    - name: port2
+      containerPort: 89
+...
