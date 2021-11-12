@@ -1,9 +1,3 @@
----
-apiVersion: placeholder
-kind: placehodler
-metadata:
-  name: name2
-  namespace: namespace2
-spec:
-  containers:
-...
+Chart.yaml
+name: test
+chartVersion: v1
