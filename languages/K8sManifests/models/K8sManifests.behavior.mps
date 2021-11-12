@@ -60,7 +60,7 @@
         <node concept="3clFbF" id="5ByJnQV51Hz" role="3cqZAp">
           <node concept="37vLTI" id="5ByJnQV53R9" role="3clFbG">
             <node concept="Xl_RD" id="5ByJnQV544J" role="37vLTx">
-              <property role="Xl_RC" value="myCustomPod" />
+              <property role="Xl_RC" value="default" />
             </node>
             <node concept="2OqwBi" id="5ByJnQV51QJ" role="37vLTJ">
               <node concept="13iPFW" id="5ByJnQV51Hy" role="2Oq$k0" />
@@ -103,6 +103,31 @@
             <node concept="2OqwBi" id="4vmbu8OcRTX" role="37vLTJ">
               <node concept="13iPFW" id="4vmbu8OcRRM" role="2Oq$k0" />
               <node concept="3TrcHB" id="4vmbu8OcRVf" role="2OqNvi">
+                <ref role="3TsBF5" to="80f9:4vmbu8Od$Md" resolve="kind" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="Pe3ePARgQb">
+    <ref role="13h7C2" to="80f9:Pe3ePARgCn" resolve="Service" />
+    <node concept="13hLZK" id="Pe3ePARgQc" role="13h7CW">
+      <node concept="3clFbS" id="Pe3ePARgQd" role="2VODD2">
+        <node concept="3clFbF" id="Pe3ePARgSP" role="3cqZAp">
+          <node concept="37vLTI" id="Pe3ePARhzv" role="3clFbG">
+            <node concept="2OqwBi" id="Pe3ePARi3e" role="37vLTx">
+              <node concept="1XH99k" id="Pe3ePARh_w" role="2Oq$k0">
+                <ref role="1XH99l" to="80f9:4vmbu8OcPoz" resolve="ManifestKinds" />
+              </node>
+              <node concept="2ViDtV" id="Pe3ePARitn" role="2OqNvi">
+                <ref role="2ViDtZ" to="80f9:Pe3ePARigK" resolve="Service" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="Pe3ePARh2L" role="37vLTJ">
+              <node concept="13iPFW" id="Pe3ePARgSO" role="2Oq$k0" />
+              <node concept="3TrcHB" id="Pe3ePARhbp" role="2OqNvi">
                 <ref role="3TsBF5" to="80f9:4vmbu8Od$Md" resolve="kind" />
               </node>
             </node>

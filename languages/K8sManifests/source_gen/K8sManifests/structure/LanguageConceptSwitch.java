@@ -16,7 +16,9 @@ public final class LanguageConceptSwitch {
   public static final int Pod = 4;
   public static final int PodSpec = 5;
   public static final int Port = 6;
-  public static final int Specification = 7;
+  public static final int Service = 7;
+  public static final int ServiceSpec = 8;
+  public static final int Specification = 9;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xdd310849d074035L, 0x939dcb69bd123423L);
@@ -27,6 +29,8 @@ public final class LanguageConceptSwitch {
     builder.put(0x59e2bd7dbb117263L, Pod);
     builder.put(0x59e2bd7dbb117258L, PodSpec);
     builder.put(0x47d62de23439e2f2L, Port);
+    builder.put(0xd4e0ced66dd0a17L, Service);
+    builder.put(0xd4e0ced66e17a1aL, ServiceSpec);
     builder.put(0x47d62de234337383L, Specification);
     myIndex = builder.seal();
   }

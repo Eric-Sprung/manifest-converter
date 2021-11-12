@@ -101,6 +101,10 @@
       <property role="3tVfz5" value="5176375271270602276" />
       <property role="TrG5h" value="Pod" />
     </node>
+    <node concept="25R33" id="Pe3ePARigK" role="25R1y">
+      <property role="3tVfz5" value="958717984449045552" />
+      <property role="TrG5h" value="Service" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4vmbu8OcRe3">
     <property role="EcuMT" value="5176375271270609795" />
@@ -200,6 +204,28 @@
   <node concept="PlHQZ" id="Pe3ePAPWoY">
     <property role="TrG5h" value="ManifestSpecification" />
     <property role="EcuMT" value="958717984448693122" />
+  </node>
+  <node concept="1TIwiD" id="Pe3ePARgCn">
+    <property role="EcuMT" value="958717984449038871" />
+    <property role="TrG5h" value="Service" />
+    <property role="34LRSv" value="Service" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="Pe3ePARgCo" role="PzmwI">
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="IManifest" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Pe3ePASnCq">
+    <property role="EcuMT" value="958717984449329690" />
+    <property role="TrG5h" value="ServiceSpec" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="Pe3ePASnCt" role="1TKVEl">
+      <property role="IQ2nx" value="958717984449329693" />
+      <property role="TrG5h" value="testproperty" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="Pe3ePASnCr" role="PzmwI">
+      <ref role="PrY4T" node="Pe3ePAPWoY" resolve="ManifestSpecification" />
+    </node>
   </node>
 </model>
 

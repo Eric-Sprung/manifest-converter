@@ -16,6 +16,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Pod;
   private ConceptPresentation props_PodSpec;
   private ConceptPresentation props_Port;
+  private ConceptPresentation props_Service;
+  private ConceptPresentation props_ServiceSpec;
   private ConceptPresentation props_Specification;
 
   @Override
@@ -70,6 +72,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Port = cpb.create();
         }
         return props_Port;
+      case LanguageConceptSwitch.Service:
+        if (props_Service == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Service");
+          props_Service = cpb.create();
+        }
+        return props_Service;
+      case LanguageConceptSwitch.ServiceSpec:
+        if (props_ServiceSpec == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("ServiceSpec");
+          props_ServiceSpec = cpb.create();
+        }
+        return props_ServiceSpec;
       case LanguageConceptSwitch.Specification:
         if (props_Specification == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

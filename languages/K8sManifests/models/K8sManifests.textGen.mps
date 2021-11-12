@@ -443,5 +443,100 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="Pe3ePAT6NX">
+    <ref role="WuzLi" to="80f9:Pe3ePARgCn" resolve="Service" />
+    <node concept="11bSqf" id="Pe3ePAT6NY" role="11c4hB">
+      <node concept="3clFbS" id="Pe3ePAT6NZ" role="2VODD2">
+        <node concept="lc7rE" id="Pe3ePAT6Z6" role="3cqZAp">
+          <node concept="la8eA" id="Pe3ePAT6Z7" role="lcghm">
+            <property role="lacIc" value="---" />
+          </node>
+          <node concept="l8MVK" id="Pe3ePAT6Z8" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="Pe3ePAT6Z9" role="3cqZAp">
+          <node concept="la8eA" id="Pe3ePAT6Za" role="lcghm">
+            <property role="lacIc" value="apiVersion: " />
+          </node>
+          <node concept="l9hG8" id="Pe3ePAT6Zb" role="lcghm">
+            <node concept="2OqwBi" id="Pe3ePAT6Zc" role="lb14g">
+              <node concept="2OqwBi" id="Pe3ePAT6Zd" role="2Oq$k0">
+                <node concept="117lpO" id="Pe3ePAT6Ze" role="2Oq$k0" />
+                <node concept="3TrcHB" id="Pe3ePAT6Zf" role="2OqNvi">
+                  <ref role="3TsBF5" to="80f9:4vmbu8Od$Mb" resolve="apiVersion" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Pe3ePAT6Zg" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+          <node concept="l8MVK" id="Pe3ePAT6Zh" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="Pe3ePAT6Zi" role="3cqZAp">
+          <node concept="la8eA" id="Pe3ePAT6Zj" role="lcghm">
+            <property role="lacIc" value="kind: " />
+          </node>
+          <node concept="l9hG8" id="Pe3ePAT6Zk" role="lcghm">
+            <node concept="2OqwBi" id="Pe3ePAT6Zl" role="lb14g">
+              <node concept="2OqwBi" id="Pe3ePAT6Zm" role="2Oq$k0">
+                <node concept="117lpO" id="Pe3ePAT6Zn" role="2Oq$k0" />
+                <node concept="3TrcHB" id="Pe3ePAT6Zo" role="2OqNvi">
+                  <ref role="3TsBF5" to="80f9:4vmbu8Od$Md" resolve="kind" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Pe3ePAT6Zp" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+          <node concept="l8MVK" id="Pe3ePAT6Zq" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="Pe3ePAT6Zr" role="3cqZAp">
+          <node concept="l9hG8" id="Pe3ePAT6Zs" role="lcghm">
+            <node concept="2OqwBi" id="Pe3ePAT6Zt" role="lb14g">
+              <node concept="117lpO" id="Pe3ePAT6Zu" role="2Oq$k0" />
+              <node concept="3TrEf2" id="Pe3ePAT6Zv" role="2OqNvi">
+                <ref role="3Tt5mk" to="80f9:4vmbu8Od$Mg" resolve="metadata" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="Pe3ePAT6Zw" role="3cqZAp">
+          <node concept="l9hG8" id="Pe3ePAT6Zx" role="lcghm">
+            <node concept="2OqwBi" id="Pe3ePAT6Zy" role="lb14g">
+              <node concept="117lpO" id="Pe3ePAT6Zz" role="2Oq$k0" />
+              <node concept="3TrEf2" id="Pe3ePAT6Z$" role="2OqNvi">
+                <ref role="3Tt5mk" to="80f9:6A7cZx1FSFw" resolve="specification" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="Pe3ePAT6Z_" role="3cqZAp">
+          <node concept="la8eA" id="Pe3ePAT6ZA" role="lcghm">
+            <property role="lacIc" value="..." />
+          </node>
+          <node concept="l8MVK" id="Pe3ePAT6ZB" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="Pe3ePAT7bS">
+    <ref role="WuzLi" to="80f9:Pe3ePASnCq" resolve="ServiceSpec" />
+    <node concept="11bSqf" id="Pe3ePAT7bT" role="11c4hB">
+      <node concept="3clFbS" id="Pe3ePAT7bU" role="2VODD2">
+        <node concept="lc7rE" id="Pe3ePAT7cd" role="3cqZAp">
+          <node concept="l9hG8" id="Pe3ePAT7cx" role="lcghm">
+            <node concept="2OqwBi" id="Pe3ePAT7m5" role="lb14g">
+              <node concept="117lpO" id="Pe3ePAT7dn" role="2Oq$k0" />
+              <node concept="3TrcHB" id="Pe3ePAT7v6" role="2OqNvi">
+                <ref role="3TsBF5" to="80f9:Pe3ePASnCt" resolve="testproperty" />
+              </node>
+            </node>
+          </node>
+          <node concept="l8MVK" id="Pe3ePAT7yp" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

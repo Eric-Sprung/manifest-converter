@@ -12,7 +12,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="14,0,35,0" name="K8sManifests.behavior.BehaviorAspectDescriptor" />
+      <unit at="14,0,38,0" name="K8sManifests.behavior.BehaviorAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:aa0cc9d9-6be7-42c6-9210-1bb1fe657019(K8sManifests.behavior)/5176375271270548073">
@@ -85,8 +85,8 @@
     <file name="ManifestMetadata__BehaviorDescriptor.java">
       <node id="6476947561819412241" at="20,0,21,0" concept="6" trace="CONCEPT" />
       <node id="6476947561819412241" at="23,0,24,0" concept="6" trace="BH_METHODS" />
-      <node id="6476947561819413347" at="25,63,26,77" concept="1" />
-      <node id="6476947561819423089" at="26,77,27,78" concept="1" />
+      <node id="6476947561819413347" at="25,63,26,73" concept="1" />
+      <node id="6476947561819423089" at="26,73,27,78" concept="1" />
       <node id="6476947561819412241" at="35,114,36,21" concept="1" />
       <node id="6476947561819412241" at="40,114,41,49" concept="4" />
       <node id="6476947561819412241" at="42,26,43,56" concept="9" />
@@ -147,6 +147,72 @@
       </scope>
       <unit id="6476947561819412241" at="75,0,79,0" name="K8sManifests.behavior.ManifestMetadata__BehaviorDescriptor$PROPS" />
       <unit id="6476947561819412241" at="19,0,80,0" name="K8sManifests.behavior.ManifestMetadata__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:aa0cc9d9-6be7-42c6-9210-1bb1fe657019(K8sManifests.behavior)/958717984449039755">
+    <file name="Service__BehaviorDescriptor.java">
+      <node id="958717984449039755" at="21,0,22,0" concept="6" trace="CONCEPT" />
+      <node id="958717984449039755" at="24,0,25,0" concept="6" trace="BH_METHODS" />
+      <node id="958717984449039925" at="26,63,27,261" concept="1" />
+      <node id="958717984449039755" at="35,114,36,21" concept="1" />
+      <node id="958717984449039755" at="40,114,41,49" concept="4" />
+      <node id="958717984449039755" at="42,26,43,56" concept="9" />
+      <node id="958717984449039755" at="46,14,47,58" concept="9" />
+      <node id="958717984449039755" at="52,128,53,49" concept="4" />
+      <node id="958717984449039755" at="54,26,55,56" concept="9" />
+      <node id="958717984449039755" at="58,14,59,58" concept="9" />
+      <node id="958717984449039755" at="65,48,66,22" concept="5" />
+      <node id="958717984449039755" at="71,40,72,19" concept="5" />
+      <node id="958717984449039755" at="76,0,77,0" concept="6" trace="kind$FMse" />
+      <node id="958717984449039755" at="31,0,33,0" concept="0" trace="Service__BehaviorDescriptor#()V" />
+      <node id="958717984449039755" at="26,0,29,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="958717984449039755" at="41,49,44,5" concept="2" />
+      <node id="958717984449039755" at="53,49,56,5" concept="2" />
+      <node id="958717984449039755" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="958717984449039755" at="44,5,48,5" concept="8" />
+      <node id="958717984449039755" at="56,5,60,5" concept="8" />
+      <node id="958717984449039755" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="958717984449039755" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="958717984449039755" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="958717984449039755" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="958717984449039755" at="31,45,31,45" />
+      <scope id="958717984449039755" at="26,63,27,261" />
+      <scope id="958717984449039755" at="35,114,36,21" />
+      <scope id="958717984449039755" at="42,26,43,56" />
+      <scope id="958717984449039755" at="46,14,47,58" />
+      <scope id="958717984449039755" at="54,26,55,56" />
+      <scope id="958717984449039755" at="58,14,59,58" />
+      <scope id="958717984449039755" at="65,48,66,22" />
+      <scope id="958717984449039755" at="71,40,72,19" />
+      <scope id="958717984449039755" at="31,0,33,0" />
+      <scope id="958717984449039755" at="26,0,29,0">
+        <var name="__thisNode__" id="958717984449039755" />
+      </scope>
+      <scope id="958717984449039755" at="34,0,38,0">
+        <var name="constructor" id="958717984449039755" />
+        <var name="node" id="958717984449039755" />
+        <var name="parameters" id="958717984449039755" />
+      </scope>
+      <scope id="958717984449039755" at="63,0,68,0" />
+      <scope id="958717984449039755" at="69,0,74,0" />
+      <scope id="958717984449039755" at="40,114,48,5">
+        <var name="methodIndex" id="958717984449039755" />
+      </scope>
+      <scope id="958717984449039755" at="52,128,60,5">
+        <var name="methodIndex" id="958717984449039755" />
+      </scope>
+      <scope id="958717984449039755" at="39,0,50,0">
+        <var name="method" id="958717984449039755" />
+        <var name="node" id="958717984449039755" />
+        <var name="parameters" id="958717984449039755" />
+      </scope>
+      <scope id="958717984449039755" at="51,0,62,0">
+        <var name="concept" id="958717984449039755" />
+        <var name="method" id="958717984449039755" />
+        <var name="parameters" id="958717984449039755" />
+      </scope>
+      <unit id="958717984449039755" at="75,0,78,0" name="K8sManifests.behavior.Service__BehaviorDescriptor$PROPS" />
+      <unit id="958717984449039755" at="20,0,79,0" name="K8sManifests.behavior.Service__BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>

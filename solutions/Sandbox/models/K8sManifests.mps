@@ -15,8 +15,13 @@
       <concept id="6476947561819239000" name="K8sManifests.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
       </concept>
+      <concept id="958717984449038871" name="K8sManifests.structure.Service" flags="ng" index="1F$KrU" />
+      <concept id="958717984449329690" name="K8sManifests.structure.ServiceSpec" flags="ng" index="1FFRrR">
+        <property id="958717984449329693" name="testproperty" index="1FFRrK" />
+      </concept>
       <concept id="5176375271270796426" name="K8sManifests.structure.IManifest" flags="ng" index="1NS65C">
         <property id="5176375271270796427" name="apiVersion" index="1NS65D" />
+        <property id="5176375271270796429" name="kind" index="1NS65J" />
         <child id="7604103637185301216" name="specification" index="Cab$o" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
@@ -61,6 +66,16 @@
             <property role="1NVWWh" value="7" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="1F$KrU" id="Pe3ePASM5F" role="1NTlTA">
+      <property role="1NS65J" value="Pe3ePARigK/Service" />
+      <node concept="3yWWW$" id="Pe3ePASM5H" role="1NS65M">
+        <property role="3yWWWB" value="myCustomPod" />
+        <property role="3yWulV" value="default" />
+      </node>
+      <node concept="1FFRrR" id="Pe3ePASM60" role="Cab$o">
+        <property role="1FFRrK" value="dsa" />
       </node>
     </node>
     <node concept="3yWWWu" id="11wAX3I4ow1" role="1NTlTA">

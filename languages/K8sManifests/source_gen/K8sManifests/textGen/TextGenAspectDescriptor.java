@@ -34,6 +34,10 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PodSpec_TextGen();
       case LanguageConceptSwitch.Port:
         return new Port_TextGen();
+      case LanguageConceptSwitch.Service:
+        return new Service_TextGen();
+      case LanguageConceptSwitch.ServiceSpec:
+        return new ServiceSpec_TextGen();
       case LanguageConceptSwitch.Specification:
         return new Specification_TextGen();
     }

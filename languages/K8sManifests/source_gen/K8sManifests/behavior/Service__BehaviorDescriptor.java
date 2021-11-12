@@ -11,24 +11,24 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
 
-public final class ManifestMetadata__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, "K8sManifests.structure.ManifestMetadata");
+public final class Service__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66dd0a17L, "K8sManifests.structure.Service");
 
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
-    SPropertyOperations.assign(__thisNode__, PROPS.name$TRQG, "default");
-    SPropertyOperations.assign(__thisNode__, PROPS.namespace$qveQ, "default");
+    SPropertyOperations.assignEnum(__thisNode__, PROPS.kind$FMse, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234335623L, "K8sManifests.structure.ManifestKinds"), 0xd4e0ced66dd2430L, "Service"));
   }
 
 
-  /*package*/ ManifestMetadata__BehaviorDescriptor() {
+  /*package*/ Service__BehaviorDescriptor() {
   }
 
   @Override
@@ -73,7 +73,6 @@ public final class ManifestMetadata__BehaviorDescriptor extends BaseBHDescriptor
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$TRQG = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb11725aL, "name");
-    /*package*/ static final SProperty namespace$qveQ = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L, 0x59e2bd7dbb135806L, "namespace");
+    /*package*/ static final SProperty kind$FMse = MetaAdapterFactory.getProperty(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL, 0x47d62de234364c8dL, "kind");
   }
 }

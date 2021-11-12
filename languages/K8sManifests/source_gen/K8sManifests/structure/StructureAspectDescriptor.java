@@ -23,6 +23,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPod = createDescriptorForPod();
   /*package*/ final ConceptDescriptor myConceptPodSpec = createDescriptorForPodSpec();
   /*package*/ final ConceptDescriptor myConceptPort = createDescriptorForPort();
+  /*package*/ final ConceptDescriptor myConceptService = createDescriptorForService();
+  /*package*/ final ConceptDescriptor myConceptServiceSpec = createDescriptorForServiceSpec();
   /*package*/ final ConceptDescriptor myConceptSpecification = createDescriptorForSpecification();
   /*package*/ final EnumerationDescriptor myEnumerationApiVersions = new EnumerationDescriptor_ApiVersions();
   /*package*/ final EnumerationDescriptor myEnumerationManifestKinds = new EnumerationDescriptor_ManifestKinds();
@@ -40,7 +42,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptContainer, myConceptIManifest, myConceptManifestMetadata, myConceptManifestSpecification, myConceptPod, myConceptPodSpec, myConceptPort, myConceptSpecification);
+    return Arrays.asList(myConceptContainer, myConceptIManifest, myConceptManifestMetadata, myConceptManifestSpecification, myConceptPod, myConceptPodSpec, myConceptPort, myConceptService, myConceptServiceSpec, myConceptSpecification);
   }
 
   @Override
@@ -61,6 +63,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPodSpec;
       case LanguageConceptSwitch.Port:
         return myConceptPort;
+      case LanguageConceptSwitch.Service:
+        return myConceptService;
+      case LanguageConceptSwitch.ServiceSpec:
+        return myConceptServiceSpec;
       case LanguageConceptSwitch.Specification:
         return myConceptSpecification;
       default:
@@ -140,6 +146,24 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("name", 0x47d62de2343c8ed7L).type(PrimitiveTypeId.STRING).origin("5176375271271206615").done();
     b.property("containerPort", 0x47d62de23439e2f3L).type(PrimitiveTypeId.INTEGER).origin("5176375271271031539").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForService() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("K8sManifests", "Service", 0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66dd0a17L);
+    b.class_(false, false, false);
+    b.parent(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234364c8aL);
+    b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)/958717984449038871");
+    b.version(2);
+    b.alias("Service");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForServiceSpec() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("K8sManifests", "ServiceSpec", 0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66e17a1aL);
+    b.class_(false, false, false);
+    b.parent(0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66d7c382L);
+    b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)/958717984449329690");
+    b.version(2);
+    b.property("testproperty", 0xd4e0ced66e17a1dL).type(PrimitiveTypeId.STRING).origin("958717984449329693").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSpecification() {

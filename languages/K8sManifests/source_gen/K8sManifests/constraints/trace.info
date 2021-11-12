@@ -6,18 +6,19 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,29,0" name="K8sManifests.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,35,0" name="K8sManifests.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:c651de1c-ba05-4997-ab09-0e0488e7ba8f(K8sManifests.constraints)/5176375271270693913">
     <file name="Pod_Constraints.java">
-      <node id="5176375271270693913" at="22,28,23,27" concept="8" />
-      <node id="5176375271270693914" at="27,59,28,60" concept="8" />
+      <node id="5176375271270693913" at="22,28,23,27" concept="9" />
+      <node id="5176375271270693914" at="27,59,28,60" concept="9" />
       <node id="5176375271270693914" at="31,109,32,103" concept="4" />
       <node id="5176375271270693914" at="33,53,34,153" concept="1" />
       <node id="5176375271270693914" at="35,7,36,20" concept="5" />
@@ -25,12 +26,12 @@
       <node id="5176375271270693913" at="43,84,44,119" concept="4" />
       <node id="5176375271270693914" at="44,119,45,61" concept="1" />
       <node id="5176375271270693913" at="45,61,46,22" concept="5" />
-      <node id="5176375271270693913" at="50,0,51,0" concept="6" trace="Pod$q6" />
-      <node id="5176375271270693913" at="54,0,55,0" concept="6" trace="kind$FMse" />
+      <node id="5176375271270693913" at="50,0,51,0" concept="7" trace="Pod$q6" />
+      <node id="5176375271270693913" at="54,0,55,0" concept="7" trace="kind$FMse" />
       <node id="5176375271270693913" at="22,0,25,0" concept="0" trace="Pod_Constraints#()V" />
       <node id="5176375271270693914" at="27,0,30,0" concept="0" trace="Kind_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
       <node id="5176375271270693914" at="32,103,35,7" concept="2" />
-      <node id="5176375271270693914" at="38,0,41,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Z" />
+      <node id="5176375271270693914" at="38,0,41,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Z" />
       <node id="5176375271270693913" at="42,0,48,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
       <node id="5176375271270693914" at="30,0,38,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
       <scope id="5176375271270693913" at="22,28,23,27" />
@@ -61,6 +62,139 @@
       <unit id="5176375271270693913" at="53,0,56,0" name="K8sManifests.constraints.Pod_Constraints$PROPS" />
       <unit id="5176375271270693914" at="26,0,42,0" name="K8sManifests.constraints.Pod_Constraints$Kind_Property" />
       <unit id="5176375271270693913" at="21,0,57,0" name="K8sManifests.constraints.Pod_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c651de1c-ba05-4997-ab09-0e0488e7ba8f(K8sManifests.constraints)/958717984449215985">
+    <file name="PodSpec_Constraints.java">
+      <node id="958717984449215985" at="20,32,21,31" concept="9" />
+      <node id="958717984449215985" at="28,127,29,128" concept="4" />
+      <node id="958717984449215985" at="29,128,30,0" concept="6" />
+      <node id="958717984449215985" at="31,55,32,71" concept="1" />
+      <node id="958717984449215985" at="33,9,34,0" concept="6" />
+      <node id="958717984449215985" at="34,0,35,22" concept="5" />
+      <node id="958717984449216242" at="39,128,40,69" concept="5" />
+      <node id="958717984449215985" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="958717984449215985" at="45,0,46,0" concept="7" trace="PodSpec$aA" />
+      <node id="958717984449215985" at="46,0,47,0" concept="7" trace="Pod$q6" />
+      <node id="958717984449215985" at="20,0,23,0" concept="0" trace="PodSpec_Constraints#()V" />
+      <node id="958717984449215985" at="30,0,33,9" concept="2" />
+      <node id="958717984449215985" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="958717984449215985" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="958717984449215985" at="25,103,37,6" concept="5" />
+      <node id="958717984449215985" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="958717984449215985" at="20,32,21,31" />
+      <scope id="958717984449215985" at="31,55,32,71" />
+      <scope id="958717984449215987" at="39,128,40,69" />
+      <scope id="958717984449215985" at="20,0,23,0" />
+      <scope id="958717984449215985" at="39,0,42,0">
+        <var name="childConcept" id="958717984449215985" />
+        <var name="link" id="958717984449215985" />
+        <var name="node" id="958717984449215985" />
+        <var name="parentNode" id="958717984449215985" />
+      </scope>
+      <scope id="958717984449215985" at="28,127,35,22">
+        <var name="result" id="958717984449215985" />
+      </scope>
+      <scope id="958717984449215985" at="27,0,37,0">
+        <var name="checkingNodeContext" id="958717984449215985" />
+        <var name="context" id="958717984449215985" />
+      </scope>
+      <scope id="958717984449215985" at="25,103,37,6" />
+      <scope id="958717984449215985" at="24,0,39,0" />
+      <unit id="958717984449215985" at="44,0,48,0" name="K8sManifests.constraints.PodSpec_Constraints$CONCEPTS" />
+      <unit id="958717984449215985" at="26,15,37,5" name="K8sManifests.constraints.PodSpec_Constraints$1" />
+      <unit id="958717984449215985" at="19,0,49,0" name="K8sManifests.constraints.PodSpec_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c651de1c-ba05-4997-ab09-0e0488e7ba8f(K8sManifests.constraints)/958717984449321491">
+    <file name="Service_Constraints.java">
+      <node id="958717984449321491" at="22,32,23,31" concept="9" />
+      <node id="958717984449321492" at="27,59,28,60" concept="9" />
+      <node id="958717984449321492" at="31,109,32,103" concept="4" />
+      <node id="958717984449321492" at="33,53,34,152" concept="1" />
+      <node id="958717984449321492" at="35,7,36,20" concept="5" />
+      <node id="958717984449323833" at="38,98,39,261" concept="5" />
+      <node id="958717984449321491" at="43,84,44,119" concept="4" />
+      <node id="958717984449321492" at="44,119,45,61" concept="1" />
+      <node id="958717984449321491" at="45,61,46,22" concept="5" />
+      <node id="958717984449321491" at="50,0,51,0" concept="7" trace="Service$mb" />
+      <node id="958717984449321491" at="54,0,55,0" concept="7" trace="kind$FMse" />
+      <node id="958717984449321491" at="22,0,25,0" concept="0" trace="Service_Constraints#()V" />
+      <node id="958717984449321492" at="27,0,30,0" concept="0" trace="Kind_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="958717984449321492" at="32,103,35,7" concept="2" />
+      <node id="958717984449321492" at="38,0,41,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Z" />
+      <node id="958717984449321491" at="42,0,48,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="958717984449321492" at="30,0,38,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="958717984449321491" at="22,32,23,31" />
+      <scope id="958717984449321492" at="27,59,28,60" />
+      <scope id="958717984449321492" at="33,53,34,152" />
+      <scope id="958717984449321542" at="38,98,39,261" />
+      <scope id="958717984449321491" at="22,0,25,0" />
+      <scope id="958717984449321492" at="27,0,30,0">
+        <var name="container" id="958717984449321492" />
+      </scope>
+      <scope id="958717984449321492" at="38,0,41,0">
+        <var name="node" id="958717984449321492" />
+        <var name="propertyValue" id="958717984449321492" />
+      </scope>
+      <scope id="958717984449321491" at="43,84,46,22">
+        <var name="properties" id="958717984449321491" />
+      </scope>
+      <scope id="958717984449321492" at="31,109,36,20">
+        <var name="result" id="958717984449321492" />
+      </scope>
+      <scope id="958717984449321491" at="42,0,48,0" />
+      <scope id="958717984449321492" at="30,0,38,0">
+        <var name="checkingNodeContext" id="958717984449321492" />
+        <var name="node" id="958717984449321492" />
+        <var name="propertyValue" id="958717984449321492" />
+      </scope>
+      <unit id="958717984449321491" at="49,0,52,0" name="K8sManifests.constraints.Service_Constraints$CONCEPTS" />
+      <unit id="958717984449321491" at="53,0,56,0" name="K8sManifests.constraints.Service_Constraints$PROPS" />
+      <unit id="958717984449321492" at="26,0,42,0" name="K8sManifests.constraints.Service_Constraints$Kind_Property" />
+      <unit id="958717984449321491" at="21,0,57,0" name="K8sManifests.constraints.Service_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c651de1c-ba05-4997-ab09-0e0488e7ba8f(K8sManifests.constraints)/958717984449329695">
+    <file name="ServiceSpec_Constraints.java">
+      <node id="958717984449329695" at="20,36,21,35" concept="9" />
+      <node id="958717984449329695" at="28,127,29,128" concept="4" />
+      <node id="958717984449329695" at="29,128,30,0" concept="6" />
+      <node id="958717984449329695" at="31,55,32,71" concept="1" />
+      <node id="958717984449329695" at="33,9,34,0" concept="6" />
+      <node id="958717984449329695" at="34,0,35,22" concept="5" />
+      <node id="958717984449329952" at="39,128,40,73" concept="5" />
+      <node id="958717984449329695" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="958717984449329695" at="45,0,46,0" concept="7" trace="ServiceSpec$jl" />
+      <node id="958717984449329695" at="46,0,47,0" concept="7" trace="Service$mb" />
+      <node id="958717984449329695" at="20,0,23,0" concept="0" trace="ServiceSpec_Constraints#()V" />
+      <node id="958717984449329695" at="30,0,33,9" concept="2" />
+      <node id="958717984449329695" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="958717984449329695" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="958717984449329695" at="25,103,37,6" concept="5" />
+      <node id="958717984449329695" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="958717984449329695" at="20,36,21,35" />
+      <scope id="958717984449329695" at="31,55,32,71" />
+      <scope id="958717984449329697" at="39,128,40,73" />
+      <scope id="958717984449329695" at="20,0,23,0" />
+      <scope id="958717984449329695" at="39,0,42,0">
+        <var name="childConcept" id="958717984449329695" />
+        <var name="link" id="958717984449329695" />
+        <var name="node" id="958717984449329695" />
+        <var name="parentNode" id="958717984449329695" />
+      </scope>
+      <scope id="958717984449329695" at="28,127,35,22">
+        <var name="result" id="958717984449329695" />
+      </scope>
+      <scope id="958717984449329695" at="27,0,37,0">
+        <var name="checkingNodeContext" id="958717984449329695" />
+        <var name="context" id="958717984449329695" />
+      </scope>
+      <scope id="958717984449329695" at="25,103,37,6" />
+      <scope id="958717984449329695" at="24,0,39,0" />
+      <unit id="958717984449329695" at="44,0,48,0" name="K8sManifests.constraints.ServiceSpec_Constraints$CONCEPTS" />
+      <unit id="958717984449329695" at="26,15,37,5" name="K8sManifests.constraints.ServiceSpec_Constraints$1" />
+      <unit id="958717984449329695" at="19,0,49,0" name="K8sManifests.constraints.ServiceSpec_Constraints" />
     </file>
   </root>
 </debug-info>

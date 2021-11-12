@@ -20,6 +20,14 @@ spec:
       containerPort: 7
 ...
 ---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myCustomPod
+  namespace: default
+dsa
+...
+---
 apiVersion: v2
 kind: Pod
 metadata:
