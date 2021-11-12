@@ -1,0 +1,17 @@
+Chart.yaml
+name: test
+apiVersion: v1version: v1
+kubeVersion: abc
+
+values.yaml
+key: value
+key2: value2
+
+templates/
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: name1
+  namespace: namespace1
+

@@ -13,7 +13,8 @@ public final class LanguageConceptSwitch {
   public static final int HelmChartInfo = 1;
   public static final int HelmChartTemplate = 2;
   public static final int HelmChartValues = 3;
-  public static final int TemplateMetadata = 4;
+  public static final int HelmChartValuesReference = 4;
+  public static final int TemplateMetadata = 5;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL);
@@ -21,6 +22,7 @@ public final class LanguageConceptSwitch {
     builder.put(0xd7637c9ab225df4L, HelmChartInfo);
     builder.put(0xd7637c9ab225e00L, HelmChartTemplate);
     builder.put(0xd7637c9ab225e01L, HelmChartValues);
+    builder.put(0xd4e0ced66b4a2e2L, HelmChartValuesReference);
     builder.put(0xcbfdf38c8397c08L, TemplateMetadata);
     myIndex = builder.seal();
   }

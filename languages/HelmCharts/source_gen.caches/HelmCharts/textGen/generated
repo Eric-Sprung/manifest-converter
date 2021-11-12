@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="cvh0ugpzoz54oekhapewe0ritns1koq">
-  <files names="HelmChart_TextGen.java:TextGenAspectDescriptor.java" />
+<product version="3" modelHash="ewqgvk78sdsg229ye8g74lts8fqepiv">
+  <files names="HelmChartInfo_TextGen.java:HelmChartTemplate_TextGen.java:HelmChartValues_TextGen.java:HelmChart_TextGen.java:TemplateMetadata_TextGen.java:TextGenAspectDescriptor.java" />
 </product>
 

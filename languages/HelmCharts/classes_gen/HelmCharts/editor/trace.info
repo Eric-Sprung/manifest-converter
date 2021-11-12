@@ -1191,44 +1191,129 @@
       <unit id="918698283977485895" at="10,0,15,0" name="HelmCharts.editor.HelmChartValues_Editor" />
     </file>
     <file name="HelmChartValues_EditorBuilder_a.java">
-      <node id="918698283977485895" at="18,95,19,19" concept="8" />
-      <node id="918698283977485895" at="19,19,20,18" concept="1" />
-      <node id="918698283977485895" at="25,26,26,18" concept="6" />
-      <node id="918698283977485895" at="29,39,30,32" concept="6" />
-      <node id="918698283977485895" at="33,43,34,118" concept="5" />
-      <node id="918698283977485895" at="34,118,35,48" concept="1" />
-      <node id="918698283977485895" at="35,48,36,28" concept="1" />
-      <node id="918698283977485895" at="36,28,37,31" concept="1" />
-      <node id="918698283977485909" at="37,31,38,49" concept="1" />
-      <node id="918698283977485895" at="38,49,39,22" concept="6" />
-      <node id="918698283977485909" at="41,41,42,120" concept="5" />
-      <node id="918698283977485909" at="42,120,43,47" concept="1" />
-      <node id="918698283977485909" at="43,47,44,34" concept="1" />
-      <node id="918698283977485909" at="44,34,45,22" concept="6" />
-      <node id="918698283977485895" at="15,0,17,0" concept="2" trace="myNode" />
-      <node id="918698283977485895" at="29,0,32,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="918698283977485895" at="18,0,22,0" concept="0" trace="HelmChartValues_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="918698283977485895" at="23,0,28,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="918698283977485909" at="41,0,47,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="918698283977485895" at="33,0,41,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="918698283977485895" at="25,26,26,18" />
-      <scope id="918698283977485895" at="29,39,30,32" />
-      <scope id="918698283977485895" at="18,95,20,18" />
-      <scope id="918698283977485895" at="29,0,32,0" />
-      <scope id="918698283977485895" at="18,0,22,0">
+      <node id="918698283977485895" at="30,95,31,19" concept="8" />
+      <node id="918698283977485895" at="31,19,32,18" concept="1" />
+      <node id="918698283977485895" at="37,26,38,18" concept="6" />
+      <node id="918698283977485895" at="41,39,42,32" concept="6" />
+      <node id="918698283977485895" at="45,43,46,118" concept="5" />
+      <node id="918698283977485895" at="46,118,47,48" concept="1" />
+      <node id="918698283977485895" at="47,48,48,28" concept="1" />
+      <node id="918698283977485895" at="48,28,49,31" concept="1" />
+      <node id="958717984446611485" at="49,31,50,52" concept="1" />
+      <node id="918698283977485895" at="50,52,51,22" concept="6" />
+      <node id="918698283977485895" at="53,44,54,107" concept="5" />
+      <node id="918698283977485895" at="54,107,55,95" concept="5" />
+      <node id="918698283977485895" at="55,95,56,56" concept="1" />
+      <node id="918698283977485895" at="56,56,57,51" concept="1" />
+      <node id="918698283977485895" at="57,51,58,22" concept="6" />
+      <node id="918698283977485895" at="64,89,65,28" concept="8" />
+      <node id="918698283977485895" at="65,28,66,25" concept="1" />
+      <node id="918698283977485895" at="70,28,71,20" concept="6" />
+      <node id="918698283977485895" at="73,40,74,40" concept="6" />
+      <node id="918698283977485895" at="76,48,77,50" concept="6" />
+      <node id="918698283977485895" at="80,57,81,83" concept="5" />
+      <node id="918698283977485895" at="81,83,82,65" concept="1" />
+      <node id="918698283977485895" at="82,65,83,25" concept="6" />
+      <node id="918698283977485895" at="85,41,86,41" concept="1" />
+      <node id="918698283977485895" at="86,41,87,157" concept="1" />
+      <node id="918698283977485895" at="88,11,89,36" concept="5" />
+      <node id="918698283977485895" at="89,36,90,44" concept="1" />
+      <node id="918698283977485895" at="90,44,91,57" concept="1" />
+      <node id="918698283977485895" at="91,57,92,34" concept="1" />
+      <node id="918698283977485895" at="92,34,93,25" concept="6" />
+      <node id="918698283977485895" at="94,17,95,42" concept="1" />
+      <node id="918698283977485895" at="99,0,100,0" concept="7" trace="OBJ" />
+      <node id="918698283977485895" at="103,122,104,92" concept="1" />
+      <node id="918698283977485895" at="104,92,105,146" concept="1" />
+      <node id="918698283977485895" at="109,34,110,90" concept="1" />
+      <node id="918698283977485895" at="110,90,111,142" concept="1" />
+      <node id="918698283977485895" at="115,34,116,69" concept="1" />
+      <node id="918698283977485895" at="116,69,117,146" concept="1" />
+      <node id="918698283977485895" at="121,34,122,91" concept="1" />
+      <node id="918698283977485895" at="129,0,130,0" concept="7" trace="valueReferences$kEvN" />
+      <node id="918698283977485895" at="133,0,134,0" concept="7" trace="HelmChartValuesReference$F5" />
+      <node id="918698283977485895" at="27,0,29,0" concept="2" trace="myNode" />
+      <node id="918698283977485895" at="61,0,63,0" concept="2" trace="myNode" />
+      <node id="918698283977485895" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="918698283977485895" at="73,0,76,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="918698283977485895" at="76,0,79,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="918698283977485895" at="120,96,123,9" concept="3" />
+      <node id="918698283977485895" at="30,0,34,0" concept="0" trace="HelmChartValues_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="918698283977485895" at="64,0,68,0" concept="0" trace="valueReferencesListHandler_wfxfk5_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="918698283977485895" at="69,0,73,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="918698283977485895" at="102,97,106,9" concept="3" />
+      <node id="918698283977485895" at="108,95,112,9" concept="3" />
+      <node id="918698283977485895" at="114,74,118,9" concept="3" />
+      <node id="918698283977485895" at="35,0,40,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="918698283977485895" at="80,0,85,0" concept="4" trace="createNodeCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="918698283977485895" at="119,7,124,7" concept="3" />
+      <node id="918698283977485895" at="101,107,107,7" concept="3" />
+      <node id="918698283977485895" at="107,7,113,7" concept="3" />
+      <node id="918698283977485895" at="113,7,119,7" concept="3" />
+      <node id="918698283977485895" at="53,0,60,0" concept="4" trace="createRefNodeList_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="918698283977485895" at="45,0,53,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="918698283977485895" at="87,157,96,7" concept="9" />
+      <node id="918698283977485895" at="85,0,98,0" concept="4" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="918698283977485895" at="101,0,126,0" concept="4" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
+      <scope id="918698283977485895" at="37,26,38,18" />
+      <scope id="918698283977485895" at="41,39,42,32" />
+      <scope id="918698283977485895" at="70,28,71,20" />
+      <scope id="918698283977485895" at="73,40,74,40" />
+      <scope id="918698283977485895" at="76,48,77,50" />
+      <scope id="918698283977485895" at="94,17,95,42" />
+      <scope id="918698283977485895" at="121,34,122,91" />
+      <scope id="918698283977485895" at="30,95,32,18" />
+      <scope id="918698283977485895" at="64,89,66,25" />
+      <scope id="918698283977485895" at="103,122,105,146" />
+      <scope id="918698283977485895" at="109,34,111,142" />
+      <scope id="918698283977485895" at="115,34,117,146" />
+      <scope id="918698283977485895" at="41,0,44,0" />
+      <scope id="918698283977485895" at="73,0,76,0" />
+      <scope id="918698283977485895" at="76,0,79,0" />
+      <scope id="918698283977485895" at="80,57,83,25">
+        <var name="elementCell" id="918698283977485895" />
+      </scope>
+      <scope id="918698283977485895" at="120,96,123,9" />
+      <scope id="918698283977485895" at="30,0,34,0">
         <var name="context" id="918698283977485895" />
         <var name="node" id="918698283977485895" />
       </scope>
-      <scope id="918698283977485909" at="41,41,45,22">
-        <var name="editorCell" id="918698283977485909" />
+      <scope id="918698283977485895" at="64,0,68,0">
+        <var name="context" id="918698283977485895" />
+        <var name="ownerNode" id="918698283977485895" />
       </scope>
-      <scope id="918698283977485895" at="23,0,28,0" />
-      <scope id="918698283977485895" at="33,43,39,22">
+      <scope id="918698283977485895" at="69,0,73,0" />
+      <scope id="918698283977485895" at="102,97,106,9" />
+      <scope id="918698283977485895" at="108,95,112,9" />
+      <scope id="918698283977485895" at="114,74,118,9" />
+      <scope id="918698283977485895" at="35,0,40,0" />
+      <scope id="918698283977485895" at="53,44,58,22">
+        <var name="editorCell" id="918698283977485895" />
+        <var name="handler" id="918698283977485895" />
+      </scope>
+      <scope id="918698283977485895" at="80,0,85,0">
+        <var name="elementNode" id="918698283977485895" />
+      </scope>
+      <scope id="918698283977485895" at="88,11,93,25">
+        <var name="emptyCell" id="918698283977485895" />
+      </scope>
+      <scope id="918698283977485895" at="45,43,51,22">
         <var name="editorCell" id="918698283977485895" />
       </scope>
-      <scope id="918698283977485909" at="41,0,47,0" />
-      <scope id="918698283977485895" at="33,0,41,0" />
-      <unit id="918698283977485895" at="14,0,48,0" name="HelmCharts.editor.HelmChartValues_EditorBuilder_a" />
+      <scope id="918698283977485895" at="53,0,60,0" />
+      <scope id="918698283977485895" at="45,0,53,0" />
+      <scope id="918698283977485895" at="85,41,96,7" />
+      <scope id="918698283977485895" at="85,0,98,0" />
+      <scope id="918698283977485895" at="101,107,124,7" />
+      <scope id="918698283977485895" at="101,0,126,0">
+        <var name="elementCell" id="918698283977485895" />
+        <var name="elementNode" id="918698283977485895" />
+        <var name="isEmptyCell" id="918698283977485895" />
+      </scope>
+      <unit id="918698283977485895" at="128,0,131,0" name="HelmCharts.editor.HelmChartValues_EditorBuilder_a$LINKS" />
+      <unit id="918698283977485895" at="132,0,135,0" name="HelmCharts.editor.HelmChartValues_EditorBuilder_a$CONCEPTS" />
+      <unit id="918698283977485895" at="60,0,127,0" name="HelmCharts.editor.HelmChartValues_EditorBuilder_a$valueReferencesListHandler_wfxfk5_a0" />
+      <unit id="918698283977485895" at="26,0,136,0" name="HelmCharts.editor.HelmChartValues_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

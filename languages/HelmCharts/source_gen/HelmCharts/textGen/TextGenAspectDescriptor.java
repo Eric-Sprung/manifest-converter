@@ -11,12 +11,8 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.text.rt.TextGenModelOutline;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.nio.charset.Charset;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import org.jetbrains.mps.openapi.language.SProperty;
 
 public class TextGenAspectDescriptor extends TextGenAspectBase {
   private final LanguageConceptSwitch myIndex = new LanguageConceptSwitch();
@@ -30,6 +26,14 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.HelmChart:
         return new HelmChart_TextGen();
+      case LanguageConceptSwitch.HelmChartInfo:
+        return new HelmChartInfo_TextGen();
+      case LanguageConceptSwitch.HelmChartTemplate:
+        return new HelmChartTemplate_TextGen();
+      case LanguageConceptSwitch.HelmChartValues:
+        return new HelmChartValues_TextGen();
+      case LanguageConceptSwitch.TemplateMetadata:
+        return new TemplateMetadata_TextGen();
     }
     return null;
   }
@@ -46,7 +50,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     }
   }
   private static String getFileName_HelmChart(SNode node) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(node, LINKS.helmChartInfo$z4Ud), PROPS.name$JCE$) + ".yaml";
+    return "test";
   }
   private static String getFileExtension_HelmChart(SNode node) {
     return null;
@@ -57,13 +61,5 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept HelmChart$_c = MetaAdapterFactory.getConcept(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, "HelmCharts.structure.HelmChart");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink helmChartInfo$z4Ud = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225df7L, "helmChartInfo");
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty name$JCE$ = MetaAdapterFactory.getProperty(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L, 0xd7637c9ab22644bL, "name");
   }
 }

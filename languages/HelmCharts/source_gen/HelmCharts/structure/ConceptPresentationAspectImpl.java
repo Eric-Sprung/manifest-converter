@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_HelmChartInfo;
   private ConceptPresentation props_HelmChartTemplate;
   private ConceptPresentation props_HelmChartValues;
+  private ConceptPresentation props_HelmChartValuesReference;
   private ConceptPresentation props_TemplateMetadata;
 
   @Override
@@ -48,6 +49,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_HelmChartValues = cpb.create();
         }
         return props_HelmChartValues;
+      case LanguageConceptSwitch.HelmChartValuesReference:
+        if (props_HelmChartValuesReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("HelmChartValuesReference");
+          props_HelmChartValuesReference = cpb.create();
+        }
+        return props_HelmChartValuesReference;
       case LanguageConceptSwitch.TemplateMetadata:
         if (props_TemplateMetadata == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

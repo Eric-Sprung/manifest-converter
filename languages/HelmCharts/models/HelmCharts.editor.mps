@@ -276,11 +276,8 @@
   </node>
   <node concept="24kQdi" id="MZRNz8fiT7">
     <ref role="1XX52x" to="5l0q:PQdWAF8_S1" resolve="HelmChartValues" />
-    <node concept="3EZMnI" id="MZRNz8fiT9" role="2wV5jI">
-      <node concept="l2Vlx" id="MZRNz8fiTa" role="2iSdaV" />
-      <node concept="3F0ifn" id="MZRNz8fiTl" role="3EZMnx">
-        <property role="3F0ifm" value="placeholder for values file" />
-      </node>
+    <node concept="3F2HdR" id="Pe3ePAI00t" role="2wV5jI">
+      <ref role="1NtTu8" to="5l0q:Pe3ePAHabC" resolve="valueReferences" />
     </node>
   </node>
 </model>

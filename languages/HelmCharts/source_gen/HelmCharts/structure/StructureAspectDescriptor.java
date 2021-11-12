@@ -18,6 +18,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptHelmChartInfo = createDescriptorForHelmChartInfo();
   /*package*/ final ConceptDescriptor myConceptHelmChartTemplate = createDescriptorForHelmChartTemplate();
   /*package*/ final ConceptDescriptor myConceptHelmChartValues = createDescriptorForHelmChartValues();
+  /*package*/ final ConceptDescriptor myConceptHelmChartValuesReference = createDescriptorForHelmChartValuesReference();
   /*package*/ final ConceptDescriptor myConceptTemplateMetadata = createDescriptorForTemplateMetadata();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -33,7 +34,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptHelmChart, myConceptHelmChartInfo, myConceptHelmChartTemplate, myConceptHelmChartValues, myConceptTemplateMetadata);
+    return Arrays.asList(myConceptHelmChart, myConceptHelmChartInfo, myConceptHelmChartTemplate, myConceptHelmChartValues, myConceptHelmChartValuesReference, myConceptTemplateMetadata);
   }
 
   @Override
@@ -48,6 +49,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptHelmChartTemplate;
       case LanguageConceptSwitch.HelmChartValues:
         return myConceptHelmChartValues;
+      case LanguageConceptSwitch.HelmChartValuesReference:
+        return myConceptHelmChartValuesReference;
       case LanguageConceptSwitch.TemplateMetadata:
         return myConceptTemplateMetadata;
       default:
@@ -67,7 +70,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("helmChartInfo", 0xd7637c9ab225df7L).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df4L).optional(false).ordered(true).multiple(false).origin("970024109044030967").done();
     b.aggregate("helmChartValues", 0xd7637c9ab225df9L).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e01L).optional(true).ordered(true).multiple(false).origin("970024109044030969").done();
-    b.aggregate("helmChartTemplates", 0xd7637c9ab225dfcL).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L).optional(true).ordered(true).multiple(true).origin("970024109044030972").done();
+    b.aggregate("helmChartTemplates", 0xd7637c9ab225dfcL).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L).optional(false).ordered(true).multiple(true).origin("970024109044030972").done();
     b.alias("HelmChart");
     return b.create();
   }
@@ -99,6 +102,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/970024109044030977");
     b.version(2);
+    b.aggregate("valueReferences", 0xd4e0ced66b4a2e8L).target(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd4e0ced66b4a2e2L).optional(true).ordered(true).multiple(true).origin("958717984446391016").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForHelmChartValuesReference() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HelmCharts", "HelmChartValuesReference", 0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd4e0ced66b4a2e2L);
+    b.class_(false, false, false);
+    b.origin("r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmCharts.structure)/958717984446391010");
+    b.version(2);
+    b.property("key", 0xd4e0ced66b4a2e3L).type(PrimitiveTypeId.STRING).origin("958717984446391011").done();
+    b.property("value", 0xd4e0ced66b4a2e5L).type(PrimitiveTypeId.STRING).origin("958717984446391013").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTemplateMetadata() {
