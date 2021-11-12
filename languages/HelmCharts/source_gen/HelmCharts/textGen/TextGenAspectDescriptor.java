@@ -50,7 +50,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     }
   }
   private static String getFileName_HelmChart(SNode node) {
-    return "test";
+    return "HelmChart.yaml";
   }
   private static String getFileExtension_HelmChart(SNode node) {
     return null;

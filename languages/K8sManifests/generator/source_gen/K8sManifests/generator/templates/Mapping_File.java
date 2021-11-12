@@ -11,9 +11,9 @@ import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.generator.runtime.MetaObjectContainer;
 
 @Generated
-public class Mapping_main extends MapConfigBase implements TemplateMappingConfiguration {
-  public Mapping_main(@NotNull TemplateModel model) {
-    super(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "5176375271270819327"), "main", model, false, new MO());
+public class Mapping_File extends MapConfigBase implements TemplateMappingConfiguration {
+  public Mapping_File(@NotNull TemplateModel model) {
+    super(new SNodePointer("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)", "5176375271270819327"), "File", model, false, new MO());
   }
 
   /*package*/ static final class MO implements MetaObjectContainer {

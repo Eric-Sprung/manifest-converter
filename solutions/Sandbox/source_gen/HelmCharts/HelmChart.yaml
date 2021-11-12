@@ -1,6 +1,7 @@
 Chart.yaml
 name: test
-apiVersion: v1version: v1
+apiVersion: v1
+version: v1
 kubeVersion: abc
 
 values.yaml

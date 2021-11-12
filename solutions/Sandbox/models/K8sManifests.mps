@@ -71,7 +71,7 @@
     <node concept="1F$KrU" id="Pe3ePASM5F" role="1NTlTA">
       <property role="1NS65J" value="Pe3ePARigK/Service" />
       <node concept="3yWWW$" id="Pe3ePASM5H" role="1NS65M">
-        <property role="3yWWWB" value="myCustomPod" />
+        <property role="3yWWWB" value="myCustomService" />
         <property role="3yWulV" value="default" />
       </node>
       <node concept="1FFRrR" id="Pe3ePASM60" role="Cab$o">

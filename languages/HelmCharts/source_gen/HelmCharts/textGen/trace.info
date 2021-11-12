@@ -58,7 +58,7 @@
       <node id="958717984445862388" at="45,51,46,54" concept="4" />
       <node id="958717984445862388" at="46,54,47,126" concept="1" />
       <node id="958717984445862388" at="47,126,48,17" concept="0" />
-      <node id="958717984446099816" at="52,59,53,18" concept="5" />
+      <node id="958717984446099816" at="52,59,53,28" concept="5" />
       <node id="958717984445862388" at="55,64,56,16" concept="5" />
       <node id="958717984445862388" at="58,49,59,19" concept="5" />
       <node id="958717984445862388" at="52,0,55,0" concept="8" trace="getFileName_HelmChart#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
@@ -66,7 +66,7 @@
       <node id="958717984445862388" at="58,0,61,0" concept="8" trace="getEncoding_HelmChart#()Ljava/lang/String;" />
       <node id="958717984445862388" at="43,58,49,7" concept="2" />
       <scope id="958717984445862388" at="27,43,28,39" />
-      <scope id="958717984445862388" at="52,59,53,18" />
+      <scope id="958717984445862388" at="52,59,53,28" />
       <scope id="958717984445862388" at="55,64,56,16" />
       <scope id="958717984445862388" at="58,49,59,19" />
       <scope id="958717984445862388" at="52,0,55,0">
@@ -90,25 +90,26 @@
       <node id="958717984445942531" at="17,86,18,18" concept="1" />
       <node id="958717984445854676" at="18,18,19,31" concept="1" />
       <node id="958717984445854759" at="19,31,20,101" concept="1" />
-      <node id="7413241007630260419" at="20,101,21,28" concept="1" />
-      <node id="7413241007630260517" at="21,28,22,89" concept="1" />
-      <node id="7413241007630263106" at="22,89,23,18" concept="1" />
-      <node id="958717984445859160" at="23,18,24,32" concept="1" />
-      <node id="958717984445859301" at="24,32,25,93" concept="1" />
-      <node id="958717984446262450" at="25,93,26,18" concept="1" />
-      <node id="958717984445942509" at="30,0,31,0" concept="7" trace="name$JCE$" />
-      <node id="958717984445942509" at="31,0,32,0" concept="7" trace="apiVersion$JCcy" />
-      <node id="958717984445942509" at="32,0,33,0" concept="7" trace="version$JIiW" />
-      <node id="958717984445942509" at="33,0,34,0" concept="7" trace="kubeVersion$JJf0" />
-      <node id="958717984445942509" at="13,0,28,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="958717984445942509" at="14,54,26,18">
+      <node id="958717984450067008" at="20,101,21,18" concept="1" />
+      <node id="7413241007630260419" at="21,18,22,28" concept="1" />
+      <node id="7413241007630260517" at="22,28,23,89" concept="1" />
+      <node id="7413241007630263106" at="23,89,24,18" concept="1" />
+      <node id="958717984445859160" at="24,18,25,32" concept="1" />
+      <node id="958717984445859301" at="25,32,26,93" concept="1" />
+      <node id="958717984446262450" at="26,93,27,18" concept="1" />
+      <node id="958717984445942509" at="31,0,32,0" concept="7" trace="name$JCE$" />
+      <node id="958717984445942509" at="32,0,33,0" concept="7" trace="apiVersion$JCcy" />
+      <node id="958717984445942509" at="33,0,34,0" concept="7" trace="version$JIiW" />
+      <node id="958717984445942509" at="34,0,35,0" concept="7" trace="kubeVersion$JJf0" />
+      <node id="958717984445942509" at="13,0,29,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="958717984445942509" at="14,54,27,18">
         <var name="tgs" id="958717984445942509" />
       </scope>
-      <scope id="958717984445942509" at="13,0,28,0">
+      <scope id="958717984445942509" at="13,0,29,0">
         <var name="ctx" id="958717984445942509" />
       </scope>
-      <unit id="958717984445942509" at="29,0,35,0" name="HelmCharts.textGen.HelmChartInfo_TextGen$PROPS" />
-      <unit id="958717984445942509" at="12,0,36,0" name="HelmCharts.textGen.HelmChartInfo_TextGen" />
+      <unit id="958717984445942509" at="30,0,36,0" name="HelmCharts.textGen.HelmChartInfo_TextGen$PROPS" />
+      <unit id="958717984445942509" at="12,0,37,0" name="HelmCharts.textGen.HelmChartInfo_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="958717984445942509" at="29,47,30,43" concept="5" />

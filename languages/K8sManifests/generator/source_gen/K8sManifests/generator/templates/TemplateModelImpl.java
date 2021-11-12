@@ -23,7 +23,7 @@ public class TemplateModelImpl extends TemplateModelBase {
   private final SModelReference model;
   public TemplateModelImpl(TemplateModule module) {
     super(module);
-    mappings = TemplateUtil.<TemplateMappingConfiguration>asCollection(new Mapping_main(this));
+    mappings = TemplateUtil.<TemplateMappingConfiguration>asCollection(new Mapping_File(this), new Mapping_HelmChart(this));
     switches = TemplateUtil.<TemplateSwitchMapping>asCollection();
     model = PersistenceFacade.getInstance().createModelReference("r:6357e749-ef68-478f-98ea-f1b11fc9f288(K8sManifests.generator.templates@generator)");
   }

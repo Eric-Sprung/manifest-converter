@@ -70,6 +70,10 @@ public class Template extends TemplateDeclarationBase {
         SNodeAccessUtil.setPropertyValue(tnode5, myProperties[5], QueriesGenerated.propertyMacro_GetValue_1_5(new PropertyMacroContext(context1, "default", propertyMacro_p4e4wd_c0a2a3a1a2a2a5)));
         environment.aggregate(tnode1, myAggregationLinks[2], tnode5);
       }
+      {
+        final SNode tnode6 = environment.createOutputNode(myConcepts[4]);
+        environment.aggregate(tnode1, myAggregationLinks[3], tnode6);
+      }
     }
     sink.add(null, TemplateUtil.singletonList(tnode1));
   }
@@ -77,11 +81,12 @@ public class Template extends TemplateDeclarationBase {
   /*package*/ static final class MO implements MetaObjectContainer {
     @Override
     public SConcept[] concepts() {
-      SConcept[] rv = new SConcept[4];
+      SConcept[] rv = new SConcept[5];
       rv[0] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, "HelmCharts"), 0xd7637c9ab225df3L, "HelmChart");
       rv[1] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, "HelmCharts"), 0xd7637c9ab225e00L, "HelmChartTemplate");
       rv[2] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, "HelmCharts"), 0xcbfdf38c8397c08L, "TemplateMetadata");
       rv[3] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, "HelmCharts"), 0xd7637c9ab225df4L, "HelmChartInfo");
+      rv[4] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, "HelmCharts"), 0xd7637c9ab225e01L, "HelmChartValues");
       return rv;
     }
 
@@ -100,10 +105,11 @@ public class Template extends TemplateDeclarationBase {
 
     @Override
     public SContainmentLink[] aggregations() {
-      SContainmentLink[] rv = new SContainmentLink[3];
+      SContainmentLink[] rv = new SContainmentLink[4];
       rv[0] = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225e00L, 0xcbfdf38c8397c0eL, "templateMetadata");
       rv[1] = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225dfcL, "helmChartTemplates");
       rv[2] = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225df7L, "helmChartInfo");
+      rv[3] = MetaAdapterFactory.getContainmentLink(0x3b6d7df4fc2241a3L, 0x8f3defa521cb700cL, 0xd7637c9ab225df3L, 0xd7637c9ab225df9L, "helmChartValues");
       return rv;
     }
   }

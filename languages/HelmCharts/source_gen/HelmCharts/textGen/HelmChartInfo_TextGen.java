@@ -18,6 +18,7 @@ public class HelmChartInfo_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.append("apiVersion: ");
     tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.apiVersion$JCcy).toString());
+    tgs.newLine();
     tgs.append("version: ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.version$JIiW));
     tgs.newLine();

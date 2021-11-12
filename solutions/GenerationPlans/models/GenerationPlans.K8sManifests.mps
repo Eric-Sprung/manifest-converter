@@ -18,7 +18,6 @@
         <property id="2209292798354050154" name="individualStepPerGenerator" index="1s431M" />
         <child id="1152961914448142326" name="entries" index="2Qf7GQ" />
       </concept>
-      <concept id="6257322641293267918" name="jetbrains.mps.lang.generator.plan.structure.CheckpointDeclaration" flags="ng" index="19BiC4" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -34,9 +33,6 @@
   </registry>
   <node concept="2VgMpV" id="MZRNz8g5gp">
     <property role="TrG5h" value="K8sManifestPlan" />
-    <node concept="19BiC4" id="MZRNz8g5hv" role="2VgMA7">
-      <property role="TrG5h" value="beforetransform" />
-    </node>
     <node concept="2VgMA2" id="MZRNz8g5gr" role="2VgMA7">
       <property role="1s431M" value="true" />
       <node concept="2Qf6Nf" id="MZRNz8g5gu" role="2Qf7GQ">
@@ -46,13 +42,10 @@
         </node>
       </node>
     </node>
-    <node concept="19BiC4" id="11wAX3Idd9O" role="2VgMA7">
-      <property role="TrG5h" value="bli" />
-    </node>
-    <node concept="2VgMA2" id="11wAX3Idda2" role="2VgMA7">
+    <node concept="2VgMA2" id="6NzKKJUMUJc" role="2VgMA7">
       <property role="1s431M" value="true" />
-      <node concept="2Qf6Nf" id="11wAX3Iddaa" role="2Qf7GQ">
-        <node concept="2V$Bhx" id="6rx7QHuaJrb" role="2Qf6Ng">
+      <node concept="2Qf6Nf" id="6NzKKJUMUJn" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="6NzKKJUMUJr" role="2Qf6Ng">
           <property role="2V$B1T" value="b83431fe-5c8f-40bc-8a36-65e25f4dd253" />
           <property role="2V$B1Q" value="jetbrains.mps.lang.textGen" />
         </node>

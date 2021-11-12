@@ -81,10 +81,12 @@
       </concept>
     </language>
     <language id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmCharts">
+      <concept id="970024109044030977" name="HelmCharts.structure.HelmChartValues" flags="ng" index="2Al6B8" />
       <concept id="970024109044030976" name="HelmCharts.structure.HelmChartTemplate" flags="ng" index="2Al6B9">
         <child id="918698283977243662" name="templateMetadata" index="34xEcQ" />
       </concept>
       <concept id="970024109044030963" name="HelmCharts.structure.HelmChart" flags="ng" index="2Al6CU">
+        <child id="970024109044030969" name="helmChartValues" index="2Al6CK" />
         <child id="970024109044030972" name="helmChartTemplates" index="2Al6CP" />
         <child id="970024109044030967" name="helmChartInfo" index="2Al6CY" />
       </concept>
@@ -101,14 +103,9 @@
   </registry>
   <node concept="bUwia" id="4vmbu8OdEnZ">
     <property role="TrG5h" value="main" />
-    <node concept="2rT7sh" id="11wAX3I02kJ" role="2rTMjI">
-      <property role="TrG5h" value="format" />
-      <ref role="2rTdP9" to="80f9:4vmbu8OcRe3" resolve="Specification" />
-      <ref role="2rZz_L" to="5l0q:PQdWAF8_RN" resolve="HelmChart" />
-    </node>
-    <node concept="2rT7sh" id="11wAX3I0sHW" role="2rTMjI">
-      <property role="TrG5h" value="manifest_list" />
-      <ref role="2rTdP9" to="80f9:4vmbu8Od$Ma" resolve="IManifest" />
+    <node concept="2rT7sh" id="Pe3ePAUaRX" role="2rTMjI">
+      <property role="TrG5h" value="pod" />
+      <ref role="2rTdP9" to="80f9:5ByJnQV4n9z" resolve="Pod" />
       <ref role="2rZz_L" to="5l0q:PQdWAF8_S0" resolve="HelmChartTemplate" />
     </node>
   </node>
@@ -241,6 +238,10 @@
     <node concept="n94m4" id="11wAX3I0K0p" role="lGtFl">
       <ref role="n9lRv" to="80f9:4vmbu8OcRe3" resolve="Specification" />
     </node>
+    <node concept="2Al6B8" id="Pe3ePAUaW3" role="2Al6CK" />
+  </node>
+  <node concept="bUwia" id="6NzKKJUM_fT">
+    <property role="TrG5h" value="HelmChart" />
   </node>
 </model>
 

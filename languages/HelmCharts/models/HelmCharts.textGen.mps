@@ -198,7 +198,7 @@
       <node concept="3clFbS" id="Pe3ePAG2YQ" role="2VODD2">
         <node concept="3clFbF" id="Pe3ePAG35C" role="3cqZAp">
           <node concept="Xl_RD" id="Pe3ePAG35B" role="3clFbG">
-            <property role="Xl_RC" value="test" />
+            <property role="Xl_RC" value="HelmChart.yaml" />
           </node>
         </node>
       </node>
@@ -242,6 +242,7 @@
               </node>
             </node>
           </node>
+          <node concept="l8MVK" id="Pe3ePAVbD0" role="lcghm" />
         </node>
         <node concept="lc7rE" id="6rx7QHuahy3" role="3cqZAp">
           <node concept="la8eA" id="6rx7QHuahz3" role="lcghm">
