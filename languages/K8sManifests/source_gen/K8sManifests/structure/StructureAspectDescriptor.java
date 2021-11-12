@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptContainer = createDescriptorForContainer();
   /*package*/ final ConceptDescriptor myConceptIManifest = createDescriptorForIManifest();
   /*package*/ final ConceptDescriptor myConceptManifestMetadata = createDescriptorForManifestMetadata();
+  /*package*/ final ConceptDescriptor myConceptManifestSpecification = createDescriptorForManifestSpecification();
   /*package*/ final ConceptDescriptor myConceptPod = createDescriptorForPod();
   /*package*/ final ConceptDescriptor myConceptPodSpec = createDescriptorForPodSpec();
   /*package*/ final ConceptDescriptor myConceptPort = createDescriptorForPort();
@@ -39,7 +40,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptContainer, myConceptIManifest, myConceptManifestMetadata, myConceptPod, myConceptPodSpec, myConceptPort, myConceptSpecification);
+    return Arrays.asList(myConceptContainer, myConceptIManifest, myConceptManifestMetadata, myConceptManifestSpecification, myConceptPod, myConceptPodSpec, myConceptPort, myConceptSpecification);
   }
 
   @Override
@@ -52,6 +53,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIManifest;
       case LanguageConceptSwitch.ManifestMetadata:
         return myConceptManifestMetadata;
+      case LanguageConceptSwitch.ManifestSpecification:
+        return myConceptManifestSpecification;
       case LanguageConceptSwitch.Pod:
         return myConceptPod;
       case LanguageConceptSwitch.PodSpec:
@@ -93,7 +96,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("apiVersion", 0x47d62de234364c8bL).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23435ebcdL)).origin("5176375271270796427").done();
     b.property("kind", 0x47d62de234364c8dL).type(MetaIdFactory.dataTypeId(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234335623L)).origin("5176375271270796429").done();
     b.aggregate("metadata", 0x47d62de234364c90L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117259L).optional(false).ordered(true).multiple(false).origin("5176375271270796432").done();
-    b.aggregate("specification", 0x698733f841af8ae0L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117258L).optional(false).ordered(true).multiple(false).origin("7604103637185301216").done();
+    b.aggregate("specification", 0x698733f841af8ae0L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66d7c382L).optional(false).ordered(true).multiple(false).origin("7604103637185301216").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForManifestMetadata() {
@@ -103,6 +106,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("name", 0x59e2bd7dbb11725aL).type(PrimitiveTypeId.STRING).origin("6476947561819239002").done();
     b.property("namespace", 0x59e2bd7dbb135806L).type(PrimitiveTypeId.STRING).origin("6476947561819363334").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForManifestSpecification() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("K8sManifests", "ManifestSpecification", 0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66d7c382L);
+    b.interface_();
+    b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)/958717984448693822");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPod() {
@@ -117,6 +127,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPodSpec() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("K8sManifests", "PodSpec", 0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117258L);
     b.class_(false, false, false);
+    b.parent(0xdd310849d074035L, 0x939dcb69bd123423L, 0xd4e0ced66d7c382L);
     b.origin("r:f90efb3c-595b-49f9-80ca-2be4c9074d04(K8sManifests.structure)/6476947561819239000");
     b.version(2);
     b.aggregate("containers", 0x47d62de23439e8e9L).target(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de23439e2e4L).optional(true).ordered(true).multiple(true).origin("5176375271271033065").done();

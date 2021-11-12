@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Container;
   private ConceptPresentation props_IManifest;
   private ConceptPresentation props_ManifestMetadata;
+  private ConceptPresentation props_ManifestSpecification;
   private ConceptPresentation props_Pod;
   private ConceptPresentation props_PodSpec;
   private ConceptPresentation props_Port;
@@ -42,6 +43,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ManifestMetadata = cpb.create();
         }
         return props_ManifestMetadata;
+      case LanguageConceptSwitch.ManifestSpecification:
+        if (props_ManifestSpecification == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_ManifestSpecification = cpb.create();
+        }
+        return props_ManifestSpecification;
       case LanguageConceptSwitch.Pod:
         if (props_Pod == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -12,16 +12,18 @@ public final class LanguageConceptSwitch {
   public static final int Container = 0;
   public static final int IManifest = 1;
   public static final int ManifestMetadata = 2;
-  public static final int Pod = 3;
-  public static final int PodSpec = 4;
-  public static final int Port = 5;
-  public static final int Specification = 6;
+  public static final int ManifestSpecification = 3;
+  public static final int Pod = 4;
+  public static final int PodSpec = 5;
+  public static final int Port = 6;
+  public static final int Specification = 7;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xdd310849d074035L, 0x939dcb69bd123423L);
     builder.put(0x47d62de23439e2e4L, Container);
     builder.put(0x47d62de234364c8aL, IManifest);
     builder.put(0x59e2bd7dbb117259L, ManifestMetadata);
+    builder.put(0xd4e0ced66d7c382L, ManifestSpecification);
     builder.put(0x59e2bd7dbb117263L, Pod);
     builder.put(0x59e2bd7dbb117258L, PodSpec);
     builder.put(0x47d62de23439e2f2L, Port);

@@ -160,20 +160,23 @@
       <node id="958717984447357545" at="23,25,24,95" concept="1" />
       <node id="1180114424021617413" at="24,95,25,18" concept="1" />
       <node id="958717984447572210" at="25,18,26,98" concept="1" />
-      <node id="958717984447755256" at="26,98,27,0" concept="6" />
-      <node id="958717984447262276" at="31,0,32,0" concept="7" trace="apiVersion$RKxP" />
-      <node id="958717984447262276" at="32,0,33,0" concept="7" trace="kind$RPVc" />
-      <node id="958717984447262276" at="36,0,37,0" concept="7" trace="templateMetadata$BXdE" />
-      <node id="958717984447262276" at="15,0,29,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="958717984447262276" at="16,54,27,0">
+      <node id="958717984447942070" at="26,98,27,18" concept="1" />
+      <node id="958717984447941232" at="27,18,28,22" concept="1" />
+      <node id="958717984447941471" at="28,22,29,18" concept="1" />
+      <node id="958717984447755256" at="29,18,30,0" concept="6" />
+      <node id="958717984447262276" at="34,0,35,0" concept="7" trace="apiVersion$RKxP" />
+      <node id="958717984447262276" at="35,0,36,0" concept="7" trace="kind$RPVc" />
+      <node id="958717984447262276" at="39,0,40,0" concept="7" trace="templateMetadata$BXdE" />
+      <node id="958717984447262276" at="15,0,32,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="958717984447262276" at="16,54,30,0">
         <var name="tgs" id="958717984447262276" />
       </scope>
-      <scope id="958717984447262276" at="15,0,29,0">
+      <scope id="958717984447262276" at="15,0,32,0">
         <var name="ctx" id="958717984447262276" />
       </scope>
-      <unit id="958717984447262276" at="35,0,38,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen$LINKS" />
-      <unit id="958717984447262276" at="30,0,34,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen$PROPS" />
-      <unit id="958717984447262276" at="14,0,39,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen" />
+      <unit id="958717984447262276" at="38,0,41,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen$LINKS" />
+      <unit id="958717984447262276" at="33,0,37,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen$PROPS" />
+      <unit id="958717984447262276" at="14,0,42,0" name="HelmCharts.textGen.HelmChartTemplate_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="958717984447262276" at="31,51,32,47" concept="5" />

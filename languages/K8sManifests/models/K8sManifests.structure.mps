@@ -65,6 +65,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4vmbu8Oeub$" resolve="Container" />
     </node>
+    <node concept="PrWs8" id="Pe3ePAPWwP" role="PzmwI">
+      <ref role="PrY4T" node="Pe3ePAPWoY" resolve="ManifestSpecification" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ByJnQV4n9p">
     <property role="EcuMT" value="6476947561819239001" />
@@ -153,7 +156,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="specification" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
+      <ref role="20lvS9" node="Pe3ePAPWoY" resolve="ManifestSpecification" />
     </node>
   </node>
   <node concept="1TIwiD" id="4vmbu8Oeub$">
@@ -193,6 +196,10 @@
       <property role="TrG5h" value="containerPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="Pe3ePAPWoY">
+    <property role="TrG5h" value="ManifestSpecification" />
+    <property role="EcuMT" value="958717984448693122" />
   </node>
 </model>
 

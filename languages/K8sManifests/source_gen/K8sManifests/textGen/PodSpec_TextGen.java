@@ -12,18 +12,25 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
-public class Specification_TextGen extends TextGenDescriptorBase {
+public class PodSpec_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.manifests$UVQc)).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode manifest) {
-        tgs.appendNode(manifest);
+    tgs.append("spec:");
+    tgs.newLine();
+    ctx.getBuffer().area().increaseIndent();
+    tgs.indent();
+    tgs.append("containers:");
+    tgs.newLine();
+    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.containers$$Dnp)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode container) {
+        tgs.appendNode(container);
       }
     });
+    ctx.getBuffer().area().decreaseIndent();
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink manifests$UVQc = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x47d62de234337383L, 0x47d62de234337384L, "manifests");
+    /*package*/ static final SContainmentLink containers$$Dnp = MetaAdapterFactory.getContainmentLink(0xdd310849d074035L, 0x939dcb69bd123423L, 0x59e2bd7dbb117258L, 0x47d62de23439e8e9L, "containers");
   }
 }

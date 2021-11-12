@@ -24,6 +24,9 @@ public class HelmChartTemplate_TextGen extends TextGenDescriptorBase {
     tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.kind$RPVc).toString());
     tgs.newLine();
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.templateMetadata$BXdE));
+    tgs.newLine();
+    tgs.append("...");
+    tgs.newLine();
 
   }
 

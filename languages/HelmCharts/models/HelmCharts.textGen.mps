@@ -43,7 +43,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
-      <concept id="1208623485264" name="jetbrains.mps.baseLanguage.structure.AbstractOperation" flags="nn" index="1B$H19" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -386,14 +385,6 @@
             </node>
           </node>
           <node concept="l8MVK" id="Pe3ePAN4QQ" role="lcghm" />
-        </node>
-        <node concept="lc7rE" id="Pe3ePAN4V_" role="3cqZAp">
-          <node concept="l9hG8" id="Pe3ePAN4Yf" role="lcghm">
-            <node concept="2OqwBi" id="Pe3ePAN58t" role="lb14g">
-              <node concept="117lpO" id="Pe3ePAN50y" role="2Oq$k0" />
-              <node concept="1B$H19" id="Pe3ePAN58y" role="2OqNvi" />
-            </node>
-          </node>
         </node>
         <node concept="lc7rE" id="Pe3ePAN4Ba" role="3cqZAp">
           <node concept="la8eA" id="Pe3ePAN4DK" role="lcghm">

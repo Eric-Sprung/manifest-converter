@@ -1,6 +1,6 @@
 ---
-apiVersion: placeholder
-kind: placehodler
+apiVersion: v1
+kind: Pod
 metadata:
   name: name1
   namespace: namespace1
@@ -20,8 +20,8 @@ spec:
       containerPort: 7
 ...
 ---
-apiVersion: placeholder
-kind: placehodler
+apiVersion: v2
+kind: Pod
 metadata:
   name: name2
   namespace: namespace2
