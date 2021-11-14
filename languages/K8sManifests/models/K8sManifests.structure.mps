@@ -209,7 +209,7 @@
     <property role="EcuMT" value="958717984449038871" />
     <property role="TrG5h" value="Service" />
     <property role="34LRSv" value="Service" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Pe3ePARgCo" role="PzmwI">
       <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="IManifest" />
     </node>
@@ -217,7 +217,7 @@
   <node concept="1TIwiD" id="Pe3ePASnCq">
     <property role="EcuMT" value="958717984449329690" />
     <property role="TrG5h" value="ServiceSpec" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Pe3ePASnCt" role="1TKVEl">
       <property role="IQ2nx" value="958717984449329693" />
       <property role="TrG5h" value="testproperty" />

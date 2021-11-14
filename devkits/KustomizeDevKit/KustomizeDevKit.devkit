@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="KustomizeDevKit" uuid="4611f002-bdc2-450c-8bef-85837d333706">
+  <exported-language name="f78af01f-47cf-499b-ac7b-dd5feb577906(Kustomize)" />
+  <exported-language name="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
+  <exported-solutions>
+    <exported-solution>192a5e62-b2a0-455f-aa1d-ffa34f1c3e72(GenerationPlans)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:03ec55a9-42b6-4eab-83f5-abee7099e6c1(GenerationPlans.Kustomize)" />
+</dev-kit>
+

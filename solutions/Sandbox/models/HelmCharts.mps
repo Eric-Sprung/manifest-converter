@@ -40,6 +40,12 @@
         <property role="34xEcN" value="namespace1" />
       </node>
     </node>
+    <node concept="2Al6B9" id="341oNy$Lbae" role="2Al6CP">
+      <node concept="34xEcK" id="341oNy$Lbaf" role="34xEcQ">
+        <property role="34xEcL" value="name2" />
+        <property role="34xEcN" value="namesapce2" />
+      </node>
+    </node>
     <node concept="2Al6CX" id="4AW8xIolqaP" role="2Al6CY">
       <property role="2Al5e2" value="test" />
       <property role="2Al5e7" value="v1" />
