@@ -6,14 +6,14 @@
   </languages>
   <imports />
   <registry>
-    <language id="f78af01f-47cf-499b-ac7b-dd5feb577906" name="Kustomize">
-      <concept id="3531212677769020777" name="Kustomize.structure.Test" flags="ng" index="2lLyph">
-        <property id="3531212677769020778" name="test" index="2lLypi" />
+    <language id="0b18cfcd-3e5b-435d-a24a-6a55dd41b84d" name="Kustomise">
+      <concept id="8374565000866029729" name="Kustomise.structure.Test" flags="ng" index="dcoVu">
+        <property id="8374565000866029730" name="test" index="dcoVt" />
       </concept>
     </language>
   </registry>
-  <node concept="2lLyph" id="341oNy$S5q1">
-    <property role="2lLypi" value="test" />
+  <node concept="dcoVu" id="7gSrBXT3JQc">
+    <property role="dcoVt" value="test" />
   </node>
 </model>
 

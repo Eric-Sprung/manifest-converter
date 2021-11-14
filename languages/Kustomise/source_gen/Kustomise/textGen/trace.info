@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="50,0,53,0" name="Kustomise.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,54,0" name="Kustomise.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e2d3d0c4-11ba-4c77-92e4-ac0dc57840b8(Kustomise.textGen)/8374565000866029750">
+    <file name="Test_TextGen.java">
+      <node id="8374565000866029750" at="14,54,15,55" concept="4" />
+      <node id="8374565000866030191" at="15,55,16,24" concept="1" />
+      <node id="8374565000866030259" at="16,24,17,86" concept="1" />
+      <node id="8374565000866029750" at="21,0,22,0" concept="6" trace="test$D1nL" />
+      <node id="8374565000866029750" at="13,0,19,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8374565000866029750" at="14,54,17,86">
+        <var name="tgs" id="8374565000866029750" />
+      </scope>
+      <scope id="8374565000866029750" at="13,0,19,0">
+        <var name="ctx" id="8374565000866029750" />
+      </scope>
+      <unit id="8374565000866029750" at="20,0,23,0" name="Kustomise.textGen.Test_TextGen$PROPS" />
+      <unit id="8374565000866029750" at="12,0,24,0" name="Kustomise.textGen.Test_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8374565000866029750" at="26,38,27,34" concept="5" />
+      <node id="8374565000866029750" at="35,55,36,46" concept="4" />
+      <node id="8374565000866029750" at="36,46,37,49" concept="4" />
+      <node id="8374565000866029750" at="37,49,38,84" concept="1" />
+      <node id="8374565000866029750" at="38,84,39,17" concept="0" />
+      <node id="8374565000866030050" at="43,54,44,26" concept="5" />
+      <node id="8374565000866029750" at="46,59,47,16" concept="5" />
+      <node id="8374565000866029750" at="43,0,46,0" concept="7" trace="getFileName_Test#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8374565000866029750" at="46,0,49,0" concept="7" trace="getFileExtension_Test#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8374565000866029750" at="34,58,40,7" concept="2" />
+      <scope id="8374565000866029750" at="26,38,27,34" />
+      <scope id="8374565000866029750" at="43,54,44,26" />
+      <scope id="8374565000866029750" at="46,59,47,16" />
+      <scope id="8374565000866029750" at="43,0,46,0">
+        <var name="node" id="8374565000866029750" />
+      </scope>
+      <scope id="8374565000866029750" at="46,0,49,0">
+        <var name="node" id="8374565000866029750" />
+      </scope>
+      <scope id="8374565000866029750" at="35,55,39,17">
+        <var name="ext" id="8374565000866029750" />
+        <var name="fname" id="8374565000866029750" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+
