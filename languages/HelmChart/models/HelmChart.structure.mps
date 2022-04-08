@@ -403,9 +403,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
     </node>
-    <node concept="PrWs8" id="54YK8OwpJDr" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
   </node>
 </model>
 

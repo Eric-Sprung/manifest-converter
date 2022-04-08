@@ -17,6 +17,7 @@
         <property id="5854328277987291264" name="key" index="1eMz0d" />
         <child id="5854328277987291274" name="value" index="1eMz07" />
       </concept>
+      <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff" />
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -27,36 +28,29 @@
       <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
       </concept>
-      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
-        <property id="5854328277992567566" name="value" index="1LuVe3" />
-      </concept>
-      <concept id="5854328277992337796" name="HelmChart.structure.ValuesReference" flags="ng" index="1LvN49">
-        <reference id="5854328277992337797" name="original" index="1LvN48" />
-      </concept>
+      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj" />
       <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
       <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6" />
     </language>
   </registry>
-  <node concept="3yWWWu" id="54YK8Owl$A5">
-    <node concept="3yWWW_" id="54YK8Owl$A6" role="1tGWEw">
-      <node concept="1NVWW6" id="54YK8Owl$A7" role="1NVWkb" />
-    </node>
-    <node concept="3yWWW$" id="54YK8OwtBL3" role="1NS65M">
-      <property role="3yWulV" value="default" />
-      <node concept="1LvN49" id="54YK8OwtBL5" role="1Luyvk">
-        <property role="1LuVe3" value="d" />
-        <ref role="1LvN48" node="54YK8Owmt6c" />
+  <node concept="2Al6B8" id="54YK8OwxLLw">
+    <node concept="1eMz3M" id="54YK8OwxLLE" role="1eMz04">
+      <property role="1eMz0d" value="name" />
+      <node concept="1eMz0e" id="54YK8OwxLLG" role="1eMz07">
+        <property role="1eMz08" value="test" />
       </node>
     </node>
   </node>
-  <node concept="2Al6B8" id="54YK8Owl$A9">
-    <node concept="1eMz3M" id="54YK8Owmt6c" role="1eMz04">
-      <property role="1eMz0d" value="name" />
-      <node concept="1eMz0e" id="54YK8Owmt6e" role="1eMz07">
-        <property role="1eMz08" value="dsa" />
-      </node>
+  <node concept="1ePYff" id="54YK8OwxLLI" />
+  <node concept="3yWWWu" id="54YK8OwxLLS">
+    <node concept="3yWWW_" id="54YK8OwxLLT" role="1tGWEw">
+      <node concept="1NVWW6" id="54YK8OwxLLU" role="1NVWkb" />
+    </node>
+    <node concept="3yWWW$" id="54YK8OwxLLV" role="1NS65M">
+      <property role="3yWulV" value="default" />
+      <node concept="1L2LFj" id="54YK8OwxLM5" role="1Luyvk" />
     </node>
   </node>
 </model>
