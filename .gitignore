@@ -1,3 +1,6 @@
 # Project exclude paths
 /languages/ManifestConverter/classes_gen/
 /languages/ManifestConverter/generator/classes_gen/
+classes_gen
+source_gen
+source_gen.caches

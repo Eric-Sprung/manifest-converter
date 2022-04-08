@@ -58,7 +58,7 @@
       <node concept="3clFbS" id="7gSrBXT2u2S" role="2VODD2">
         <node concept="3clFbF" id="7gSrBXT2u7y" role="3cqZAp">
           <node concept="Xl_RD" id="7gSrBXT2u7x" role="3clFbG">
-            <property role="Xl_RC" value="default.yaml" />
+            <property role="Xl_RC" value="kustomize.yaml" />
           </node>
         </node>
       </node>

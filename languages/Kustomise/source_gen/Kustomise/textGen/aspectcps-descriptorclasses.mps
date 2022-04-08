@@ -586,7 +586,7 @@
         <node concept="3clFbF" id="2h" role="3cqZAp">
           <uo k="s:originTrace" v="n:8374565000866030050" />
           <node concept="Xl_RD" id="2i" role="3clFbG">
-            <property role="Xl_RC" value="default.yaml" />
+            <property role="Xl_RC" value="kustomize.yaml" />
             <uo k="s:originTrace" v="n:8374565000866030049" />
           </node>
         </node>

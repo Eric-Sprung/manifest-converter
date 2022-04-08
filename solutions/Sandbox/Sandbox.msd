@@ -13,13 +13,10 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmCharts" version="0" />
-    <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:K8sManifests" version="0" />
     <language slang="l:0b18cfcd-3e5b-435d-a24a-6a55dd41b84d:Kustomise" version="0" />
     <language slang="l:f78af01f-47cf-499b-ac7b-dd5feb577906:Kustomize" version="0" />
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
+    <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:ManifestCollection" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
-    <language slang="l:b83431fe-5c8f-40bc-8a36-65e25f4dd253:jetbrains.mps.lang.textGen" version="1" />
-    <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="192a5e62-b2a0-455f-aa1d-ffa34f1c3e72(GenerationPlans)" version="0" />

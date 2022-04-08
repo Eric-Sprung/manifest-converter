@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-cslk8ad501zp9fg1xxchew8bcplqecw">
-  <files names="Container_TextGen.java:ManifestMetadata_TextGen.java:PodSpec_TextGen.java:Pod_TextGen.java:Port_TextGen.java:ServiceSpec_TextGen.java:Service_TextGen.java:Specification_TextGen.java:TextGenAspectDescriptor.java" />
-</product>
-

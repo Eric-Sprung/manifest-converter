@@ -41,7 +41,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     }
   }
   private static String getFileName_Test(SNode node) {
-    return "default.yaml";
+    return "kustomize.yaml";
   }
   private static String getFileExtension_Test(SNode node) {
     return null;
