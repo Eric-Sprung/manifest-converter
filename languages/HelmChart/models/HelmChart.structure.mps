@@ -306,20 +306,26 @@
     <property role="TrG5h" value="Chart" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="54YK8OvWpgV" role="1TKVEl">
-      <property role="IQ2nx" value="5854328277987071035" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="5JNGVQUxb3Z" role="1TKVEi">
+      <property role="IQ2ns" value="6625837104251580671" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="name" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
     </node>
-    <node concept="1TJgyi" id="54YK8OvUid3" role="1TKVEl">
-      <property role="IQ2nx" value="5854328277986517827" />
-      <property role="TrG5h" value="apiVersion" />
-      <ref role="AX2Wp" node="54YK8OvUid5" resolve="ChartApiVersion" />
+    <node concept="1TJgyj" id="5JNGVQUxb43" role="1TKVEi">
+      <property role="IQ2ns" value="6625837104251580675" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="apiVersion" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
     </node>
-    <node concept="1TJgyi" id="54YK8OvUid8" role="1TKVEl">
-      <property role="IQ2nx" value="5854328277986517832" />
-      <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="5JNGVQUxb4i" role="1TKVEi">
+      <property role="IQ2ns" value="6625837104251580690" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="version" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
     </node>
   </node>
   <node concept="1TIwiD" id="54YK8OvUid4">
@@ -410,6 +416,17 @@
       <property role="20kJfa" value="original" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5JNGVQUx6FJ">
+    <property role="EcuMT" value="6625837104251562735" />
+    <property role="TrG5h" value="ChartReference" />
+    <ref role="1TJDcQ" node="54YK8OwdtDu" resolve="Attribute" />
+    <node concept="1TJgyj" id="5JNGVQUx6FK" role="1TKVEi">
+      <property role="IQ2ns" value="6625837104251562736" />
+      <property role="20kJfa" value="orginal" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="54YK8OvUid2" resolve="Chart" />
     </node>
   </node>
 </model>
