@@ -104,8 +104,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -488,16 +495,11 @@
                 </node>
               </node>
               <node concept="l9hG8" id="11wAX3I5Zm2" role="lcghm">
-                <node concept="2OqwBi" id="54YK8OwhEiV" role="lb14g">
-                  <node concept="2OqwBi" id="11wAX3I5ZV2" role="2Oq$k0">
-                    <node concept="3TrEf2" id="54YK8OwhEdP" role="2OqNvi">
-                      <ref role="3Tt5mk" to="5l0q:54YK8Owhetp" resolve="name" />
-                    </node>
-                    <node concept="117lpO" id="Pe3ePANX2G" role="2Oq$k0" />
+                <node concept="2OqwBi" id="11wAX3I5ZV2" role="lb14g">
+                  <node concept="3TrEf2" id="54YK8OwhEdP" role="2OqNvi">
+                    <ref role="3Tt5mk" to="5l0q:54YK8Owhetp" resolve="name" />
                   </node>
-                  <node concept="3TrcHB" id="54YK8OwhEkP" role="2OqNvi">
-                    <ref role="3TsBF5" to="5l0q:54YK8Owhnce" resolve="value" />
-                  </node>
+                  <node concept="117lpO" id="Pe3ePANX2G" role="2Oq$k0" />
                 </node>
               </node>
               <node concept="l8MVK" id="11wAX3I7mCH" role="lcghm" />
@@ -830,6 +832,55 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="5JNGVQUmbT1">
+    <ref role="WuzLi" to="5l0q:54YK8OwdtDu" resolve="Attribute" />
+    <node concept="11bSqf" id="5JNGVQUmbT2" role="11c4hB">
+      <node concept="3clFbS" id="5JNGVQUmbT3" role="2VODD2">
+        <node concept="lc7rE" id="5JNGVQUmbTm" role="3cqZAp">
+          <node concept="l9hG8" id="5JNGVQUmbTE" role="lcghm">
+            <node concept="2OqwBi" id="5JNGVQUmc3E" role="lb14g">
+              <node concept="117lpO" id="5JNGVQUmbUw" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5JNGVQUmccF" role="2OqNvi">
+                <ref role="3TsBF5" to="5l0q:54YK8Owhnce" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="5JNGVQUmcfo">
+    <ref role="WuzLi" to="5l0q:54YK8Owgv64" resolve="ValueFieldReference" />
+    <node concept="11bSqf" id="5JNGVQUmcfp" role="11c4hB">
+      <node concept="3clFbS" id="5JNGVQUmcfq" role="2VODD2">
+        <node concept="lc7rE" id="5JNGVQUmcfH" role="3cqZAp">
+          <node concept="la8eA" id="5JNGVQUmcVk" role="lcghm">
+            <property role="lacIc" value="{{ .Values." />
+          </node>
+          <node concept="l9hG8" id="5JNGVQUmcgK" role="lcghm">
+            <node concept="2OqwBi" id="5JNGVQUmcIn" role="lb14g">
+              <node concept="2OqwBi" id="5JNGVQUmcoT" role="2Oq$k0">
+                <node concept="117lpO" id="5JNGVQUmch$" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5JNGVQUmczg" role="2OqNvi">
+                  <ref role="3Tt5mk" to="5l0q:54YK8Owgv65" resolve="original" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="5JNGVQUmcRU" role="2OqNvi">
+                <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
+              </node>
+            </node>
+          </node>
+          <node concept="1KehLL" id="5JNGVQUmcWR" role="lGtFl">
+            <property role="1K8rM7" value="Constant_yuehr3_c0" />
+            <property role="1Kfyot" value="Fg1jLUVyTf/left" />
+          </node>
+          <node concept="la8eA" id="5JNGVQUmd1K" role="lcghm">
+            <property role="lacIc" value=" }}" />
           </node>
         </node>
       </node>

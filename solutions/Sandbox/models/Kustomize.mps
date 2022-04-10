@@ -12,9 +12,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="dcoVu" id="7gSrBXT3JQc">
-    <property role="dcoVt" value="bztgdthj" />
-  </node>
   <node concept="dcoVu" id="7qkCFlrUfqd">
     <property role="dcoVt" value="dsa" />
   </node>

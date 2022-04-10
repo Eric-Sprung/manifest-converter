@@ -48,9 +48,6 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
-      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
-        <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
@@ -110,24 +107,6 @@
     <ref role="13h7C2" to="5l0q:5ByJnQV4n9p" resolve="ObjectMeta" />
     <node concept="13hLZK" id="5ByJnQV51si" role="13h7CW">
       <node concept="3clFbS" id="5ByJnQV51sj" role="2VODD2">
-        <node concept="3clFbF" id="5ByJnQV51Hz" role="3cqZAp">
-          <node concept="37vLTI" id="5ByJnQV53R9" role="3clFbG">
-            <node concept="Xl_RD" id="5ByJnQV544J" role="37vLTx">
-              <property role="Xl_RC" value="default" />
-            </node>
-            <node concept="2OqwBi" id="54YK8Owhn2J" role="37vLTJ">
-              <node concept="2OqwBi" id="5ByJnQV51QJ" role="2Oq$k0">
-                <node concept="13iPFW" id="5ByJnQV51Hy" role="2Oq$k0" />
-                <node concept="3TrEf2" id="54YK8OwhmUt" role="2OqNvi">
-                  <ref role="3Tt5mk" to="5l0q:54YK8Owhetp" resolve="name" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="54YK8OwhnnQ" role="2OqNvi">
-                <ref role="3TsBF5" to="5l0q:54YK8Owhnce" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="5ByJnQV545L" role="3cqZAp">
           <node concept="37vLTI" id="5ByJnQV54sH" role="3clFbG">
             <node concept="Xl_RD" id="5ByJnQV54A1" role="37vLTx">

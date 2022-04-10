@@ -5,6 +5,7 @@
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -64,6 +65,9 @@
       <property role="20kJfa" value="items" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
+    </node>
+    <node concept="PrWs8" id="5K_q0b5eIN2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="25R3W" id="4vmbu8OduJd">
@@ -340,16 +344,17 @@
     <property role="EcuMT" value="5854328277987291263" />
     <property role="TrG5h" value="ValueField" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="54YK8OvXf20" role="1TKVEl">
-      <property role="IQ2nx" value="5854328277987291264" />
-      <property role="TrG5h" value="key" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="54YK8OvXf2a" role="1TKVEi">
       <property role="IQ2ns" value="5854328277987291274" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="54YK8OvXf21" resolve="ValueBody" />
+    </node>
+    <node concept="1TJgyi" id="5K_q0b5hCbV" role="1TKVEl">
+      <property role="IQ2nx" value="6639827586736620283" />
+      <property role="TrG5h" value="key" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="PlHQZ" id="54YK8OvXf21">
@@ -392,10 +397,13 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="5K_q0b54NyM" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="54YK8Owgv64">
     <property role="EcuMT" value="5854328277992337796" />
-    <property role="TrG5h" value="ValuesReference" />
+    <property role="TrG5h" value="ValueFieldReference" />
     <ref role="1TJDcQ" node="54YK8OwdtDu" resolve="Attribute" />
     <node concept="1TJgyj" id="54YK8Owgv65" role="1TKVEi">
       <property role="IQ2ns" value="5854328277992337797" />
