@@ -42,58 +42,69 @@
       <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6" />
     </language>
   </registry>
-  <node concept="3yWWWu" id="3rUFljjXVc_">
-    <node concept="3yWWW_" id="3rUFljjXVcA" role="1tGWEw">
-      <node concept="1NVWW6" id="3rUFljjXVcB" role="1NVWkb" />
-    </node>
-    <node concept="3yWWW$" id="3rUFljjXVcC" role="1NS65M">
-      <property role="3yWulV" value="default" />
-      <node concept="1LvN49" id="3rUFljkpqra" role="1Luyvk">
-        <ref role="1LvN48" node="3rUFljkeEiK" />
-      </node>
-    </node>
-  </node>
-  <node concept="1ePYff" id="3rUFljk5RTX">
-    <node concept="1eMz3M" id="3rUFljk5RTY" role="3_28H4">
+  <node concept="1ePYff" id="3rUFljktwMU">
+    <node concept="1eMz3M" id="3rUFljktwMV" role="3_28H4">
       <property role="2poYFT" value="name" />
-      <node concept="1eMz0e" id="3rUFljkasgO" role="1eMz07">
-        <property role="1eMz08" value="name" />
+      <node concept="1eMz0e" id="3rUFljktwMW" role="1eMz07">
+        <property role="1eMz08" value="da" />
       </node>
     </node>
-    <node concept="1eMz3M" id="3rUFljk5RU0" role="3_28H4">
+    <node concept="1eMz3M" id="3rUFljktwMX" role="3_28H4">
       <property role="2poYFT" value="apiVersion" />
-      <node concept="1eMz0e" id="3rUFljk5RU1" role="1eMz07">
-        <property role="1eMz08" value="ads" />
+      <node concept="1eMz0e" id="3rUFljktwMY" role="1eMz07">
+        <property role="1eMz08" value="ad" />
       </node>
     </node>
-    <node concept="1eMz3M" id="3rUFljk5RU2" role="3_28H4">
+    <node concept="1eMz3M" id="3rUFljktwMZ" role="3_28H4">
       <property role="2poYFT" value="version" />
-      <node concept="1eMz0e" id="3rUFljk5RU3" role="1eMz07">
-        <property role="1eMz08" value="dsa" />
+      <node concept="1eMz0e" id="3rUFljktwN0" role="1eMz07">
+        <property role="1eMz08" value="das" />
       </node>
     </node>
   </node>
-  <node concept="2Al6B8" id="3rUFljkbcHK">
-    <node concept="1eMz3M" id="3rUFljkbcHL" role="1eMz04">
-      <property role="2poYFT" value="test" />
-      <node concept="1eMz0e" id="3rUFljkbcHP" role="1eMz07">
-        <property role="1eMz08" value="test" />
-      </node>
-    </node>
-    <node concept="1eMz3M" id="3rUFljkeEit" role="1eMz04">
+  <node concept="2Al6B8" id="3rUFljktwN1">
+    <node concept="1eMz3M" id="3rUFljktwN2" role="1eMz04">
       <property role="2poYFT" value="top" />
-      <node concept="1eMz0b" id="3rUFljkeEiz" role="1eMz07">
-        <node concept="1eMz3M" id="3rUFljkeEiA" role="1eMz0a">
+      <node concept="1eMz0b" id="3rUFljktwN6" role="1eMz07">
+        <node concept="1eMz3M" id="3rUFljktwN9" role="1eMz0a">
           <property role="2poYFT" value="middle" />
-          <node concept="1eMz0b" id="3rUFljkeEiH" role="1eMz07">
-            <node concept="1eMz3M" id="3rUFljkeEiK" role="1eMz0a">
+          <node concept="1eMz0b" id="3rUFljktwNd" role="1eMz07">
+            <node concept="1eMz3M" id="3rUFljktwNg" role="1eMz0a">
               <property role="2poYFT" value="last" />
-              <node concept="1eMz0e" id="3rUFljkeEiO" role="1eMz07">
+              <node concept="1eMz0e" id="3rUFljktwNk" role="1eMz07">
                 <property role="1eMz08" value="value" />
               </node>
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="1eMz3M" id="3rUFljktwNn" role="1eMz04">
+      <property role="2poYFT" value="test" />
+      <node concept="1eMz0b" id="3rUFljkuhp_" role="1eMz07">
+        <node concept="1eMz3M" id="3rUFljkuhpC" role="1eMz0a">
+          <property role="2poYFT" value="test2" />
+          <node concept="1eMz0e" id="3rUFljkuhpG" role="1eMz07">
+            <property role="1eMz08" value="test" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1eMz3M" id="3rUFljkv4E8" role="1eMz04">
+      <property role="2poYFT" value="basic" />
+      <node concept="1eMz0e" id="3rUFljkv4Em" role="1eMz07">
+        <property role="1eMz08" value="valueTest" />
+      </node>
+    </node>
+  </node>
+  <node concept="3yWWWu" id="3rUFljkuhpv">
+    <node concept="3yWWW_" id="3rUFljkuhpw" role="1tGWEw">
+      <node concept="1NVWW6" id="3rUFljkuhpx" role="1NVWkb" />
+    </node>
+    <node concept="3yWWW$" id="3rUFljkuhpy" role="1NS65M">
+      <property role="3yWulV" value="default" />
+      <node concept="1LvN49" id="2mD4VvSzfKr" role="1Luyvk">
+        <ref role="1LvN48" node="3rUFljkv4E8" />
       </node>
     </node>
   </node>
