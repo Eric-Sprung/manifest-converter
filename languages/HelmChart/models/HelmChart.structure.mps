@@ -366,20 +366,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="54YK8OvXf26">
-    <property role="EcuMT" value="5854328277987291270" />
-    <property role="TrG5h" value="ValueFieldBody" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="54YK8OvXf27" role="1TKVEi">
-      <property role="IQ2ns" value="5854328277987291271" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="value" />
-      <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
-    </node>
-    <node concept="PrWs8" id="54YK8Ow0ShG" role="PzmwI">
-      <ref role="PrY4T" node="54YK8OvXf21" resolve="ValueBody" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="54YK8OwdtDu">
     <property role="EcuMT" value="5854328277991545438" />
     <property role="TrG5h" value="Attribute" />
@@ -413,6 +399,20 @@
       <property role="20kJfa" value="original" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="54YK8OvXf26">
+    <property role="EcuMT" value="5854328277987291270" />
+    <property role="TrG5h" value="ValueFieldBody" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="54YK8OvXf27" role="1TKVEi">
+      <property role="IQ2ns" value="5854328277987291271" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
+    </node>
+    <node concept="PrWs8" id="54YK8Ow0ShG" role="PzmwI">
+      <ref role="PrY4T" node="54YK8OvXf21" resolve="ValueBody" />
     </node>
   </node>
 </model>

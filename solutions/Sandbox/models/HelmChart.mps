@@ -20,11 +20,15 @@
       <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
         <child id="3961669402070492688" name="items" index="3_28H4" />
       </concept>
+      <concept id="6625837104251562735" name="HelmChart.structure.ChartReference" flags="ng" index="3xtX_i">
+        <reference id="6625837104251562736" name="original" index="3xtX_d" />
+      </concept>
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
       <concept id="6476947561819239001" name="HelmChart.structure.ObjectMeta" flags="ng" index="3yWWW$">
         <property id="6476947561819363334" name="namespace" index="3yWulV" />
+        <child id="5854328277992531801" name="name" index="1Luyvk" />
       </concept>
       <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
@@ -41,21 +45,16 @@
     </node>
     <node concept="3yWWW$" id="3rUFljjXVcC" role="1NS65M">
       <property role="3yWulV" value="default" />
-    </node>
-  </node>
-  <node concept="2Al6B8" id="3rUFljk2VBt">
-    <node concept="1eMz3M" id="3rUFljk2VBu" role="1eMz04">
-      <property role="2poYFT" value="test" />
-      <node concept="1eMz0e" id="3rUFljk2VBy" role="1eMz07">
-        <property role="1eMz08" value="test2" />
+      <node concept="3xtX_i" id="3rUFljkcKPv" role="1Luyvk">
+        <ref role="3xtX_d" node="3rUFljk5RU0" />
       </node>
     </node>
   </node>
   <node concept="1ePYff" id="3rUFljk5RTX">
     <node concept="1eMz3M" id="3rUFljk5RTY" role="3_28H4">
       <property role="2poYFT" value="name" />
-      <node concept="1eMz0e" id="3rUFljk5RTZ" role="1eMz07">
-        <property role="1eMz08" value="dsa" />
+      <node concept="1eMz0e" id="3rUFljkasgO" role="1eMz07">
+        <property role="1eMz08" value="name" />
       </node>
     </node>
     <node concept="1eMz3M" id="3rUFljk5RU0" role="3_28H4">
@@ -68,6 +67,14 @@
       <property role="2poYFT" value="version" />
       <node concept="1eMz0e" id="3rUFljk5RU3" role="1eMz07">
         <property role="1eMz08" value="dsa" />
+      </node>
+    </node>
+  </node>
+  <node concept="2Al6B8" id="3rUFljkbcHK">
+    <node concept="1eMz3M" id="3rUFljkbcHL" role="1eMz04">
+      <property role="2poYFT" value="test" />
+      <node concept="1eMz0e" id="3rUFljkbcHP" role="1eMz07">
+        <property role="1eMz08" value="test" />
       </node>
     </node>
   </node>
