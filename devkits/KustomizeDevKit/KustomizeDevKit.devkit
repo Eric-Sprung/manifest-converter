@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dev-kit name="KustomizeDevKit" uuid="4611f002-bdc2-450c-8bef-85837d333706">
-  <exported-language name="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
-  <exported-language name="0b18cfcd-3e5b-435d-a24a-6a55dd41b84d(Kustomise)" />
-  <generation-plan model="r:03ec55a9-42b6-4eab-83f5-abee7099e6c1(GenerationPlans.Kustomize)" />
-</dev-kit>
-

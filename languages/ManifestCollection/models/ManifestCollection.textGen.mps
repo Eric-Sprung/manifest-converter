@@ -305,7 +305,7 @@
                             <node concept="l9hG8" id="54YK8OvCpvV" role="lcghm">
                               <property role="ld1Su" value="true" />
                               <node concept="37vLTw" id="54YK8OvCpyI" role="lb14g">
-                                <ref role="3cqZAo" node="54YK8OvCpiu" resolve="labe" />
+                                <ref role="3cqZAo" node="54YK8OvCpiu" resolve="label" />
                               </node>
                             </node>
                           </node>

@@ -39,7 +39,15 @@
       <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
-      <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6" />
+      <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6">
+        <property id="5176375271271031525" name="name" index="1NVWW7" />
+        <property id="5176375271271031530" name="image" index="1NVWW8" />
+        <child id="5176375271271031536" name="ports" index="1NVWWi" />
+      </concept>
+      <concept id="5176375271271031538" name="HelmChart.structure.ContainerPort" flags="ng" index="1NVWWg">
+        <property id="5176375271271206615" name="name" index="1NUEcP" />
+        <property id="5176375271271031539" name="containerPort" index="1NVWWh" />
+      </concept>
     </language>
   </registry>
   <node concept="1ePYff" id="3rUFljktwMU">
@@ -99,11 +107,18 @@
   </node>
   <node concept="3yWWWu" id="3rUFljkuhpv">
     <node concept="3yWWW_" id="3rUFljkuhpw" role="1tGWEw">
-      <node concept="1NVWW6" id="3rUFljkuhpx" role="1NVWkb" />
+      <node concept="1NVWW6" id="3rUFljkuhpx" role="1NVWkb">
+        <property role="1NVWW7" value="dsa" />
+        <property role="1NVWW8" value="dsa" />
+        <node concept="1NVWWg" id="2sx4LEUC7nI" role="1NVWWi">
+          <property role="1NUEcP" value="dsa" />
+          <property role="1NVWWh" value="11" />
+        </node>
+      </node>
     </node>
     <node concept="3yWWW$" id="3rUFljkuhpy" role="1NS65M">
       <property role="3yWulV" value="default" />
-      <node concept="1LvN49" id="2mD4VvSzfKr" role="1Luyvk">
+      <node concept="1LvN49" id="2sx4LEUC7nG" role="1Luyvk">
         <ref role="1LvN48" node="3rUFljkv4E8" />
       </node>
     </node>

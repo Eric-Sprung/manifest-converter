@@ -3,7 +3,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/HelmChart/HelmChart.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/Kustomise/Kustomise.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Kustomize/Kustomize.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ManifestCollection/ManifestCollection.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Sandbox/Sandbox.msd" folder="" />
