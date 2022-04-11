@@ -701,67 +701,11 @@
   </node>
   <node concept="24kQdi" id="54YK8OvUY1m">
     <ref role="1XX52x" to="5l0q:54YK8OvUid2" resolve="Chart" />
-    <node concept="3EZMnI" id="54YK8OvUY1v" role="2wV5jI">
-      <node concept="l2Vlx" id="54YK8OvUY1w" role="2iSdaV" />
-      <node concept="lj46D" id="54YK8OvUY1x" role="3F10Kt">
+    <node concept="3F2HdR" id="3rUFljjZTsL" role="2wV5jI">
+      <ref role="1NtTu8" to="5l0q:3rUFljjWyog" resolve="items" />
+      <node concept="l2Vlx" id="3rUFljjZTsM" role="2czzBx" />
+      <node concept="pj6Ft" id="3rUFljjZTsN" role="3F10Kt">
         <property role="VOm3f" value="true" />
-      </node>
-      <node concept="3F0ifn" id="54YK8OvUY1M" role="3EZMnx">
-        <property role="3F0ifm" value="name" />
-      </node>
-      <node concept="3F0ifn" id="54YK8OvUY1P" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="54YK8OvUY1U" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="1iCGBv" id="5JNGVQUxkun" role="3EZMnx">
-        <ref role="1NtTu8" to="5l0q:5JNGVQUxb3Z" resolve="name" />
-        <node concept="1sVBvm" id="5JNGVQUxkup" role="1sWHZn">
-          <node concept="3F0A7n" id="5JNGVQUxkuJ" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="5l0q:54YK8OvXf25" resolve="value" />
-          </node>
-        </node>
-        <node concept="ljvvj" id="5JNGVQUxkuM" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="54YK8OvUY1y" role="3EZMnx">
-        <property role="3F0ifm" value="apiVersion" />
-      </node>
-      <node concept="3F0ifn" id="54YK8OvUY1z" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="54YK8OvUY1$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="1iCGBv" id="5JNGVQUxksU" role="3EZMnx">
-        <ref role="1NtTu8" to="5l0q:5JNGVQUxb43" resolve="apiVersion" />
-        <node concept="1sVBvm" id="5JNGVQUxksW" role="1sWHZn">
-          <node concept="3F0A7n" id="5JNGVQUxktg" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="5l0q:54YK8OvXf25" resolve="value" />
-          </node>
-        </node>
-        <node concept="ljvvj" id="5JNGVQUxktP" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="54YK8OvUY1B" role="3EZMnx">
-        <property role="3F0ifm" value="version" />
-      </node>
-      <node concept="3F0ifn" id="5JNGVQUxkrD" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="1iCGBv" id="5JNGVQUxks6" role="3EZMnx">
-        <ref role="1NtTu8" to="5l0q:5JNGVQUxb4i" resolve="version" />
-        <node concept="1sVBvm" id="5JNGVQUxks8" role="1sWHZn">
-          <node concept="3F0A7n" id="5JNGVQUxksr" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="5l0q:54YK8OvXf25" resolve="value" />
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -964,6 +908,120 @@
           <node concept="3clFbF" id="5JNGVQUwrPi" role="3cqZAp">
             <node concept="Xl_RD" id="5JNGVQUwrPh" role="3clFbG">
               <property role="Xl_RC" value="values.yml (hard coded)" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3ICUPy" id="3rUFljk0_TZ">
+    <ref role="aqKnT" to="5l0q:5JNGVQUx6FJ" resolve="ChartReference" />
+    <node concept="1Qtc8_" id="3rUFljk0_U0" role="IW6Ez">
+      <node concept="3eGOoe" id="3rUFljk0_U1" role="1Qtc8$" />
+      <node concept="3PzhKR" id="3rUFljk0_U2" role="1Qtc8A">
+        <ref role="3PzhKQ" to="5l0q:5JNGVQUx6FK" resolve="original" />
+        <node concept="1hCUdq" id="3rUFljk0_U3" role="1t9nwV">
+          <node concept="3clFbS" id="3rUFljk0_U4" role="2VODD2">
+            <node concept="3cpWs6" id="3rUFljk0_U5" role="3cqZAp">
+              <node concept="3cpWs3" id="3rUFljk0_U6" role="3cqZAk">
+                <node concept="Xl_RD" id="3rUFljk0_U7" role="3uHU7w">
+                  <property role="Xl_RC" value=" }}" />
+                </node>
+                <node concept="3cpWs3" id="3rUFljk0_U8" role="3uHU7B">
+                  <node concept="Xl_RD" id="3rUFljk0_U9" role="3uHU7B">
+                    <property role="Xl_RC" value="{{ .Chart." />
+                  </node>
+                  <node concept="2OqwBi" id="3rUFljk0_Ua" role="3uHU7w">
+                    <node concept="3TrcHB" id="3rUFljk0_Ub" role="2OqNvi">
+                      <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
+                    </node>
+                    <node concept="1NM5Ph" id="3rUFljk0_Uc" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1hCUdq" id="3rUFljk0_Ud" role="w35GX">
+          <node concept="3clFbS" id="3rUFljk0_Ue" role="2VODD2">
+            <node concept="3cpWs6" id="3rUFljk0_Uf" role="3cqZAp">
+              <node concept="3cpWs3" id="3rUFljk0_Ug" role="3cqZAk">
+                <node concept="Xl_RD" id="3rUFljk0_Uh" role="3uHU7w">
+                  <property role="Xl_RC" value=" }}" />
+                </node>
+                <node concept="3cpWs3" id="3rUFljk0_Ui" role="3uHU7B">
+                  <node concept="Xl_RD" id="3rUFljk0_Uj" role="3uHU7B">
+                    <property role="Xl_RC" value="{{ .Chart." />
+                  </node>
+                  <node concept="2OqwBi" id="3rUFljk0_Uk" role="3uHU7w">
+                    <node concept="3TrcHB" id="3rUFljk0_Ul" role="2OqNvi">
+                      <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
+                    </node>
+                    <node concept="1NM5Ph" id="3rUFljk0_Um" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="22hDWj" id="3rUFljk0_Un" role="22hAXT" />
+  </node>
+  <node concept="22mcaB" id="3rUFljk0Ajl">
+    <ref role="aqKnT" to="5l0q:5JNGVQUx6FJ" resolve="ChartReference" />
+    <node concept="22hDWj" id="3rUFljk0Ajm" role="22hAXT" />
+    <node concept="3XHNnq" id="3rUFljk0Ajn" role="3ft7WO">
+      <ref role="3XGfJA" to="5l0q:5JNGVQUx6FK" resolve="original" />
+      <node concept="1WAQ3h" id="3rUFljk0Ajo" role="1WZ6D9">
+        <node concept="3clFbS" id="3rUFljk0Ajp" role="2VODD2">
+          <node concept="3cpWs6" id="3rUFljk0Ajq" role="3cqZAp">
+            <node concept="3cpWs3" id="3rUFljk0Ajr" role="3cqZAk">
+              <node concept="Xl_RD" id="3rUFljk0Ajs" role="3uHU7w">
+                <property role="Xl_RC" value=" }}" />
+              </node>
+              <node concept="3cpWs3" id="3rUFljk0Ajt" role="3uHU7B">
+                <node concept="Xl_RD" id="3rUFljk0Aju" role="3uHU7B">
+                  <property role="Xl_RC" value="{{ .Chart." />
+                </node>
+                <node concept="2OqwBi" id="3rUFljk0Ajv" role="3uHU7w">
+                  <node concept="3TrcHB" id="3rUFljk0Ajw" role="2OqNvi">
+                    <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
+                  </node>
+                  <node concept="1WAUZh" id="3rUFljk0Ajx" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1WAQ3h" id="3rUFljk0Ajy" role="3PHfNJ">
+        <node concept="3clFbS" id="3rUFljk0Ajz" role="2VODD2">
+          <node concept="3cpWs6" id="3rUFljk0Aj$" role="3cqZAp">
+            <node concept="3cpWs3" id="3rUFljk0Aj_" role="3cqZAk">
+              <node concept="Xl_RD" id="3rUFljk0AjA" role="3uHU7w">
+                <property role="Xl_RC" value=" }}" />
+              </node>
+              <node concept="3cpWs3" id="3rUFljk0AjB" role="3uHU7B">
+                <node concept="Xl_RD" id="3rUFljk0AjC" role="3uHU7B">
+                  <property role="Xl_RC" value="{{ .Chart." />
+                </node>
+                <node concept="2OqwBi" id="3rUFljk0AjD" role="3uHU7w">
+                  <node concept="3TrcHB" id="3rUFljk0AjE" role="2OqNvi">
+                    <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
+                  </node>
+                  <node concept="1WAUZh" id="3rUFljk0AjF" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1WAQ3h" id="3rUFljk0AjG" role="1WZ6hz">
+        <node concept="3clFbS" id="3rUFljk0AjH" role="2VODD2">
+          <node concept="3clFbF" id="3rUFljk0AjI" role="3cqZAp">
+            <node concept="Xl_RD" id="3rUFljk0AjJ" role="3clFbG">
+              <property role="Xl_RC" value="Chart.yml (hard coded)" />
             </node>
           </node>
         </node>

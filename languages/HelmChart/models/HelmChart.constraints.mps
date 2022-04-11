@@ -139,7 +139,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="13MTOL" id="5K_q0b5f42f" role="2OqNvi">
+                    <node concept="13MTOL" id="3rUFljjUsb$" role="2OqNvi">
                       <ref role="13MTZf" to="5l0q:54YK8OvXf29" resolve="items" />
                     </node>
                   </node>
@@ -153,13 +153,13 @@
                           </node>
                           <node concept="3cpWs3" id="5JNGVQUluLD" role="3uHU7B">
                             <node concept="Xl_RD" id="5JNGVQUltZ3" role="3uHU7B">
-                              <property role="Xl_RC" value="{{ .Values." />
+                              <property role="Xl_RC" value="{{ .Chart." />
                             </node>
-                            <node concept="2OqwBi" id="5JNGVQUlx2F" role="3uHU7w">
+                            <node concept="2OqwBi" id="3rUFljjVG0r" role="3uHU7w">
                               <node concept="37vLTw" id="5JNGVQUlwQk" role="2Oq$k0">
-                                <ref role="3cqZAo" node="5K_q0b5eYj6" resolve="valueField" />
+                                <ref role="3cqZAo" node="5K_q0b5eYj6" resolve="chartField" />
                               </node>
-                              <node concept="3TrcHB" id="5JNGVQUlxdU" role="2OqNvi">
+                              <node concept="3TrcHB" id="3rUFljjVGvx" role="2OqNvi">
                                 <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
                               </node>
                             </node>
@@ -170,7 +170,7 @@
                     <node concept="3Tm1VV" id="5K_q0b5eYa7" role="1B3o_S" />
                     <node concept="17QB3L" id="5K_q0b5eYcl" role="3clF45" />
                     <node concept="37vLTG" id="5K_q0b5eYj6" role="3clF46">
-                      <property role="TrG5h" value="valueField" />
+                      <property role="TrG5h" value="chartField" />
                       <node concept="3Tqbb2" id="5K_q0b5eYj5" role="1tU5fm">
                         <ref role="ehGHo" to="5l0q:54YK8OvXf1Z" resolve="ValueField" />
                       </node>
@@ -187,7 +187,7 @@
   <node concept="1M2fIO" id="5JNGVQUx6FN">
     <ref role="1M2myG" to="5l0q:5JNGVQUx6FJ" resolve="ChartReference" />
     <node concept="1N5Pfh" id="5JNGVQUx75I" role="1Mr941">
-      <ref role="1N5Vy1" to="5l0q:5JNGVQUx6FK" resolve="orginal" />
+      <ref role="1N5Vy1" to="5l0q:5JNGVQUx6FK" resolve="original" />
       <node concept="3dgokm" id="5JNGVQUx76u" role="1N6uqs">
         <node concept="3clFbS" id="5JNGVQUx76w" role="2VODD2">
           <node concept="3cpWs6" id="5JNGVQU_Rsl" role="3cqZAp">
@@ -199,15 +199,20 @@
                   <ref role="1Y3XeK" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
                   <ref role="37wK5l" to="o8zo:4IP40Bi3e_T" resolve="ListScope" />
                   <node concept="3Tm1VV" id="5JNGVQU_Rsp" role="1B3o_S" />
-                  <node concept="2OqwBi" id="5JNGVQU_Rsr" role="37wK5m">
-                    <node concept="2OqwBi" id="5JNGVQU_Rss" role="2Oq$k0">
-                      <node concept="2rP1CM" id="5JNGVQU_Rst" role="2Oq$k0" />
-                      <node concept="I4A8Y" id="5JNGVQU_Rsu" role="2OqNvi" />
-                    </node>
-                    <node concept="2RRcyG" id="5JNGVQU_SJ8" role="2OqNvi">
-                      <node concept="chp4Y" id="5JNGVQU_SP6" role="3MHsoP">
-                        <ref role="cht4Q" to="5l0q:54YK8OvUid2" resolve="Chart" />
+                  <node concept="2OqwBi" id="3rUFljjWRSF" role="37wK5m">
+                    <node concept="2OqwBi" id="5JNGVQU_Rsr" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5JNGVQU_Rss" role="2Oq$k0">
+                        <node concept="2rP1CM" id="5JNGVQU_Rst" role="2Oq$k0" />
+                        <node concept="I4A8Y" id="5JNGVQU_Rsu" role="2OqNvi" />
                       </node>
+                      <node concept="2RRcyG" id="5JNGVQU_SJ8" role="2OqNvi">
+                        <node concept="chp4Y" id="5JNGVQU_SP6" role="3MHsoP">
+                          <ref role="cht4Q" to="5l0q:54YK8OvUid2" resolve="Chart" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="13MTOL" id="3rUFljjWVws" role="2OqNvi">
+                      <ref role="13MTZf" to="5l0q:3rUFljjWyog" resolve="items" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="5JNGVQU_Rsy" role="jymVt">
@@ -226,8 +231,8 @@
                               <node concept="37vLTw" id="5JNGVQU_TFe" role="2Oq$k0">
                                 <ref role="3cqZAo" node="5JNGVQU_RsI" resolve="literal" />
                               </node>
-                              <node concept="3TrcHB" id="5JNGVQU_UdD" role="2OqNvi">
-                                <ref role="3TsBF5" to="5l0q:54YK8OvXf25" resolve="value" />
+                              <node concept="3TrcHB" id="3rUFljjX68w" role="2OqNvi">
+                                <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
                               </node>
                             </node>
                           </node>
@@ -237,9 +242,9 @@
                     <node concept="3Tm1VV" id="5JNGVQU_RsG" role="1B3o_S" />
                     <node concept="17QB3L" id="5JNGVQU_RsH" role="3clF45" />
                     <node concept="37vLTG" id="5JNGVQU_RsI" role="3clF46">
-                      <property role="TrG5h" value="literal" />
+                      <property role="TrG5h" value="valueField" />
                       <node concept="3Tqbb2" id="5JNGVQU_RsJ" role="1tU5fm">
-                        <ref role="ehGHo" to="5l0q:54YK8OvXf23" resolve="Literal" />
+                        <ref role="ehGHo" to="5l0q:54YK8OvXf1Z" resolve="ValueField" />
                       </node>
                     </node>
                   </node>

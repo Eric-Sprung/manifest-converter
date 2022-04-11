@@ -306,26 +306,12 @@
     <property role="TrG5h" value="Chart" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="5JNGVQUxb3Z" role="1TKVEi">
-      <property role="IQ2ns" value="6625837104251580671" />
+    <node concept="1TJgyj" id="3rUFljjWyog" role="1TKVEi">
+      <property role="IQ2ns" value="3961669402070492688" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="name" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
-    </node>
-    <node concept="1TJgyj" id="5JNGVQUxb43" role="1TKVEi">
-      <property role="IQ2ns" value="6625837104251580675" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="apiVersion" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
-    </node>
-    <node concept="1TJgyj" id="5JNGVQUxb4i" role="1TKVEi">
-      <property role="IQ2ns" value="6625837104251580690" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="version" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="54YK8OvXf23" resolve="Literal" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
     </node>
   </node>
   <node concept="1TIwiD" id="54YK8OvUid4">
@@ -424,9 +410,9 @@
     <ref role="1TJDcQ" node="54YK8OwdtDu" resolve="Attribute" />
     <node concept="1TJgyj" id="5JNGVQUx6FK" role="1TKVEi">
       <property role="IQ2ns" value="6625837104251562736" />
-      <property role="20kJfa" value="orginal" />
+      <property role="20kJfa" value="original" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="54YK8OvUid2" resolve="Chart" />
+      <ref role="20lvS9" node="54YK8OvXf1Z" resolve="ValueField" />
     </node>
   </node>
 </model>
