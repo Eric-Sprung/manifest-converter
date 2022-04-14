@@ -289,7 +289,7 @@
                             </node>
                             <node concept="2OqwBi" id="3rUFljjVG0r" role="3uHU7w">
                               <node concept="37vLTw" id="5JNGVQUlwQk" role="2Oq$k0">
-                                <ref role="3cqZAo" node="5K_q0b5eYj6" resolve="chartField" />
+                                <ref role="3cqZAo" node="5K_q0b5eYj6" resolve="valueField" />
                               </node>
                               <node concept="2qgKlT" id="9IoEoiHFVw" role="2OqNvi">
                                 <ref role="37wK5l" to="3bcv:3rUFljkpvdI" resolve="getFullKeyChain" />
@@ -309,7 +309,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="3rUFljk6DoV" role="37wK5m">
-                    <ref role="3cqZAo" node="3rUFljk7u_Q" resolve="definingValueFields" />
+                    <ref role="3cqZAo" node="3rUFljk7u_Q" resolve="allValueFields" />
                   </node>
                 </node>
               </node>

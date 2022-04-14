@@ -16,6 +16,7 @@
     <language slang="l:0b18cfcd-3e5b-435d-a24a-6a55dd41b84d:Kustomise" version="0" />
     <language slang="l:f78af01f-47cf-499b-ac7b-dd5feb577906:Kustomize" version="0" />
     <language slang="l:2c28a6ff-694e-4fd0-9f95-a934257771e9:Kustomize" version="0" />
+    <language slang="l:c3e5338a-926a-4063-8542-10e2e0be31ea:Kustomize" version="0" />
     <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:ManifestCollection" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>

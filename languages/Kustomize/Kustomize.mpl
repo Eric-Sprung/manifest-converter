@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Kustomize" uuid="2c28a6ff-694e-4fd0-9f95-a934257771e9" languageVersion="0" moduleVersion="0">
+<language namespace="Kustomize" uuid="c3e5338a-926a-4063-8542-10e2e0be31ea" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -51,7 +51,7 @@
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="f78af01f-47cf-499b-ac7b-dd5feb577906(Kustomize)" version="0" />
-    <module reference="2c28a6ff-694e-4fd0-9f95-a934257771e9(Kustomize)" version="0" />
+    <module reference="c3e5338a-926a-4063-8542-10e2e0be31ea(Kustomize)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="0dd31084-9d07-4035-939d-cb69bd123423(ManifestCollection)" version="1" />

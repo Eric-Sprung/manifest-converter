@@ -275,7 +275,7 @@
             </node>
             <node concept="2OqwBi" id="1PdbtWmj5Uj" role="37vLTJ">
               <node concept="37vLTw" id="1PdbtWmj5Uk" role="2Oq$k0">
-                <ref role="3cqZAo" node="1PdbtWmj5Ub" resolve="kind" />
+                <ref role="3cqZAo" node="1PdbtWmj5Ub" resolve="namespace" />
               </node>
               <node concept="3TrcHB" id="1PdbtWmj5Ul" role="2OqNvi">
                 <ref role="3TsBF5" to="5l0q:54YK8Owhnce" resolve="value" />
@@ -292,7 +292,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="1PdbtWmj5Ur" role="37vLTx">
-              <ref role="3cqZAo" node="1PdbtWmj5Ub" resolve="kind" />
+              <ref role="3cqZAo" node="1PdbtWmj5Ub" resolve="namespace" />
             </node>
           </node>
         </node>
@@ -375,7 +375,7 @@
             </node>
             <node concept="2OqwBi" id="3rUFljjY3ds" role="37vLTJ">
               <node concept="37vLTw" id="3rUFljjY3dt" role="2Oq$k0">
-                <ref role="3cqZAo" node="3rUFljjY3dk" resolve="name" />
+                <ref role="3cqZAo" node="3rUFljjY3dk" resolve="apiVersion" />
               </node>
               <node concept="3TrcHB" id="3rUFljjY3du" role="2OqNvi">
                 <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
@@ -425,7 +425,7 @@
             </node>
             <node concept="2OqwBi" id="3rUFljjY3gS" role="37vLTJ">
               <node concept="37vLTw" id="3rUFljjY3gT" role="2Oq$k0">
-                <ref role="3cqZAo" node="3rUFljjY3gK" resolve="name" />
+                <ref role="3cqZAo" node="3rUFljjY3gK" resolve="version" />
               </node>
               <node concept="3TrcHB" id="3rUFljjY3gU" role="2OqNvi">
                 <ref role="3TsBF5" to="5l0q:5K_q0b5hCbV" resolve="key" />
