@@ -20,6 +20,9 @@
         <property id="6639827586736620283" name="key" index="2poYFT" />
         <child id="5854328277987291274" name="value" index="1eMz07" />
       </concept>
+      <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
+        <child id="3961669402070492688" name="items" index="3_28H4" />
+      </concept>
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -32,6 +35,9 @@
       </concept>
       <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
+      </concept>
+      <concept id="5854328277992337796" name="HelmChart.structure.ValueFieldReference" flags="ng" index="1LvN49">
+        <reference id="5854328277992337797" name="original" index="1LvN48" />
       </concept>
       <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
         <child id="2111394236481039834" name="apiVersion" index="b3O05" />
@@ -51,6 +57,23 @@
         <node concept="1eMz3M" id="28$iz00NMNZ" role="1eMz0a">
           <property role="2poYFT" value="middle" />
           <node concept="1eMz0b" id="28$iz00NMO3" role="1eMz07">
+            <node concept="1eMz3M" id="28$iz00VF4l" role="1eMz0a">
+              <property role="2poYFT" value="notLast" />
+              <node concept="1eMz0b" id="28$iz00VF4t" role="1eMz07">
+                <node concept="1eMz3M" id="28$iz00VF4w" role="1eMz0a">
+                  <property role="2poYFT" value="final" />
+                  <node concept="1eMz0e" id="28$iz010tBr" role="1eMz07">
+                    <property role="1eMz08" value="sda" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1eMz3M" id="28$iz00T9X9" role="1eMz0a">
+              <property role="2poYFT" value="last1" />
+              <node concept="1eMz0e" id="28$iz00T9Xf" role="1eMz07">
+                <property role="1eMz08" value="dsa" />
+              </node>
+            </node>
             <node concept="1eMz3M" id="28$iz00NMO6" role="1eMz0a">
               <property role="2poYFT" value="last" />
               <node concept="1eMz0e" id="28$iz00NMOf" role="1eMz07">
@@ -85,17 +108,45 @@
     </node>
     <node concept="3yWWW_" id="28$iz00NMNR" role="1tGWEw">
       <node concept="1NVWW6" id="28$iz00NMNS" role="1NVWkb">
-        <node concept="1L2LFj" id="28$iz00NMNT" role="8J4Zs" />
-        <node concept="1L2LFj" id="28$iz00NMNU" role="8J4Zp" />
+        <node concept="1LvN49" id="28$iz00XiZo" role="8J4Zs">
+          <ref role="1LvN48" node="28$iz00VF4l" />
+        </node>
+        <node concept="1LvN49" id="28$iz00XiZr" role="8J4Zp">
+          <ref role="1LvN48" node="28$iz00MASe" />
+        </node>
       </node>
     </node>
     <node concept="3yWWW$" id="28$iz00NMNV" role="1NS65M">
       <node concept="1L2LFj" id="28$iz00NMNW" role="b1XYk">
         <property role="1LuVe3" value="default" />
       </node>
-      <node concept="1L2LFj" id="28$iz00NMNX" role="1Luyvk" />
+      <node concept="1LvN49" id="28$iz0145gB" role="1Luyvk">
+        <ref role="1LvN48" node="28$iz00T9X9" />
+      </node>
     </node>
-    <node concept="1L2LFj" id="28$iz00NMNY" role="b3O05" />
+    <node concept="1LvN49" id="28$iz016x5e" role="b3O05">
+      <ref role="1LvN48" node="28$iz00MASt" />
+    </node>
+  </node>
+  <node concept="1ePYff" id="28$iz015ksX">
+    <node concept="1eMz3M" id="28$iz015ksY" role="3_28H4">
+      <property role="2poYFT" value="name" />
+      <node concept="1eMz0e" id="28$iz015ksZ" role="1eMz07">
+        <property role="1eMz08" value="dsa" />
+      </node>
+    </node>
+    <node concept="1eMz3M" id="28$iz015kt0" role="3_28H4">
+      <property role="2poYFT" value="apiVersion" />
+      <node concept="1eMz0e" id="28$iz015kt1" role="1eMz07">
+        <property role="1eMz08" value="dsa" />
+      </node>
+    </node>
+    <node concept="1eMz3M" id="28$iz015kt2" role="3_28H4">
+      <property role="2poYFT" value="version" />
+      <node concept="1eMz0e" id="28$iz015kt3" role="1eMz07">
+        <property role="1eMz08" value="dsa" />
+      </node>
+    </node>
   </node>
 </model>
 

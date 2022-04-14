@@ -109,6 +109,10 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -684,6 +688,32 @@
                   <node concept="liA8E" id="3rUFljkoAhS" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="28$iz00NSeV" role="13h7CS">
+      <property role="TrG5h" value="getValueFieldChildren" />
+      <node concept="3Tm1VV" id="28$iz00NSeW" role="1B3o_S" />
+      <node concept="2I9FWS" id="28$iz00NSnA" role="3clF45">
+        <ref role="2I9WkF" to="5l0q:54YK8OvXf1Z" resolve="ValueField" />
+      </node>
+      <node concept="3clFbS" id="28$iz00NSeY" role="3clF47">
+        <node concept="3clFbF" id="28$iz00NSoq" role="3cqZAp">
+          <node concept="2OqwBi" id="28$iz00NTNW" role="3clFbG">
+            <node concept="2OqwBi" id="28$iz00NSxD" role="2Oq$k0">
+              <node concept="13iPFW" id="28$iz00NSop" role="2Oq$k0" />
+              <node concept="3TrEf2" id="28$iz00NTCl" role="2OqNvi">
+                <ref role="3Tt5mk" to="5l0q:54YK8OvXf2a" resolve="value" />
+              </node>
+            </node>
+            <node concept="2Rf3mk" id="28$iz00NUb_" role="2OqNvi">
+              <node concept="1xMEDy" id="28$iz00NUbB" role="1xVPHs">
+                <node concept="chp4Y" id="28$iz00NUqg" role="ri$Ld">
+                  <ref role="cht4Q" to="5l0q:54YK8OvXf1Z" resolve="ValueField" />
                 </node>
               </node>
             </node>
