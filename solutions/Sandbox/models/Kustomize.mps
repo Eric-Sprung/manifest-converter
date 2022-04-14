@@ -2,25 +2,47 @@
 <model ref="r:6827d766-cd7e-4163-af70-f0d1088eff8a(Kustomize)">
   <persistence version="9" />
   <languages>
-    <use id="c3e5338a-926a-4063-8542-10e2e0be31ea" name="Kustomize" version="-1" />
+    <use id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize" version="-1" />
   </languages>
   <imports />
   <registry>
-    <language id="c3e5338a-926a-4063-8542-10e2e0be31ea" name="Kustomize">
-      <concept id="970024109044030977" name="Kustomize.structure.Values" flags="ng" index="2Al6B8">
-        <child id="5854328277987291273" name="items" index="1eMz04" />
+    <language id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize">
+      <concept id="6476947561819239011" name="Kustomize.structure.Pod" flags="ng" index="3yWWWu">
+        <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
-      <concept id="5854328277987291270" name="Kustomize.structure.ValueFieldBody" flags="ng" index="1eMz0b" />
-      <concept id="5854328277987291263" name="Kustomize.structure.ValueField" flags="ng" index="1eMz3M">
-        <property id="6639827586736620283" name="key" index="2poYFT" />
-        <child id="5854328277987291274" name="value" index="1eMz07" />
+      <concept id="6476947561819239001" name="Kustomize.structure.ObjectMeta" flags="ng" index="3yWWW$">
+        <property id="6476947561819363334" name="namespace" index="3yWulV" />
+        <property id="6476947561819239002" name="name" index="3yWWWB" />
+      </concept>
+      <concept id="6476947561819239000" name="Kustomize.structure.PodSpec" flags="ng" index="3yWWW_">
+        <child id="5176375271271033065" name="containers" index="1NVWkb" />
+      </concept>
+      <concept id="5176375271270796426" name="Kustomize.structure.Manifest" flags="ng" index="1NS65C">
+        <property id="8113124794921876966" name="filename" index="1Vbe7y" />
+        <child id="5176375271270796432" name="metadata" index="1NS65M" />
+      </concept>
+      <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6" />
+      <concept id="8113124794919721950" name="Kustomize.structure.Base" flags="ng" index="1V3gvq">
+        <child id="8113124794919721955" name="resources" index="1V3gvB" />
+      </concept>
+      <concept id="8113124794919721957" name="Kustomize.structure.ManifestReference" flags="ng" index="1V3gvx">
+        <reference id="8113124794919721958" name="original" index="1V3gvy" />
       </concept>
     </language>
   </registry>
-  <node concept="2Al6B8" id="28$iz01adC4">
-    <node concept="1eMz3M" id="28$iz01adC5" role="1eMz04">
-      <property role="2poYFT" value="dsa" />
-      <node concept="1eMz0b" id="28$iz01adC9" role="1eMz07" />
+  <node concept="1V3gvq" id="72nB0gbBF2D">
+    <node concept="1V3gvx" id="72nB0gbNrxr" role="1V3gvB">
+      <ref role="1V3gvy" node="72nB0gbNrxt" />
+    </node>
+  </node>
+  <node concept="3yWWWu" id="72nB0gbNrxt">
+    <property role="1Vbe7y" value="base/" />
+    <node concept="3yWWW_" id="72nB0gbNrxu" role="1tGWEw">
+      <node concept="1NVWW6" id="72nB0gbNrxv" role="1NVWkb" />
+    </node>
+    <node concept="3yWWW$" id="72nB0gbNrxw" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
     </node>
   </node>
 </model>
