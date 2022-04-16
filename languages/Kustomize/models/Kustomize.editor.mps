@@ -564,6 +564,21 @@
   <node concept="24kQdi" id="72nB0gbBF2N">
     <ref role="1XX52x" to="rhuf:72nB0gbADJu" resolve="Kustomization" />
     <node concept="3EZMnI" id="72nB0gbBF2U" role="2wV5jI">
+      <node concept="3F0ifn" id="62x3TM00vJY" role="3EZMnx">
+        <property role="3F0ifm" value="namespace" />
+      </node>
+      <node concept="3F0ifn" id="62x3TM00vKu" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="62x3TM00vLk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="62x3TM00vL0" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:62x3TM00vJH" resolve="namespace" />
+        <node concept="ljvvj" id="62x3TM00vLi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="l2Vlx" id="72nB0gbBF2V" role="2iSdaV" />
       <node concept="3F0ifn" id="72nB0gbBF2X" role="3EZMnx">
         <property role="3F0ifm" value="resources" />

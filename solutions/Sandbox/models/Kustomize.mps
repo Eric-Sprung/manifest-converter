@@ -36,6 +36,7 @@
       </concept>
       <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6" />
       <concept id="8113124794919721950" name="Kustomize.structure.Kustomization" flags="ng" index="1V3gvq">
+        <property id="6962863663728425965" name="namespace" index="3wCfhL" />
         <child id="6962863663725586463" name="patches" index="vtUu3" />
         <child id="8113124794919721955" name="resources" index="1V3gvB" />
       </concept>
@@ -45,6 +46,7 @@
     </language>
   </registry>
   <node concept="1V3gvq" id="72nB0gbBF2D">
+    <property role="3wCfhL" value="default" />
     <node concept="vuYVD" id="62x3TLZXJym" role="vtUu3">
       <ref role="vuYVE" node="62x3TLZNyQA" />
     </node>
