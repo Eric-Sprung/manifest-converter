@@ -7,6 +7,10 @@
   <imports />
   <registry>
     <language id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize">
+      <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT" />
+      <concept id="6962863663725863285" name="Kustomize.structure.PatchReference" flags="ng" index="vuYVD">
+        <reference id="6962863663725863286" name="original" index="vuYVE" />
+      </concept>
       <concept id="6476947561819239011" name="Kustomize.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -18,11 +22,11 @@
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
       </concept>
       <concept id="5176375271270796426" name="Kustomize.structure.Manifest" flags="ng" index="1NS65C">
-        <property id="8113124794921876966" name="filename" index="1Vbe7y" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
       <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6" />
-      <concept id="8113124794919721950" name="Kustomize.structure.Base" flags="ng" index="1V3gvq">
+      <concept id="8113124794919721950" name="Kustomize.structure.Kustomization" flags="ng" index="1V3gvq">
+        <child id="6962863663725586463" name="patches" index="vtUu3" />
         <child id="8113124794919721955" name="resources" index="1V3gvB" />
       </concept>
       <concept id="8113124794919721957" name="Kustomize.structure.ManifestReference" flags="ng" index="1V3gvx">
@@ -31,16 +35,24 @@
     </language>
   </registry>
   <node concept="1V3gvq" id="72nB0gbBF2D">
-    <node concept="1V3gvx" id="72nB0gbNrxr" role="1V3gvB">
-      <ref role="1V3gvy" node="72nB0gbNrxt" />
+    <node concept="1V3gvx" id="62x3TLZSRyK" role="1V3gvB">
+      <ref role="1V3gvy" node="62x3TLZVDkP" />
+    </node>
+    <node concept="vuYVD" id="62x3TLZVDkT" role="vtUu3">
+      <ref role="vuYVE" node="62x3TLZNyQA" />
     </node>
   </node>
-  <node concept="3yWWWu" id="72nB0gbNrxt">
-    <property role="1Vbe7y" value="base/" />
-    <node concept="3yWWW_" id="72nB0gbNrxu" role="1tGWEw">
-      <node concept="1NVWW6" id="72nB0gbNrxv" role="1NVWkb" />
+  <node concept="vpjdT" id="62x3TLZNyQA">
+    <node concept="3yWWW$" id="62x3TLZNyQB" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
     </node>
-    <node concept="3yWWW$" id="72nB0gbNrxw" role="1NS65M">
+  </node>
+  <node concept="3yWWWu" id="62x3TLZVDkP">
+    <node concept="3yWWW_" id="62x3TLZVDkQ" role="1tGWEw">
+      <node concept="1NVWW6" id="62x3TLZVDkR" role="1NVWkb" />
+    </node>
+    <node concept="3yWWW$" id="62x3TLZVDkS" role="1NS65M">
       <property role="3yWWWB" value="default" />
       <property role="3yWulV" value="default" />
     </node>

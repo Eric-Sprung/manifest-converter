@@ -141,11 +141,6 @@
   <node concept="PlHQZ" id="4vmbu8Od$Ma">
     <property role="EcuMT" value="5176375271270796426" />
     <property role="TrG5h" value="Manifest" />
-    <node concept="1TJgyi" id="72nB0gbIRRA" role="1TKVEl">
-      <property role="IQ2nx" value="8113124794921876966" />
-      <property role="TrG5h" value="filename" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="4vmbu8Od$Mb" role="1TKVEl">
       <property role="IQ2nx" value="5176375271270796427" />
       <property role="TrG5h" value="apiVersion" />
@@ -292,7 +287,7 @@
   </node>
   <node concept="1TIwiD" id="72nB0gbADJu">
     <property role="EcuMT" value="8113124794919721950" />
-    <property role="TrG5h" value="Base" />
+    <property role="TrG5h" value="Kustomization" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="72nB0gbADJz" role="1TKVEi">
@@ -301,6 +296,13 @@
       <property role="20kJfa" value="resources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="72nB0gbADJ_" resolve="ManifestReference" />
+    </node>
+    <node concept="1TJgyj" id="62x3TLZPEwv" role="1TKVEi">
+      <property role="IQ2ns" value="6962863663725586463" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="patches" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="62x3TLZQI5P" resolve="PatchReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="72nB0gbADJ_">
@@ -312,6 +314,26 @@
       <property role="20kJfa" value="original" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4vmbu8Od$Ma" resolve="Manifest" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="62x3TLZL3N_">
+    <property role="EcuMT" value="6962863663724379365" />
+    <property role="TrG5h" value="Patch" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="62x3TLZL3NA" role="PzmwI">
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="62x3TLZQI5P">
+    <property role="EcuMT" value="6962863663725863285" />
+    <property role="TrG5h" value="PatchReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="62x3TLZQI5Q" role="1TKVEi">
+      <property role="IQ2ns" value="6962863663725863286" />
+      <property role="20kJfa" value="original" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="62x3TLZL3N_" resolve="Patch" />
     </node>
   </node>
 </model>
