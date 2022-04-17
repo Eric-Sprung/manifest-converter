@@ -10,6 +10,13 @@
       <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8">
         <child id="5854328277987291273" name="items" index="1eMz04" />
       </concept>
+      <concept id="5854328277982365845" name="HelmChart.structure.Selector" flags="ng" index="1e_Kwo">
+        <child id="5854328277982365850" name="labels" index="1e_Kwn" />
+      </concept>
+      <concept id="5854328277980838832" name="HelmChart.structure.Label" flags="ng" index="1eFbGX">
+        <property id="5854328277980838833" name="key" index="1eFbGW" />
+        <child id="2111394236479369490" name="value" index="bptNd" />
+      </concept>
       <concept id="5854328277987291270" name="HelmChart.structure.ValueFieldBody" flags="ng" index="1eMz0b">
         <child id="5854328277987291271" name="value" index="1eMz0a" />
       </concept>
@@ -23,11 +30,27 @@
       <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
         <child id="3961669402070492688" name="items" index="3_28H4" />
       </concept>
+      <concept id="9090303514009990983" name="HelmChart.structure.Deployment" flags="ng" index="1jaWA_">
+        <child id="9090303514009990987" name="spec" index="1jaWAD" />
+      </concept>
+      <concept id="9090303514009990986" name="HelmChart.structure.DeploymentSpec" flags="ng" index="1jaWAC">
+        <child id="9090303514011020746" name="spec" index="1jeTcC" />
+        <child id="9090303514022517162" name="replicas" index="1jUMt8" />
+      </concept>
+      <concept id="9090303514009990991" name="HelmChart.structure.PodTemplateSpec" flags="ng" index="1jaWAH">
+        <child id="9090303514009990994" name="selector" index="1jaWAK" />
+        <child id="9090303514009990992" name="spec" index="1jaWAM" />
+        <child id="9090303514016893056" name="metadata" index="1jknpy" />
+      </concept>
+      <concept id="6625837104251562735" name="HelmChart.structure.ChartReference" flags="ng" index="3xtX_i">
+        <reference id="6625837104251562736" name="original" index="3xtX_d" />
+      </concept>
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
       <concept id="6476947561819239001" name="HelmChart.structure.ObjectMeta" flags="ng" index="3yWWW$">
         <child id="2111394236481598027" name="namespace" index="b1XYk" />
+        <child id="5854328277981010499" name="labels" index="1eEXFe" />
         <child id="5854328277992531801" name="name" index="1Luyvk" />
       </concept>
       <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
@@ -147,6 +170,49 @@
         <property role="1eMz08" value="dsa" />
       </node>
     </node>
+  </node>
+  <node concept="1jaWA_" id="7SBfI8HKA58">
+    <node concept="1jaWAC" id="7SBfI8HKA59" role="1jaWAD">
+      <node concept="1jaWAH" id="7SBfI8HKA5a" role="1jeTcC">
+        <node concept="3yWWW_" id="7SBfI8HKA5b" role="1jaWAM">
+          <node concept="1NVWW6" id="7SBfI8HKA5c" role="1NVWkb">
+            <node concept="1L2LFj" id="7SBfI8HKA5d" role="8J4Zs" />
+            <node concept="1L2LFj" id="7SBfI8HKA5e" role="8J4Zp" />
+          </node>
+        </node>
+        <node concept="1e_Kwo" id="7SBfI8HKA5f" role="1jaWAK">
+          <node concept="1eFbGX" id="7SBfI8HN1Ay" role="1e_Kwn">
+            <property role="1eFbGW" value="dsa" />
+            <node concept="1L2LFj" id="7SBfI8HN1Az" role="bptNd" />
+          </node>
+        </node>
+        <node concept="3yWWW$" id="7SBfI8HKA5g" role="1jknpy">
+          <node concept="1eFbGX" id="7SBfI8HN1AA" role="1eEXFe">
+            <property role="1eFbGW" value="adsads" />
+            <node concept="1L2LFj" id="7SBfI8HN1AB" role="bptNd" />
+          </node>
+          <node concept="1L2LFj" id="7SBfI8HKA5h" role="b1XYk">
+            <property role="1LuVe3" value="default" />
+          </node>
+          <node concept="1L2LFj" id="7SBfI8HKA5i" role="1Luyvk" />
+        </node>
+      </node>
+      <node concept="3xtX_i" id="7SBfI8HOy1Q" role="1jUMt8">
+        <ref role="3xtX_d" node="28$iz015kt0" />
+      </node>
+    </node>
+    <node concept="3yWWW$" id="7SBfI8HKA5j" role="1NS65M">
+      <node concept="1eFbGX" id="7SBfI8HOy1M" role="1eEXFe">
+        <property role="1eFbGW" value="dsa" />
+        <node concept="1L2LFj" id="7SBfI8HOy1N" role="bptNd" />
+      </node>
+      <node concept="1L2LFj" id="7SBfI8HKA5k" role="b1XYk">
+        <property role="1LuVe3" value="default" />
+      </node>
+      <node concept="1L2LFj" id="7SBfI8HKA5l" role="1Luyvk" />
+    </node>
+    <node concept="1L2LFj" id="7SBfI8HKA5m" role="b3O08" />
+    <node concept="1L2LFj" id="7SBfI8HKA5n" role="b3O05" />
   </node>
 </model>
 

@@ -284,5 +284,64 @@
       <ref role="20lvS9" node="54YK8Ov$BIK" resolve="Label" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7SBfI8H3ft7">
+    <property role="EcuMT" value="9090303514009990983" />
+    <property role="TrG5h" value="Deployment" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="7SBfI8H3ft8" role="PzmwI">
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
+    </node>
+    <node concept="1TJgyj" id="7SBfI8H3ftb" role="1TKVEi">
+      <property role="IQ2ns" value="9090303514009990987" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="spec" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7SBfI8H3fta" resolve="DeploymentSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7SBfI8H3fta">
+    <property role="EcuMT" value="9090303514009990986" />
+    <property role="TrG5h" value="DeploymentSpec" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="7SBfI8H3ftd" role="1TKVEl">
+      <property role="IQ2nx" value="9090303514009990989" />
+      <property role="TrG5h" value="replicas" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="7SBfI8H7aRa" role="1TKVEi">
+      <property role="IQ2ns" value="9090303514011020746" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="spec" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7SBfI8H3ftf" resolve="PodTemplateSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7SBfI8H3ftf">
+    <property role="EcuMT" value="9090303514009990991" />
+    <property role="TrG5h" value="PodTemplateSpec" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="7SBfI8H3ftg" role="1TKVEi">
+      <property role="IQ2ns" value="9090303514009990992" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="spec" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5ByJnQV4n9o" resolve="PodSpec" />
+    </node>
+    <node concept="1TJgyj" id="7SBfI8H3fti" role="1TKVEi">
+      <property role="IQ2ns" value="9090303514009990994" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selector" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="54YK8OvEsyl" resolve="Selector" />
+    </node>
+    <node concept="1TJgyj" id="7SBfI8Ht$y0" role="1TKVEi">
+      <property role="IQ2ns" value="9090303514016893056" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="metadata" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5ByJnQV4n9p" resolve="ObjectMeta" />
+    </node>
+  </node>
 </model>
 
