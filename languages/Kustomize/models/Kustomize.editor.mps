@@ -563,23 +563,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="72nB0gbBF2N">
-    <ref role="1XX52x" to="rhuf:72nB0gbADJu" resolve="Kustomization" />
+    <ref role="1XX52x" to="rhuf:4os__xtSbnv" resolve="Base" />
     <node concept="3EZMnI" id="72nB0gbBF2U" role="2wV5jI">
-      <node concept="3F0ifn" id="62x3TM00vJY" role="3EZMnx">
-        <property role="3F0ifm" value="namespace" />
-      </node>
-      <node concept="3F0ifn" id="62x3TM00vKu" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="62x3TM00vLk" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="62x3TM00vL0" role="3EZMnx">
-        <ref role="1NtTu8" to="rhuf:62x3TM00vJH" resolve="namespace" />
-        <node concept="ljvvj" id="62x3TM00vLi" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="l2Vlx" id="72nB0gbBF2V" role="2iSdaV" />
       <node concept="3F0ifn" id="72nB0gbBF2X" role="3EZMnx">
         <property role="3F0ifm" value="resources" />
@@ -599,22 +584,6 @@
         <node concept="pj6Ft" id="72nB0gbEKaZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-      </node>
-      <node concept="3F0ifn" id="62x3TLZUg31" role="3EZMnx">
-        <property role="3F0ifm" value="patches" />
-      </node>
-      <node concept="3F0ifn" id="62x3TLZUg3l" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="62x3TLZUg4N" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="62x3TLZUg3F" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="62x3TLZUg3H" role="3EZMnx">
-        <ref role="1NtTu8" to="rhuf:62x3TLZPEwv" resolve="patches" />
-        <node concept="l2Vlx" id="62x3TLZUg3J" role="2czzBx" />
       </node>
     </node>
   </node>
@@ -1010,6 +979,46 @@
         <node concept="lj46D" id="7SBfI8H_N$n" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4os__xtTvVU">
+    <ref role="1XX52x" to="rhuf:4os__xtSbnw" resolve="Overlay" />
+    <node concept="3EZMnI" id="4os__xtTvVW" role="2wV5jI">
+      <node concept="l2Vlx" id="4os__xtTvW2" role="2iSdaV" />
+      <node concept="3F0ifn" id="4os__xtTvWa" role="3EZMnx">
+        <property role="3F0ifm" value="base" />
+      </node>
+      <node concept="3F0ifn" id="4os__xtTvWb" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="4os__xtTvWc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="4os__xtTvWd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4os__xtTvWe" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:4os__xtOp$l" resolve="base" />
+        <node concept="ljvvj" id="4os__xtTvWf" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4os__xtTvWg" role="3EZMnx">
+        <property role="3F0ifm" value="patches" />
+      </node>
+      <node concept="3F0ifn" id="4os__xtTvWh" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="4os__xtTvWi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="4os__xtTvWj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4os__xtTvWk" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:62x3TLZPEwv" resolve="patches" />
+        <node concept="l2Vlx" id="4os__xtTvWl" role="2czzBx" />
       </node>
     </node>
   </node>

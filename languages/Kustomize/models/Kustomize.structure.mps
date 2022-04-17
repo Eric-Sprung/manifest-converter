@@ -288,7 +288,6 @@
   <node concept="1TIwiD" id="72nB0gbADJu">
     <property role="EcuMT" value="8113124794919721950" />
     <property role="TrG5h" value="Kustomization" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="72nB0gbADJz" role="1TKVEi">
       <property role="IQ2ns" value="8113124794919721955" />
@@ -297,12 +296,23 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="72nB0gbADJ_" resolve="ManifestReference" />
     </node>
+    <node concept="1TJgyj" id="4os__xtOp$l" role="1TKVEi">
+      <property role="IQ2ns" value="5052078188278159637" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="base" />
+      <ref role="20lvS9" node="4os__xtOp$i" resolve="KustomizationReference" />
+    </node>
     <node concept="1TJgyj" id="62x3TLZPEwv" role="1TKVEi">
       <property role="IQ2ns" value="6962863663725586463" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="patches" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="62x3TLZQI5P" resolve="PatchReference" />
+    </node>
+    <node concept="1TJgyi" id="4os__xtQP4k" role="1TKVEl">
+      <property role="IQ2nx" value="5052078188278796564" />
+      <property role="TrG5h" value="path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="62x3TM00vJH" role="1TKVEl">
       <property role="IQ2nx" value="6962863663728425965" />
@@ -399,6 +409,29 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7SBfI8H3fta" resolve="DeploymentSpec" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4os__xtOp$i">
+    <property role="EcuMT" value="5052078188278159634" />
+    <property role="TrG5h" value="KustomizationReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="4os__xtOp$j" role="1TKVEi">
+      <property role="IQ2ns" value="5052078188278159635" />
+      <property role="20kJfa" value="original" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="72nB0gbADJu" resolve="Kustomization" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4os__xtSbnv">
+    <property role="EcuMT" value="5052078188279150047" />
+    <property role="TrG5h" value="Base" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="72nB0gbADJu" resolve="Kustomization" />
+  </node>
+  <node concept="1TIwiD" id="4os__xtSbnw">
+    <property role="EcuMT" value="5052078188279150048" />
+    <property role="TrG5h" value="Overlay" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="72nB0gbADJu" resolve="Kustomization" />
   </node>
 </model>
 
