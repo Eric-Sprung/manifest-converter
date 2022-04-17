@@ -75,7 +75,6 @@
       <concept id="1237306079178" name="jetbrains.mps.lang.textGen.structure.AppendOperation" flags="nn" index="lc7rE">
         <child id="1237306115446" name="part" index="lcghm" />
       </concept>
-      <concept id="4357423944233036906" name="jetbrains.mps.lang.textGen.structure.IndentPart" flags="ng" index="2BGw6n" />
       <concept id="1233670071145" name="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" flags="ig" index="WtQ9Q">
         <reference id="1233670257997" name="conceptDeclaration" index="WuzLi" />
         <child id="45307784116711884" name="filename" index="29tGrW" />
@@ -301,7 +300,6 @@
                       <node concept="1bVj0M" id="54YK8OvCpis" role="23t8la">
                         <node concept="3clFbS" id="54YK8OvCpit" role="1bW5cS">
                           <node concept="lc7rE" id="54YK8OvCprP" role="3cqZAp">
-                            <node concept="2BGw6n" id="54YK8OvDWsk" role="lcghm" />
                             <node concept="l9hG8" id="54YK8OvCpvV" role="lcghm">
                               <property role="ld1Su" value="true" />
                               <node concept="37vLTw" id="54YK8OvCpyI" role="lb14g">

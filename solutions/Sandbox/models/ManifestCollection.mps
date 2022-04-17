@@ -30,6 +30,9 @@
         <property id="284014218792087660" name="name" index="1tGzk1" />
         <property id="284014218792087662" name="port" index="1tGzk3" />
       </concept>
+      <concept id="6476947561819239011" name="ManifestCollection.structure.Pod" flags="ng" index="3yWWWu">
+        <child id="284014218792062925" name="spec" index="1tGWEw" />
+      </concept>
       <concept id="6476947561819239001" name="ManifestCollection.structure.ObjectMeta" flags="ng" index="3yWWW$">
         <property id="6476947561819363334" name="namespace" index="3yWulV" />
         <property id="6476947561819239002" name="name" index="3yWWWB" />
@@ -50,9 +53,14 @@
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
       <concept id="5176375271271031524" name="ManifestCollection.structure.Container" flags="ng" index="1NVWW6">
+        <property id="5176375271271031525" name="name" index="1NVWW7" />
+        <property id="5176375271271031530" name="image" index="1NVWW8" />
         <child id="5176375271271031536" name="ports" index="1NVWWi" />
       </concept>
-      <concept id="5176375271271031538" name="ManifestCollection.structure.ContainerPort" flags="ng" index="1NVWWg" />
+      <concept id="5176375271271031538" name="ManifestCollection.structure.ContainerPort" flags="ng" index="1NVWWg">
+        <property id="5176375271271206615" name="name" index="1NUEcP" />
+        <property id="5176375271271031539" name="containerPort" index="1NVWWh" />
+      </concept>
     </language>
   </registry>
   <node concept="1F$KrU" id="54YK8OvHCEG">
@@ -122,6 +130,26 @@
     <node concept="3yWWW$" id="7SBfI8Hq4KC" role="1NS65M">
       <property role="3yWWWB" value="default" />
       <property role="3yWulV" value="default" />
+    </node>
+  </node>
+  <node concept="3yWWWu" id="4os__xtMJ2i">
+    <node concept="3yWWW_" id="4os__xtMJ2j" role="1tGWEw">
+      <node concept="1NVWW6" id="4os__xtMJ2k" role="1NVWkb">
+        <property role="1NVWW7" value="nginx" />
+        <property role="1NVWW8" value="nginx" />
+        <node concept="1NVWWg" id="4os__xtMJ2o" role="1NVWWi">
+          <property role="1NUEcP" value="http" />
+          <property role="1NVWWh" value="80" />
+        </node>
+      </node>
+    </node>
+    <node concept="3yWWW$" id="4os__xtMJ2l" role="1NS65M">
+      <property role="3yWWWB" value="pod" />
+      <property role="3yWulV" value="default" />
+      <node concept="1eFbGX" id="4os__xtMJ2m" role="1eEXFe">
+        <property role="1eFbGW" value="app" />
+        <property role="1eFbGY" value="test" />
+      </node>
     </node>
   </node>
 </model>
