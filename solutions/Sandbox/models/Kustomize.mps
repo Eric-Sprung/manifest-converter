@@ -12,6 +12,17 @@
         <reference id="6962863663725863286" name="original" index="vuYVE" />
       </concept>
       <concept id="5854328277982365845" name="Kustomize.structure.Selector" flags="ng" index="1e_Kwo" />
+      <concept id="9090303514009990983" name="Kustomize.structure.Deployment" flags="ng" index="1jaWA_">
+        <child id="9090303514009990987" name="spec" index="1jaWAD" />
+      </concept>
+      <concept id="9090303514009990986" name="Kustomize.structure.DeploymentSpec" flags="ng" index="1jaWAC">
+        <child id="9090303514011020746" name="spec" index="1jeTcC" />
+      </concept>
+      <concept id="9090303514009990991" name="Kustomize.structure.PodTemplateSpec" flags="ng" index="1jaWAH">
+        <child id="9090303514009990994" name="selector" index="1jaWAK" />
+        <child id="9090303514009990992" name="spec" index="1jaWAM" />
+        <child id="9090303514016893056" name="metadata" index="1jknpy" />
+      </concept>
       <concept id="284014218792087659" name="Kustomize.structure.ServicePort" flags="ng" index="1tGzk6" />
       <concept id="6476947561819239011" name="Kustomize.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
@@ -34,7 +45,9 @@
         <property id="5176375271270796429" name="kind" index="1NS65J" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
-      <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6" />
+      <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6">
+        <property id="5176375271271031525" name="name" index="1NVWW7" />
+      </concept>
       <concept id="8113124794919721950" name="Kustomize.structure.Kustomization" flags="ng" index="1V3gvq">
         <property id="6962863663728425965" name="namespace" index="3wCfhL" />
         <child id="6962863663725586463" name="patches" index="vtUu3" />
@@ -91,6 +104,26 @@
       <node concept="1e_Kwo" id="62x3TLZZhyS" role="1e$Npo" />
     </node>
     <node concept="3yWWW$" id="62x3TLZZhyT" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
+    </node>
+  </node>
+  <node concept="1jaWA_" id="7SBfI8HX2iJ">
+    <node concept="1jaWAC" id="7SBfI8HX2iK" role="1jaWAD">
+      <node concept="1jaWAH" id="7SBfI8HX2iL" role="1jeTcC">
+        <node concept="3yWWW_" id="7SBfI8HX2iM" role="1jaWAM">
+          <node concept="1NVWW6" id="7SBfI8HX2iN" role="1NVWkb">
+            <property role="1NVWW7" value="dsa" />
+          </node>
+        </node>
+        <node concept="1e_Kwo" id="7SBfI8HX2iO" role="1jaWAK" />
+        <node concept="3yWWW$" id="7SBfI8HX2iP" role="1jknpy">
+          <property role="3yWWWB" value="default" />
+          <property role="3yWulV" value="default" />
+        </node>
+      </node>
+    </node>
+    <node concept="3yWWW$" id="7SBfI8HX2iQ" role="1NS65M">
       <property role="3yWWWB" value="default" />
       <property role="3yWulV" value="default" />
     </node>

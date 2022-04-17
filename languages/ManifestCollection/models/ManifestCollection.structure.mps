@@ -288,7 +288,7 @@
     <property role="EcuMT" value="9090303514009990983" />
     <property role="TrG5h" value="Deployment" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7SBfI8H3ft8" role="PzmwI">
       <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
     </node>
@@ -303,7 +303,7 @@
   <node concept="1TIwiD" id="7SBfI8H3fta">
     <property role="EcuMT" value="9090303514009990986" />
     <property role="TrG5h" value="DeploymentSpec" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7SBfI8H3ftd" role="1TKVEl">
       <property role="IQ2nx" value="9090303514009990989" />
       <property role="TrG5h" value="replicas" />
@@ -320,7 +320,7 @@
   <node concept="1TIwiD" id="7SBfI8H3ftf">
     <property role="EcuMT" value="9090303514009990991" />
     <property role="TrG5h" value="PodTemplateSpec" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7SBfI8H3ftg" role="1TKVEi">
       <property role="IQ2ns" value="9090303514009990992" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
