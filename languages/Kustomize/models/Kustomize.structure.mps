@@ -300,7 +300,7 @@
       <property role="IQ2ns" value="5052078188278159637" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="base" />
-      <ref role="20lvS9" node="4os__xtOp$i" resolve="KustomizationReference" />
+      <ref role="20lvS9" node="4os__xtOp$i" resolve="BaseReference" />
     </node>
     <node concept="1TJgyj" id="62x3TLZPEwv" role="1TKVEi">
       <property role="IQ2ns" value="6962863663725586463" />
@@ -417,13 +417,13 @@
   </node>
   <node concept="1TIwiD" id="4os__xtOp$i">
     <property role="EcuMT" value="5052078188278159634" />
-    <property role="TrG5h" value="KustomizationReference" />
+    <property role="TrG5h" value="BaseReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="4os__xtOp$j" role="1TKVEi">
       <property role="IQ2ns" value="5052078188278159635" />
       <property role="20kJfa" value="original" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="72nB0gbADJu" resolve="Kustomization" />
+      <ref role="20lvS9" node="4os__xtSbnv" resolve="Base" />
     </node>
   </node>
   <node concept="1TIwiD" id="4os__xtSbnv">

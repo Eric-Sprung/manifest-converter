@@ -36,7 +36,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
@@ -47,22 +46,12 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -74,7 +63,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -84,9 +72,6 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
-        <reference id="1138056546658" name="link" index="3TtcxE" />
-      </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
@@ -95,9 +80,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-    </language>
-    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="13h7C7" id="5ByJnQV51sh">
@@ -215,68 +197,6 @@
         </node>
       </node>
     </node>
-    <node concept="13i0hz" id="4os__xtQQ6i" role="13h7CS">
-      <property role="TrG5h" value="getPath" />
-      <node concept="3Tm1VV" id="4os__xtQQ6j" role="1B3o_S" />
-      <node concept="17QB3L" id="4os__xtQQ6P" role="3clF45" />
-      <node concept="3clFbS" id="4os__xtQQ6l" role="3clF47">
-        <node concept="3clFbJ" id="4os__xtQTGf" role="3cqZAp">
-          <node concept="2OqwBi" id="4os__xtQTPJ" role="3clFbw">
-            <node concept="13iPFW" id="4os__xtQTGz" role="2Oq$k0" />
-            <node concept="2qgKlT" id="4os__xtQTWY" role="2OqNvi">
-              <ref role="37wK5l" node="4os__xtQQi6" resolve="isBase" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="4os__xtQTGh" role="3clFbx">
-            <node concept="3cpWs6" id="4os__xtQU1B" role="3cqZAp">
-              <node concept="Xl_RD" id="4os__xtQU2A" role="3cqZAk">
-                <property role="Xl_RC" value="base/" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="4os__xtQUhv" role="3cqZAp">
-          <node concept="3clFbS" id="4os__xtQUhx" role="3clFbx">
-            <node concept="3cpWs6" id="4os__xtQU_G" role="3cqZAp">
-              <node concept="Xl_RD" id="4os__xtQUFd" role="3cqZAk">
-                <property role="Xl_RC" value="overlays/" />
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="4os__xtQUkM" role="3clFbw">
-            <node concept="2OqwBi" id="4os__xtQUsP" role="3fr31v">
-              <node concept="13iPFW" id="4os__xtQUkN" role="2Oq$k0" />
-              <node concept="2qgKlT" id="4os__xtQU$A" role="2OqNvi">
-                <ref role="37wK5l" node="4os__xtQQi6" resolve="isBase" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="4os__xtQUNw" role="3cqZAp">
-          <node concept="Xl_RD" id="4os__xtQUQ1" role="3cqZAk">
-            <property role="Xl_RC" value="Kustomization has to be " />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="13i0hz" id="4os__xtQQi6" role="13h7CS">
-      <property role="TrG5h" value="isBase" />
-      <node concept="3Tm1VV" id="4os__xtQQi7" role="1B3o_S" />
-      <node concept="10P_77" id="4os__xtQQkI" role="3clF45" />
-      <node concept="3clFbS" id="4os__xtQQi9" role="3clF47">
-        <node concept="3clFbF" id="4os__xtQTAR" role="3cqZAp">
-          <node concept="2OqwBi" id="4os__xtQSg6" role="3clFbG">
-            <node concept="2OqwBi" id="4os__xtQQuD" role="2Oq$k0">
-              <node concept="13iPFW" id="4os__xtQQlt" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="4os__xtQQ_S" role="2OqNvi">
-                <ref role="3TtcxE" to="rhuf:72nB0gbADJz" resolve="resources" />
-              </node>
-            </node>
-            <node concept="3GX2aA" id="4os__xtQT_N" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="13h7C7" id="7usyzNlCyqo">
     <ref role="13h7C2" to="rhuf:4vmbu8Od$Ma" resolve="Manifest" />
@@ -317,16 +237,8 @@
       <node concept="17QB3L" id="7usyzNlCxhe" role="3clF45" />
       <node concept="3clFbS" id="7usyzNlCxgw" role="3clF47">
         <node concept="3cpWs6" id="7usyzNlCxhD" role="3cqZAp">
-          <node concept="3cpWs3" id="7usyzNlCzIT" role="3cqZAk">
-            <node concept="Xl_RD" id="7usyzNlCzr4" role="3uHU7B">
-              <property role="Xl_RC" value="../../" />
-            </node>
-            <node concept="2OqwBi" id="7usyzNlC$16" role="3uHU7w">
-              <node concept="13iPFW" id="7usyzNlCzSH" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7usyzNlC$aC" role="2OqNvi">
-                <ref role="3TsBF5" to="rhuf:4os__xtQP4k" resolve="path" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="7usyzNlCzr4" role="3cqZAk">
+            <property role="Xl_RC" value="../../base" />
           </node>
         </node>
         <node concept="3clFbH" id="7usyzNlCzpH" role="3cqZAp" />
