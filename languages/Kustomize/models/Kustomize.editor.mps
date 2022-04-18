@@ -565,6 +565,36 @@
   <node concept="24kQdi" id="72nB0gbBF2N">
     <ref role="1XX52x" to="rhuf:4os__xtSbnv" resolve="Base" />
     <node concept="3EZMnI" id="72nB0gbBF2U" role="2wV5jI">
+      <node concept="3F0ifn" id="7usyzNltGcp" role="3EZMnx">
+        <property role="3F0ifm" value="apiVersion" />
+      </node>
+      <node concept="3F0ifn" id="7usyzNltGcS" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="7usyzNltGds" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7usyzNltGde" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:7usyzNltgm1" resolve="apiVersion" />
+        <node concept="ljvvj" id="7usyzNltGdq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7usyzNltGdG" role="3EZMnx">
+        <property role="3F0ifm" value="kind" />
+      </node>
+      <node concept="3F0ifn" id="7usyzNltGeq" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="7usyzNltGeZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7usyzNltGeF" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:7usyzNltgm5" resolve="kind" />
+        <node concept="ljvvj" id="7usyzNltGf1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="l2Vlx" id="72nB0gbBF2V" role="2iSdaV" />
       <node concept="3F0ifn" id="72nB0gbBF2X" role="3EZMnx">
         <property role="3F0ifm" value="resources" />
@@ -593,14 +623,11 @@
       <node concept="l2Vlx" id="72nB0gbEKbS" role="2iSdaV" />
       <node concept="3F0ifn" id="72nB0gbGNw3" role="3EZMnx">
         <property role="3F0ifm" value="-" />
-        <node concept="lj46D" id="72nB0gbGNwb" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="1iCGBv" id="72nB0gbCGU7" role="3EZMnx">
         <ref role="1NtTu8" to="rhuf:72nB0gbADJA" resolve="original" />
         <node concept="1sVBvm" id="72nB0gbCGU9" role="1sWHZn">
-          <node concept="3F0A7n" id="72nB0gbIS8W" role="2wV5jI">
+          <node concept="3F0A7n" id="7usyzNl$2Vz" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="rhuf:4vmbu8Od$Md" resolve="kind" />
           </node>
@@ -691,11 +718,8 @@
     <ref role="1XX52x" to="rhuf:62x3TLZQI5P" resolve="PatchReference" />
     <node concept="3EZMnI" id="62x3TLZVDkX" role="2wV5jI">
       <node concept="l2Vlx" id="62x3TLZVDkY" role="2iSdaV" />
-      <node concept="3F0ifn" id="62x3TLZVDli" role="3EZMnx">
+      <node concept="3F0ifn" id="7usyzNlB14G" role="3EZMnx">
         <property role="3F0ifm" value="-" />
-        <node concept="lj46D" id="62x3TLZVDlF" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="1iCGBv" id="62x3TLZVDl1" role="3EZMnx">
         <ref role="1NtTu8" to="rhuf:62x3TLZQI5Q" resolve="original" />
@@ -985,9 +1009,39 @@
   <node concept="24kQdi" id="4os__xtTvVU">
     <ref role="1XX52x" to="rhuf:4os__xtSbnw" resolve="Overlay" />
     <node concept="3EZMnI" id="4os__xtTvVW" role="2wV5jI">
+      <node concept="3F0ifn" id="7usyzNlvbc$" role="3EZMnx">
+        <property role="3F0ifm" value="apiVersion" />
+      </node>
+      <node concept="3F0ifn" id="7usyzNlvbc_" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="7usyzNlvbcA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7usyzNlvbcB" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:7usyzNltgm1" resolve="apiVersion" />
+        <node concept="ljvvj" id="7usyzNlvbcC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7usyzNlvbcD" role="3EZMnx">
+        <property role="3F0ifm" value="kind" />
+      </node>
+      <node concept="3F0ifn" id="7usyzNlvbcE" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="7usyzNlvbcF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7usyzNlvbcG" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:7usyzNltgm5" resolve="kind" />
+        <node concept="ljvvj" id="7usyzNlvbcH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="l2Vlx" id="4os__xtTvW2" role="2iSdaV" />
       <node concept="3F0ifn" id="4os__xtTvWa" role="3EZMnx">
-        <property role="3F0ifm" value="base" />
+        <property role="3F0ifm" value="bases" />
       </node>
       <node concept="3F0ifn" id="4os__xtTvWb" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -1016,9 +1070,27 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="4os__xtTvWk" role="3EZMnx">
+      <node concept="3F2HdR" id="7usyzNl$2UT" role="3EZMnx">
         <ref role="1NtTu8" to="rhuf:62x3TLZPEwv" resolve="patches" />
-        <node concept="l2Vlx" id="4os__xtTvWl" role="2czzBx" />
+        <node concept="l2Vlx" id="7usyzNl$2UV" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7usyzNlosFc">
+    <ref role="1XX52x" to="rhuf:4os__xtOp$i" resolve="KustomizationReference" />
+    <node concept="3EZMnI" id="7usyzNlosFe" role="2wV5jI">
+      <node concept="l2Vlx" id="7usyzNlosFf" role="2iSdaV" />
+      <node concept="3F0ifn" id="7usyzNl$2VH" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+      </node>
+      <node concept="1iCGBv" id="7usyzNlosFi" role="3EZMnx">
+        <ref role="1NtTu8" to="rhuf:4os__xtOp$j" resolve="original" />
+        <node concept="1sVBvm" id="7usyzNlosFl" role="1sWHZn">
+          <node concept="3F0A7n" id="7usyzNlosFI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="rhuf:4os__xtQP4k" resolve="path" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

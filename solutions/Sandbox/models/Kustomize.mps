@@ -13,6 +13,9 @@
       <concept id="5052078188279150047" name="Kustomize.structure.Base" flags="ng" index="rZ2e7" />
       <concept id="5052078188279150048" name="Kustomize.structure.Overlay" flags="ng" index="rZ2eS" />
       <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT" />
+      <concept id="6962863663725863285" name="Kustomize.structure.PatchReference" flags="ng" index="vuYVD">
+        <reference id="6962863663725863286" name="original" index="vuYVE" />
+      </concept>
       <concept id="5854328277982365845" name="Kustomize.structure.Selector" flags="ng" index="1e_Kwo" />
       <concept id="9090303514009990983" name="Kustomize.structure.Deployment" flags="ng" index="1jaWA_">
         <child id="9090303514009990987" name="spec" index="1jaWAD" />
@@ -51,8 +54,10 @@
         <property id="5176375271271031525" name="name" index="1NVWW7" />
       </concept>
       <concept id="8113124794919721950" name="Kustomize.structure.Kustomization" flags="ng" index="1V3gvq">
-        <property id="6962863663728425965" name="namespace" index="3wCfhL" />
+        <property id="8618915780764173701" name="kind" index="2yUoYT" />
+        <property id="8618915780764173697" name="apiVersion" index="2yUoYX" />
         <child id="5052078188278159637" name="base" index="rNgXd" />
+        <child id="6962863663725586463" name="patches" index="vtUu3" />
         <child id="8113124794919721955" name="resources" index="1V3gvB" />
       </concept>
       <concept id="8113124794919721957" name="Kustomize.structure.ManifestReference" flags="ng" index="1V3gvx">
@@ -106,18 +111,21 @@
       <property role="3yWulV" value="default" />
     </node>
   </node>
-  <node concept="rZ2e7" id="4os__xtTvVc">
-    <property role="3wCfhL" value="dsa" />
-    <node concept="1V3gvx" id="4os__xtWDEU" role="1V3gvB">
+  <node concept="rZ2e7" id="7usyzNlvbcj">
+    <property role="2yUoYX" value="kustomize.config.k8s.io/v1beta1" />
+    <property role="2yUoYT" value="Kustomization" />
+    <node concept="1V3gvx" id="7usyzNlvbck" role="1V3gvB">
       <ref role="1V3gvy" node="62x3TLZVDkP" />
     </node>
-    <node concept="1V3gvx" id="4os__xtY4rZ" role="1V3gvB">
-      <ref role="1V3gvy" node="62x3TLZZhyP" />
-    </node>
   </node>
-  <node concept="rZ2eS" id="4os__xu1Ue_">
-    <node concept="rNgXa" id="4os__xu1UeA" role="rNgXd">
-      <ref role="rNgXb" node="4os__xtTvVc" />
+  <node concept="rZ2eS" id="7usyzNly_s7">
+    <property role="2yUoYX" value="kustomize.config.k8s.io/v1beta1" />
+    <property role="2yUoYT" value="Kustomization" />
+    <node concept="rNgXa" id="7usyzNl$2Td" role="rNgXd">
+      <ref role="rNgXb" node="7usyzNlvbcj" />
+    </node>
+    <node concept="vuYVD" id="7usyzNlB14_" role="vtUu3">
+      <ref role="vuYVE" node="62x3TLZNyQA" />
     </node>
   </node>
 </model>

@@ -309,14 +309,19 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="62x3TLZQI5P" resolve="PatchReference" />
     </node>
+    <node concept="1TJgyi" id="7usyzNltgm1" role="1TKVEl">
+      <property role="IQ2nx" value="8618915780764173697" />
+      <property role="TrG5h" value="apiVersion" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7usyzNltgm5" role="1TKVEl">
+      <property role="IQ2nx" value="8618915780764173701" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="4os__xtQP4k" role="1TKVEl">
       <property role="IQ2nx" value="5052078188278796564" />
       <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="62x3TM00vJH" role="1TKVEl">
-      <property role="IQ2nx" value="6962863663728425965" />
-      <property role="TrG5h" value="namespace" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

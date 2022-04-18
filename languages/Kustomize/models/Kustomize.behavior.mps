@@ -177,7 +177,34 @@
   <node concept="13h7C7" id="4os__xtQPle">
     <ref role="13h7C2" to="rhuf:72nB0gbADJu" resolve="Kustomization" />
     <node concept="13hLZK" id="4os__xtQPlf" role="13h7CW">
-      <node concept="3clFbS" id="4os__xtQPlg" role="2VODD2" />
+      <node concept="3clFbS" id="4os__xtQPlg" role="2VODD2">
+        <node concept="3clFbF" id="7usyzNltgs4" role="3cqZAp">
+          <node concept="37vLTI" id="7usyzNltgZn" role="3clFbG">
+            <node concept="Xl_RD" id="7usyzNlth4e" role="37vLTx">
+              <property role="Xl_RC" value="kustomize.config.k8s.io/v1beta1" />
+            </node>
+            <node concept="2OqwBi" id="7usyzNltgzy" role="37vLTJ">
+              <node concept="13iPFW" id="7usyzNltgs2" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7usyzNltgEJ" role="2OqNvi">
+                <ref role="3TsBF5" to="rhuf:7usyzNltgm1" resolve="apiVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7usyzNlth8i" role="3cqZAp">
+          <node concept="37vLTI" id="7usyzNlthKb" role="3clFbG">
+            <node concept="Xl_RD" id="7usyzNlthXH" role="37vLTx">
+              <property role="Xl_RC" value="Kustomization" />
+            </node>
+            <node concept="2OqwBi" id="7usyzNlthg9" role="37vLTJ">
+              <node concept="13iPFW" id="7usyzNlth8g" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7usyzNlthoZ" role="2OqNvi">
+                <ref role="3TsBF5" to="rhuf:7usyzNltgm5" resolve="kind" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="4os__xtQQ6i" role="13h7CS">
       <property role="TrG5h" value="getPath" />
