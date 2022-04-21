@@ -96,7 +96,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4vmbu8Od$Mi" role="PzmwI">
-      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="KubernetesObject" />
     </node>
     <node concept="1TJgyj" id="fL1mPugGZd" role="1TKVEi">
       <property role="IQ2ns" value="284014218792062925" />
@@ -140,7 +140,7 @@
   </node>
   <node concept="PlHQZ" id="4vmbu8Od$Ma">
     <property role="EcuMT" value="5176375271270796426" />
-    <property role="TrG5h" value="Manifest" />
+    <property role="TrG5h" value="KubernetesObject" />
     <node concept="1TJgyi" id="4vmbu8Od$Mb" role="1TKVEl">
       <property role="IQ2nx" value="5176375271270796427" />
       <property role="TrG5h" value="apiVersion" />
@@ -204,7 +204,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Pe3ePARgCo" role="PzmwI">
-      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="KubernetesObject" />
     </node>
     <node concept="1TJgyj" id="fL1mPugN1E" role="1TKVEi">
       <property role="IQ2ns" value="284014218792087658" />
@@ -291,7 +291,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7SBfI8H3ft8" role="PzmwI">
-      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="Manifest" />
+      <ref role="PrY4T" node="4vmbu8Od$Ma" resolve="KubernetesObject" />
     </node>
     <node concept="1TJgyj" id="7SBfI8H3ftb" role="1TKVEi">
       <property role="IQ2ns" value="9090303514009990987" />
