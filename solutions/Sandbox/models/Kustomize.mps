@@ -7,16 +7,28 @@
   <imports />
   <registry>
     <language id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize">
+      <concept id="7731469325264242834" name="Kustomize.structure.ValueField" flags="ng" index="fvZFL">
+        <property id="7731469325264242835" name="key" index="fvZFK" />
+        <child id="7731469325265249036" name="value" index="f215J" />
+      </concept>
       <concept id="5052078188278159634" name="Kustomize.structure.BaseReference" flags="ng" index="rNgXa">
         <reference id="5052078188278159635" name="original" index="rNgXb" />
       </concept>
       <concept id="5052078188279150047" name="Kustomize.structure.Base" flags="ng" index="rZ2e7" />
       <concept id="5052078188279150048" name="Kustomize.structure.Overlay" flags="ng" index="rZ2eS" />
-      <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT" />
+      <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT">
+        <child id="7731469325264242837" name="items" index="fvZFQ" />
+      </concept>
       <concept id="6962863663725863285" name="Kustomize.structure.PatchReference" flags="ng" index="vuYVD">
         <reference id="6962863663725863286" name="original" index="vuYVE" />
       </concept>
       <concept id="5854328277982365845" name="Kustomize.structure.Selector" flags="ng" index="1e_Kwo" />
+      <concept id="5854328277987291270" name="Kustomize.structure.ValueFieldBody" flags="ng" index="1eMz0b">
+        <child id="5854328277987291271" name="value" index="1eMz0a" />
+      </concept>
+      <concept id="5854328277987291267" name="Kustomize.structure.Literal" flags="ng" index="1eMz0e">
+        <property id="5854328277987291269" name="value" index="1eMz08" />
+      </concept>
       <concept id="9090303514009990983" name="Kustomize.structure.Deployment" flags="ng" index="1jaWA_">
         <child id="9090303514009990987" name="spec" index="1jaWAD" />
       </concept>
@@ -104,6 +116,28 @@
     </node>
   </node>
   <node concept="vpjdT" id="7usyzNlXOnE">
+    <node concept="fvZFL" id="6HbGAd$iuB3" role="fvZFQ">
+      <property role="fvZFK" value="dsa" />
+      <node concept="1eMz0b" id="6HbGAd$iuBg" role="f215J">
+        <node concept="fvZFL" id="6HbGAd$kGwE" role="1eMz0a">
+          <property role="fvZFK" value="dsa" />
+          <node concept="1eMz0b" id="6HbGAd$kGwI" role="f215J">
+            <node concept="fvZFL" id="6HbGAd$kGwS" role="1eMz0a">
+              <property role="fvZFK" value="ddsa" />
+              <node concept="1eMz0e" id="6HbGAd$kGwY" role="f215J">
+                <property role="1eMz08" value="dsa" />
+              </node>
+            </node>
+            <node concept="fvZFL" id="6HbGAd$kGwL" role="1eMz0a">
+              <property role="fvZFK" value="dsa" />
+              <node concept="1eMz0e" id="6HbGAd$kGwP" role="f215J">
+                <property role="1eMz08" value="dsa" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yWWW$" id="7usyzNlXOnF" role="1NS65M">
       <property role="3yWWWB" value="patch1" />
       <property role="3yWulV" value="default" />

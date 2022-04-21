@@ -126,9 +126,7 @@
     </node>
   </node>
   <node concept="3yWWWu" id="28$iz00NMNP">
-    <node concept="1L2LFj" id="28$iz00NMNQ" role="b3O08">
-      <property role="1LuVe3" value="Pod" />
-    </node>
+    <node concept="1L2LFj" id="151fsN8V4Y7" role="b3O08" />
     <node concept="3yWWW_" id="28$iz00NMNR" role="1tGWEw">
       <node concept="1NVWW6" id="28$iz00NMNS" role="1NVWkb">
         <node concept="1LvN49" id="28$iz00XiZo" role="8J4Zs">
