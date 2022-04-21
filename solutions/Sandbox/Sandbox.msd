@@ -19,6 +19,7 @@
     <language slang="l:c3e5338a-926a-4063-8542-10e2e0be31ea:Kustomize" version="0" />
     <language slang="l:1455348a-124f-4d4d-845f-61c2f37907a5:Kustomize" version="0" />
     <language slang="l:0dd31084-9d07-4035-939d-cb69bd123423:ManifestCollection" version="0" />
+    <language slang="l:f987a4bd-5afd-4e35-924c-05d449fe3368:ProductionReadyArtefact" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
