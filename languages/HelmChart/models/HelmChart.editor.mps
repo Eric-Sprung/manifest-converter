@@ -862,7 +862,7 @@
         <node concept="3clFbS" id="5JNGVQUwrN1" role="2VODD2">
           <node concept="3clFbF" id="5JNGVQUwrPi" role="3cqZAp">
             <node concept="Xl_RD" id="5JNGVQUwrPh" role="3clFbG">
-              <property role="Xl_RC" value="values.yml (hard coded)" />
+              <property role="Xl_RC" value="values.yml" />
             </node>
           </node>
         </node>
@@ -976,7 +976,7 @@
         <node concept="3clFbS" id="3rUFljk0AjH" role="2VODD2">
           <node concept="3clFbF" id="3rUFljk0AjI" role="3cqZAp">
             <node concept="Xl_RD" id="3rUFljk0AjJ" role="3clFbG">
-              <property role="Xl_RC" value="Chart.yml (hard coded)" />
+              <property role="Xl_RC" value="Chart.yml" />
             </node>
           </node>
         </node>
