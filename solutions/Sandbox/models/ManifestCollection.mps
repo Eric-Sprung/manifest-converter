@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestCollection" version="0" />
+    <engage id="f987a4bd-5afd-4e35-924c-05d449fe3368" name="ProductionReadyArtefact" />
   </languages>
   <imports />
   <registry>
@@ -145,7 +146,7 @@
     </node>
     <node concept="3yWWW$" id="4os__xtMJ2l" role="1NS65M">
       <property role="3yWWWB" value="pod" />
-      <property role="3yWulV" value="default" />
+      <property role="3yWulV" value="ns" />
       <node concept="1eFbGX" id="4os__xtMJ2m" role="1eEXFe">
         <property role="1eFbGW" value="app" />
         <property role="1eFbGY" value="test" />

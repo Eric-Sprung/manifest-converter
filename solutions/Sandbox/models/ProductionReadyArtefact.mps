@@ -12,6 +12,9 @@
         <child id="7731469325265249036" name="value" index="f215J" />
       </concept>
       <concept id="5854328277982365845" name="ProductionReadyArtefact.structure.Selector" flags="ng" index="1e_Kwo" />
+      <concept id="5854328277980838832" name="ProductionReadyArtefact.structure.Label" flags="ng" index="1eFbGX">
+        <child id="1422298998528237564" name="value" index="1o5_Er" />
+      </concept>
       <concept id="5854328277987291270" name="ProductionReadyArtefact.structure.ValueFieldBody" flags="ng" index="1eMz0b">
         <child id="5854328277987291271" name="value" index="1eMz0a" />
       </concept>
@@ -30,7 +33,11 @@
         <child id="9090303514009990992" name="spec" index="1jaWAM" />
         <child id="9090303514016893056" name="metadata" index="1jknpy" />
       </concept>
+      <concept id="6476947561819239011" name="ProductionReadyArtefact.structure.Pod" flags="ng" index="3yWWWu">
+        <child id="284014218792062925" name="spec" index="1tGWEw" />
+      </concept>
       <concept id="6476947561819239001" name="ProductionReadyArtefact.structure.ObjectMeta" flags="ng" index="3yWWW$">
+        <child id="5854328277981010499" name="labels" index="1eEXFe" />
         <child id="7864168596563140404" name="name" index="1eNFMo" />
         <child id="7864168596563140407" name="namespace" index="1eNFMr" />
       </concept>
@@ -51,6 +58,11 @@
       <concept id="5176375271271031524" name="ProductionReadyArtefact.structure.Container" flags="ng" index="1NVWW6">
         <child id="1422298998528237537" name="image" index="1o5_E6" />
         <child id="1422298998528237534" name="name" index="1o5_ET" />
+        <child id="5176375271271031536" name="ports" index="1NVWWi" />
+      </concept>
+      <concept id="5176375271271031538" name="ProductionReadyArtefact.structure.ContainerPort" flags="ng" index="1NVWWg">
+        <child id="1422298998528237543" name="containerPort" index="1o5_E0" />
+        <child id="1422298998528237541" name="name" index="1o5_E2" />
       </concept>
       <concept id="1851954689615542381" name="ProductionReadyArtefact.structure.ValueStore" flags="ng" index="1Z54Un">
         <child id="1851954689616148815" name="items" index="1Z0KYP" />
@@ -121,6 +133,41 @@
         <property role="1LuVe3" value="default" />
       </node>
       <node concept="1L2LFj" id="1eX1mtbI2ir" role="1eNFMr">
+        <property role="1LuVe3" value="default" />
+      </node>
+    </node>
+  </node>
+  <node concept="3yWWWu" id="6esuNboZ77S">
+    <node concept="3yWWW_" id="6esuNboZ77T" role="1tGWEw">
+      <node concept="1NVWW6" id="6esuNboZ77U" role="1NVWkb">
+        <node concept="1NVWWg" id="6esuNbpdqap" role="1NVWWi">
+          <node concept="1L2LFj" id="6esuNbpdqaq" role="1o5_E2">
+            <property role="1LuVe3" value="asd" />
+          </node>
+          <node concept="1L2LFj" id="6esuNbpdqar" role="1o5_E0">
+            <property role="1LuVe3" value="122" />
+          </node>
+        </node>
+        <node concept="1L2LFj" id="6esuNboZ77V" role="1o5_ET" />
+        <node concept="1L2LFj" id="6esuNboZ77W" role="1o5_E6" />
+      </node>
+      <node concept="1NVWW6" id="6esuNbpdqag" role="1NVWkb">
+        <node concept="1L2LFj" id="6esuNbpdqah" role="1o5_ET">
+          <property role="1LuVe3" value="dsa" />
+        </node>
+        <node concept="1L2LFj" id="6esuNbpdqai" role="1o5_E6" />
+      </node>
+    </node>
+    <node concept="1L2LFj" id="6esuNboZ77X" role="1o5_E9" />
+    <node concept="1L2LFj" id="6esuNboZ77Y" role="1o5_Em" />
+    <node concept="3yWWW$" id="6esuNboZ77Z" role="1NS65M">
+      <node concept="1eFbGX" id="6esuNboZ782" role="1eEXFe">
+        <node concept="1L2LFj" id="6esuNboZ783" role="1o5_Er" />
+      </node>
+      <node concept="1L2LFj" id="6esuNboZ780" role="1eNFMo">
+        <property role="1LuVe3" value="default" />
+      </node>
+      <node concept="1L2LFj" id="6esuNboZ781" role="1eNFMr">
         <property role="1LuVe3" value="default" />
       </node>
     </node>
