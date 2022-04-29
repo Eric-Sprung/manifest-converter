@@ -489,7 +489,7 @@
       <node concept="3clFbS" id="fL1mPukDaB" role="2VODD2">
         <node concept="3cpWs6" id="fL1mPukDAL" role="3cqZAp">
           <node concept="Xl_RD" id="fL1mPukDB9" role="3cqZAk">
-            <property role="Xl_RC" value="ManifestCollection" />
+            <property role="Xl_RC" value="ManifestCollection/Pods" />
           </node>
         </node>
       </node>
@@ -595,7 +595,7 @@
       <node concept="3clFbS" id="fL1mPupCtI" role="2VODD2">
         <node concept="3cpWs6" id="fL1mPupCxm" role="3cqZAp">
           <node concept="Xl_RD" id="fL1mPupCy4" role="3cqZAk">
-            <property role="Xl_RC" value="ManifestCollection/Service" />
+            <property role="Xl_RC" value="ManifestCollection/Services" />
           </node>
         </node>
       </node>
@@ -815,6 +815,47 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7Zs$ciOb_lC">
+    <ref role="WuzLi" to="80f9:7SBfI8H3ft7" resolve="Deployment" />
+    <node concept="29tfMY" id="7Zs$ciOb_lD" role="29tGrW">
+      <node concept="3clFbS" id="7Zs$ciOb_lE" role="2VODD2">
+        <node concept="3clFbF" id="7Zs$ciOb_qk" role="3cqZAp">
+          <node concept="2OqwBi" id="7Zs$ciObA25" role="3clFbG">
+            <node concept="2OqwBi" id="7Zs$ciOb_AO" role="2Oq$k0">
+              <node concept="117lpO" id="7Zs$ciOb_qj" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7Zs$ciOb_Jt" role="2OqNvi">
+                <ref role="3Tt5mk" to="80f9:4vmbu8Od$Mg" resolve="metadata" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="7Zs$ciObAlL" role="2OqNvi">
+              <ref role="3TsBF5" to="80f9:5ByJnQV4n9q" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1KnnTt" id="7Zs$ciObAtl" role="1Knhgg">
+      <node concept="3clFbS" id="7Zs$ciObAtn" role="2VODD2">
+        <node concept="3clFbF" id="7Zs$ciObAun" role="3cqZAp">
+          <node concept="Xl_RD" id="7Zs$ciObAum" role="3clFbG">
+            <property role="Xl_RC" value="ManifestCollection/Deployments" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="9MYSb" id="7Zs$ciObAxP" role="33IsuW">
+      <node concept="3clFbS" id="7Zs$ciObAxQ" role="2VODD2">
+        <node concept="3clFbF" id="7Zs$ciObAyV" role="3cqZAp">
+          <node concept="Xl_RD" id="7Zs$ciObAyU" role="3clFbG">
+            <property role="Xl_RC" value=".yml" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="22Jior" id="7Zs$ciObAHu" role="19oSPi">
+      <property role="22Jioq" value="UTF-8" />
     </node>
   </node>
 </model>

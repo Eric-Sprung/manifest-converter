@@ -500,7 +500,7 @@
       <node concept="3clFbS" id="fL1mPukDaB" role="2VODD2">
         <node concept="3cpWs6" id="fL1mPukDAL" role="3cqZAp">
           <node concept="Xl_RD" id="fL1mPukDB9" role="3cqZAk">
-            <property role="Xl_RC" value="ManifestCollection" />
+            <property role="Xl_RC" value="ManifestCollection/Pods" />
           </node>
         </node>
       </node>
@@ -611,7 +611,7 @@
       <node concept="3clFbS" id="fL1mPupCtI" role="2VODD2">
         <node concept="3cpWs6" id="fL1mPupCxm" role="3cqZAp">
           <node concept="Xl_RD" id="fL1mPupCy4" role="3cqZAk">
-            <property role="Xl_RC" value="ManifestCollection/Service" />
+            <property role="Xl_RC" value="ManifestCollection/Services" />
           </node>
         </node>
       </node>

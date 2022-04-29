@@ -4,7 +4,6 @@
   <languages>
     <use id="f987a4bd-5afd-4e35-924c-05d449fe3368" name="ProductionReadyArtefact" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
-    <engage id="f987a4bd-5afd-4e35-924c-05d449fe3368" name="ProductionReadyArtefact" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -41,6 +40,7 @@
         <child id="1510949579266801461" name="sourceNodeQuery" index="5jGum" />
       </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <property id="1184950341882" name="topPriorityGroup" index="3$yP7D" />
         <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
@@ -167,7 +167,8 @@
     </language>
   </registry>
   <node concept="bUwia" id="2YpWdaHx629">
-    <property role="TrG5h" value="main" />
+    <property role="TrG5h" value="PIM" />
+    <property role="3$yP7D" value="true" />
     <node concept="3aamgX" id="2YpWdaHJ3YQ" role="3acgRq">
       <ref role="30HIoZ" to="80f9:5ByJnQV4n9p" resolve="ObjectMeta" />
       <node concept="j$656" id="2YpWdaHJ3YW" role="1lVwrX">
