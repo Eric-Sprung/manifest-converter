@@ -13,7 +13,6 @@
   <accessoryModels />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false" scope="generate-into">0dd31084-9d07-4035-939d-cb69bd123423(ManifestCollection)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <languageVersions>

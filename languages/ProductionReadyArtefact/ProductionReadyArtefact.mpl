@@ -104,7 +104,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
-    <dependency reexport="false" scope="generate-into">1455348a-124f-4d4d-845f-61c2f37907a5(Kustomize)</dependency>
+    <dependency reexport="false" scope="generate-into">3b6d7df4-fc22-41a3-8f3d-efa521cb700c(HelmChart)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

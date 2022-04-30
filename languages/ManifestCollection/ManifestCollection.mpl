@@ -63,7 +63,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false" scope="generate-into">f987a4bd-5afd-4e35-924c-05d449fe3368(ProductionReadyArtefact)</dependency>
-    <dependency reexport="false">cb03b461-f310-4a77-b62e-c5d6b263edf9(GenerationPlans)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

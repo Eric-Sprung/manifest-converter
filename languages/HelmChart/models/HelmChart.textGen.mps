@@ -8,7 +8,6 @@
   <imports>
     <import index="5l0q" ref="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmChart.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="80f9" ref="r:f90efb3c-595b-49f9-80ca-2be4c9074d04(ManifestCollection.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -754,7 +753,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="54YK8OvG_ta">
-    <ref role="WuzLi" to="80f9:54YK8OvEsyl" resolve="Selector" />
+    <ref role="WuzLi" to="5l0q:54YK8OvEsyl" resolve="Selector" />
     <node concept="11bSqf" id="54YK8OvG_tb" role="11c4hB">
       <node concept="3clFbS" id="54YK8OvG_tc" role="2VODD2">
         <node concept="3clFbJ" id="54YK8OvG_FW" role="3cqZAp">
@@ -772,7 +771,7 @@
                 <node concept="2OqwBi" id="54YK8OvG_G4" role="2Oq$k0">
                   <node concept="117lpO" id="54YK8OvG_G5" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="54YK8OvG_G6" role="2OqNvi">
-                    <ref role="3TtcxE" to="80f9:54YK8OvEsyq" resolve="labels" />
+                    <ref role="3TtcxE" to="5l0q:54YK8OvEsyq" resolve="labels" />
                   </node>
                 </node>
                 <node concept="2es0OD" id="54YK8OvG_G7" role="2OqNvi">
@@ -799,9 +798,9 @@
           </node>
           <node concept="2OqwBi" id="54YK8OvG_Gg" role="3clFbw">
             <node concept="2OqwBi" id="54YK8OvG_Gh" role="2Oq$k0">
-              <node concept="117lpO" id="54YK8OvG_Gi" role="2Oq$k0" />
+              <node concept="117lpO" id="3WjLDJ2MP2d" role="2Oq$k0" />
               <node concept="3Tsc0h" id="54YK8OvG_Gj" role="2OqNvi">
-                <ref role="3TtcxE" to="80f9:54YK8OvEsyq" resolve="labels" />
+                <ref role="3TtcxE" to="5l0q:54YK8OvEsyq" resolve="labels" />
               </node>
             </node>
             <node concept="3GX2aA" id="54YK8OvG_Gk" role="2OqNvi" />
