@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:39ea2d2b-e4f7-4a4e-96c1-95a56a9ffa88(ProductionReadyArtefact.generator01.templates@generator)">
+<model ref="r:e4336264-d9ed-476a-b3f7-80bbb348c895(ProductionReadyArtefact.ManifestCollection@generator)">
   <persistence version="9" />
   <languages>
-    <use id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart" version="0" />
+    <use id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestCollection" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -41,6 +41,22 @@
       </concept>
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
     </language>
+    <language id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestCollection">
+      <concept id="6476947561819239011" name="ManifestCollection.structure.Pod" flags="ng" index="3yWWWu">
+        <child id="284014218792062925" name="spec" index="1tGWEw" />
+      </concept>
+      <concept id="6476947561819239001" name="ManifestCollection.structure.ObjectMeta" flags="ng" index="3yWWW$">
+        <property id="6476947561819363334" name="namespace" index="3yWulV" />
+        <property id="6476947561819239002" name="name" index="3yWWWB" />
+      </concept>
+      <concept id="6476947561819239000" name="ManifestCollection.structure.PodSpec" flags="ng" index="3yWWW_">
+        <child id="5176375271271033065" name="containers" index="1NVWkb" />
+      </concept>
+      <concept id="5176375271270796426" name="ManifestCollection.structure.Manifest" flags="ng" index="1NS65C">
+        <child id="5176375271270796432" name="metadata" index="1NS65M" />
+      </concept>
+      <concept id="5176375271271031524" name="ManifestCollection.structure.Container" flags="ng" index="1NVWW6" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -53,70 +69,37 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart">
-      <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
-        <child id="284014218792062925" name="spec" index="1tGWEw" />
-      </concept>
-      <concept id="6476947561819239001" name="HelmChart.structure.ObjectMeta" flags="ng" index="3yWWW$">
-        <child id="2111394236481598027" name="namespace" index="b1XYk" />
-        <child id="5854328277992531801" name="name" index="1Luyvk" />
-      </concept>
-      <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
-        <child id="5176375271271033065" name="containers" index="1NVWkb" />
-      </concept>
-      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
-        <property id="5854328277992567566" name="value" index="1LuVe3" />
-      </concept>
-      <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
-        <child id="2111394236481039834" name="apiVersion" index="b3O05" />
-        <child id="2111394236481039831" name="kind" index="b3O08" />
-        <child id="5176375271270796432" name="metadata" index="1NS65M" />
-      </concept>
-      <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6">
-        <child id="2111394236475728390" name="image" index="8J4Zp" />
-        <child id="2111394236475728387" name="name" index="8J4Zs" />
-      </concept>
-    </language>
   </registry>
-  <node concept="bUwia" id="330kc9G_tlX">
-    <property role="TrG5h" value="main" />
-    <node concept="3lhOvk" id="330kc9GAidz" role="3lj3bC">
+  <node concept="bUwia" id="11wZX2KITG9">
+    <property role="TrG5h" value="ManifestCollection" />
+    <node concept="3lhOvk" id="11wZX2KITGa" role="3lj3bC">
       <ref role="30HIoZ" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
-      <ref role="3lhOvi" node="330kc9GAid_" />
+      <ref role="3lhOvi" node="11wZX2KITGc" />
     </node>
   </node>
-  <node concept="3yWWWu" id="330kc9GAid_">
-    <node concept="1L2LFj" id="330kc9GAidA" role="b3O08">
-      <property role="1LuVe3" value="Pod" />
-    </node>
-    <node concept="3yWWW_" id="330kc9GAidB" role="1tGWEw">
-      <node concept="1NVWW6" id="330kc9GAidC" role="1NVWkb">
-        <node concept="1L2LFj" id="330kc9GAidD" role="8J4Zs">
-          <node concept="17Uvod" id="330kc9GAidL" role="lGtFl">
-            <property role="2qtEX9" value="value" />
-            <property role="P4ACc" value="3b6d7df4-fc22-41a3-8f3d-efa521cb700c/5854328277991545438/5854328277992567566" />
-            <node concept="3zFVjK" id="330kc9GAidM" role="3zH0cK">
-              <node concept="3clFbS" id="330kc9GAidN" role="2VODD2">
-                <node concept="3clFbF" id="330kc9GAiiu" role="3cqZAp">
-                  <node concept="Xl_RD" id="330kc9GAiit" role="3clFbG">
-                    <property role="Xl_RC" value="generated by PIM with target Helm Chart" />
-                  </node>
+  <node concept="3yWWWu" id="11wZX2KITGc">
+    <node concept="3yWWW_" id="11wZX2KITGd" role="1tGWEw">
+      <node concept="1NVWW6" id="11wZX2KITGe" role="1NVWkb">
+        <node concept="17Uvod" id="11wZX2KITGi" role="lGtFl">
+          <property role="2qtEX9" value="name" />
+          <property role="P4ACc" value="0dd31084-9d07-4035-939d-cb69bd123423/5176375271271031524/5176375271271031525" />
+          <node concept="3zFVjK" id="11wZX2KITGj" role="3zH0cK">
+            <node concept="3clFbS" id="11wZX2KITGk" role="2VODD2">
+              <node concept="3clFbF" id="11wZX2KITpQ" role="3cqZAp">
+                <node concept="Xl_RD" id="11wZX2KITpP" role="3clFbG">
+                  <property role="Xl_RC" value="generated from PRA to generation target manifestcollection" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1L2LFj" id="330kc9GAidE" role="8J4Zp" />
       </node>
     </node>
-    <node concept="3yWWW$" id="330kc9GAidF" role="1NS65M">
-      <node concept="1L2LFj" id="330kc9GAidG" role="b1XYk">
-        <property role="1LuVe3" value="default" />
-      </node>
-      <node concept="1L2LFj" id="330kc9GAidH" role="1Luyvk" />
+    <node concept="3yWWW$" id="11wZX2KITGf" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
     </node>
-    <node concept="1L2LFj" id="330kc9GAidI" role="b3O05" />
-    <node concept="n94m4" id="330kc9GAidJ" role="lGtFl">
+    <node concept="n94m4" id="11wZX2KITGg" role="lGtFl">
       <ref role="n9lRv" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
     </node>
   </node>

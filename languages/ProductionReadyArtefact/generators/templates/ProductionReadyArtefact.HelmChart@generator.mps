@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:05cf420b-3d3c-4151-99da-d25700a6c5a0(ProductionReadyArtefact.generator00.templates@generator)">
+<model ref="r:328fc623-ae51-4c4b-bb72-0c6b90ce8ba7(ProductionReadyArtefact.HelmChart@generator)">
   <persistence version="9" />
   <languages>
-    <use id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize" version="0" />
+    <use id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -53,56 +53,70 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize">
-      <concept id="5854328277980838832" name="Kustomize.structure.Label" flags="ng" index="1eFbGX" />
-      <concept id="6476947561819239011" name="Kustomize.structure.Pod" flags="ng" index="3yWWWu">
+    <language id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart">
+      <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
-      <concept id="6476947561819239001" name="Kustomize.structure.ObjectMeta" flags="ng" index="3yWWW$">
-        <property id="6476947561819363334" name="namespace" index="3yWulV" />
-        <property id="6476947561819239002" name="name" index="3yWWWB" />
-        <child id="5854328277981010499" name="labels" index="1eEXFe" />
+      <concept id="6476947561819239001" name="HelmChart.structure.ObjectMeta" flags="ng" index="3yWWW$">
+        <child id="2111394236481598027" name="namespace" index="b1XYk" />
+        <child id="5854328277992531801" name="name" index="1Luyvk" />
       </concept>
-      <concept id="6476947561819239000" name="Kustomize.structure.PodSpec" flags="ng" index="3yWWW_">
+      <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
       </concept>
-      <concept id="5176375271270796426" name="Kustomize.structure.Manifest" flags="ng" index="1NS65C">
+      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
+        <property id="5854328277992567566" name="value" index="1LuVe3" />
+      </concept>
+      <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
+        <child id="2111394236481039834" name="apiVersion" index="b3O05" />
+        <child id="2111394236481039831" name="kind" index="b3O08" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
-      <concept id="5176375271271031524" name="Kustomize.structure.Container" flags="ng" index="1NVWW6" />
+      <concept id="5176375271271031524" name="HelmChart.structure.Container" flags="ng" index="1NVWW6">
+        <child id="2111394236475728390" name="image" index="8J4Zp" />
+        <child id="2111394236475728387" name="name" index="8J4Zs" />
+      </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="330kc9GveYZ">
-    <property role="TrG5h" value="Kustomize" />
-    <node concept="3lhOvk" id="330kc9GxCzZ" role="3lj3bC">
+  <node concept="bUwia" id="11wZX2KITkU">
+    <property role="TrG5h" value="HelmChart" />
+    <node concept="3lhOvk" id="11wZX2KITkV" role="3lj3bC">
       <ref role="30HIoZ" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
-      <ref role="3lhOvi" node="330kc9GxLdV" />
+      <ref role="3lhOvi" node="11wZX2KITkX" />
     </node>
   </node>
-  <node concept="3yWWWu" id="330kc9GxLdV">
-    <node concept="3yWWW_" id="330kc9GxLdW" role="1tGWEw">
-      <node concept="1NVWW6" id="330kc9GxLdX" role="1NVWkb">
-        <node concept="17Uvod" id="330kc9GxLe3" role="lGtFl">
-          <property role="2qtEX9" value="name" />
-          <property role="P4ACc" value="1455348a-124f-4d4d-845f-61c2f37907a5/5176375271271031524/5176375271271031525" />
-          <node concept="3zFVjK" id="330kc9GxLe4" role="3zH0cK">
-            <node concept="3clFbS" id="330kc9GxLe5" role="2VODD2">
-              <node concept="3clFbF" id="330kc9GxLiK" role="3cqZAp">
-                <node concept="Xl_RD" id="330kc9GxLiJ" role="3clFbG">
-                  <property role="Xl_RC" value="generated from PIM with target Kustomize" />
+  <node concept="3yWWWu" id="11wZX2KITkX">
+    <node concept="1L2LFj" id="11wZX2KITkY" role="b3O08">
+      <property role="1LuVe3" value="Pod" />
+    </node>
+    <node concept="3yWWW_" id="11wZX2KITkZ" role="1tGWEw">
+      <node concept="1NVWW6" id="11wZX2KITl0" role="1NVWkb">
+        <node concept="1L2LFj" id="11wZX2KITl1" role="8J4Zs">
+          <node concept="17Uvod" id="11wZX2KITl9" role="lGtFl">
+            <property role="2qtEX9" value="value" />
+            <property role="P4ACc" value="3b6d7df4-fc22-41a3-8f3d-efa521cb700c/5854328277991545438/5854328277992567566" />
+            <node concept="3zFVjK" id="11wZX2KITla" role="3zH0cK">
+              <node concept="3clFbS" id="11wZX2KITlb" role="2VODD2">
+                <node concept="3clFbF" id="11wZX2KITpQ" role="3cqZAp">
+                  <node concept="Xl_RD" id="11wZX2KITpP" role="3clFbG">
+                    <property role="Xl_RC" value="generated from PRA to generation target helm chart" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="1L2LFj" id="11wZX2KITl2" role="8J4Zp" />
       </node>
     </node>
-    <node concept="3yWWW$" id="330kc9GxLdY" role="1NS65M">
-      <property role="3yWWWB" value="default" />
-      <property role="3yWulV" value="default" />
-      <node concept="1eFbGX" id="330kc9GxLe1" role="1eEXFe" />
+    <node concept="3yWWW$" id="11wZX2KITl3" role="1NS65M">
+      <node concept="1L2LFj" id="11wZX2KITl4" role="b1XYk">
+        <property role="1LuVe3" value="default" />
+      </node>
+      <node concept="1L2LFj" id="11wZX2KITl5" role="1Luyvk" />
     </node>
-    <node concept="n94m4" id="330kc9GxLdZ" role="lGtFl">
+    <node concept="1L2LFj" id="11wZX2KITl6" role="b3O05" />
+    <node concept="n94m4" id="11wZX2KITl7" role="lGtFl">
       <ref role="n9lRv" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
     </node>
   </node>
