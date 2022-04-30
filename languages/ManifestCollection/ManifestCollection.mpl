@@ -3,6 +3,7 @@
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
+      <sourceRoot location="generator/templates/ManifestCollection.templates@generator.mps" />
     </modelRoot>
   </models>
   <facets>
