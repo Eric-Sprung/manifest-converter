@@ -151,12 +151,6 @@
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="4vmbu8OdbKp">
-    <ref role="1M2myG" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
-  </node>
-  <node concept="1M2fIO" id="Pe3ePASlCj">
-    <ref role="1M2myG" to="2mqg:Pe3ePARgCn" resolve="Service" />
-  </node>
   <node concept="1M2fIO" id="6Oz8UK$gkX$">
     <ref role="1M2myG" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
     <node concept="1N5Pfh" id="6Oz8UK$gkX_" role="1Mr941">
