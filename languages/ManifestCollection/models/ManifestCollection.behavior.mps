@@ -42,14 +42,8 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
-        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
-      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
-      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
-        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
   </registry>
@@ -92,19 +86,14 @@
       <node concept="3clFbS" id="4vmbu8OcC9F" role="2VODD2">
         <node concept="3clFbF" id="4vmbu8OcRRN" role="3cqZAp">
           <node concept="37vLTI" id="4vmbu8OcSyo" role="3clFbG">
-            <node concept="2OqwBi" id="4vmbu8OcSZV" role="37vLTx">
-              <node concept="1XH99k" id="4vmbu8OcSAb" role="2Oq$k0">
-                <ref role="1XH99l" to="80f9:4vmbu8OcPoz" resolve="ManifestKinds" />
-              </node>
-              <node concept="2ViDtV" id="4vmbu8OcTeS" role="2OqNvi">
-                <ref role="2ViDtZ" to="80f9:4vmbu8OcPo$" resolve="Pod" />
-              </node>
-            </node>
             <node concept="2OqwBi" id="4vmbu8OcRTX" role="37vLTJ">
               <node concept="13iPFW" id="4vmbu8OcRRM" role="2Oq$k0" />
               <node concept="3TrcHB" id="4vmbu8OcRVf" role="2OqNvi">
                 <ref role="3TsBF5" to="80f9:4vmbu8Od$Md" resolve="kind" />
               </node>
+            </node>
+            <node concept="Xl_RD" id="3TPZkJOheSA" role="37vLTx">
+              <property role="Xl_RC" value="Pod" />
             </node>
           </node>
         </node>
@@ -117,19 +106,14 @@
       <node concept="3clFbS" id="Pe3ePARgQd" role="2VODD2">
         <node concept="3clFbF" id="Pe3ePARgSP" role="3cqZAp">
           <node concept="37vLTI" id="Pe3ePARhzv" role="3clFbG">
-            <node concept="2OqwBi" id="Pe3ePARi3e" role="37vLTx">
-              <node concept="1XH99k" id="Pe3ePARh_w" role="2Oq$k0">
-                <ref role="1XH99l" to="80f9:4vmbu8OcPoz" resolve="ManifestKinds" />
-              </node>
-              <node concept="2ViDtV" id="Pe3ePARitn" role="2OqNvi">
-                <ref role="2ViDtZ" to="80f9:Pe3ePARigK" resolve="Service" />
-              </node>
-            </node>
             <node concept="2OqwBi" id="Pe3ePARh2L" role="37vLTJ">
               <node concept="13iPFW" id="Pe3ePARgSO" role="2Oq$k0" />
               <node concept="3TrcHB" id="Pe3ePARhbp" role="2OqNvi">
                 <ref role="3TsBF5" to="80f9:4vmbu8Od$Md" resolve="kind" />
               </node>
+            </node>
+            <node concept="Xl_RD" id="3TPZkJOhV37" role="37vLTx">
+              <property role="Xl_RC" value="Service" />
             </node>
           </node>
         </node>

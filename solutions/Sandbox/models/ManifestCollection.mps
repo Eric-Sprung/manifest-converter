@@ -8,13 +8,7 @@
   <imports />
   <registry>
     <language id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestCollection">
-      <concept id="5854328277982365845" name="ManifestCollection.structure.Selector" flags="ng" index="1e_Kwo">
-        <child id="5854328277982365850" name="labels" index="1e_Kwn" />
-      </concept>
-      <concept id="5854328277980838832" name="ManifestCollection.structure.Label" flags="ng" index="1eFbGX">
-        <property id="5854328277980838833" name="key" index="1eFbGW" />
-        <property id="5854328277980838835" name="value" index="1eFbGY" />
-      </concept>
+      <concept id="5854328277982365845" name="ManifestCollection.structure.Selector" flags="ng" index="1e_Kwo" />
       <concept id="9090303514009990983" name="ManifestCollection.structure.Deployment" flags="ng" index="1jaWA_">
         <child id="9090303514009990987" name="spec" index="1jaWAD" />
       </concept>
@@ -26,18 +20,13 @@
         <child id="9090303514009990992" name="spec" index="1jaWAM" />
         <child id="9090303514016893056" name="metadata" index="1jknpy" />
       </concept>
-      <concept id="284014218792087659" name="ManifestCollection.structure.ServicePort" flags="ng" index="1tGzk6">
-        <property id="284014218792087661" name="targetPort" index="1tGzk0" />
-        <property id="284014218792087660" name="name" index="1tGzk1" />
-        <property id="284014218792087662" name="port" index="1tGzk3" />
-      </concept>
+      <concept id="284014218792087659" name="ManifestCollection.structure.ServicePort" flags="ng" index="1tGzk6" />
       <concept id="6476947561819239011" name="ManifestCollection.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
       <concept id="6476947561819239001" name="ManifestCollection.structure.ObjectMeta" flags="ng" index="3yWWW$">
         <property id="6476947561819363334" name="namespace" index="3yWulV" />
         <property id="6476947561819239002" name="name" index="3yWWWB" />
-        <child id="5854328277981010499" name="labels" index="1eEXFe" />
       </concept>
       <concept id="6476947561819239000" name="ManifestCollection.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
@@ -50,107 +39,52 @@
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
       <concept id="5176375271270796426" name="ManifestCollection.structure.Manifest" flags="ng" index="1NS65C">
+        <property id="5176375271270796427" name="apiVersion" index="1NS65D" />
         <property id="5176375271270796429" name="kind" index="1NS65J" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
-      <concept id="5176375271271031524" name="ManifestCollection.structure.Container" flags="ng" index="1NVWW6">
-        <property id="5176375271271031525" name="name" index="1NVWW7" />
-        <property id="5176375271271031530" name="image" index="1NVWW8" />
-        <child id="5176375271271031536" name="ports" index="1NVWWi" />
-      </concept>
-      <concept id="5176375271271031538" name="ManifestCollection.structure.ContainerPort" flags="ng" index="1NVWWg">
-        <property id="5176375271271206615" name="name" index="1NUEcP" />
-        <property id="5176375271271031539" name="containerPort" index="1NVWWh" />
-      </concept>
+      <concept id="5176375271271031524" name="ManifestCollection.structure.Container" flags="ng" index="1NVWW6" />
     </language>
   </registry>
-  <node concept="1F$KrU" id="54YK8OvHCEG">
-    <property role="1NS65J" value="Pe3ePARigK/Service" />
-    <node concept="1FFRrR" id="54YK8OvHCEH" role="1tGzk7">
-      <node concept="1tGzk6" id="54YK8OvHCEI" role="1tGzk2">
-        <property role="1tGzk1" value="asd" />
-        <property role="1tGzk0" value="dsad" />
-        <property role="1tGzk3" value="1" />
-      </node>
-      <node concept="1e_Kwo" id="54YK8OvHCEJ" role="1e$Npo">
-        <node concept="1eFbGX" id="54YK8OvHCEL" role="1e_Kwn">
-          <property role="1eFbGW" value="adsa" />
-          <property role="1eFbGY" value="dsadsa" />
-        </node>
-        <node concept="1eFbGX" id="48amN$kjufb" role="1e_Kwn">
-          <property role="1eFbGW" value="sad" />
-          <property role="1eFbGY" value="dsa" />
-        </node>
-      </node>
+  <node concept="3yWWWu" id="3TPZkJOkMNW">
+    <property role="1NS65J" value="Pod" />
+    <property role="1NS65D" value="apiVersion" />
+    <node concept="3yWWW_" id="3TPZkJOkMNX" role="1tGWEw">
+      <node concept="1NVWW6" id="3TPZkJOkMNY" role="1NVWkb" />
     </node>
-    <node concept="3yWWW$" id="54YK8OvHCEK" role="1NS65M">
-      <property role="3yWWWB" value="defaulfdassdat" />
-      <property role="3yWulV" value="default" />
-      <node concept="1eFbGX" id="r7qsobZQD" role="1eEXFe">
-        <property role="1eFbGW" value="da" />
-        <property role="1eFbGY" value="das" />
-      </node>
-    </node>
-  </node>
-  <node concept="1jaWA_" id="7SBfI8Hq4Ky">
-    <node concept="1jaWAC" id="7SBfI8Hq4Kz" role="1jaWAD">
-      <node concept="1jaWAH" id="7SBfI8Hq4K$" role="1jeTcC">
-        <node concept="3yWWW_" id="7SBfI8Hq4K_" role="1jaWAM">
-          <node concept="1NVWW6" id="7SBfI8Hq4KA" role="1NVWkb">
-            <node concept="1NVWWg" id="7SBfI8HDp6_" role="1NVWWi" />
-          </node>
-        </node>
-        <node concept="1e_Kwo" id="7SBfI8Hq4KB" role="1jaWAK">
-          <node concept="1eFbGX" id="7SBfI8Hrf6I" role="1e_Kwn">
-            <property role="1eFbGW" value="dsa" />
-            <property role="1eFbGY" value="sad" />
-          </node>
-          <node concept="1eFbGX" id="7SBfI8HspdU" role="1e_Kwn">
-            <property role="1eFbGW" value="dsa" />
-            <property role="1eFbGY" value="dsa" />
-          </node>
-          <node concept="1eFbGX" id="7SBfI8HspdX" role="1e_Kwn">
-            <property role="1eFbGW" value="das" />
-            <property role="1eFbGY" value="da" />
-          </node>
-        </node>
-        <node concept="3yWWW$" id="7SBfI8HuIR_" role="1jknpy">
-          <property role="3yWWWB" value="default" />
-          <property role="3yWulV" value="default" />
-          <node concept="1eFbGX" id="7SBfI8Hx8jr" role="1eEXFe">
-            <property role="1eFbGW" value="dsa" />
-            <property role="1eFbGY" value="dsa" />
-          </node>
-          <node concept="1eFbGX" id="7SBfI8Hx8jt" role="1eEXFe">
-            <property role="1eFbGY" value="dsa" />
-            <property role="1eFbGW" value="dsa" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3yWWW$" id="7SBfI8Hq4KC" role="1NS65M">
+    <node concept="3yWWW$" id="3TPZkJOkMNZ" role="1NS65M">
       <property role="3yWWWB" value="default" />
       <property role="3yWulV" value="default" />
     </node>
   </node>
-  <node concept="3yWWWu" id="4os__xtMJ2i">
-    <node concept="3yWWW_" id="4os__xtMJ2j" role="1tGWEw">
-      <node concept="1NVWW6" id="4os__xtMJ2k" role="1NVWkb">
-        <property role="1NVWW7" value="nginx" />
-        <property role="1NVWW8" value="nginx" />
-        <node concept="1NVWWg" id="4os__xtMJ2o" role="1NVWWi">
-          <property role="1NUEcP" value="http" />
-          <property role="1NVWWh" value="80" />
+  <node concept="1F$KrU" id="3TPZkJOkMO0">
+    <property role="1NS65J" value="Service" />
+    <property role="1NS65D" value="apiVersion" />
+    <node concept="1FFRrR" id="3TPZkJOkMO1" role="1tGzk7">
+      <node concept="1tGzk6" id="3TPZkJOkMO2" role="1tGzk2" />
+      <node concept="1e_Kwo" id="3TPZkJOkMO3" role="1e$Npo" />
+    </node>
+    <node concept="3yWWW$" id="3TPZkJOkMO4" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
+    </node>
+  </node>
+  <node concept="1jaWA_" id="3TPZkJOkMO5">
+    <node concept="1jaWAC" id="3TPZkJOkMO6" role="1jaWAD">
+      <node concept="1jaWAH" id="3TPZkJOkMO7" role="1jeTcC">
+        <node concept="3yWWW_" id="3TPZkJOkMO8" role="1jaWAM">
+          <node concept="1NVWW6" id="3TPZkJOkMO9" role="1NVWkb" />
+        </node>
+        <node concept="1e_Kwo" id="3TPZkJOkMOa" role="1jaWAK" />
+        <node concept="3yWWW$" id="3TPZkJOkMOb" role="1jknpy">
+          <property role="3yWWWB" value="default" />
+          <property role="3yWulV" value="default" />
         </node>
       </node>
     </node>
-    <node concept="3yWWW$" id="4os__xtMJ2l" role="1NS65M">
-      <property role="3yWWWB" value="pod" />
-      <property role="3yWulV" value="ns" />
-      <node concept="1eFbGX" id="4os__xtMJ2m" role="1eEXFe">
-        <property role="1eFbGW" value="app" />
-        <property role="1eFbGY" value="test" />
-      </node>
+    <node concept="3yWWW$" id="3TPZkJOkMOc" role="1NS65M">
+      <property role="3yWWWB" value="default" />
+      <property role="3yWulV" value="default" />
     </node>
   </node>
 </model>
