@@ -59,7 +59,7 @@
           <greater-priority-mapping>
             <generator generatorUID="0447950e-9a53-4c07-9903-b0ea1aebd2c7(ProductionReadyArtefact.generator02)" />
             <external-mapping>
-              <mapping-node modelUID="r:328fc623-ae51-4c4b-bb72-0c6b90ce8ba7(ProductionReadyArtefact.HelmChart@generator)" nodeID="*" />
+              <mapping-node modelUID="r:e4336264-d9ed-476a-b3f7-80bbb348c895(ProductionReadyArtefact.ManifestCollection@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -67,10 +67,10 @@
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:91c2ca7f-0c98-4ed8-bfef-2d65ba5584cb(ProductionReadyArtefact.Kustomize@generator)" nodeID="*" />
+                  <mapping-node modelUID="r:328fc623-ae51-4c4b-bb72-0c6b90ce8ba7(ProductionReadyArtefact.HelmChart@generator)" nodeID="*" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:e4336264-d9ed-476a-b3f7-80bbb348c895(ProductionReadyArtefact.ManifestCollection@generator)" nodeID="*" />
+                  <mapping-node modelUID="r:91c2ca7f-0c98-4ed8-bfef-2d65ba5584cb(ProductionReadyArtefact.Kustomize@generator)" nodeID="*" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>

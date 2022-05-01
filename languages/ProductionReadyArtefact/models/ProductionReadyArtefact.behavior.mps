@@ -628,5 +628,44 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="271LfdYQwPK">
+    <ref role="13h7C2" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+    <node concept="13hLZK" id="271LfdYQwPL" role="13h7CW">
+      <node concept="3clFbS" id="271LfdYQwPM" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="271LfdYQwPV" role="13h7CS">
+      <property role="TrG5h" value="getValue" />
+      <node concept="3Tm1VV" id="271LfdYQwPW" role="1B3o_S" />
+      <node concept="17QB3L" id="271LfdYQwQb" role="3clF45" />
+      <node concept="3clFbS" id="271LfdYQwPY" role="3clF47">
+        <node concept="3cpWs6" id="271LfdYQwQA" role="3cqZAp">
+          <node concept="2OqwBi" id="271LfdYQx0V" role="3cqZAk">
+            <node concept="13iPFW" id="271LfdYQwQR" role="2Oq$k0" />
+            <node concept="3TrcHB" id="271LfdYQx9_" role="2OqNvi">
+              <ref role="3TsBF5" to="2mqg:54YK8Owhnce" resolve="value" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="271LfdYQxIh">
+    <ref role="13h7C2" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <node concept="13i0hz" id="271LfdYQxIs" role="13h7CS">
+      <property role="TrG5h" value="getValue" />
+      <node concept="3Tm1VV" id="271LfdYQxIt" role="1B3o_S" />
+      <node concept="17QB3L" id="271LfdYQxIG" role="3clF45" />
+      <node concept="3clFbS" id="271LfdYQxIv" role="3clF47">
+        <node concept="3cpWs6" id="271LfdYQyaq" role="3cqZAp">
+          <node concept="Xl_RD" id="271LfdYQyaR" role="3cqZAk">
+            <property role="Xl_RC" value="called getValue from ValueFieldRef" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="271LfdYQxIi" role="13h7CW">
+      <node concept="3clFbS" id="271LfdYQxIj" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
