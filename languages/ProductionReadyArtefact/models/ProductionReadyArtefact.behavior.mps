@@ -108,6 +108,10 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
+      </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -123,6 +127,7 @@
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -656,9 +661,54 @@
       <node concept="3Tm1VV" id="271LfdYQxIt" role="1B3o_S" />
       <node concept="17QB3L" id="271LfdYQxIG" role="3clF45" />
       <node concept="3clFbS" id="271LfdYQxIv" role="3clF47">
-        <node concept="3cpWs6" id="271LfdYQyaq" role="3cqZAp">
-          <node concept="Xl_RD" id="271LfdYQyaR" role="3cqZAk">
-            <property role="Xl_RC" value="called getValue from ValueFieldRef" />
+        <node concept="3clFbJ" id="3aReBGp0Bpf" role="3cqZAp">
+          <node concept="3clFbS" id="3aReBGp0Bph" role="3clFbx">
+            <node concept="3cpWs6" id="271LfdYQyaq" role="3cqZAp">
+              <node concept="2OqwBi" id="3aReBGp0Baa" role="3cqZAk">
+                <node concept="1PxgMI" id="3aReBGp0AZd" role="2Oq$k0">
+                  <node concept="chp4Y" id="3aReBGp0B0m" role="3oSUPX">
+                    <ref role="cht4Q" to="2mqg:54YK8OvXf23" resolve="Literal" />
+                  </node>
+                  <node concept="2OqwBi" id="3aReBGp0ADv" role="1m5AlR">
+                    <node concept="2OqwBi" id="3aReBGp0Ajj" role="2Oq$k0">
+                      <node concept="13iPFW" id="3aReBGp0A8t" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3aReBGp0Ato" role="2OqNvi">
+                        <ref role="3Tt5mk" to="2mqg:54YK8Owgv65" resolve="original" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3aReBGp0AMA" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2mqg:6HbGAd$gUcc" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="3aReBGp0Blf" role="2OqNvi">
+                  <ref role="3TsBF5" to="2mqg:6Oz8UK$9T$h" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3aReBGp0BQR" role="3clFbw">
+            <node concept="2OqwBi" id="3aReBGp0BJ2" role="2Oq$k0">
+              <node concept="2OqwBi" id="3aReBGp0Bty" role="2Oq$k0">
+                <node concept="13iPFW" id="3aReBGp0Bqv" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3aReBGp0BF$" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2mqg:54YK8Owgv65" resolve="original" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="3aReBGp0BNd" role="2OqNvi">
+                <ref role="3Tt5mk" to="2mqg:6HbGAd$gUcc" resolve="value" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="3aReBGp0C0G" role="2OqNvi">
+              <node concept="chp4Y" id="3aReBGp0C55" role="cj9EA">
+                <ref role="cht4Q" to="2mqg:54YK8OvXf23" resolve="Literal" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3aReBGp0Ceb" role="3cqZAp">
+          <node concept="Xl_RD" id="3aReBGp0Chj" role="3cqZAk">
+            <property role="Xl_RC" value="Reference ValueField does not contain a Literal Attribute" />
           </node>
         </node>
       </node>
