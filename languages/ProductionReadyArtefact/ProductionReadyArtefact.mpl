@@ -24,6 +24,9 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">f987a4bd-5afd-4e35-924c-05d449fe3368(ProductionReadyArtefact)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:3b6d7df4-fc22-41a3-8f3d-efa521cb700c:HelmChart" version="0" />
         <language slang="l:1455348a-124f-4d4d-845f-61c2f37907a5:Kustomize" version="0" />
@@ -59,7 +62,7 @@
           <greater-priority-mapping>
             <generator generatorUID="0447950e-9a53-4c07-9903-b0ea1aebd2c7(ProductionReadyArtefact.generator02)" />
             <external-mapping>
-              <mapping-node modelUID="r:e4336264-d9ed-476a-b3f7-80bbb348c895(ProductionReadyArtefact.ManifestCollection@generator)" nodeID="*" />
+              <mapping-node modelUID="r:328fc623-ae51-4c4b-bb72-0c6b90ce8ba7(ProductionReadyArtefact.HelmChart@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -67,10 +70,10 @@
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:328fc623-ae51-4c4b-bb72-0c6b90ce8ba7(ProductionReadyArtefact.HelmChart@generator)" nodeID="*" />
+                  <mapping-node modelUID="r:91c2ca7f-0c98-4ed8-bfef-2d65ba5584cb(ProductionReadyArtefact.Kustomize@generator)" nodeID="*" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:91c2ca7f-0c98-4ed8-bfef-2d65ba5584cb(ProductionReadyArtefact.Kustomize@generator)" nodeID="*" />
+                  <mapping-node modelUID="r:e4336264-d9ed-476a-b3f7-80bbb348c895(ProductionReadyArtefact.ManifestCollection@generator)" nodeID="*" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>
