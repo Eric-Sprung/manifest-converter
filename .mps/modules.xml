@@ -9,6 +9,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/GenerationPlans/GenerationPlans.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Sandbox/SandboxHelmChart.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SandboxHelmChart/SandboxHelmChart.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SandboxKustomize/SandboxKustomize.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SandboxManifestCollection/SandboxManifestCollection.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SandboxProductionReadyArtefact/SandboxProductionReadyArtefact.msd" folder="" />
     </projectModules>
   </component>
 </project>
