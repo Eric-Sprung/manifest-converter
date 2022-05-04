@@ -146,9 +146,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
-    <dependency reexport="false">bd78e38e-1826-466e-b8bd-a53c07a5d20b(ProductionReadyArtefact.HelmChart)</dependency>
-    <dependency reexport="false">12429fc6-7413-47e9-b25b-c054a35d8847(ProductionReadyArtefact.Kustomize)</dependency>
-    <dependency reexport="false">e626d0be-33d7-4ee9-81dc-f5f8fc800630(ProductionReadyArtefact.ManifestCollection)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
