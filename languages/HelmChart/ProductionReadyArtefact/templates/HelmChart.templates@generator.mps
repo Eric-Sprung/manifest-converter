@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8d38535e-0e41-435b-8835-ccfc7aa6c707(HelmChart.generator00.templates@generator)">
+<model ref="r:8d38535e-0e41-435b-8835-ccfc7aa6c707(HelmChart.templates@generator)">
   <persistence version="9" />
   <languages>
     <use id="f987a4bd-5afd-4e35-924c-05d449fe3368" name="ProductionReadyArtefact" version="0" />

@@ -11,6 +11,22 @@
     </facet>
   </facets>
   <accessoryModels />
+  <generators>
+    <generator alias="PIM" namespace="Kustomize.generator00" uuid="d1ca7e88-0b6e-4445-b47f-8a629de47acb">
+      <models>
+        <modelRoot contentPath="${module}/generator" type="default">
+          <sourceRoot location="templates" />
+        </modelRoot>
+      </models>
+      <facets>
+        <facet type="java" />
+      </facets>
+      <external-templates />
+      <languageVersions />
+      <dependencyVersions />
+      <mapping-priorities />
+    </generator>
+  </generators>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
