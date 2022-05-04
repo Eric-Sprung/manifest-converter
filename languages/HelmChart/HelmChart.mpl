@@ -11,6 +11,24 @@
     </facet>
   </facets>
   <accessoryModels />
+  <generators>
+    <generator alias="ProductionReadyArtefact" namespace="HelmChart.generator00" uuid="674d4d78-8e91-4d2e-a7d2-116d19ff880a" generatorOutputPath="${module}/ProductionReadyArtefact/source_gen">
+      <models>
+        <modelRoot contentPath="${module}/ProductionReadyArtefact" type="default">
+          <sourceRoot location="templates" />
+        </modelRoot>
+      </models>
+      <facets>
+        <facet type="java">
+          <classes generated="true" path="${module}/ProductionReadyArtefact/classes_gen" />
+        </facet>
+      </facets>
+      <external-templates />
+      <languageVersions />
+      <dependencyVersions />
+      <mapping-priorities />
+    </generator>
+  </generators>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>

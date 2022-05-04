@@ -6,7 +6,9 @@
       <modulePath path="$PROJECT_DIR$/languages/Kustomize/Kustomize.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ManifestCollection/ManifestCollection.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ProductionReadyArtefact/ProductionReadyArtefact.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Sandbox/Sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GenerationPlans/GenerationPlans.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Sandbox/SandboxHelmChart.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SandboxHelmChart/SandboxHelmChart.msd" folder="" />
     </projectModules>
   </component>
 </project>
