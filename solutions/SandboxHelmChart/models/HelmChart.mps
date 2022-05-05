@@ -7,6 +7,15 @@
   <imports />
   <registry>
     <language id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart">
+      <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8" />
+      <concept id="5854328277987291267" name="HelmChart.structure.Literal" flags="ng" index="1eMz0e" />
+      <concept id="5854328277987291263" name="HelmChart.structure.ValueField" flags="ng" index="1eMz3M">
+        <property id="6639827586736620283" name="key" index="2poYFT" />
+        <child id="5854328277987291274" name="value" index="1eMz07" />
+      </concept>
+      <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
+        <child id="3961669402070492688" name="items" index="3_28H4" />
+      </concept>
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -49,6 +58,21 @@
     </node>
     <node concept="1L2LFj" id="22572mMJ4Sl" role="b3O05">
       <property role="1LuVe3" value="test" />
+    </node>
+  </node>
+  <node concept="2Al6B8" id="3j3Rxj5rNst" />
+  <node concept="1ePYff" id="7I50n5gnGmd">
+    <node concept="1eMz3M" id="7I50n5gnGme" role="3_28H4">
+      <property role="2poYFT" value="name" />
+      <node concept="1eMz0e" id="7I50n5gnGmf" role="1eMz07" />
+    </node>
+    <node concept="1eMz3M" id="7I50n5gnGmg" role="3_28H4">
+      <property role="2poYFT" value="apiVersion" />
+      <node concept="1eMz0e" id="7I50n5gnGmh" role="1eMz07" />
+    </node>
+    <node concept="1eMz3M" id="7I50n5gnGmi" role="3_28H4">
+      <property role="2poYFT" value="version" />
+      <node concept="1eMz0e" id="7I50n5gnGmj" role="1eMz07" />
     </node>
   </node>
 </model>
