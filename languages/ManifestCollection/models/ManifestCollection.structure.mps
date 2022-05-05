@@ -150,7 +150,7 @@
     <node concept="1TJgyi" id="4vmbu8OeubN" role="1TKVEl">
       <property role="IQ2nx" value="5176375271271031539" />
       <property role="TrG5h" value="containerPort" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="Pe3ePARgCn">

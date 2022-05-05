@@ -210,21 +210,6 @@
     <property role="EcuMT" value="284014218792087659" />
     <property role="TrG5h" value="ServicePort" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="fL1mPugN1G" role="1TKVEl">
-      <property role="IQ2nx" value="284014218792087660" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="fL1mPugN1H" role="1TKVEl">
-      <property role="IQ2nx" value="284014218792087661" />
-      <property role="TrG5h" value="targetPort" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="fL1mPugN1I" role="1TKVEl">
-      <property role="IQ2nx" value="284014218792087662" />
-      <property role="TrG5h" value="port" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="1eX1mtbEQ00" role="1TKVEi">
       <property role="IQ2ns" value="1422298998528237568" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
