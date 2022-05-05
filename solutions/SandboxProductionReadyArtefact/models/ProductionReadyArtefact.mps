@@ -7,6 +7,25 @@
   <imports />
   <registry>
     <language id="f987a4bd-5afd-4e35-924c-05d449fe3368" name="ProductionReadyArtefact">
+      <concept id="5854328277982365845" name="ProductionReadyArtefact.structure.Selector" flags="ng" index="1e_Kwo">
+        <child id="5854328277982365850" name="labels" index="1e_Kwn" />
+      </concept>
+      <concept id="5854328277980838832" name="ProductionReadyArtefact.structure.Label" flags="ng" index="1eFbGX">
+        <property id="5854328277980838833" name="key" index="1eFbGW" />
+        <child id="1422298998528237564" name="value" index="1o5_Er" />
+      </concept>
+      <concept id="9090303514009990983" name="ProductionReadyArtefact.structure.Deployment" flags="ng" index="1jaWA_">
+        <child id="9090303514009990987" name="spec" index="1jaWAD" />
+      </concept>
+      <concept id="9090303514009990986" name="ProductionReadyArtefact.structure.DeploymentSpec" flags="ng" index="1jaWAC">
+        <child id="9090303514011020746" name="spec" index="1jeTcC" />
+        <child id="1422298998528237547" name="replicas" index="1o5_Ec" />
+      </concept>
+      <concept id="9090303514009990991" name="ProductionReadyArtefact.structure.PodTemplateSpec" flags="ng" index="1jaWAH">
+        <child id="9090303514009990994" name="selector" index="1jaWAK" />
+        <child id="9090303514009990992" name="spec" index="1jaWAM" />
+        <child id="9090303514016893056" name="metadata" index="1jknpy" />
+      </concept>
       <concept id="6476947561819239011" name="ProductionReadyArtefact.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -45,6 +64,45 @@
         <property role="1LuVe3" value="default" />
       </node>
       <node concept="1L2LFj" id="1TfwJ4_s8Ye" role="1eNFMr">
+        <property role="1LuVe3" value="default" />
+      </node>
+    </node>
+  </node>
+  <node concept="1jaWA_" id="3TaG6pumRBp">
+    <node concept="1jaWAC" id="3TaG6pumRBq" role="1jaWAD">
+      <node concept="1L2LFj" id="3TaG6pumRBr" role="1o5_Ec" />
+      <node concept="1jaWAH" id="3TaG6pumRBs" role="1jeTcC">
+        <node concept="3yWWW_" id="3TaG6pumRBt" role="1jaWAM">
+          <node concept="1NVWW6" id="3TaG6pumRBu" role="1NVWkb">
+            <node concept="1L2LFj" id="3TaG6pumRBv" role="1o5_ET" />
+            <node concept="1L2LFj" id="3TaG6pumRBw" role="1o5_E6" />
+          </node>
+        </node>
+        <node concept="1e_Kwo" id="3TaG6pumRBx" role="1jaWAK">
+          <node concept="1eFbGX" id="3TaG6pumRBE" role="1e_Kwn">
+            <property role="1eFbGW" value="dsa" />
+            <node concept="1L2LFj" id="3TaG6pumRBF" role="1o5_Er">
+              <property role="1LuVe3" value="dsa" />
+            </node>
+          </node>
+        </node>
+        <node concept="3yWWW$" id="3TaG6pumRBy" role="1jknpy">
+          <node concept="1L2LFj" id="3TaG6pumRBz" role="1eNFMo">
+            <property role="1LuVe3" value="default" />
+          </node>
+          <node concept="1L2LFj" id="3TaG6pumRB$" role="1eNFMr">
+            <property role="1LuVe3" value="default" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1L2LFj" id="3TaG6pumRB_" role="1o5_E9" />
+    <node concept="1L2LFj" id="3TaG6pumRBA" role="1o5_Em" />
+    <node concept="3yWWW$" id="3TaG6pumRBB" role="1NS65M">
+      <node concept="1L2LFj" id="3TaG6pumRBC" role="1eNFMo">
+        <property role="1LuVe3" value="default" />
+      </node>
+      <node concept="1L2LFj" id="3TaG6pumRBD" role="1eNFMr">
         <property role="1LuVe3" value="default" />
       </node>
     </node>

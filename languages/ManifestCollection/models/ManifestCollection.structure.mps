@@ -264,7 +264,7 @@
     <node concept="1TJgyi" id="7SBfI8H3ftd" role="1TKVEl">
       <property role="IQ2nx" value="9090303514009990989" />
       <property role="TrG5h" value="replicas" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7SBfI8H7aRa" role="1TKVEi">
       <property role="IQ2ns" value="9090303514011020746" />
