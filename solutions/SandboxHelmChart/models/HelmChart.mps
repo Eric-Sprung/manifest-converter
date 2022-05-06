@@ -70,8 +70,23 @@
   <node concept="2Al6B8" id="3j3Rxj5rNst">
     <node concept="1eMz3M" id="1eU__hAsplm" role="1eMz04">
       <property role="2poYFT" value="key" />
-      <node concept="1eMz0e" id="1eU__hAsplq" role="1eMz07">
-        <property role="1eMz08" value="value" />
+      <node concept="1eMz0b" id="4hBSugK0vlJ" role="1eMz07">
+        <node concept="1eMz3M" id="4hBSugK0vlM" role="1eMz0a">
+          <property role="2poYFT" value="nested1" />
+          <node concept="1eMz0b" id="4hBSugK0vlQ" role="1eMz07">
+            <node concept="1eMz3M" id="4hBSugK0vlT" role="1eMz0a">
+              <property role="2poYFT" value="nested2" />
+              <node concept="1eMz0b" id="4hBSugK0vlX" role="1eMz07">
+                <node concept="1eMz3M" id="4hBSugK0vm0" role="1eMz0a">
+                  <property role="2poYFT" value="nested3" />
+                  <node concept="1eMz0e" id="4hBSugK0vm4" role="1eMz07">
+                    <property role="1eMz08" value="final" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
