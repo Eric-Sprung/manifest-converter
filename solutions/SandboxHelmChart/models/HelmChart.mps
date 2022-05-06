@@ -7,8 +7,12 @@
   <imports />
   <registry>
     <language id="3b6d7df4-fc22-41a3-8f3d-efa521cb700c" name="HelmChart">
-      <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8" />
-      <concept id="5854328277987291267" name="HelmChart.structure.Literal" flags="ng" index="1eMz0e" />
+      <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8">
+        <child id="5854328277987291273" name="items" index="1eMz04" />
+      </concept>
+      <concept id="5854328277987291267" name="HelmChart.structure.Literal" flags="ng" index="1eMz0e">
+        <property id="5854328277987291269" name="value" index="1eMz08" />
+      </concept>
       <concept id="5854328277987291263" name="HelmChart.structure.ValueField" flags="ng" index="1eMz3M">
         <property id="6639827586736620283" name="key" index="2poYFT" />
         <child id="5854328277987291274" name="value" index="1eMz07" />
@@ -60,19 +64,32 @@
       <property role="1LuVe3" value="test" />
     </node>
   </node>
-  <node concept="2Al6B8" id="3j3Rxj5rNst" />
+  <node concept="2Al6B8" id="3j3Rxj5rNst">
+    <node concept="1eMz3M" id="1eU__hAsplm" role="1eMz04">
+      <property role="2poYFT" value="key" />
+      <node concept="1eMz0e" id="1eU__hAsplq" role="1eMz07">
+        <property role="1eMz08" value="value" />
+      </node>
+    </node>
+  </node>
   <node concept="1ePYff" id="7I50n5gnGmd">
     <node concept="1eMz3M" id="7I50n5gnGme" role="3_28H4">
       <property role="2poYFT" value="name" />
-      <node concept="1eMz0e" id="7I50n5gnGmf" role="1eMz07" />
+      <node concept="1eMz0e" id="1eU__hAuUH$" role="1eMz07">
+        <property role="1eMz08" value="test" />
+      </node>
     </node>
     <node concept="1eMz3M" id="7I50n5gnGmg" role="3_28H4">
       <property role="2poYFT" value="apiVersion" />
-      <node concept="1eMz0e" id="7I50n5gnGmh" role="1eMz07" />
+      <node concept="1eMz0e" id="1eU__hAuUHB" role="1eMz07">
+        <property role="1eMz08" value="test2" />
+      </node>
     </node>
     <node concept="1eMz3M" id="7I50n5gnGmi" role="3_28H4">
       <property role="2poYFT" value="version" />
-      <node concept="1eMz0e" id="7I50n5gnGmj" role="1eMz07" />
+      <node concept="1eMz0e" id="1eU__hAuUHE" role="1eMz07">
+        <property role="1eMz08" value="test3" />
+      </node>
     </node>
   </node>
 </model>

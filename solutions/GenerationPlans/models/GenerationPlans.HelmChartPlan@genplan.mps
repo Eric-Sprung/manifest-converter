@@ -18,7 +18,6 @@
         <property id="2209292798354050154" name="individualStepPerGenerator" index="1s431M" />
         <child id="1152961914448142326" name="entries" index="2Qf7GQ" />
       </concept>
-      <concept id="6257322641293267918" name="jetbrains.mps.lang.generator.plan.structure.CheckpointDeclaration" flags="ng" index="19BiC4" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -42,9 +41,6 @@
           <property role="2V$B1Q" value="HelmChart" />
         </node>
       </node>
-    </node>
-    <node concept="19BiC4" id="22572mMnlwA" role="2VgMA7">
-      <property role="TrG5h" value="AfterHelmChart" />
     </node>
     <node concept="2VgMA2" id="22572mMnlwM" role="2VgMA7">
       <property role="1s431M" value="true" />
