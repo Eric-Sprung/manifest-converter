@@ -10,6 +10,9 @@
       <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8">
         <child id="5854328277987291273" name="items" index="1eMz04" />
       </concept>
+      <concept id="5854328277987291270" name="HelmChart.structure.ValueFieldBody" flags="ng" index="1eMz0b">
+        <child id="5854328277987291271" name="value" index="1eMz0a" />
+      </concept>
       <concept id="5854328277987291267" name="HelmChart.structure.Literal" flags="ng" index="1eMz0e">
         <property id="5854328277987291269" name="value" index="1eMz08" />
       </concept>
@@ -75,8 +78,19 @@
   <node concept="1ePYff" id="7I50n5gnGmd">
     <node concept="1eMz3M" id="7I50n5gnGme" role="3_28H4">
       <property role="2poYFT" value="name" />
-      <node concept="1eMz0e" id="1eU__hAuUH$" role="1eMz07">
-        <property role="1eMz08" value="test" />
+      <node concept="1eMz0b" id="1nMI905kUgs" role="1eMz07">
+        <node concept="1eMz3M" id="1nMI905kUgz" role="1eMz0a">
+          <property role="2poYFT" value="key1" />
+          <node concept="1eMz0e" id="1nMI905kUgD" role="1eMz07">
+            <property role="1eMz08" value="value1" />
+          </node>
+        </node>
+        <node concept="1eMz3M" id="1nMI905kUgv" role="1eMz0a">
+          <property role="2poYFT" value="key2" />
+          <node concept="1eMz0e" id="1nMI905kUgG" role="1eMz07">
+            <property role="1eMz08" value="value2" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1eMz3M" id="7I50n5gnGmg" role="3_28H4">
