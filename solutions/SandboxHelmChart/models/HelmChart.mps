@@ -23,6 +23,9 @@
       <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
         <child id="3961669402070492688" name="items" index="3_28H4" />
       </concept>
+      <concept id="6625837104251562735" name="HelmChart.structure.ChartReference" flags="ng" index="3xtX_i">
+        <reference id="6625837104251562736" name="original" index="3xtX_d" />
+      </concept>
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
@@ -36,6 +39,9 @@
       <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
+      <concept id="5854328277992337796" name="HelmChart.structure.ValueFieldReference" flags="ng" index="1LvN49">
+        <reference id="5854328277992337797" name="original" index="1LvN48" />
+      </concept>
       <concept id="5176375271270796426" name="HelmChart.structure.Template" flags="ng" index="1NS65C">
         <child id="2111394236481039834" name="apiVersion" index="b3O05" />
         <child id="2111394236481039831" name="kind" index="b3O08" />
@@ -48,9 +54,6 @@
     </language>
   </registry>
   <node concept="3yWWWu" id="22572mMJ4Sc">
-    <node concept="1L2LFj" id="22572mMJ4Sd" role="b3O08">
-      <property role="1LuVe3" value="Pod" />
-    </node>
     <node concept="3yWWW_" id="22572mMJ4Se" role="1tGWEw">
       <node concept="1NVWW6" id="22572mMJ4Sf" role="1NVWkb">
         <node concept="1L2LFj" id="22572mMJ4Sg" role="8J4Zs" />
@@ -61,10 +64,15 @@
       <node concept="1L2LFj" id="22572mMJ4Sj" role="b1XYk">
         <property role="1LuVe3" value="default" />
       </node>
-      <node concept="1L2LFj" id="22572mMJ4Sk" role="1Luyvk" />
+      <node concept="3xtX_i" id="4hBSugK1vF9" role="1Luyvk">
+        <ref role="3xtX_d" node="7I50n5gnGmg" />
+      </node>
     </node>
-    <node concept="1L2LFj" id="22572mMJ4Sl" role="b3O05">
-      <property role="1LuVe3" value="test" />
+    <node concept="3xtX_i" id="8TZrey$xh_" role="b3O05">
+      <ref role="3xtX_d" node="7I50n5gnGmg" />
+    </node>
+    <node concept="1LvN49" id="SdE5EJDyr3" role="b3O08">
+      <ref role="1LvN48" node="4hBSugK0vm0" />
     </node>
   </node>
   <node concept="2Al6B8" id="3j3Rxj5rNst">
