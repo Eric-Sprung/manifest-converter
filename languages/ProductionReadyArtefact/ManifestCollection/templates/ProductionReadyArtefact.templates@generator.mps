@@ -40,7 +40,11 @@
       <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG">
         <child id="1510949579266801461" name="sourceNodeQuery" index="5jGum" />
       </concept>
+      <concept id="1219952072943" name="jetbrains.mps.lang.generator.structure.DropRootRule" flags="lg" index="aNPBN">
+        <reference id="1219952338328" name="applicableConcept" index="aOQi4" />
+      </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <child id="1219952894531" name="dropRootRule" index="aQYdv" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
@@ -158,6 +162,9 @@
   </registry>
   <node concept="bUwia" id="q0GXNX0Lyu">
     <property role="TrG5h" value="ManifestCollection" />
+    <node concept="aNPBN" id="1eVY3g0Ys7$" role="aQYdv">
+      <ref role="aOQi4" to="2mqg:1ANtJDADNxH" resolve="ValueStore" />
+    </node>
     <node concept="3aamgX" id="7RIG46uE86_" role="3acgRq">
       <ref role="30HIoZ" to="2mqg:5ByJnQV4n9o" resolve="PodSpec" />
       <node concept="j$656" id="7RIG46uE86F" role="1lVwrX">

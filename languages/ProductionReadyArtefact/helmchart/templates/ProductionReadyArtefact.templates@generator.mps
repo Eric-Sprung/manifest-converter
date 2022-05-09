@@ -24,7 +24,11 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1219952072943" name="jetbrains.mps.lang.generator.structure.DropRootRule" flags="lg" index="aNPBN">
+        <reference id="1219952338328" name="applicableConcept" index="aOQi4" />
+      </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <child id="1219952894531" name="dropRootRule" index="aQYdv" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
@@ -80,6 +84,9 @@
   </registry>
   <node concept="bUwia" id="q0GXNWGgm_">
     <property role="TrG5h" value="main" />
+    <node concept="aNPBN" id="1eVY3g0Ys7C" role="aQYdv">
+      <ref role="aOQi4" to="2mqg:1ANtJDADNxH" resolve="ValueStore" />
+    </node>
     <node concept="3lhOvk" id="q0GXNWGgmA" role="3lj3bC">
       <ref role="30HIoZ" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
       <ref role="3lhOvi" node="q0GXNWQKWA" />
