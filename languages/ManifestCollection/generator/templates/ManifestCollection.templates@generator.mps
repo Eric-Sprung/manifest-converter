@@ -1136,13 +1136,6 @@
           <node concept="5jKBG" id="3TaG6pum9$O" role="lGtFl">
             <ref role="2rW$FS" node="6esuNbpfkIJ" resolve="Label" />
             <ref role="v9R2y" node="6esuNbpfqUg" resolve="reduce_Label" />
-            <node concept="3NFfHV" id="3TaG6pum9B2" role="5jGum">
-              <node concept="3clFbS" id="3TaG6pum9B3" role="2VODD2">
-                <node concept="3clFbF" id="3TaG6pum9IP" role="3cqZAp">
-                  <node concept="30H73N" id="3TaG6pum9IO" role="3clFbG" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
       </node>
