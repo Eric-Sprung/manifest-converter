@@ -18,6 +18,9 @@
         <property id="5854328277980838833" name="key" index="1eFbGW" />
         <child id="1422298998528237564" name="value" index="1o5_Er" />
       </concept>
+      <concept id="5854328277987291270" name="ProductionReadyArtefact.structure.ValueFieldBody" flags="ng" index="1eMz0b">
+        <child id="5854328277987291271" name="value" index="1eMz0a" />
+      </concept>
       <concept id="5854328277987291267" name="ProductionReadyArtefact.structure.Literal" flags="ng" index="1eMz0e">
         <property id="7864168596566939921" name="value" index="191bEX" />
       </concept>
@@ -242,8 +245,13 @@
     </node>
     <node concept="fvZFL" id="1wOm4vbci7C" role="1Z0KYP">
       <property role="fvZFK" value="defaults" />
-      <node concept="1eMz0e" id="1wOm4vbci7I" role="f215J">
-        <property role="191bEX" value="b" />
+      <node concept="1eMz0b" id="2TY_cmoB7o4" role="f215J">
+        <node concept="fvZFL" id="2TY_cmoB7o7" role="1eMz0a">
+          <property role="fvZFK" value="key" />
+          <node concept="1eMz0e" id="2TY_cmoB7ob" role="f215J">
+            <property role="191bEX" value="dsa" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="fvZFL" id="1wOm4vbci7D" role="1Z0KYP">

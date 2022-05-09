@@ -42,12 +42,12 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="22572mMH7Hh">
-    <property role="TrG5h" value="Plan PRA" />
+    <property role="TrG5h" value="Plan ProductionReadyArtefact" />
     <node concept="3uMcMo" id="6P3aSn6ALG1" role="2VgMA7">
-      <node concept="3uMdn$" id="7RIG46uG6Mf" role="3uOsAP">
-        <node concept="20RdaH" id="7RIG46uG6Mg" role="3uMdmt">
-          <property role="20Rdg5" value="e626d0be-33d7-4ee9-81dc-f5f8fc800630" />
-          <property role="20Rdg7" value="ProductionReadyArtefact.ManifestCollection" />
+      <node concept="3uMdn$" id="3Dp8Z8aVVNa" role="3uOsAP">
+        <node concept="20RdaH" id="3Dp8Z8aVVNb" role="3uMdmt">
+          <property role="20Rdg5" value="bd78e38e-1826-466e-b8bd-a53c07a5d20b" />
+          <property role="20Rdg7" value="ProductionReadyArtefact.HelmChart" />
         </node>
       </node>
     </node>
