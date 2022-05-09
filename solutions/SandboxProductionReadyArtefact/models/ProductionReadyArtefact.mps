@@ -19,7 +19,7 @@
         <child id="1422298998528237564" name="value" index="1o5_Er" />
       </concept>
       <concept id="5854328277987291270" name="ProductionReadyArtefact.structure.ValueFieldBody" flags="ng" index="1eMz0b">
-        <child id="5854328277987291271" name="value" index="1eMz0a" />
+        <child id="5854328277987291271" name="items" index="1eMz0a" />
       </concept>
       <concept id="5854328277987291267" name="ProductionReadyArtefact.structure.Literal" flags="ng" index="1eMz0e">
         <property id="7864168596566939921" name="value" index="191bEX" />
@@ -239,17 +239,38 @@
   <node concept="1Z54Un" id="1wOm4vbci7A">
     <node concept="fvZFL" id="1wOm4vbci7B" role="1Z0KYP">
       <property role="fvZFK" value="releaseMetadata" />
-      <node concept="1eMz0e" id="1wOm4vbci7L" role="f215J">
-        <property role="191bEX" value="a" />
+      <node concept="1eMz0b" id="VSlIPHGmI3" role="f215J">
+        <node concept="fvZFL" id="VSlIPHGmI6" role="1eMz0a">
+          <property role="fvZFK" value="test" />
+          <node concept="1eMz0e" id="VSlIPHGmIa" role="f215J">
+            <property role="191bEX" value="test" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="fvZFL" id="1wOm4vbci7C" role="1Z0KYP">
       <property role="fvZFK" value="defaults" />
       <node concept="1eMz0b" id="2TY_cmoB7o4" role="f215J">
         <node concept="fvZFL" id="2TY_cmoB7o7" role="1eMz0a">
-          <property role="fvZFK" value="key" />
+          <property role="fvZFK" value="OTHERkey" />
           <node concept="1eMz0e" id="2TY_cmoB7ob" role="f215J">
             <property role="191bEX" value="dsa" />
+          </node>
+        </node>
+        <node concept="fvZFL" id="56O1kGzKC5f" role="1eMz0a">
+          <property role="fvZFK" value="double" />
+          <node concept="1eMz0b" id="56O1kGzKC5l" role="f215J">
+            <node concept="fvZFL" id="56O1kGzKC5o" role="1eMz0a">
+              <property role="fvZFK" value="transient" />
+              <node concept="1eMz0b" id="56O1kGzKC5s" role="f215J">
+                <node concept="fvZFL" id="56O1kGzKC5J" role="1eMz0a">
+                  <property role="fvZFK" value="nested" />
+                  <node concept="1eMz0e" id="56O1kGzKC5N" role="f215J">
+                    <property role="191bEX" value="last" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

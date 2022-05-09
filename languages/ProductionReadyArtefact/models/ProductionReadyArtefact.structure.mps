@@ -384,7 +384,7 @@
     <node concept="1TJgyj" id="54YK8OvXf27" role="1TKVEi">
       <property role="IQ2ns" value="5854328277987291271" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="value" />
+      <property role="20kJfa" value="items" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6HbGAd$d4yi" resolve="ValueField" />
     </node>

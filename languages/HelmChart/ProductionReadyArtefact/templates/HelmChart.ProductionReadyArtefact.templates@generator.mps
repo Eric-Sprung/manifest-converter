@@ -519,9 +519,7 @@
         <property role="191bEX" value="default" />
       </node>
     </node>
-    <node concept="n94m4" id="6C7MJDST2aG" role="lGtFl">
-      <ref role="n9lRv" to="5l0q:54YK8OvUid2" resolve="Chart" />
-    </node>
+    <node concept="n94m4" id="6C7MJDST2aG" role="lGtFl" />
   </node>
   <node concept="13MO4I" id="6C7MJDST2tM">
     <property role="TrG5h" value="reduce_Literal" />
