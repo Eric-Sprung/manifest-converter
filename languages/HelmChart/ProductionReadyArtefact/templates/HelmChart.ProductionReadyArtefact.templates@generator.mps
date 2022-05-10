@@ -164,7 +164,7 @@
         <child id="1422298998528237564" name="value" index="1o5_Er" />
       </concept>
       <concept id="5854328277987291270" name="ProductionReadyArtefact.structure.ValueFieldBody" flags="ng" index="1eMz0b">
-        <child id="5854328277987291271" name="value" index="1eMz0a" />
+        <child id="5854328277987291271" name="items" index="1eMz0a" />
       </concept>
       <concept id="5854328277987291265" name="ProductionReadyArtefact.structure.ValueBody" flags="ng" index="1eMz0c" />
       <concept id="5854328277987291267" name="ProductionReadyArtefact.structure.Literal" flags="ng" index="1eMz0e">

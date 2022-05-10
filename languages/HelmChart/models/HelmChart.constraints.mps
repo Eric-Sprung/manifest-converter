@@ -17,7 +17,6 @@
       <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -108,14 +107,11 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
-      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="1227084988347" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeARoot" flags="in" index="2NXJUA" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
-        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1227085062429" name="canBeRoot" index="2NY200" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -514,33 +510,6 @@
             </node>
             <node concept="3cmrfG" id="3rUFljk4e6w" role="3uHU7w">
               <property role="3cmrfH" value="1" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="1PdbtWlSF0V">
-    <ref role="1M2myG" to="5l0q:54YK8Ov$BIK" resolve="Label" />
-    <node concept="9S07l" id="1PdbtWlSF0W" role="9Vyp8">
-      <node concept="3clFbS" id="1PdbtWlSF0X" role="2VODD2">
-        <node concept="3clFbF" id="1PdbtWlSF4W" role="3cqZAp">
-          <node concept="22lmx$" id="1PdbtWmmxkb" role="3clFbG">
-            <node concept="2OqwBi" id="1PdbtWmmxy6" role="3uHU7w">
-              <node concept="nLn13" id="1PdbtWmmxoX" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="1PdbtWmmxP9" role="2OqNvi">
-                <node concept="chp4Y" id="1PdbtWmmy1q" role="cj9EA">
-                  <ref role="cht4Q" to="5l0q:54YK8OvEsyl" resolve="Selector" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1PdbtWlSFdE" role="3uHU7B">
-              <node concept="nLn13" id="1PdbtWlSF4V" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="1PdbtWlSFqU" role="2OqNvi">
-                <node concept="chp4Y" id="1PdbtWlSFwV" role="cj9EA">
-                  <ref role="cht4Q" to="5l0q:5ByJnQV4n9p" resolve="ObjectMeta" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
