@@ -103,9 +103,6 @@
         </node>
       </node>
     </node>
-    <node concept="1LvN49" id="2RKRdmRha2s" role="1o5_E9">
-      <ref role="1LvN48" node="1wOm4vbci7C" />
-    </node>
     <node concept="1LvN49" id="2RKRdmRha2v" role="1o5_Em">
       <ref role="1LvN48" node="1wOm4vbci7C" />
     </node>
@@ -122,6 +119,9 @@
       <node concept="1LvN49" id="2RKRdmRha2_" role="1eNFMr">
         <ref role="1LvN48" node="1wOm4vbci7C" />
       </node>
+    </node>
+    <node concept="1LvN49" id="13CIoTZvheV" role="1o5_E9">
+      <ref role="1LvN48" node="iodMsU2zhl" />
     </node>
   </node>
   <node concept="1jaWA_" id="3TaG6pumRBp">
@@ -241,9 +241,21 @@
       <property role="fvZFK" value="releaseMetadata" />
       <node concept="1eMz0b" id="VSlIPHGmI3" role="f215J">
         <node concept="fvZFL" id="VSlIPHGmI6" role="1eMz0a">
-          <property role="fvZFK" value="test" />
+          <property role="fvZFK" value="name" />
           <node concept="1eMz0e" id="VSlIPHGmIa" role="f215J">
             <property role="191bEX" value="test" />
+          </node>
+        </node>
+        <node concept="fvZFL" id="iodMsU2zhl" role="1eMz0a">
+          <property role="fvZFK" value="apiVersion" />
+          <node concept="1eMz0e" id="iodMsU2zhr" role="f215J">
+            <property role="191bEX" value="apiVersionTEST" />
+          </node>
+        </node>
+        <node concept="fvZFL" id="iodMsU2zhu" role="1eMz0a">
+          <property role="fvZFK" value="version" />
+          <node concept="1eMz0e" id="iodMsU2zhA" role="f215J">
+            <property role="191bEX" value="appVersion" />
           </node>
         </node>
       </node>
