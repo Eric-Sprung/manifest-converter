@@ -192,6 +192,9 @@
       <concept id="970024109044030977" name="HelmChart.structure.Values" flags="ng" index="2Al6B8">
         <child id="5854328277987291273" name="items" index="1eMz04" />
       </concept>
+      <concept id="5854328277982365845" name="HelmChart.structure.Selector" flags="ng" index="1e_Kwo">
+        <child id="5854328277982365850" name="labels" index="1e_Kwn" />
+      </concept>
       <concept id="5854328277980838832" name="HelmChart.structure.Label" flags="ng" index="1eFbGX">
         <child id="2111394236479369490" name="value" index="bptNd" />
       </concept>
@@ -209,6 +212,11 @@
       <concept id="5854328277986517826" name="HelmChart.structure.Chart" flags="ng" index="1ePYff">
         <child id="3961669402070492688" name="items" index="3_28H4" />
       </concept>
+      <concept id="284014218792087659" name="HelmChart.structure.ServicePort" flags="ng" index="1tGzk6">
+        <child id="2111394236482146025" name="port" index="b7AcQ" />
+        <child id="2111394236482146022" name="targetPort" index="b7AcT" />
+        <child id="2111394236482146020" name="name" index="b7AcV" />
+      </concept>
       <concept id="6625837104251562735" name="HelmChart.structure.ChartReference" flags="ng" index="3xtX_i" />
       <concept id="6476947561819239011" name="HelmChart.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
@@ -220,6 +228,13 @@
       </concept>
       <concept id="6476947561819239000" name="HelmChart.structure.PodSpec" flags="ng" index="3yWWW_">
         <child id="5176375271271033065" name="containers" index="1NVWkb" />
+      </concept>
+      <concept id="958717984449038871" name="HelmChart.structure.Service" flags="ng" index="1F$KrU">
+        <child id="284014218792087658" name="spec" index="1tGzk7" />
+      </concept>
+      <concept id="958717984449329690" name="HelmChart.structure.ServiceSpec" flags="ng" index="1FFRrR">
+        <child id="5854328277982639829" name="selector" index="1e$Npo" />
+        <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
       <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
@@ -309,6 +324,24 @@
       <ref role="30HIoZ" to="2mqg:4vmbu8OeubM" resolve="ContainerPort" />
       <node concept="j$656" id="4_SrNf73a2W" role="1lVwrX">
         <ref role="v9R2y" node="4_SrNf73a2U" resolve="reduce_ContainerPort" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="CvDuMrsLDt" role="3acgRq">
+      <ref role="30HIoZ" to="2mqg:Pe3ePASnCq" resolve="ServiceSpec" />
+      <node concept="j$656" id="CvDuMrsLQK" role="1lVwrX">
+        <ref role="v9R2y" node="CvDuMrsLQI" resolve="reduce_ServiceSpec" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="CvDuMrsMFk" role="3acgRq">
+      <ref role="30HIoZ" to="2mqg:54YK8OvEsyl" resolve="Selector" />
+      <node concept="j$656" id="CvDuMrsMTN" role="1lVwrX">
+        <ref role="v9R2y" node="CvDuMrsMTL" resolve="reduce_Selector" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="CvDuMrsNIc" role="3acgRq">
+      <ref role="30HIoZ" to="2mqg:fL1mPugN1F" resolve="ServicePort" />
+      <node concept="j$656" id="CvDuMrsNZU" role="1lVwrX">
+        <ref role="v9R2y" node="CvDuMrsNZS" resolve="reduce_ServicePort" />
       </node>
     </node>
     <node concept="2VPoh5" id="1eVY3g0Yys5" role="2VS0gm">
@@ -443,6 +476,10 @@
     <node concept="3lhOvk" id="q0GXNWGgmA" role="3lj3bC">
       <ref role="3lhOvi" node="q0GXNWQKWA" />
       <ref role="30HIoZ" to="2mqg:5ByJnQV4n9z" resolve="Pod" />
+    </node>
+    <node concept="3lhOvk" id="CvDuMrsKEM" role="3lj3bC">
+      <ref role="30HIoZ" to="2mqg:Pe3ePARgCn" resolve="Service" />
+      <ref role="3lhOvi" node="CvDuMrsKNx" />
     </node>
   </node>
   <node concept="3yWWWu" id="q0GXNWQKWA">
@@ -1537,6 +1574,221 @@
         </node>
       </node>
       <node concept="raruj" id="4_SrNf73ari" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="1F$KrU" id="CvDuMrsKNx">
+    <node concept="1L2LFj" id="CvDuMrsKNy" role="b3O08">
+      <property role="1LuVe3" value="Service" />
+      <node concept="5jKBG" id="CvDuMrsLgF" role="lGtFl">
+        <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
+        <node concept="3NFfHV" id="CvDuMrsLgJ" role="5jGum">
+          <node concept="3clFbS" id="CvDuMrsLgK" role="2VODD2">
+            <node concept="3clFbF" id="CvDuMrsLgP" role="3cqZAp">
+              <node concept="2OqwBi" id="CvDuMrsLhg" role="3clFbG">
+                <node concept="30H73N" id="CvDuMrsLgO" role="2Oq$k0" />
+                <node concept="3TrEf2" id="CvDuMrsLiB" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2mqg:1eX1mtbEPZL" resolve="kind" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1FFRrR" id="CvDuMrsKNz" role="1tGzk7">
+      <node concept="1tGzk6" id="CvDuMrsKN$" role="1tGzk2">
+        <node concept="1L2LFj" id="CvDuMrsKN_" role="b7AcV" />
+        <node concept="1L2LFj" id="CvDuMrsKNA" role="b7AcT" />
+        <node concept="1L2LFj" id="CvDuMrsKNB" role="b7AcQ" />
+      </node>
+      <node concept="1e_Kwo" id="CvDuMrsKNC" role="1e$Npo" />
+      <node concept="5jKBG" id="CvDuMrsLz3" role="lGtFl">
+        <ref role="v9R2y" node="CvDuMrsLQI" resolve="reduce_ServiceSpec" />
+        <node concept="3NFfHV" id="CvDuMrsMdr" role="5jGum">
+          <node concept="3clFbS" id="CvDuMrsMds" role="2VODD2">
+            <node concept="3clFbF" id="CvDuMrsMfu" role="3cqZAp">
+              <node concept="2OqwBi" id="CvDuMrsMpo" role="3clFbG">
+                <node concept="30H73N" id="CvDuMrsMft" role="2Oq$k0" />
+                <node concept="3TrEf2" id="CvDuMrsMym" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2mqg:fL1mPugN1E" resolve="spec" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yWWW$" id="CvDuMrsKND" role="1NS65M">
+      <node concept="1L2LFj" id="CvDuMrsKNE" role="b1XYk">
+        <property role="1LuVe3" value="default" />
+      </node>
+      <node concept="1L2LFj" id="CvDuMrsKNF" role="1Luyvk" />
+      <node concept="5jKBG" id="CvDuMrsLmZ" role="lGtFl">
+        <ref role="v9R2y" node="1jIwK_5okjh" resolve="reduce_ObjectMeta" />
+        <node concept="3NFfHV" id="CvDuMrsLn2" role="5jGum">
+          <node concept="3clFbS" id="CvDuMrsLn3" role="2VODD2">
+            <node concept="3clFbF" id="CvDuMrsLnx" role="3cqZAp">
+              <node concept="2OqwBi" id="CvDuMrsLon" role="3clFbG">
+                <node concept="30H73N" id="CvDuMrsLnw" role="2Oq$k0" />
+                <node concept="3TrEf2" id="CvDuMrsLrj" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2mqg:4vmbu8Od$Mg" resolve="metadata" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1L2LFj" id="CvDuMrsKNG" role="b3O05">
+      <node concept="5jKBG" id="CvDuMrsKOV" role="lGtFl">
+        <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
+        <node concept="3NFfHV" id="CvDuMrsKPo" role="5jGum">
+          <node concept="3clFbS" id="CvDuMrsKPp" role="2VODD2">
+            <node concept="3clFbF" id="CvDuMrsKRr" role="3cqZAp">
+              <node concept="2OqwBi" id="CvDuMrsL1l" role="3clFbG">
+                <node concept="30H73N" id="CvDuMrsKRq" role="2Oq$k0" />
+                <node concept="3TrEf2" id="CvDuMrsLbR" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2mqg:1eX1mtbEPZI" resolve="apiVersion" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="n94m4" id="CvDuMrsKNH" role="lGtFl">
+      <ref role="n9lRv" to="2mqg:Pe3ePARgCn" resolve="Service" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="CvDuMrsLQI">
+    <property role="TrG5h" value="reduce_ServiceSpec" />
+    <ref role="3gUMe" to="2mqg:Pe3ePASnCq" resolve="ServiceSpec" />
+    <node concept="1FFRrR" id="CvDuMrsLQN" role="13RCb5">
+      <node concept="1tGzk6" id="CvDuMrsLQO" role="1tGzk2">
+        <node concept="1L2LFj" id="CvDuMrsLQP" role="b7AcV" />
+        <node concept="1L2LFj" id="CvDuMrsLQQ" role="b7AcT" />
+        <node concept="1L2LFj" id="CvDuMrsLQR" role="b7AcQ" />
+        <node concept="1WS0z7" id="CvDuMrsLRa" role="lGtFl">
+          <node concept="3JmXsc" id="CvDuMrsLRd" role="3Jn$fo">
+            <node concept="3clFbS" id="CvDuMrsLRe" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsLRk" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsLRf" role="3clFbG">
+                  <node concept="3Tsc0h" id="CvDuMrsLRi" role="2OqNvi">
+                    <ref role="3TtcxE" to="2mqg:fL1mPugN1J" resolve="ports" />
+                  </node>
+                  <node concept="30H73N" id="CvDuMrsLRj" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="5jKBG" id="CvDuMrsM5X" role="lGtFl">
+          <ref role="v9R2y" node="CvDuMrsNZS" resolve="reduce_ServicePort" />
+        </node>
+      </node>
+      <node concept="1e_Kwo" id="CvDuMrsLQS" role="1e$Npo">
+        <node concept="5jKBG" id="CvDuMrsLR7" role="lGtFl">
+          <ref role="v9R2y" node="CvDuMrsMTL" resolve="reduce_Selector" />
+          <node concept="3NFfHV" id="CvDuMrsNg$" role="5jGum">
+            <node concept="3clFbS" id="CvDuMrsNg_" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsNiB" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsNrQ" role="3clFbG">
+                  <node concept="30H73N" id="CvDuMrsNiA" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="CvDuMrsNzp" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2mqg:54YK8OvFvrl" resolve="selector" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="CvDuMrsLR3" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="CvDuMrsMTL">
+    <property role="TrG5h" value="reduce_Selector" />
+    <ref role="3gUMe" to="2mqg:54YK8OvEsyl" resolve="Selector" />
+    <node concept="1e_Kwo" id="CvDuMrsMTQ" role="13RCb5">
+      <node concept="1eFbGX" id="CvDuMrsMZx" role="1e_Kwn">
+        <node concept="1L2LFj" id="CvDuMrsMZy" role="bptNd" />
+        <node concept="1WS0z7" id="CvDuMrsMZA" role="lGtFl">
+          <node concept="3JmXsc" id="CvDuMrsMZD" role="3Jn$fo">
+            <node concept="3clFbS" id="CvDuMrsMZE" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsMZK" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsMZF" role="3clFbG">
+                  <node concept="3Tsc0h" id="CvDuMrsMZI" role="2OqNvi">
+                    <ref role="3TtcxE" to="2mqg:54YK8OvEsyq" resolve="labels" />
+                  </node>
+                  <node concept="30H73N" id="CvDuMrsMZJ" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="5jKBG" id="CvDuMrsNaf" role="lGtFl">
+          <ref role="v9R2y" node="6SJM4ovwQm6" resolve="reduce_Label" />
+        </node>
+      </node>
+      <node concept="raruj" id="CvDuMrsMTS" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="CvDuMrsNZS">
+    <property role="TrG5h" value="reduce_ServicePort" />
+    <ref role="3gUMe" to="2mqg:fL1mPugN1F" resolve="ServicePort" />
+    <node concept="1tGzk6" id="CvDuMrsNZX" role="13RCb5">
+      <node concept="1L2LFj" id="CvDuMrsNZY" role="b7AcV">
+        <node concept="5jKBG" id="CvDuMrsO5o" role="lGtFl">
+          <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
+          <node concept="3NFfHV" id="CvDuMrsO5r" role="5jGum">
+            <node concept="3clFbS" id="CvDuMrsO5s" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsO5x" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsOeK" role="3clFbG">
+                  <node concept="30H73N" id="CvDuMrsO5w" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="CvDuMrsOnR" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2mqg:1eX1mtbEQ00" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1L2LFj" id="CvDuMrsNZZ" role="b7AcT">
+        <node concept="5jKBG" id="CvDuMrsOsr" role="lGtFl">
+          <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
+          <node concept="3NFfHV" id="CvDuMrsOsv" role="5jGum">
+            <node concept="3clFbS" id="CvDuMrsOsw" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsOuy" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsOBN" role="3clFbG">
+                  <node concept="30H73N" id="CvDuMrsOux" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="CvDuMrsOJi" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2mqg:1eX1mtbEQ02" resolve="targetPort" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1L2LFj" id="CvDuMrsO00" role="b7AcQ">
+        <node concept="5jKBG" id="CvDuMrsONQ" role="lGtFl">
+          <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
+          <node concept="3NFfHV" id="CvDuMrsONV" role="5jGum">
+            <node concept="3clFbS" id="CvDuMrsONW" role="2VODD2">
+              <node concept="3clFbF" id="CvDuMrsOOq" role="3cqZAp">
+                <node concept="2OqwBi" id="CvDuMrsOOP" role="3clFbG">
+                  <node concept="30H73N" id="CvDuMrsOOp" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="CvDuMrsOQc" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2mqg:1eX1mtbEQ05" resolve="port" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="CvDuMrsO05" role="lGtFl" />
     </node>
   </node>
 </model>
