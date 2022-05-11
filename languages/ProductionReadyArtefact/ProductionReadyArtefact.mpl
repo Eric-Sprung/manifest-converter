@@ -112,6 +112,9 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">1455348a-124f-4d4d-845f-61c2f37907a5(Kustomize)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:1455348a-124f-4d4d-845f-61c2f37907a5:Kustomize" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
