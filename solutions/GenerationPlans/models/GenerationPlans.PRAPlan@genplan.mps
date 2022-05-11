@@ -44,10 +44,10 @@
   <node concept="2VgMpV" id="22572mMH7Hh">
     <property role="TrG5h" value="Plan ProductionReadyArtefact" />
     <node concept="3uMcMo" id="6P3aSn6ALG1" role="2VgMA7">
-      <node concept="3uMdn$" id="3Dp8Z8aVVNa" role="3uOsAP">
-        <node concept="20RdaH" id="3Dp8Z8aVVNb" role="3uMdmt">
-          <property role="20Rdg5" value="bd78e38e-1826-466e-b8bd-a53c07a5d20b" />
-          <property role="20Rdg7" value="ProductionReadyArtefact.HelmChart" />
+      <node concept="3uMdn$" id="6bFTrSFgOON" role="3uOsAP">
+        <node concept="20RdaH" id="6bFTrSFgOOO" role="3uMdmt">
+          <property role="20Rdg5" value="12429fc6-7413-47e9-b25b-c054a35d8847" />
+          <property role="20Rdg7" value="ProductionReadyArtefact.Kustomize" />
         </node>
       </node>
     </node>
