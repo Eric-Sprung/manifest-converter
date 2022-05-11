@@ -84,13 +84,9 @@
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
-      <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
-        <reference id="1147467295099" name="applicableProperty" index="EomxK" />
-      </concept>
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
-        <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
@@ -134,18 +130,6 @@
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="4vmbu8OdbKp">
-    <ref role="1M2myG" to="rhuf:5ByJnQV4n9z" resolve="Pod" />
-    <node concept="EnEH3" id="4vmbu8OdbKq" role="1MhHOB">
-      <ref role="EomxK" to="rhuf:4vmbu8Od$Md" resolve="kind" />
-    </node>
-  </node>
-  <node concept="1M2fIO" id="Pe3ePASlCj">
-    <ref role="1M2myG" to="rhuf:Pe3ePARgCn" resolve="Service" />
-    <node concept="EnEH3" id="Pe3ePASlCk" role="1MhHOB">
-      <ref role="EomxK" to="rhuf:4vmbu8Od$Md" resolve="kind" />
-    </node>
-  </node>
   <node concept="1M2fIO" id="62x3TLZWJqR">
     <ref role="1M2myG" to="rhuf:62x3TLZQI5P" resolve="PatchReference" />
     <node concept="1N5Pfh" id="62x3TLZWLat" role="1Mr941">

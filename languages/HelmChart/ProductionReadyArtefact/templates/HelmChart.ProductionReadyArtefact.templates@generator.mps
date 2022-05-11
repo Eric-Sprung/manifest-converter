@@ -515,9 +515,7 @@
     </node>
     <node concept="fvZFL" id="6C7MJDST2aF" role="1Z0KYP">
       <property role="fvZFK" value="variants" />
-      <node concept="1eMz0e" id="6C7MJDSTepa" role="f215J">
-        <property role="191bEX" value="default" />
-      </node>
+      <node concept="1eMz0b" id="76xQpjsJbz9" role="f215J" />
     </node>
     <node concept="n94m4" id="6C7MJDST2aG" role="lGtFl" />
   </node>
