@@ -147,6 +147,9 @@
         <reference id="1216860049628" name="label" index="1iwH77" />
         <child id="1216860049632" name="inputNode" index="1iwH7V" />
       </concept>
+      <concept id="1216860049622" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabel" flags="nn" index="1iwH7d">
+        <reference id="1216860049623" name="label" index="1iwH7c" />
+      </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
       <concept id="1217004708011" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetInputModel" flags="nn" index="1r8y6K" />
     </language>
@@ -193,9 +196,11 @@
       </concept>
     </language>
     <language id="1455348a-124f-4d4d-845f-61c2f37907a5" name="Kustomize">
+      <concept id="5052078188278159634" name="Kustomize.structure.BaseReference" flags="ng" index="rNgXa" />
       <concept id="5052078188279150047" name="Kustomize.structure.Base" flags="ng" index="rZ2e7" />
       <concept id="5052078188279150048" name="Kustomize.structure.Overlay" flags="ng" index="rZ2eS" />
       <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT" />
+      <concept id="6962863663725863285" name="Kustomize.structure.PatchReference" flags="ng" index="vuYVD" />
       <concept id="5854328277982365845" name="Kustomize.structure.Selector" flags="ng" index="1e_Kwo">
         <child id="5854328277982365850" name="labels" index="1e_Kwn" />
       </concept>
@@ -242,6 +247,8 @@
       <concept id="8113124794919721950" name="Kustomize.structure.Kustomization" flags="ng" index="1V3gvq">
         <property id="8618915780764173701" name="kind" index="2yUoYT" />
         <property id="8618915780764173697" name="apiVersion" index="2yUoYX" />
+        <child id="5052078188278159637" name="base" index="rNgXd" />
+        <child id="6962863663725586463" name="patches" index="vtUu3" />
         <child id="8113124794919721955" name="resources" index="1V3gvB" />
       </concept>
       <concept id="8113124794919721957" name="Kustomize.structure.ManifestReference" flags="ng" index="1V3gvx" />
@@ -2165,12 +2172,105 @@
     <node concept="2ZBi8u" id="3Nlf0qKA2AV" role="lGtFl">
       <ref role="2rW$FS" node="279t9I0wMul" resolve="Patch" />
     </node>
+    <node concept="17Uvod" id="1GfFQioJPKB" role="lGtFl">
+      <property role="2qtEX9" value="apiVersion" />
+      <property role="P4ACc" value="1455348a-124f-4d4d-845f-61c2f37907a5/5176375271270796426/5176375271270796427" />
+      <node concept="3zFVjK" id="1GfFQioJPKC" role="3zH0cK">
+        <node concept="3clFbS" id="1GfFQioJPKD" role="2VODD2">
+          <node concept="3clFbF" id="1GfFQioJPPm" role="3cqZAp">
+            <node concept="2OqwBi" id="1GfFQioJQ1c" role="3clFbG">
+              <node concept="30H73N" id="1GfFQioJPPl" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1GfFQioJQhe" role="2OqNvi">
+                <ref role="3TsBF5" to="2mqg:6HbGAd$d4yj" resolve="key" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="rZ2eS" id="1mAYcbFHZeM">
     <property role="2yUoYX" value="kustomize.config.k8s.io/v1beta1" />
     <property role="2yUoYT" value="Kustomization" />
+    <node concept="vuYVD" id="muD4WjBtB3" role="vtUu3">
+      <node concept="1WS0z7" id="muD4WjBtHM" role="lGtFl">
+        <node concept="3JmXsc" id="muD4WjBtHN" role="3Jn$fo">
+          <node concept="3clFbS" id="muD4WjBtHO" role="2VODD2">
+            <node concept="3clFbF" id="muD4WjBxfF" role="3cqZAp">
+              <node concept="2OqwBi" id="muD4WjByNg" role="3clFbG">
+                <node concept="1PxgMI" id="muD4WjBydM" role="2Oq$k0">
+                  <node concept="chp4Y" id="muD4WjByzM" role="3oSUPX">
+                    <ref role="cht4Q" to="2mqg:54YK8OvXf26" resolve="ValueFieldBody" />
+                  </node>
+                  <node concept="2OqwBi" id="muD4WjBxsz" role="1m5AlR">
+                    <node concept="30H73N" id="muD4WjBxfE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="muD4WjBxT2" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2mqg:6HbGAd$gUcc" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="muD4WjBzgT" role="2OqNvi">
+                  <ref role="3TtcxE" to="2mqg:54YK8OvXf27" resolve="items" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZhdrF" id="muD4WjBv77" role="lGtFl">
+        <property role="2qtEX8" value="original" />
+        <property role="P3scX" value="1455348a-124f-4d4d-845f-61c2f37907a5/6962863663725863285/6962863663725863286" />
+        <node concept="3$xsQk" id="muD4WjBv78" role="3$ytzL">
+          <node concept="3clFbS" id="muD4WjBv79" role="2VODD2">
+            <node concept="3clFbF" id="muD4WjBvgL" role="3cqZAp">
+              <node concept="2OqwBi" id="muD4WjBvr7" role="3clFbG">
+                <node concept="1iwH7S" id="muD4WjBvgK" role="2Oq$k0" />
+                <node concept="1iwH70" id="muD4WjBvDs" role="2OqNvi">
+                  <ref role="1iwH77" node="279t9I0wMul" resolve="Patch" />
+                  <node concept="30H73N" id="muD4WjBw3J" role="1iwH7V" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="n94m4" id="1mAYcbFHZeN" role="lGtFl">
       <ref role="n9lRv" to="2mqg:6HbGAd$d4yi" resolve="ValueField" />
+    </node>
+    <node concept="17Uvod" id="1GfFQioJQo5" role="lGtFl">
+      <property role="2qtEX9" value="kind" />
+      <property role="P4ACc" value="1455348a-124f-4d4d-845f-61c2f37907a5/8113124794919721950/8618915780764173701" />
+      <node concept="3zFVjK" id="1GfFQioJQo6" role="3zH0cK">
+        <node concept="3clFbS" id="1GfFQioJQo7" role="2VODD2">
+          <node concept="3clFbF" id="1GfFQioJQow" role="3cqZAp">
+            <node concept="2OqwBi" id="1GfFQioJQoV" role="3clFbG">
+              <node concept="30H73N" id="1GfFQioJQov" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1GfFQioJQqb" role="2OqNvi">
+                <ref role="3TsBF5" to="2mqg:6HbGAd$d4yj" resolve="key" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="rNgXa" id="5nGUuHTgKwK" role="rNgXd">
+      <node concept="1ZhdrF" id="5nGUuHTgKCs" role="lGtFl">
+        <property role="2qtEX8" value="original" />
+        <property role="P3scX" value="1455348a-124f-4d4d-845f-61c2f37907a5/5052078188278159634/5052078188278159635" />
+        <node concept="3$xsQk" id="5nGUuHTgKCt" role="3$ytzL">
+          <node concept="3clFbS" id="5nGUuHTgKCu" role="2VODD2">
+            <node concept="3clFbF" id="5nGUuHTgKD2" role="3cqZAp">
+              <node concept="2OqwBi" id="5nGUuHTgL4O" role="3clFbG">
+                <node concept="1iwH7S" id="5nGUuHTgKD1" role="2Oq$k0" />
+                <node concept="1iwH7d" id="5nGUuHTgLal" role="2OqNvi">
+                  <ref role="1iwH7c" node="5iwDR_i38Db" resolve="Base" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
