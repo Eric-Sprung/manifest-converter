@@ -39,9 +39,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -63,9 +60,7 @@
       </concept>
       <concept id="1219952072943" name="jetbrains.mps.lang.generator.structure.DropRootRule" flags="lg" index="aNPBN">
         <reference id="1219952338328" name="applicableConcept" index="aOQi4" />
-        <child id="1219952317655" name="conditionFunction" index="aOLnb" />
       </concept>
-      <concept id="1219952151850" name="jetbrains.mps.lang.generator.structure.DropRootRule_Condition" flags="in" index="aO8KQ" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1219952894531" name="dropRootRule" index="aQYdv" />
         <child id="1167088157977" name="createRootRule" index="2VS0gm" />
@@ -480,15 +475,6 @@
     </node>
     <node concept="aNPBN" id="7tSR1PxOGxZ" role="aQYdv">
       <ref role="aOQi4" to="rhuf:5ByJnQV4n9z" resolve="Pod" />
-      <node concept="aO8KQ" id="24IKlSrELHK" role="aOLnb">
-        <node concept="3clFbS" id="24IKlSrELHL" role="2VODD2">
-          <node concept="3clFbF" id="24IKlSrELI8" role="3cqZAp">
-            <node concept="3clFbT" id="24IKlSrELI7" role="3clFbG">
-              <property role="3clFbU" value="true" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="aNPBN" id="7tSR1PxOGC2" role="aQYdv">
       <ref role="aOQi4" to="rhuf:Pe3ePARgCn" resolve="Service" />

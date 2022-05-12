@@ -53,10 +53,10 @@
       </node>
     </node>
     <node concept="3uMcMo" id="3X_hVz$0lHU" role="2VgMA7">
-      <node concept="3uMdn$" id="3X_hVz$0lI2" role="3uOsAP">
-        <node concept="20RdaH" id="3X_hVz$0lI3" role="3uMdmt">
-          <property role="20Rdg5" value="e626d0be-33d7-4ee9-81dc-f5f8fc800630" />
-          <property role="20Rdg7" value="ProductionReadyArtefact.ManifestCollection" />
+      <node concept="3uMdn$" id="3pF5Evk3Cce" role="3uOsAP">
+        <node concept="20RdaH" id="3pF5Evk3Ccf" role="3uMdmt">
+          <property role="20Rdg5" value="bd78e38e-1826-466e-b8bd-a53c07a5d20b" />
+          <property role="20Rdg7" value="ProductionReadyArtefact.HelmChart" />
         </node>
       </node>
     </node>
