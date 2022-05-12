@@ -289,20 +289,247 @@
     </node>
     <node concept="fvZFL" id="1wOm4vbci7D" role="1Z0KYP">
       <property role="fvZFK" value="variants" />
-      <node concept="1eMz0e" id="1wOm4vbci7N" role="f215J">
-        <property role="191bEX" value="c" />
+      <node concept="1eMz0b" id="3mWYIkO4xGc" role="f215J">
+        <node concept="fvZFL" id="7muewKTZlzv" role="1eMz0a">
+          <property role="fvZFK" value="Overlay2" />
+          <node concept="1eMz0b" id="7muewKTZl_V" role="f215J">
+            <node concept="fvZFL" id="279t9I0wLwK" role="1eMz0a">
+              <property role="fvZFK" value="Patch2" />
+              <node concept="1eMz0b" id="279t9I0wLwL" role="f215J">
+                <node concept="fvZFL" id="279t9I0wLwM" role="1eMz0a">
+                  <property role="fvZFK" value="apiVersion" />
+                  <node concept="1eMz0e" id="279t9I0wLwN" role="f215J">
+                    <property role="191bEX" value="apiVersionPatch2" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLwO" role="1eMz0a">
+                  <property role="fvZFK" value="kind" />
+                  <node concept="1eMz0e" id="279t9I0wLwP" role="f215J">
+                    <property role="191bEX" value="Patch" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLwQ" role="1eMz0a">
+                  <property role="fvZFK" value="metadata" />
+                  <node concept="1eMz0b" id="279t9I0wLwR" role="f215J">
+                    <node concept="fvZFL" id="279t9I0wLwS" role="1eMz0a">
+                      <property role="fvZFK" value="name" />
+                      <node concept="1eMz0e" id="279t9I0wLwT" role="f215J">
+                        <property role="191bEX" value="2" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="279t9I0wLwU" role="1eMz0a">
+                      <property role="fvZFK" value="namespace" />
+                      <node concept="1eMz0e" id="279t9I0wLwV" role="f215J">
+                        <property role="191bEX" value="default" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="279t9I0wLwW" role="1eMz0a">
+                      <property role="fvZFK" value="labels" />
+                      <node concept="1eMz0b" id="279t9I0wLwX" role="f215J">
+                        <node concept="fvZFL" id="279t9I0wLwY" role="1eMz0a">
+                          <property role="fvZFK" value="das" />
+                          <node concept="1eMz0e" id="279t9I0wLwZ" role="f215J">
+                            <property role="191bEX" value="asda" />
+                          </node>
+                        </node>
+                        <node concept="fvZFL" id="279t9I0wLx0" role="1eMz0a">
+                          <property role="fvZFK" value="dsabfd" />
+                          <node concept="1eMz0e" id="279t9I0wLx1" role="f215J">
+                            <property role="191bEX" value="dsa" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLx2" role="1eMz0a">
+                  <property role="fvZFK" value="spec" />
+                  <node concept="1eMz0b" id="279t9I0wLx3" role="f215J">
+                    <node concept="fvZFL" id="279t9I0wLx4" role="1eMz0a">
+                      <property role="fvZFK" value="bli" />
+                      <node concept="1eMz0b" id="279t9I0wLx5" role="f215J">
+                        <node concept="fvZFL" id="279t9I0wLx6" role="1eMz0a">
+                          <property role="fvZFK" value="bla" />
+                          <node concept="1eMz0e" id="279t9I0wLx7" role="f215J">
+                            <property role="191bEX" value="blub" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="279t9I0wLx8" role="1eMz0a">
+                      <property role="fvZFK" value="key1" />
+                      <node concept="1eMz0b" id="279t9I0wLx9" role="f215J">
+                        <node concept="fvZFL" id="279t9I0wLxa" role="1eMz0a">
+                          <property role="fvZFK" value="key2" />
+                          <node concept="1eMz0e" id="279t9I0wLxb" role="f215J">
+                            <property role="191bEX" value="2" />
+                          </node>
+                        </node>
+                        <node concept="fvZFL" id="279t9I0wLxc" role="1eMz0a">
+                          <property role="fvZFK" value="key23" />
+                          <node concept="1eMz0e" id="279t9I0wLxd" role="f215J">
+                            <property role="191bEX" value="3" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="fvZFL" id="SKBb0Jx7A5" role="1eMz0a">
+              <property role="fvZFK" value="Patch3" />
+              <node concept="1eMz0b" id="SKBb0Jx7A6" role="f215J">
+                <node concept="fvZFL" id="SKBb0Jx7A7" role="1eMz0a">
+                  <property role="fvZFK" value="apiVersion" />
+                  <node concept="1eMz0e" id="SKBb0Jx7A8" role="f215J">
+                    <property role="191bEX" value="apiVersionPatch2" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="SKBb0Jx7A9" role="1eMz0a">
+                  <property role="fvZFK" value="kind" />
+                  <node concept="1eMz0e" id="SKBb0Jx7Aa" role="f215J">
+                    <property role="191bEX" value="Patch" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="SKBb0Jx7Ab" role="1eMz0a">
+                  <property role="fvZFK" value="metadata" />
+                  <node concept="1eMz0b" id="SKBb0Jx7Ac" role="f215J">
+                    <node concept="fvZFL" id="SKBb0Jx7Ad" role="1eMz0a">
+                      <property role="fvZFK" value="name" />
+                      <node concept="1eMz0e" id="SKBb0Jx7Ae" role="f215J">
+                        <property role="191bEX" value="2" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="SKBb0Jx7Af" role="1eMz0a">
+                      <property role="fvZFK" value="namespace" />
+                      <node concept="1eMz0e" id="SKBb0Jx7Ag" role="f215J">
+                        <property role="191bEX" value="default" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="SKBb0Jx7Ah" role="1eMz0a">
+                      <property role="fvZFK" value="labels" />
+                      <node concept="1eMz0b" id="SKBb0Jx7Ai" role="f215J">
+                        <node concept="fvZFL" id="SKBb0Jx7Aj" role="1eMz0a">
+                          <property role="fvZFK" value="das" />
+                          <node concept="1eMz0e" id="SKBb0Jx7Ak" role="f215J">
+                            <property role="191bEX" value="asda" />
+                          </node>
+                        </node>
+                        <node concept="fvZFL" id="SKBb0Jx7Al" role="1eMz0a">
+                          <property role="fvZFK" value="dsabfd" />
+                          <node concept="1eMz0e" id="SKBb0Jx7Am" role="f215J">
+                            <property role="191bEX" value="dsa" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="fvZFL" id="SKBb0Jx7An" role="1eMz0a">
+                  <property role="fvZFK" value="spec" />
+                  <node concept="1eMz0b" id="SKBb0Jx7Ao" role="f215J">
+                    <node concept="fvZFL" id="SKBb0Jx7Ap" role="1eMz0a">
+                      <property role="fvZFK" value="bli" />
+                      <node concept="1eMz0b" id="SKBb0Jx7Aq" role="f215J">
+                        <node concept="fvZFL" id="SKBb0Jx7Ar" role="1eMz0a">
+                          <property role="fvZFK" value="bla" />
+                          <node concept="1eMz0e" id="SKBb0Jx7As" role="f215J">
+                            <property role="191bEX" value="blub" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="SKBb0Jx7At" role="1eMz0a">
+                      <property role="fvZFK" value="key1" />
+                      <node concept="1eMz0b" id="SKBb0Jx7Au" role="f215J">
+                        <node concept="fvZFL" id="SKBb0Jx7Av" role="1eMz0a">
+                          <property role="fvZFK" value="key2" />
+                          <node concept="1eMz0e" id="SKBb0Jx7Aw" role="f215J">
+                            <property role="191bEX" value="2" />
+                          </node>
+                        </node>
+                        <node concept="fvZFL" id="SKBb0Jx7Ax" role="1eMz0a">
+                          <property role="fvZFK" value="key23" />
+                          <node concept="1eMz0e" id="SKBb0Jx7Ay" role="f215J">
+                            <property role="191bEX" value="3" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="fvZFL" id="279t9I0wLwu" role="1eMz0a">
+          <property role="fvZFK" value="Overlay-1" />
+          <node concept="1eMz0b" id="279t9I0wLwv" role="f215J">
+            <node concept="fvZFL" id="279t9I0wLww" role="1eMz0a">
+              <property role="fvZFK" value="PatchNOT_default" />
+              <node concept="1eMz0b" id="279t9I0wLwx" role="f215J">
+                <node concept="fvZFL" id="279t9I0wLwy" role="1eMz0a">
+                  <property role="fvZFK" value="apiVersion" />
+                  <node concept="1eMz0e" id="279t9I0wLwz" role="f215J">
+                    <property role="191bEX" value="apiVersion" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLw$" role="1eMz0a">
+                  <property role="fvZFK" value="kind" />
+                  <node concept="1eMz0e" id="279t9I0wLw_" role="f215J">
+                    <property role="191bEX" value="Patch" />
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLwA" role="1eMz0a">
+                  <property role="fvZFK" value="metadata" />
+                  <node concept="1eMz0b" id="279t9I0wLwB" role="f215J">
+                    <node concept="fvZFL" id="279t9I0wLwC" role="1eMz0a">
+                      <property role="fvZFK" value="name" />
+                      <node concept="1eMz0e" id="279t9I0wLwD" role="f215J">
+                        <property role="191bEX" value="NOT_default" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="279t9I0wLwE" role="1eMz0a">
+                      <property role="fvZFK" value="namespace" />
+                      <node concept="1eMz0e" id="279t9I0wLwF" role="f215J">
+                        <property role="191bEX" value="default" />
+                      </node>
+                    </node>
+                    <node concept="fvZFL" id="279t9I0wLwG" role="1eMz0a">
+                      <property role="fvZFK" value="labels" />
+                      <node concept="1eMz0b" id="279t9I0wLwH" role="f215J" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="fvZFL" id="279t9I0wLwI" role="1eMz0a">
+                  <property role="fvZFK" value="spec" />
+                  <node concept="1eMz0b" id="279t9I0wLwJ" role="f215J" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
   <node concept="3yWWWu" id="7Qj_COLqIYq">
     <node concept="3yWWW_" id="7Qj_COLqIYr" role="1tGWEw">
       <node concept="1NVWW6" id="7Qj_COLqIYs" role="1NVWkb">
-        <node concept="1L2LFj" id="7Qj_COLqIYt" role="1o5_ET" />
-        <node concept="1L2LFj" id="7Qj_COLqIYu" role="1o5_E6" />
+        <node concept="1L2LFj" id="7Qj_COLqIYt" role="1o5_ET">
+          <property role="1LuVe3" value="ads" />
+        </node>
+        <node concept="1L2LFj" id="7Qj_COLqIYu" role="1o5_E6">
+          <property role="1LuVe3" value="dsa" />
+        </node>
       </node>
     </node>
-    <node concept="1L2LFj" id="7Qj_COLqIYv" role="1o5_E9" />
-    <node concept="1L2LFj" id="7Qj_COLqIYw" role="1o5_Em" />
+    <node concept="1L2LFj" id="7Qj_COLqIYv" role="1o5_E9">
+      <property role="1LuVe3" value="dsa" />
+    </node>
+    <node concept="1L2LFj" id="7Qj_COLqIYw" role="1o5_Em">
+      <property role="1LuVe3" value="pod" />
+    </node>
     <node concept="3yWWW$" id="7Qj_COLqIYx" role="1NS65M">
       <node concept="1L2LFj" id="7Qj_COLqIYy" role="1eNFMo">
         <property role="1LuVe3" value="default2" />
