@@ -7,18 +7,21 @@
   <imports />
   <registry>
     <language id="0dd31084-9d07-4035-939d-cb69bd123423" name="ManifestCollection">
+      <concept id="7206937884278816934" name="ManifestCollection.structure.Literal" flags="ng" index="UIEXO">
+        <property id="7206937884278895901" name="value" index="UITFf" />
+      </concept>
       <concept id="5854328277982365845" name="ManifestCollection.structure.Selector" flags="ng" index="1e_Kwo">
         <child id="5854328277982365850" name="labels" index="1e_Kwn" />
       </concept>
       <concept id="5854328277980838832" name="ManifestCollection.structure.Label" flags="ng" index="1eFbGX">
         <property id="5854328277980838833" name="key" index="1eFbGW" />
-        <property id="5854328277980838835" name="value" index="1eFbGY" />
+        <child id="7206937884278896016" name="value" index="UITD2" />
       </concept>
       <concept id="9090303514009990983" name="ManifestCollection.structure.Deployment" flags="ng" index="1jaWA_">
         <child id="9090303514009990987" name="spec" index="1jaWAD" />
       </concept>
       <concept id="9090303514009990986" name="ManifestCollection.structure.DeploymentSpec" flags="ng" index="1jaWAC">
-        <property id="9090303514009990989" name="replicas" index="1jaWAJ" />
+        <child id="7206937884278896013" name="replicas" index="UITDv" />
         <child id="9090303514011020746" name="spec" index="1jeTcC" />
       </concept>
       <concept id="9090303514009990991" name="ManifestCollection.structure.PodTemplateSpec" flags="ng" index="1jaWAH">
@@ -27,16 +30,16 @@
         <child id="9090303514016893056" name="metadata" index="1jknpy" />
       </concept>
       <concept id="284014218792087659" name="ManifestCollection.structure.ServicePort" flags="ng" index="1tGzk6">
-        <property id="284014218792087661" name="targetPort" index="1tGzk0" />
-        <property id="284014218792087660" name="name" index="1tGzk1" />
-        <property id="284014218792087662" name="port" index="1tGzk3" />
+        <child id="7206937884278896031" name="name" index="UITDd" />
+        <child id="7206937884278896033" name="targetPort" index="UITDN" />
+        <child id="7206937884278896036" name="port" index="UITDQ" />
       </concept>
       <concept id="6476947561819239011" name="ManifestCollection.structure.Pod" flags="ng" index="3yWWWu">
         <child id="284014218792062925" name="spec" index="1tGWEw" />
       </concept>
       <concept id="6476947561819239001" name="ManifestCollection.structure.ObjectMeta" flags="ng" index="3yWWW$">
-        <property id="6476947561819363334" name="namespace" index="3yWulV" />
-        <property id="6476947561819239002" name="name" index="3yWWWB" />
+        <child id="7206937884278896023" name="name" index="UITD5" />
+        <child id="7206937884278896026" name="namespace" index="UITD8" />
         <child id="5854328277981010499" name="labels" index="1eEXFe" />
       </concept>
       <concept id="6476947561819239000" name="ManifestCollection.structure.PodSpec" flags="ng" index="3yWWW_">
@@ -50,135 +53,166 @@
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
       <concept id="5176375271270796426" name="ManifestCollection.structure.Manifest" flags="ng" index="1NS65C">
-        <property id="5176375271270796427" name="apiVersion" index="1NS65D" />
-        <property id="5176375271270796429" name="kind" index="1NS65J" />
+        <child id="7206937884278896517" name="kind" index="UITxn" />
+        <child id="7206937884278896019" name="apiVersion" index="UITD1" />
         <child id="5176375271270796432" name="metadata" index="1NS65M" />
       </concept>
       <concept id="5176375271271031524" name="ManifestCollection.structure.Container" flags="ng" index="1NVWW6">
-        <property id="5176375271271031525" name="name" index="1NVWW7" />
-        <property id="5176375271271031530" name="image" index="1NVWW8" />
+        <child id="7206937884278895995" name="name" index="UITED" />
+        <child id="7206937884278895998" name="image" index="UITEG" />
         <child id="5176375271271031536" name="ports" index="1NVWWi" />
       </concept>
       <concept id="5176375271271031538" name="ManifestCollection.structure.ContainerPort" flags="ng" index="1NVWWg">
-        <property id="5176375271271206615" name="name" index="1NUEcP" />
-        <property id="5176375271271031539" name="containerPort" index="1NVWWh" />
+        <child id="7206937884278896003" name="name" index="UITDh" />
+        <child id="7206937884278896005" name="containerPort" index="UITDn" />
       </concept>
     </language>
   </registry>
-  <node concept="3yWWWu" id="q0GXNWQLxV">
-    <property role="1NS65J" value="Pod" />
-    <property role="1NS65D" value="apiVersion" />
-    <node concept="3yWWW_" id="q0GXNWQLxW" role="1tGWEw">
-      <node concept="1NVWW6" id="q0GXNWQLxX" role="1NVWkb">
-        <property role="1NVWW7" value="c_name" />
-        <property role="1NVWW8" value="i_name" />
-        <node concept="1NVWWg" id="6P3aSn6EA5d" role="1NVWWi">
-          <property role="1NUEcP" value="port_name" />
-          <property role="1NVWWh" value="1" />
+  <node concept="3yWWWu" id="1cv0AMfb8pQ">
+    <node concept="3yWWW_" id="1cv0AMfb8pR" role="1tGWEw">
+      <node concept="1NVWW6" id="1cv0AMfb8pS" role="1NVWkb">
+        <node concept="1NVWWg" id="1cv0AMfb8qs" role="1NVWWi">
+          <node concept="UIEXO" id="1cv0AMfb8qt" role="UITDh">
+            <property role="UITFf" value="c_p_name1" />
+          </node>
+          <node concept="UIEXO" id="1cv0AMfb8qu" role="UITDn">
+            <property role="UITFf" value="c_p_cp1" />
+          </node>
         </node>
-      </node>
-      <node concept="1NVWW6" id="64u7atZZ7hH" role="1NVWkb">
-        <property role="1NVWW7" value="c_name_2" />
-        <property role="1NVWW8" value="sda" />
-        <node concept="1NVWWg" id="64u7atZZ7i5" role="1NVWWi">
-          <property role="1NUEcP" value="port1" />
-          <property role="1NVWWh" value="dfsafqawnf" />
+        <node concept="UIEXO" id="1cv0AMfb8pT" role="UITED">
+          <property role="UITFf" value="c1" />
         </node>
-        <node concept="1NVWWg" id="64u7atZZ7hT" role="1NVWWi">
-          <property role="1NUEcP" value="port2" />
-          <property role="1NVWWh" value="dsadsafa" />
+        <node concept="UIEXO" id="1cv0AMfb8pU" role="UITEG">
+          <property role="UITFf" value="i1" />
         </node>
       </node>
     </node>
-    <node concept="3yWWW$" id="q0GXNWQLxY" role="1NS65M">
-      <property role="3yWWWB" value="default1" />
-      <property role="3yWulV" value="default2" />
-      <node concept="1eFbGX" id="6P3aSn6EA57" role="1eEXFe">
-        <property role="1eFbGW" value="key" />
-        <property role="1eFbGY" value="value" />
+    <node concept="UIEXO" id="1cv0AMfb8q0" role="UITD1">
+      <property role="UITFf" value="apiVersionP" />
+    </node>
+    <node concept="UIEXO" id="1cv0AMfb8q3" role="UITxn">
+      <property role="UITFf" value="kindP" />
+    </node>
+    <node concept="3yWWW$" id="1cv0AMfb8pX" role="1NS65M">
+      <node concept="1eFbGX" id="1cv0AMfb8qc" role="1eEXFe">
+        <property role="1eFbGW" value="m_l_k1" />
+        <node concept="UIEXO" id="1cv0AMfb8qd" role="UITD2">
+          <property role="UITFf" value="m_l_v1" />
+        </node>
+      </node>
+      <node concept="UIEXO" id="1cv0AMfb8q6" role="UITD5">
+        <property role="UITFf" value="m_nameP" />
+      </node>
+      <node concept="UIEXO" id="1cv0AMfb8q9" role="UITD8">
+        <property role="UITFf" value="m_namespaceP" />
       </node>
     </node>
   </node>
-  <node concept="1jaWA_" id="6P3aSn6JRXb">
-    <property role="1NS65D" value="apiVersionDeployment" />
-    <property role="1NS65J" value="dsa" />
-    <node concept="1jaWAC" id="6P3aSn6JRXc" role="1jaWAD">
-      <property role="1jaWAJ" value="5000" />
-      <node concept="1jaWAH" id="6P3aSn6JRXd" role="1jeTcC">
-        <node concept="3yWWW_" id="6P3aSn6JRXe" role="1jaWAM">
-          <node concept="1NVWW6" id="6P3aSn6JRXf" role="1NVWkb">
-            <property role="1NVWW7" value="nginx" />
-            <property role="1NVWW8" value="nginx:notLatest" />
-            <node concept="1NVWWg" id="6P3aSn6JRXv" role="1NVWWi">
-              <property role="1NUEcP" value="http" />
-              <property role="1NVWWh" value="8080" />
+  <node concept="1F$KrU" id="1cv0AMfb8qy">
+    <node concept="1FFRrR" id="1cv0AMfb8qz" role="1tGzk7">
+      <node concept="1tGzk6" id="1cv0AMfb8q$" role="1tGzk2">
+        <node concept="UIEXO" id="1cv0AMfb8q_" role="UITDd">
+          <property role="UITFf" value="nbame" />
+        </node>
+        <node concept="UIEXO" id="1cv0AMfb8qA" role="UITDN">
+          <property role="UITFf" value="targetPort1" />
+        </node>
+        <node concept="UIEXO" id="1cv0AMfb8qB" role="UITDQ">
+          <property role="UITFf" value="por1" />
+        </node>
+      </node>
+      <node concept="1e_Kwo" id="1cv0AMfb8qC" role="1e$Npo">
+        <node concept="1eFbGX" id="1cv0AMfb8qM" role="1e_Kwn">
+          <property role="1eFbGW" value="l1" />
+          <node concept="UIEXO" id="1cv0AMfb8qN" role="UITD2">
+            <property role="UITFf" value="v1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="UIEXO" id="1cv0AMfb8qD" role="UITD1">
+      <property role="UITFf" value="apiVersionS" />
+    </node>
+    <node concept="UIEXO" id="1cv0AMfb8qE" role="UITxn">
+      <property role="UITFf" value="kindS" />
+    </node>
+    <node concept="3yWWW$" id="1cv0AMfb8qF" role="1NS65M">
+      <node concept="1eFbGX" id="1cv0AMfb8qI" role="1eEXFe">
+        <property role="1eFbGW" value="A" />
+        <node concept="UIEXO" id="1cv0AMfb8qJ" role="UITD2">
+          <property role="UITFf" value="B" />
+        </node>
+      </node>
+      <node concept="UIEXO" id="1cv0AMfb8qG" role="UITD5">
+        <property role="UITFf" value="S" />
+      </node>
+      <node concept="UIEXO" id="1cv0AMfb8qH" role="UITD8">
+        <property role="UITFf" value="SSS" />
+      </node>
+    </node>
+  </node>
+  <node concept="1jaWA_" id="1cv0AMfb8qQ">
+    <node concept="1jaWAC" id="1cv0AMfb8qR" role="1jaWAD">
+      <node concept="UIEXO" id="1cv0AMfb8qS" role="UITDv">
+        <property role="UITFf" value="42" />
+      </node>
+      <node concept="1jaWAH" id="1cv0AMfb8qT" role="1jeTcC">
+        <node concept="3yWWW_" id="1cv0AMfb8qU" role="1jaWAM">
+          <node concept="1NVWW6" id="1cv0AMfb8qV" role="1NVWkb">
+            <node concept="1NVWWg" id="1cv0AMfb8rj" role="1NVWWi">
+              <node concept="UIEXO" id="1cv0AMfb8rk" role="UITDh">
+                <property role="UITFf" value="dasd" />
+              </node>
+              <node concept="UIEXO" id="1cv0AMfb8rl" role="UITDn">
+                <property role="UITFf" value="dsafdafsa" />
+              </node>
+            </node>
+            <node concept="UIEXO" id="1cv0AMfb8qW" role="UITED">
+              <property role="UITFf" value="dsa" />
+            </node>
+            <node concept="UIEXO" id="1cv0AMfb8qX" role="UITEG">
+              <property role="UITFf" value="dsa" />
             </node>
           </node>
         </node>
-        <node concept="1e_Kwo" id="6P3aSn6JRXg" role="1jaWAK">
-          <node concept="1eFbGX" id="68y_wi2$lzK" role="1e_Kwn">
-            <property role="1eFbGW" value="podLabel" />
-            <property role="1eFbGY" value="value" />
-          </node>
-          <node concept="1eFbGX" id="3TaG6pumRA8" role="1e_Kwn">
-            <property role="1eFbGW" value="test" />
-            <property role="1eFbGY" value="blub" />
+        <node concept="1e_Kwo" id="1cv0AMfb8qY" role="1jaWAK">
+          <node concept="1eFbGX" id="1cv0AMfb8rb" role="1e_Kwn">
+            <property role="1eFbGW" value="ml1" />
+            <node concept="UIEXO" id="1cv0AMfb8rc" role="UITD2">
+              <property role="UITFf" value="ml2" />
+            </node>
           </node>
         </node>
-        <node concept="3yWWW$" id="6P3aSn6JRXh" role="1jknpy">
-          <property role="3yWWWB" value="default" />
-          <property role="3yWulV" value="default" />
-          <node concept="1eFbGX" id="6P3aSn6JRXp" role="1eEXFe">
-            <property role="1eFbGW" value="podLabel" />
-            <property role="1eFbGY" value="value" />
+        <node concept="3yWWW$" id="1cv0AMfb8qZ" role="1jknpy">
+          <node concept="1eFbGX" id="1cv0AMfb8rf" role="1eEXFe">
+            <property role="1eFbGW" value="k1" />
+            <node concept="UIEXO" id="1cv0AMfb8rg" role="UITD2">
+              <property role="UITFf" value="v1" />
+            </node>
           </node>
+          <node concept="UIEXO" id="1cv0AMfb8r0" role="UITD5" />
+          <node concept="UIEXO" id="1cv0AMfb8r1" role="UITD8" />
         </node>
       </node>
     </node>
-    <node concept="3yWWW$" id="6P3aSn6JRXi" role="1NS65M">
-      <property role="3yWWWB" value="default" />
-      <property role="3yWulV" value="default" />
-      <node concept="1eFbGX" id="68y_wi2F_Vc" role="1eEXFe">
-        <property role="1eFbGW" value="test" />
-        <property role="1eFbGY" value="test" />
-      </node>
+    <node concept="UIEXO" id="1cv0AMfb8r2" role="UITD1">
+      <property role="UITFf" value="apiVersionD" />
     </node>
-  </node>
-  <node concept="1F$KrU" id="64u7atZZ7hr">
-    <property role="1NS65J" value="Service" />
-    <property role="1NS65D" value="1" />
-    <node concept="1FFRrR" id="64u7atZZ7hs" role="1tGzk7">
-      <node concept="1tGzk6" id="64u7atZZ7ht" role="1tGzk2">
-        <property role="1tGzk1" value="132" />
-        <property role="1tGzk0" value="3213" />
-        <property role="1tGzk3" value="2131" />
-      </node>
-      <node concept="1tGzk6" id="64u7atZZ7hE" role="1tGzk2">
-        <property role="1tGzk1" value="321321312" />
-        <property role="1tGzk0" value="213321321312" />
-        <property role="1tGzk3" value="2131dsadaw" />
-      </node>
-      <node concept="1e_Kwo" id="64u7atZZ7hu" role="1e$Npo">
-        <node concept="1eFbGX" id="64u7atZZ7h_" role="1e_Kwn">
-          <property role="1eFbGW" value="312" />
-          <property role="1eFbGY" value="321" />
-        </node>
-        <node concept="1eFbGX" id="64u7atZZ7hB" role="1e_Kwn">
-          <property role="1eFbGW" value="1231231" />
-          <property role="1eFbGY" value="31232131" />
+    <node concept="UIEXO" id="1cv0AMfb8r3" role="UITxn">
+      <property role="UITFf" value="kindD" />
+    </node>
+    <node concept="3yWWW$" id="1cv0AMfb8r4" role="1NS65M">
+      <node concept="1eFbGX" id="1cv0AMfb8r7" role="1eEXFe">
+        <property role="1eFbGW" value="A" />
+        <node concept="UIEXO" id="1cv0AMfb8r8" role="UITD2">
+          <property role="UITFf" value="AA" />
         </node>
       </node>
-    </node>
-    <node concept="3yWWW$" id="64u7atZZ7hv" role="1NS65M">
-      <property role="3yWWWB" value="default" />
-      <property role="3yWulV" value="default" />
-      <node concept="1eFbGX" id="64u7atZZ7hw" role="1eEXFe">
-        <property role="1eFbGW" value="1" />
-        <property role="1eFbGY" value="223" />
+      <node concept="UIEXO" id="1cv0AMfb8r5" role="UITD5">
+        <property role="UITFf" value="D" />
       </node>
-      <node concept="1eFbGX" id="64u7atZZ7hy" role="1eEXFe">
-        <property role="1eFbGW" value="123" />
-        <property role="1eFbGY" value="321" />
+      <node concept="UIEXO" id="1cv0AMfb8r6" role="UITD8">
+        <property role="UITFf" value="DD" />
       </node>
     </node>
   </node>
