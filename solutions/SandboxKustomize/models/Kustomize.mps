@@ -109,25 +109,12 @@
       </node>
     </node>
     <node concept="3yWWW$" id="q0GXNWQL$g" role="1NS65M">
-      <property role="3yWWWB" value="default" />
+      <property role="3yWWWB" value="NOT_default" />
       <property role="3yWulV" value="default" />
       <node concept="1eFbGX" id="76xQpjsIYjG" role="1eEXFe">
         <property role="1eFbGW" value="ley" />
         <property role="1eFbGY" value="kalue" />
       </node>
-    </node>
-  </node>
-  <node concept="rZ2eS" id="2nDD_6ChCl4">
-    <property role="2yUoYX" value="kustomize.config.k8s.io/v1beta1" />
-    <property role="2yUoYT" value="Kustomization" />
-    <node concept="vuYVD" id="3gMsvI8G_cZ" role="vtUu3">
-      <ref role="vuYVE" node="3gMsvI8Hngk" />
-    </node>
-    <node concept="vuYVD" id="3gMsvI8HnlE" role="vtUu3">
-      <ref role="vuYVE" node="3gMsvI8HniC" />
-    </node>
-    <node concept="rNgXa" id="2nDD_6Ci0NK" role="rNgXd">
-      <ref role="rNgXb" node="2nDD_6ChCli" />
     </node>
   </node>
   <node concept="1F$KrU" id="2nDD_6ChCl5">
@@ -189,6 +176,17 @@
   <node concept="vpjdT" id="3gMsvI8Hngk">
     <property role="1NS65J" value="Patch" />
     <property role="1NS65D" value="apiVersion" />
+    <node concept="fvZFL" id="4GGzD8$WV3a" role="fvZFQ">
+      <property role="fvZFK" value="container[0]" />
+      <node concept="1eMz0b" id="4GGzD8$WV3e" role="f215J">
+        <node concept="fvZFL" id="4GGzD8$WV3h" role="1eMz0a">
+          <property role="fvZFK" value="name" />
+          <node concept="1eMz0e" id="4GGzD8$WV3l" role="f215J">
+            <property role="1eMz08" value="newName" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yWWW$" id="3gMsvI8Hngl" role="1NS65M">
       <property role="3yWWWB" value="NOT_default" />
       <property role="3yWulV" value="default" />
@@ -243,6 +241,9 @@
     <property role="2yUoYT" value="Kustomization" />
     <node concept="vuYVD" id="3gMsvI8I71S" role="vtUu3">
       <ref role="vuYVE" node="3gMsvI8HniC" />
+    </node>
+    <node concept="vuYVD" id="4GGzD8$WV6o" role="vtUu3">
+      <ref role="vuYVE" node="3gMsvI8Hngk" />
     </node>
     <node concept="rNgXa" id="hT3hoiwcpT" role="rNgXd">
       <ref role="rNgXb" node="2nDD_6ChCli" />
