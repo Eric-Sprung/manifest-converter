@@ -351,7 +351,18 @@
                         <node concept="fvZFL" id="31C5gKsKi9W" role="1eMz0a">
                           <property role="fvZFK" value="name" />
                           <node concept="1eMz0e" id="31C5gKsKko4" role="f215J">
-                            <property role="191bEX" value="someOtherName" />
+                            <property role="191bEX" value="someOtherNameByPatch" />
+                          </node>
+                        </node>
+                        <node concept="fvZFL" id="6tXihupfbc5" role="1eMz0a">
+                          <property role="fvZFK" value="containerport[0]" />
+                          <node concept="1eMz0b" id="6tXihupfbcb" role="f215J">
+                            <node concept="fvZFL" id="6tXihupfbce" role="1eMz0a">
+                              <property role="fvZFK" value="name" />
+                              <node concept="1eMz0e" id="6tXihupfbci" role="f215J">
+                                <property role="191bEX" value="containerPortNamePatch" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -447,10 +458,34 @@
   <node concept="3yWWWu" id="7Qj_COLqIYq">
     <node concept="3yWWW_" id="7Qj_COLqIYr" role="1tGWEw">
       <node concept="1NVWW6" id="7Qj_COLqIYs" role="1NVWkb">
-        <node concept="1L2LFj" id="7Qj_COLqIYt" role="1o5_ET">
-          <property role="1LuVe3" value="ads" />
+        <node concept="1NVWWg" id="7Htz9jnU08F" role="1NVWWi">
+          <node concept="1L2LFj" id="7Htz9jnU08G" role="1o5_E2">
+            <property role="1LuVe3" value="name1" />
+          </node>
+          <node concept="1L2LFj" id="7Htz9jnU08H" role="1o5_E0">
+            <property role="1LuVe3" value="port1" />
+          </node>
+        </node>
+        <node concept="1NVWWg" id="7Htz9jnU08y" role="1NVWWi">
+          <node concept="1L2LFj" id="7Htz9jnU08z" role="1o5_E2">
+            <property role="1LuVe3" value="name2" />
+          </node>
+          <node concept="1LvN49" id="7Htz9jnU08C" role="1o5_E0">
+            <ref role="1LvN48" node="279t9I0wLx0" />
+          </node>
+        </node>
+        <node concept="1LvN49" id="2koU2enAEKA" role="1o5_ET">
+          <ref role="1LvN48" node="56O1kGzKC5J" />
         </node>
         <node concept="1L2LFj" id="7Qj_COLqIYu" role="1o5_E6">
+          <property role="1LuVe3" value="dsa" />
+        </node>
+      </node>
+      <node concept="1NVWW6" id="7Htz9jnU08O" role="1NVWkb">
+        <node concept="1L2LFj" id="7Htz9jnU093" role="1o5_ET">
+          <property role="1LuVe3" value="test" />
+        </node>
+        <node concept="1L2LFj" id="7Htz9jnU08Q" role="1o5_E6">
           <property role="1LuVe3" value="dsa" />
         </node>
       </node>
@@ -462,6 +497,12 @@
       <property role="1LuVe3" value="pod" />
     </node>
     <node concept="3yWWW$" id="7Qj_COLqIYx" role="1NS65M">
+      <node concept="1eFbGX" id="7Htz9jnU08i" role="1eEXFe">
+        <property role="1eFbGW" value="key" />
+        <node concept="1L2LFj" id="7Htz9jnU08j" role="1o5_Er">
+          <property role="1LuVe3" value="value" />
+        </node>
+      </node>
       <node concept="1L2LFj" id="7Qj_COLqIYy" role="1eNFMo">
         <property role="1LuVe3" value="1.1" />
       </node>

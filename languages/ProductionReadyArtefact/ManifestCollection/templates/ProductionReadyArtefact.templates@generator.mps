@@ -175,10 +175,18 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
+      </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -625,12 +633,79 @@
             <property role="P4ACc" value="0dd31084-9d07-4035-939d-cb69bd123423/7206937884278816934/7206937884278895901" />
             <node concept="3zFVjK" id="1cv0AMfir$v" role="3zH0cK">
               <node concept="3clFbS" id="1cv0AMfir$w" role="2VODD2">
-                <node concept="3clFbF" id="1cv0AMfir$S" role="3cqZAp">
-                  <node concept="2OqwBi" id="1cv0AMfirKB" role="3clFbG">
-                    <node concept="30H73N" id="1cv0AMfir$R" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="1cv0AMfirRZ" role="2OqNvi">
-                      <ref role="37wK5l" to="d4qe:271LfdYQxIs" resolve="getValue" />
+                <node concept="3cpWs8" id="2koU2ensJ05" role="3cqZAp">
+                  <node concept="3cpWsn" id="2koU2ensJ06" role="3cpWs9">
+                    <property role="TrG5h" value="value" />
+                    <node concept="17QB3L" id="2koU2ensJ04" role="1tU5fm" />
+                    <node concept="2OqwBi" id="2koU2ensYD8" role="33vP2m">
+                      <node concept="1PxgMI" id="2koU2ensVUp" role="2Oq$k0">
+                        <node concept="chp4Y" id="2koU2ensXk2" role="3oSUPX">
+                          <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+                        </node>
+                        <node concept="30H73N" id="1cv0AMfir$R" role="1m5AlR" />
+                      </node>
+                      <node concept="2qgKlT" id="2koU2ensZZ2" role="2OqNvi">
+                        <ref role="37wK5l" to="d4qe:271LfdYQxIs" resolve="getValue" />
+                      </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="2koU2ensGa2" role="3cqZAp">
+                  <node concept="3cpWsn" id="2koU2ensGa3" role="3cpWs9">
+                    <property role="TrG5h" value="relevantpatches" />
+                    <node concept="2I9FWS" id="2koU2ensGa4" role="1tU5fm">
+                      <ref role="2I9WkF" to="2mqg:6HbGAd$d4yi" resolve="ValueField" />
+                    </node>
+                    <node concept="2OqwBi" id="2koU2ensGa5" role="33vP2m">
+                      <node concept="2OqwBi" id="2koU2ensGa6" role="2Oq$k0">
+                        <node concept="30H73N" id="2koU2ensGa7" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="2koU2ensGa8" role="2OqNvi">
+                          <ref role="37wK5l" to="d4qe:73$DrDIVeSf" resolve="getRootNode" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="2koU2ensGa9" role="2OqNvi">
+                        <ref role="37wK5l" to="d4qe:71KD8vcbYrX" resolve="getRelevantPatches" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1DcWWT" id="2koU2ensGaa" role="3cqZAp">
+                  <node concept="3clFbS" id="2koU2ensGab" role="2LFqv$">
+                    <node concept="3clFbF" id="2koU2ensGac" role="3cqZAp">
+                      <node concept="37vLTI" id="2koU2ensGad" role="3clFbG">
+                        <node concept="2OqwBi" id="2koU2ensS8A" role="37vLTx">
+                          <node concept="1PxgMI" id="2koU2ensPwK" role="2Oq$k0">
+                            <node concept="chp4Y" id="2koU2ensQUc" role="3oSUPX">
+                              <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+                            </node>
+                            <node concept="30H73N" id="2koU2ensGaf" role="1m5AlR" />
+                          </node>
+                          <node concept="2qgKlT" id="2koU2ensT_$" role="2OqNvi">
+                            <ref role="37wK5l" to="d4qe:2koU2ent8p2" resolve="getValue" />
+                            <node concept="37vLTw" id="2koU2ent19W" role="37wK5m">
+                              <ref role="3cqZAo" node="2koU2ensGaj" resolve="patch" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2koU2ensGai" role="37vLTJ">
+                          <ref role="3cqZAo" node="2koU2ensJ06" resolve="value" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWsn" id="2koU2ensGaj" role="1Duv9x">
+                    <property role="TrG5h" value="patch" />
+                    <node concept="3Tqbb2" id="2koU2ensGak" role="1tU5fm">
+                      <ref role="ehGHo" to="2mqg:6HbGAd$d4yi" resolve="ValueField" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2koU2ensGal" role="1DdaDG">
+                    <ref role="3cqZAo" node="2koU2ensGa3" resolve="relevantpatches" />
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="2koU2ensKav" role="3cqZAp">
+                  <node concept="37vLTw" id="2koU2ensL$L" role="3cqZAk">
+                    <ref role="3cqZAo" node="2koU2ensJ06" resolve="value" />
                   </node>
                 </node>
               </node>
