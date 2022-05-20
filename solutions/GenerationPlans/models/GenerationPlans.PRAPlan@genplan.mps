@@ -18,11 +18,21 @@
         <property id="2209292798354050154" name="individualStepPerGenerator" index="1s431M" />
         <child id="1152961914448142326" name="entries" index="2Qf7GQ" />
       </concept>
+      <concept id="8296877263936070001" name="jetbrains.mps.lang.generator.plan.structure.ApplyGenerators" flags="ng" index="3uMcMo">
+        <child id="8296877263936660572" name="generator" index="3uOsAP" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
+        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
+        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
+      </concept>
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
+      </concept>
+      <concept id="8296877263936075789" name="jetbrains.mps.lang.smodel.structure.GeneratorModulePointer" flags="ng" index="3uMdn$">
+        <child id="8296877263936075892" name="module" index="3uMdmt" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -33,6 +43,14 @@
   </registry>
   <node concept="2VgMpV" id="22572mMH7Hh">
     <property role="TrG5h" value="Plan ProductionReadyArtefact" />
+    <node concept="3uMcMo" id="2ENvYV7iv3L" role="2VgMA7">
+      <node concept="3uMdn$" id="2ENvYV7iv3T" role="3uOsAP">
+        <node concept="20RdaH" id="2ENvYV7iv3U" role="3uMdmt">
+          <property role="20Rdg5" value="12429fc6-7413-47e9-b25b-c054a35d8847" />
+          <property role="20Rdg7" value="ProductionReadyArtefact.Kustomize" />
+        </node>
+      </node>
+    </node>
     <node concept="2VgMA2" id="22572mMH7H_" role="2VgMA7">
       <property role="1s431M" value="true" />
       <node concept="2Qf6Nf" id="22572mMH7HF" role="2Qf7GQ">
