@@ -45,7 +45,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -189,19 +188,19 @@
       <node concept="3Tm1VV" id="7usyzNlCyq$" role="1B3o_S" />
       <node concept="17QB3L" id="7usyzNlCyq_" role="3clF45" />
       <node concept="3clFbS" id="7usyzNlCyqA" role="3clF47">
-        <node concept="3cpWs6" id="7usyzNlCyqB" role="3cqZAp">
-          <node concept="3cpWs3" id="7usyzNlCyqC" role="3cqZAk">
-            <node concept="Xl_RD" id="7usyzNlCyqD" role="3uHU7w">
-              <property role="Xl_RC" value=".yaml" />
+        <node concept="3cpWs6" id="fL1mPukC_1" role="3cqZAp">
+          <node concept="3cpWs3" id="uDjeFBiQ_L" role="3cqZAk">
+            <node concept="Xl_RD" id="uDjeFBiQGT" role="3uHU7w">
+              <property role="Xl_RC" value="_pod" />
             </node>
-            <node concept="2OqwBi" id="7usyzNlCyqE" role="3uHU7B">
-              <node concept="2OqwBi" id="7usyzNlCyqF" role="2Oq$k0">
-                <node concept="13iPFW" id="7usyzNlCyqG" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7usyzNlCyqH" role="2OqNvi">
+            <node concept="2OqwBi" id="fL1mPukCZ8" role="3uHU7B">
+              <node concept="2OqwBi" id="fL1mPukCIf" role="2Oq$k0">
+                <node concept="3TrEf2" id="fL1mPukCQG" role="2OqNvi">
                   <ref role="3Tt5mk" to="rhuf:4vmbu8Od$Mg" resolve="metadata" />
                 </node>
+                <node concept="13iPFW" id="2ENvYV79s_x" role="2Oq$k0" />
               </node>
-              <node concept="3TrcHB" id="7usyzNlCyqI" role="2OqNvi">
+              <node concept="3TrcHB" id="fL1mPukD83" role="2OqNvi">
                 <ref role="3TsBF5" to="rhuf:5ByJnQV4n9q" resolve="name" />
               </node>
             </node>
@@ -216,7 +215,7 @@
   <node concept="13h7C7" id="7usyzNlCyEz">
     <ref role="13h7C2" to="rhuf:4os__xtSbnv" resolve="Base" />
     <node concept="13i0hz" id="7usyzNlCxgt" role="13h7CS">
-      <property role="TrG5h" value="getPath" />
+      <property role="TrG5h" value="getReferencePath" />
       <node concept="3Tm1VV" id="7usyzNlCxgu" role="1B3o_S" />
       <node concept="17QB3L" id="7usyzNlCxhe" role="3clF45" />
       <node concept="3clFbS" id="7usyzNlCxgw" role="3clF47">
@@ -225,7 +224,18 @@
             <property role="Xl_RC" value="../../base" />
           </node>
         </node>
-        <node concept="3clFbH" id="7usyzNlCzpH" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2ENvYV7bgU6" role="13h7CS">
+      <property role="TrG5h" value="getPath" />
+      <node concept="3Tm1VV" id="2ENvYV7bgU7" role="1B3o_S" />
+      <node concept="17QB3L" id="2ENvYV7bgUs" role="3clF45" />
+      <node concept="3clFbS" id="2ENvYV7bgU9" role="3clF47">
+        <node concept="3cpWs6" id="uDjeFBjNlN" role="3cqZAp">
+          <node concept="Xl_RD" id="uDjeFBjNlO" role="3cqZAk">
+            <property role="Xl_RC" value="Kustomize/base" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13hLZK" id="7usyzNlCyE$" role="13h7CW">

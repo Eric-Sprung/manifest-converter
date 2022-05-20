@@ -49,7 +49,6 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
-        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -158,7 +157,6 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4vmbu8Od_9e" role="3EZMnx">
-        <property role="1Intyy" value="true" />
         <ref role="1NtTu8" to="rhuf:4vmbu8Od$Md" resolve="kind" />
         <node concept="ljvvj" id="4vmbu8Od_bg" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -438,7 +436,6 @@
         </node>
       </node>
       <node concept="3F0A7n" id="fL1mPugGYU" role="3EZMnx">
-        <property role="1Intyy" value="true" />
         <ref role="1NtTu8" to="rhuf:4vmbu8Od$Md" resolve="kind" />
         <node concept="ljvvj" id="fL1mPugGYV" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -755,7 +752,6 @@
         </node>
       </node>
       <node concept="3F0A7n" id="62x3TLZMuKm" role="3EZMnx">
-        <property role="1Intyy" value="true" />
         <ref role="1NtTu8" to="rhuf:4vmbu8Od$Md" resolve="kind" />
         <node concept="ljvvj" id="62x3TLZMuKn" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -902,7 +898,6 @@
         </node>
       </node>
       <node concept="3F0A7n" id="7SBfI8H5VXP" role="3EZMnx">
-        <property role="1Intyy" value="true" />
         <ref role="1NtTu8" to="rhuf:4vmbu8Od$Md" resolve="kind" />
         <node concept="ljvvj" id="7SBfI8H5VXQ" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1210,7 +1205,7 @@
                   <node concept="2OqwBi" id="7usyzNlKfx6" role="3clFbG">
                     <node concept="1NM5Ph" id="7usyzNlKfny" role="2Oq$k0" />
                     <node concept="2qgKlT" id="7usyzNlKfNZ" role="2OqNvi">
-                      <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getPath" />
+                      <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getReferencePath" />
                     </node>
                   </node>
                 </node>
@@ -1302,7 +1297,7 @@
               <node concept="2OqwBi" id="7usyzNlKe70" role="3cqZAk">
                 <node concept="1NM5Ph" id="7usyzNlKe71" role="2Oq$k0" />
                 <node concept="2qgKlT" id="7usyzNlKe72" role="2OqNvi">
-                  <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getPath" />
+                  <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getReferencePath" />
                 </node>
               </node>
             </node>
@@ -1314,7 +1309,7 @@
               <node concept="2OqwBi" id="7usyzNlKe76" role="3cqZAk">
                 <node concept="1NM5Ph" id="7usyzNlKe77" role="2Oq$k0" />
                 <node concept="2qgKlT" id="7usyzNlKe78" role="2OqNvi">
-                  <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getPath" />
+                  <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getReferencePath" />
                 </node>
               </node>
             </node>
@@ -1334,7 +1329,7 @@
             <node concept="2OqwBi" id="7usyzNlKe7f" role="3cqZAk">
               <node concept="1WAUZh" id="7usyzNlKe7g" role="2Oq$k0" />
               <node concept="2qgKlT" id="7usyzNlKe7h" role="2OqNvi">
-                <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getPath" />
+                <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getReferencePath" />
               </node>
             </node>
           </node>
@@ -1346,7 +1341,7 @@
             <node concept="2OqwBi" id="7usyzNlKe7l" role="3cqZAk">
               <node concept="1WAUZh" id="7usyzNlKe7m" role="2Oq$k0" />
               <node concept="2qgKlT" id="7usyzNlKe7n" role="2OqNvi">
-                <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getPath" />
+                <ref role="37wK5l" to="2vjk:7usyzNlCxgt" resolve="getReferencePath" />
               </node>
             </node>
           </node>

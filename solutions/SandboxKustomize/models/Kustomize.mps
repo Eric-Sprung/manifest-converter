@@ -39,6 +39,7 @@
         <child id="9090303514009990987" name="spec" index="1jaWAD" />
       </concept>
       <concept id="9090303514009990986" name="Kustomize.structure.DeploymentSpec" flags="ng" index="1jaWAC">
+        <property id="9090303514009990989" name="replicas" index="1jaWAJ" />
         <child id="9090303514011020746" name="spec" index="1jeTcC" />
       </concept>
       <concept id="9090303514009990991" name="Kustomize.structure.PodTemplateSpec" flags="ng" index="1jaWAH">
@@ -143,21 +144,40 @@
     </node>
   </node>
   <node concept="1jaWA_" id="2nDD_6ChCla">
+    <property role="1NS65D" value="apiVersionD" />
+    <property role="1NS65J" value="Deployment" />
     <node concept="1jaWAC" id="2nDD_6ChClb" role="1jaWAD">
+      <property role="1jaWAJ" value="4" />
       <node concept="1jaWAH" id="2nDD_6ChClc" role="1jeTcC">
         <node concept="3yWWW_" id="2nDD_6ChCld" role="1jaWAM">
-          <node concept="1NVWW6" id="2nDD_6ChCle" role="1NVWkb" />
+          <node concept="1NVWW6" id="2nDD_6ChCle" role="1NVWkb">
+            <property role="1NVWW7" value="c_name" />
+            <property role="1NVWW8" value="i_name" />
+          </node>
         </node>
-        <node concept="1e_Kwo" id="2nDD_6ChClf" role="1jaWAK" />
+        <node concept="1e_Kwo" id="2nDD_6ChClf" role="1jaWAK">
+          <node concept="1eFbGX" id="uDjeFBgOyi" role="1e_Kwn">
+            <property role="1eFbGW" value="label1" />
+            <property role="1eFbGY" value="value1" />
+          </node>
+        </node>
         <node concept="3yWWW$" id="2nDD_6ChClg" role="1jknpy">
           <property role="3yWWWB" value="default" />
           <property role="3yWulV" value="default" />
+          <node concept="1eFbGX" id="uDjeFBgOyk" role="1eEXFe">
+            <property role="1eFbGW" value="label1" />
+            <property role="1eFbGY" value="value1" />
+          </node>
         </node>
       </node>
     </node>
     <node concept="3yWWW$" id="2nDD_6ChClh" role="1NS65M">
       <property role="3yWWWB" value="default" />
       <property role="3yWulV" value="default" />
+      <node concept="1eFbGX" id="uDjeFBgOym" role="1eEXFe">
+        <property role="1eFbGW" value="app" />
+        <property role="1eFbGY" value="nginx" />
+      </node>
     </node>
   </node>
   <node concept="rZ2e7" id="2nDD_6ChCli">
