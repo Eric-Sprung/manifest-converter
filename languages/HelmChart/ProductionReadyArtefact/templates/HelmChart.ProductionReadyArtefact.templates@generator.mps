@@ -625,7 +625,7 @@
                   <node concept="3clFbF" id="3whEmQbY7c4" role="3cqZAp">
                     <node concept="2OqwBi" id="3whEmQbY7bZ" role="3clFbG">
                       <node concept="3Tsc0h" id="3whEmQbY7c2" role="2OqNvi">
-                        <ref role="3TtcxE" to="5l0q:54YK8OvXf27" resolve="value" />
+                        <ref role="3TtcxE" to="5l0q:54YK8OvXf27" resolve="items" />
                       </node>
                       <node concept="30H73N" id="3whEmQbY7c3" role="2Oq$k0" />
                     </node>

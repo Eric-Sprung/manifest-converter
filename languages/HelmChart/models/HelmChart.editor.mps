@@ -678,11 +678,26 @@
   </node>
   <node concept="24kQdi" id="54YK8OvUY1m">
     <ref role="1XX52x" to="5l0q:54YK8OvUid2" resolve="Chart" />
-    <node concept="3F2HdR" id="3rUFljjZTsL" role="2wV5jI">
-      <ref role="1NtTu8" to="5l0q:3rUFljjWyog" resolve="items" />
-      <node concept="l2Vlx" id="3rUFljjZTsM" role="2czzBx" />
-      <node concept="pj6Ft" id="3rUFljjZTsN" role="3F10Kt">
-        <property role="VOm3f" value="true" />
+    <node concept="3EZMnI" id="6SABuTaVZpU" role="2wV5jI">
+      <node concept="l2Vlx" id="6SABuTaVZpV" role="2iSdaV" />
+      <node concept="3F0ifn" id="6SABuTaVZpW" role="3EZMnx">
+        <property role="3F0ifm" value="---" />
+        <node concept="ljvvj" id="6SABuTaVZpX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="6SABuTaVZpY" role="3EZMnx">
+        <ref role="1NtTu8" to="5l0q:3rUFljjWyog" resolve="items" />
+        <node concept="l2Vlx" id="6SABuTaVZpZ" role="2czzBx" />
+        <node concept="pj6Ft" id="6SABuTaVZq0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6SABuTaVZq1" role="3EZMnx">
+        <property role="3F0ifm" value="..." />
+        <node concept="3mYdg7" id="6SABuTaVZq2" role="3F10Kt">
+          <property role="1413C4" value="body-brace" />
+        </node>
       </node>
     </node>
   </node>
@@ -998,7 +1013,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="9IoEoiN3YL" role="3EZMnx">
-        <ref role="1NtTu8" to="5l0q:54YK8OvXf27" resolve="value" />
+        <ref role="1NtTu8" to="5l0q:54YK8OvXf27" resolve="items" />
         <node concept="pj6Ft" id="9IoEoiN3YT" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
