@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="5l0q" ref="r:c3b7b73d-9a27-4cd5-8d0f-b9220c405060(HelmChart.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="3bcv" ref="r:305dbe97-fbb8-40d3-9ab1-c2204de9e75b(HelmChart.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -22,9 +21,6 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -49,7 +45,6 @@
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -351,15 +346,11 @@
             <property role="ldcpH" value="true" />
           </node>
           <node concept="l9hG8" id="Pe3ePANajU" role="lcghm">
-            <node concept="2YIFZM" id="Pe3ePANajV" role="lb14g">
-              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-              <ref role="37wK5l" to="wyt6:~String.valueOf(java.lang.Object)" resolve="valueOf" />
-              <node concept="2OqwBi" id="Pe3ePANajW" role="37wK5m">
-                <node concept="3TrEf2" id="1PdbtWmhkJV" role="2OqNvi">
-                  <ref role="3Tt5mk" to="5l0q:1PdbtWmggya" resolve="containerPort" />
-                </node>
-                <node concept="117lpO" id="Pe3ePANatM" role="2Oq$k0" />
+            <node concept="2OqwBi" id="Pe3ePANajW" role="lb14g">
+              <node concept="3TrEf2" id="1PdbtWmhkJV" role="2OqNvi">
+                <ref role="3Tt5mk" to="5l0q:1PdbtWmggya" resolve="containerPort" />
               </node>
+              <node concept="117lpO" id="Pe3ePANatM" role="2Oq$k0" />
             </node>
           </node>
           <node concept="l8MVK" id="Pe3ePANajZ" role="lcghm" />
