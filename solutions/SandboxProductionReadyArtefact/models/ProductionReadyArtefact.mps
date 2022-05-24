@@ -486,13 +486,8 @@
                           <node concept="1eMz0b" id="5CIl_avapjb" role="f215J">
                             <node concept="fvZFL" id="TSPxDG2PuW" role="1eMz0a">
                               <property role="fvZFK" value="app" />
-                              <node concept="1eMz0b" id="TSPxDG2Pv4" role="f215J">
-                                <node concept="fvZFL" id="TSPxDG2Pv7" role="1eMz0a">
-                                  <property role="fvZFK" value="value" />
-                                  <node concept="1eMz0e" id="7g$acZTuEK6" role="f215J">
-                                    <property role="191bEX" value="nginx_deployment_patched" />
-                                  </node>
-                                </node>
+                              <node concept="1eMz0e" id="5_D8B7bZA8O" role="f215J">
+                                <property role="191bEX" value="nginx_deployment_patched" />
                               </node>
                             </node>
                           </node>
@@ -502,13 +497,8 @@
                           <node concept="1eMz0b" id="5CIl_avapjR" role="f215J">
                             <node concept="fvZFL" id="5CIl_avapjU" role="1eMz0a">
                               <property role="fvZFK" value="app" />
-                              <node concept="1eMz0b" id="5CIl_avapjY" role="f215J">
-                                <node concept="fvZFL" id="5CIl_avapk1" role="1eMz0a">
-                                  <property role="fvZFK" value="value" />
-                                  <node concept="1eMz0e" id="5CIl_avapk5" role="f215J">
-                                    <property role="191bEX" value="nginx_deployment_patched" />
-                                  </node>
-                                </node>
+                              <node concept="1eMz0e" id="5_D8B7bZA8V" role="f215J">
+                                <property role="191bEX" value="nginx_deployment_patched" />
                               </node>
                             </node>
                           </node>
