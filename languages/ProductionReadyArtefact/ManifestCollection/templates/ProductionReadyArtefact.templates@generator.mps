@@ -543,7 +543,7 @@
     <property role="TrG5h" value="LiteralSwitch" />
     <node concept="3aamgX" id="1cv0AMfir2K" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
       <node concept="gft3U" id="1cv0AMfir2O" role="1lVwrX">
         <node concept="UIEXO" id="1cv0AMfir2U" role="gfFT$">
           <node concept="17Uvod" id="1cv0AMfir2W" role="lGtFl">

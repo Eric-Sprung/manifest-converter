@@ -353,7 +353,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="3kPdiDIJxWY" role="3acgRq">
-      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
       <node concept="j$656" id="3kPdiDIJya7" role="1lVwrX">
         <ref role="v9R2y" node="3kPdiDIJya5" resolve="reduce_Attribute" />
       </node>
@@ -1458,7 +1458,7 @@
   </node>
   <node concept="13MO4I" id="3kPdiDIJya5">
     <property role="TrG5h" value="reduce_Attribute" />
-    <ref role="3gUMe" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+    <ref role="3gUMe" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
     <node concept="1L2LFj" id="3kPdiDIJyaa" role="13RCb5">
       <node concept="raruj" id="3kPdiDIJyac" role="lGtFl" />
       <node concept="1sPUBX" id="3kPdiDIJyKi" role="lGtFl">
@@ -1470,7 +1470,7 @@
     <property role="TrG5h" value="AttributSwitch" />
     <node concept="3aamgX" id="3kPdiDIJyai" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+      <ref role="30HIoZ" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
       <node concept="gft3U" id="3kPdiDIJyam" role="1lVwrX">
         <node concept="1L2LFj" id="3kPdiDIJyaX" role="gfFT$">
           <node concept="17Uvod" id="3kPdiDIJyaZ" role="lGtFl">

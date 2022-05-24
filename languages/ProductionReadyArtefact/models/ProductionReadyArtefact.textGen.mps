@@ -788,7 +788,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5JNGVQUmbT1">
-    <ref role="WuzLi" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+    <ref role="WuzLi" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
     <node concept="11bSqf" id="5JNGVQUmbT2" role="11c4hB">
       <node concept="3clFbS" id="5JNGVQUmbT3" role="2VODD2">
         <node concept="lc7rE" id="5JNGVQUmbTm" role="3cqZAp">

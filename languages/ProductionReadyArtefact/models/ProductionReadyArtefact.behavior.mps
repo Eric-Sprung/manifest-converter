@@ -243,12 +243,12 @@
           <node concept="3cpWsn" id="6Oz8UK$kpfs" role="3cpWs9">
             <property role="TrG5h" value="name" />
             <node concept="3Tqbb2" id="6Oz8UK$kpfq" role="1tU5fm">
-              <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+              <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
             </node>
             <node concept="2ShNRf" id="6Oz8UK$knWc" role="33vP2m">
               <node concept="3zrR0B" id="6Oz8UK$kp4T" role="2ShVmc">
                 <node concept="3Tqbb2" id="6Oz8UK$kp4V" role="3zrR0E">
-                  <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                  <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                 </node>
               </node>
             </node>
@@ -286,12 +286,12 @@
           <node concept="3cpWsn" id="6Oz8UK$kqNI" role="3cpWs9">
             <property role="TrG5h" value="namespace" />
             <node concept="3Tqbb2" id="6Oz8UK$kqNJ" role="1tU5fm">
-              <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+              <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
             </node>
             <node concept="2ShNRf" id="6Oz8UK$kqNK" role="33vP2m">
               <node concept="3zrR0B" id="6Oz8UK$kqNL" role="2ShVmc">
                 <node concept="3Tqbb2" id="6Oz8UK$kqNM" role="3zrR0E">
-                  <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                  <ref role="ehGHo" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                 </node>
               </node>
             </node>
@@ -627,7 +627,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="48DvVw_okNQ" role="2OqNvi">
                                   <node concept="chp4Y" id="48DvVw_okNR" role="cj9EA">
-                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                                   </node>
                                 </node>
                               </node>
@@ -1037,7 +1037,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="1ObCP669p8n" role="2OqNvi">
                                   <node concept="chp4Y" id="1ObCP669p8o" role="cj9EA">
-                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                                   </node>
                                 </node>
                               </node>
@@ -1486,7 +1486,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="271LfdYQwPK">
-    <ref role="13h7C2" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+    <ref role="13h7C2" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
     <node concept="13hLZK" id="271LfdYQwPL" role="13h7CW">
       <node concept="3clFbS" id="271LfdYQwPM" role="2VODD2" />
     </node>
@@ -2129,7 +2129,7 @@
                           <node concept="2Rf3mk" id="6rRsgh9d$HW" role="2OqNvi">
                             <node concept="1xMEDy" id="6rRsgh9d$HY" role="1xVPHs">
                               <node concept="chp4Y" id="6rRsgh9d_5d" role="ri$Ld">
-                                <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                                <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                               </node>
                             </node>
                           </node>
@@ -3134,7 +3134,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="1ObCP669yv9" role="2OqNvi">
                                   <node concept="chp4Y" id="1ObCP669yva" role="cj9EA">
-                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="Attribute" />
+                                    <ref role="cht4Q" to="2mqg:6Oz8UK$7Hc6" resolve="AttributeValue" />
                                   </node>
                                 </node>
                               </node>

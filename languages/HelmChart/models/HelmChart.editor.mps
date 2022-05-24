@@ -767,7 +767,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="54YK8Owm_od">
-    <ref role="1XX52x" to="5l0q:54YK8OwdtDu" resolve="Attribute" />
+    <ref role="1XX52x" to="5l0q:54YK8OwdtDu" resolve="AttributeValue" />
     <node concept="3F0A7n" id="5K_q0b55rYY" role="2wV5jI">
       <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
       <ref role="1NtTu8" to="5l0q:54YK8Owhnce" resolve="value" />

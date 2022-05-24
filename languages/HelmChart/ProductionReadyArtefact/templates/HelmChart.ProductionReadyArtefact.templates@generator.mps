@@ -267,7 +267,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="6oUDUnYO02P" role="3acgRq">
-      <ref role="30HIoZ" to="5l0q:54YK8OwdtDu" resolve="Attribute" />
+      <ref role="30HIoZ" to="5l0q:54YK8OwdtDu" resolve="AttributeValue" />
       <node concept="j$656" id="6oUDUnYO08U" role="1lVwrX">
         <ref role="v9R2y" node="6oUDUnYO08S" resolve="reduce_Attribute" />
       </node>
@@ -657,7 +657,7 @@
   </node>
   <node concept="13MO4I" id="6oUDUnYO08S">
     <property role="TrG5h" value="reduce_Attribute" />
-    <ref role="3gUMe" to="5l0q:54YK8OwdtDu" resolve="Attribute" />
+    <ref role="3gUMe" to="5l0q:54YK8OwdtDu" resolve="AttributeValue" />
     <node concept="1L2LFj" id="6oUDUnYO08X" role="13RCb5">
       <node concept="raruj" id="6oUDUnYO08Z" role="lGtFl" />
       <node concept="1sPUBX" id="6CRt6cY3pTt" role="lGtFl">
@@ -669,7 +669,7 @@
     <property role="TrG5h" value="AttributeSwitch" />
     <node concept="3aamgX" id="6oUDUnYO096" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="5l0q:54YK8OwdtDu" resolve="Attribute" />
+      <ref role="30HIoZ" to="5l0q:54YK8OwdtDu" resolve="AttributeValue" />
       <node concept="gft3U" id="6oUDUnYO09g" role="1lVwrX">
         <node concept="1L2LFj" id="6oUDUnYO09m" role="gfFT$">
           <node concept="17Uvod" id="6oUDUnYO09o" role="lGtFl">
