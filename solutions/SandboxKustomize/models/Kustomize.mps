@@ -17,7 +17,7 @@
       <concept id="5052078188279150047" name="Kustomize.structure.Base" flags="ng" index="rZ2e7" />
       <concept id="5052078188279150048" name="Kustomize.structure.Overlay" flags="ng" index="rZ2eS" />
       <concept id="6962863663724379365" name="Kustomize.structure.Patch" flags="ng" index="vpjdT">
-        <child id="7731469325264242837" name="items" index="fvZFQ" />
+        <child id="7731469325264242837" name="spec" index="fvZFQ" />
       </concept>
       <concept id="6962863663725863285" name="Kustomize.structure.PatchReference" flags="ng" index="vuYVD">
         <reference id="6962863663725863286" name="original" index="vuYVE" />
@@ -69,6 +69,9 @@
       <concept id="958717984449329690" name="Kustomize.structure.ServiceSpec" flags="ng" index="1FFRrR">
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
+      </concept>
+      <concept id="1420592327085945146" name="Kustomize.structure.PatchSpec" flags="ng" index="3Lb8gb">
+        <child id="1420592327085945147" name="items" index="3Lb8ga" />
       </concept>
       <concept id="5176375271270796426" name="Kustomize.structure.Manifest" flags="ng" index="1NS65C">
         <property id="5176375271270796427" name="apiVersion" index="1NS65D" />
@@ -193,80 +196,34 @@
       <ref role="1V3gvy" node="q0GXNWQL$d" />
     </node>
   </node>
-  <node concept="vpjdT" id="3gMsvI8Hngk">
-    <property role="1NS65J" value="Patch" />
-    <property role="1NS65D" value="apiVersion" />
-    <node concept="fvZFL" id="4GGzD8$WV3a" role="fvZFQ">
-      <property role="fvZFK" value="container[0]" />
-      <node concept="1eMz0b" id="4GGzD8$WV3e" role="f215J">
-        <node concept="fvZFL" id="4GGzD8$WV3h" role="1eMz0a">
-          <property role="fvZFK" value="name" />
-          <node concept="1eMz0e" id="4GGzD8$WV3l" role="f215J">
-            <property role="1eMz08" value="newName" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3yWWW$" id="3gMsvI8Hngl" role="1NS65M">
-      <property role="3yWWWB" value="NOT_default" />
-      <property role="3yWulV" value="default" />
-    </node>
-  </node>
-  <node concept="vpjdT" id="3gMsvI8HniC">
-    <property role="1NS65J" value="Patch" />
-    <property role="1NS65D" value="apiVersionPatch2" />
-    <node concept="fvZFL" id="3gMsvI8HniE" role="fvZFQ">
-      <property role="fvZFK" value="bli" />
-      <node concept="1eMz0b" id="3gMsvI8HniI" role="f215J">
-        <node concept="fvZFL" id="3gMsvI8HniL" role="1eMz0a">
-          <property role="fvZFK" value="bla" />
-          <node concept="1eMz0e" id="3gMsvI8HniP" role="f215J">
-            <property role="1eMz08" value="blub" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="fvZFL" id="3gMsvI8HniS" role="fvZFQ">
-      <property role="fvZFK" value="key1" />
-      <node concept="1eMz0b" id="3gMsvI8Hnj0" role="f215J">
-        <node concept="fvZFL" id="3gMsvI8Hnj7" role="1eMz0a">
-          <property role="fvZFK" value="key2" />
-          <node concept="1eMz0e" id="3gMsvI8Hnjd" role="f215J">
-            <property role="1eMz08" value="2" />
-          </node>
-        </node>
-        <node concept="fvZFL" id="3gMsvI8Hnj3" role="1eMz0a">
-          <property role="fvZFK" value="key23" />
-          <node concept="1eMz0e" id="3gMsvI8Hnjg" role="f215J">
-            <property role="1eMz08" value="3" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3yWWW$" id="3gMsvI8HniD" role="1NS65M">
-      <property role="3yWWWB" value="2" />
-      <property role="3yWulV" value="default" />
-      <node concept="1eFbGX" id="3gMsvI8Hnjl" role="1eEXFe">
-        <property role="1eFbGW" value="das" />
-        <property role="1eFbGY" value="asda" />
-      </node>
-      <node concept="1eFbGX" id="3gMsvI8Hnjj" role="1eEXFe">
-        <property role="1eFbGW" value="dsabfd" />
-        <property role="1eFbGY" value="dsa" />
-      </node>
-    </node>
-  </node>
   <node concept="rZ2eS" id="3gMsvI8I71R">
     <property role="2yUoYX" value="kustomize.config.k8s.io/v1beta1" />
     <property role="2yUoYT" value="Kustomization" />
     <node concept="vuYVD" id="3gMsvI8I71S" role="vtUu3">
-      <ref role="vuYVE" node="3gMsvI8HniC" />
-    </node>
-    <node concept="vuYVD" id="4GGzD8$WV6o" role="vtUu3">
-      <ref role="vuYVE" node="3gMsvI8Hngk" />
+      <ref role="vuYVE" node="1eQXj7yGr17" />
     </node>
     <node concept="rNgXa" id="hT3hoiwcpT" role="rNgXd">
       <ref role="rNgXb" node="2nDD_6ChCli" />
+    </node>
+  </node>
+  <node concept="vpjdT" id="1eQXj7yGr17">
+    <property role="1NS65J" value="Patch" />
+    <node concept="3Lb8gb" id="1eQXj7yGr18" role="fvZFQ">
+      <node concept="fvZFL" id="4GGzD8$WV3a" role="3Lb8ga">
+        <property role="fvZFK" value="container[0]" />
+        <node concept="1eMz0b" id="4GGzD8$WV3e" role="f215J">
+          <node concept="fvZFL" id="4GGzD8$WV3h" role="1eMz0a">
+            <property role="fvZFK" value="name" />
+            <node concept="1eMz0e" id="4GGzD8$WV3l" role="f215J">
+              <property role="1eMz08" value="newName" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yWWW$" id="1eQXj7yGr19" role="1NS65M">
+      <property role="3yWWWB" value="NOT_default" />
+      <property role="3yWulV" value="default" />
     </node>
   </node>
 </model>
