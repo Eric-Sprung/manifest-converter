@@ -59,7 +59,7 @@
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
-      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.Attribute" flags="ng" index="1L2LFj">
+      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
       <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueFieldReference" flags="ng" index="1LvN49">
@@ -146,7 +146,7 @@
         </node>
       </node>
       <node concept="1LvN49" id="2RKRdmRha21" role="1eNFMr">
-        <ref role="1LvN48" node="56O1kGzKC5f" />
+        <ref role="1LvN48" node="56O1kGzKC5J" />
       </node>
       <node concept="1L2LFj" id="7e5wxXAIZZ8" role="1eNFMo">
         <property role="1LuVe3" value="nginx_deployment" />
@@ -592,8 +592,8 @@
       <node concept="1L2LFj" id="7Qj_COLqIYy" role="1eNFMo">
         <property role="1LuVe3" value="nginx_pod" />
       </node>
-      <node concept="1L2LFj" id="7Qj_COLqIYz" role="1eNFMr">
-        <property role="1LuVe3" value="default" />
+      <node concept="1L2LFj" id="4picSpa9Kh_" role="1eNFMr">
+        <property role="1LuVe3" value="default2" />
       </node>
     </node>
   </node>
