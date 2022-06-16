@@ -114,6 +114,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">1455348a-124f-4d4d-845f-61c2f37907a5(Kustomize)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:1455348a-124f-4d4d-845f-61c2f37907a5:Kustomize" version="0" />

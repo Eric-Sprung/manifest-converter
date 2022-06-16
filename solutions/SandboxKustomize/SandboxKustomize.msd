@@ -12,9 +12,6 @@
     <facet planModel="r:faed8ae3-42c1-4057-bb9e-d9cf862fee82(GenerationPlans.KustomizePlan@genplan)" type="generator" />
   </facets>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">e7b3baeb-e729-4ad7-a1c3-32f3f4336e87(GenerationPlans)</dependency>
-  </dependencies>
   <languageVersions />
   <dependencyVersions>
     <module reference="7dec57f9-9ec9-43a2-b5d4-f98dec1e6757(SandboxKustomize)" version="0" />

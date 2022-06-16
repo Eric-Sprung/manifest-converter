@@ -12,9 +12,6 @@
     <facet planModel="r:aea94d2a-d6a7-4c4f-96cf-b7245acadfd5(GenerationPlans.HelmChartPlan@genplan)" type="generator" />
   </facets>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">e7b3baeb-e729-4ad7-a1c3-32f3f4336e87(GenerationPlans)</dependency>
-  </dependencies>
   <languageVersions />
   <dependencyVersions>
     <module reference="d5da4517-5a10-43ec-8917-1f91621df4ea(SandboxHelmChart)" version="0" />
