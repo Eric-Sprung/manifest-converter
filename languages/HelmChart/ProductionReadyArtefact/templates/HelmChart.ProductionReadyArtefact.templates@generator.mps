@@ -161,6 +161,7 @@
         <child id="5854328277982365850" name="labels" index="1e_Kwn" />
       </concept>
       <concept id="5854328277980838832" name="ProductionReadyArtefact.structure.Label" flags="ng" index="1eFbGX">
+        <property id="5854328277980838833" name="key" index="1eFbGW" />
         <child id="1422298998528237564" name="value" index="1o5_Er" />
       </concept>
       <concept id="5854328277987291270" name="ProductionReadyArtefact.structure.ValueFieldBody" flags="ng" index="1eMz0b">
@@ -205,7 +206,7 @@
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
-      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.Attribute" flags="ng" index="1L2LFj">
+      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
       <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueFieldReference" flags="ng" index="1LvN49" />
@@ -956,7 +957,9 @@
     <property role="TrG5h" value="reduce_Label" />
     <ref role="3gUMe" to="5l0q:54YK8Ov$BIK" resolve="Label" />
     <node concept="1eFbGX" id="GrS71C4Fb$" role="13RCb5">
+      <property role="1eFbGW" value="key" />
       <node concept="1L2LFj" id="GrS71C4Fb_" role="1o5_Er">
+        <property role="1LuVe3" value="value" />
         <node concept="5jKBG" id="GrS71C4Hht" role="lGtFl">
           <ref role="v9R2y" node="6oUDUnYO08S" resolve="reduce_Attribute" />
           <node concept="3NFfHV" id="GrS71C4Hhw" role="5jGum">

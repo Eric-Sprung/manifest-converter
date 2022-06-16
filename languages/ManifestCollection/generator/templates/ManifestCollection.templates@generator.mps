@@ -110,6 +110,7 @@
         <child id="5854328277982365850" name="labels" index="1e_Kwn" />
       </concept>
       <concept id="5854328277980838832" name="ProductionReadyArtefact.structure.Label" flags="ng" index="1eFbGX">
+        <property id="5854328277980838833" name="key" index="1eFbGW" />
         <child id="1422298998528237564" name="value" index="1o5_Er" />
       </concept>
       <concept id="9090303514009990983" name="ProductionReadyArtefact.structure.Deployment" flags="ng" index="1jaWA_">
@@ -147,7 +148,7 @@
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
-      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.Attribute" flags="ng" index="1L2LFj">
+      <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
       <concept id="5176375271270796426" name="ProductionReadyArtefact.structure.KubernetesObject" flags="ng" index="1NS65C">
@@ -599,6 +600,7 @@
         </node>
       </node>
       <node concept="1L2LFj" id="6esuNbp57Fi" role="1o5_E6">
+        <property role="1LuVe3" value="image:tag" />
         <node concept="17Uvod" id="6esuNbp58f8" role="lGtFl">
           <property role="2qtEX9" value="value" />
           <property role="P4ACc" value="f987a4bd-5afd-4e35-924c-05d449fe3368/5854328277991545438/5854328277992567566" />
@@ -612,7 +614,7 @@
                       <ref role="3Tt5mk" to="80f9:6g4bX9uJVlY" resolve="image" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="6g4bX9uK2em" role="2OqNvi">
+                  <node concept="3TrcHB" id="4W9y5D5ZrFk" role="2OqNvi">
                     <ref role="3TsBF5" to="80f9:6g4bX9uJVkt" resolve="value" />
                   </node>
                 </node>
@@ -681,7 +683,9 @@
     <property role="TrG5h" value="reduce_Label" />
     <ref role="3gUMe" to="80f9:54YK8Ov$BIK" resolve="Label" />
     <node concept="1eFbGX" id="6esuNbpfr6v" role="13RCb5">
+      <property role="1eFbGW" value="key" />
       <node concept="1L2LFj" id="6esuNbpfr_m" role="1o5_Er">
+        <property role="1LuVe3" value="value" />
         <node concept="17Uvod" id="6esuNbpfrG0" role="lGtFl">
           <property role="2qtEX9" value="value" />
           <property role="P4ACc" value="f987a4bd-5afd-4e35-924c-05d449fe3368/5854328277991545438/5854328277992567566" />
@@ -1112,6 +1116,7 @@
     <ref role="3gUMe" to="80f9:7SBfI8H3fta" resolve="DeploymentSpec" />
     <node concept="1jaWAC" id="6P3aSn6GumT" role="13RCb5">
       <node concept="1L2LFj" id="6P3aSn6GumU" role="1o5_Ec">
+        <property role="1LuVe3" value="3" />
         <node concept="17Uvod" id="6P3aSn6Gunh" role="lGtFl">
           <property role="2qtEX9" value="value" />
           <property role="P4ACc" value="f987a4bd-5afd-4e35-924c-05d449fe3368/5854328277991545438/5854328277992567566" />

@@ -101,7 +101,7 @@
               <ref role="1LvN48" node="56O1kGzKC5J" />
             </node>
             <node concept="1L2LFj" id="4W9y5D5Ij1n" role="1o5_E6">
-              <property role="1LuVe3" value="d" />
+              <property role="1LuVe3" value="ddas:dsa" />
             </node>
           </node>
         </node>
@@ -128,8 +128,8 @@
           </node>
         </node>
       </node>
-      <node concept="1LvN49" id="7V4I$eHQFP0" role="1o5_Ec">
-        <ref role="1LvN48" node="56O1kGzKC5J" />
+      <node concept="1L2LFj" id="4W9y5D6jTaY" role="1o5_Ec">
+        <property role="1LuVe3" value="4" />
       </node>
     </node>
     <node concept="1LvN49" id="2RKRdmRha1Y" role="1o5_E9">
@@ -145,7 +145,9 @@
           <ref role="1LvN48" node="56O1kGzKC5o" />
         </node>
       </node>
-      <node concept="1L2LFj" id="4W9y5D5Ij1d" role="1eNFMo" />
+      <node concept="1L2LFj" id="4W9y5D5Ij1d" role="1eNFMo">
+        <property role="1LuVe3" value="dsa" />
+      </node>
       <node concept="1L2LFj" id="4W9y5D5Ij1j" role="1eNFMr">
         <property role="1LuVe3" value="default" />
       </node>
@@ -181,7 +183,7 @@
     </node>
     <node concept="3yWWW$" id="mgjyxknSQp" role="1NS65M">
       <node concept="1L2LFj" id="CvDuMruPaB" role="1eNFMr">
-        <property role="1LuVe3" value="d" />
+        <property role="1LuVe3" value="default" />
       </node>
       <node concept="1L2LFj" id="4Dv1ZG8buaT" role="1eNFMo">
         <property role="1LuVe3" value="nginx_service" />
@@ -236,7 +238,7 @@
                 <node concept="fvZFL" id="56O1kGzKC5J" role="1eMz0a">
                   <property role="fvZFK" value="nested" />
                   <node concept="1eMz0e" id="56O1kGzKC5N" role="f215J">
-                    <property role="191bEX" value="23" />
+                    <property role="191bEX" value="dsa" />
                   </node>
                 </node>
               </node>
@@ -562,7 +564,7 @@
           <ref role="1LvN48" node="56O1kGzKC5J" />
         </node>
         <node concept="1L2LFj" id="7Qj_COLqIYu" role="1o5_E6">
-          <property role="1LuVe3" value="dsa" />
+          <property role="1LuVe3" value="dsa:fsa" />
         </node>
       </node>
       <node concept="1NVWW6" id="7Htz9jnU08O" role="1NVWkb">
@@ -570,7 +572,7 @@
           <property role="1LuVe3" value="test" />
         </node>
         <node concept="1L2LFj" id="7Htz9jnU08Q" role="1o5_E6">
-          <property role="1LuVe3" value="dsa" />
+          <property role="1LuVe3" value="dsa:2" />
         </node>
       </node>
     </node>
