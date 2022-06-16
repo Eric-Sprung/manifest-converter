@@ -47,6 +47,7 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -288,9 +289,7 @@
           <node concept="37vLTw" id="4W9y5D6CjNS" role="2Oq$k0">
             <ref role="3cqZAo" node="3TPZkJNI9CI" resolve="image" />
           </node>
-          <node concept="liA8E" id="4W9y5D6CkE7" role="2OqNvi">
-            <ref role="37wK5l" to="wyt6:~String.isEmpty()" resolve="isEmpty" />
-          </node>
+          <node concept="17RlXB" id="7yBw_cDailn" role="2OqNvi" />
         </node>
       </node>
       <node concept="Dpp1Q" id="3TPZkJNMXaa" role="3cqZAp">
@@ -485,7 +484,6 @@
           <property role="Xl_RC" value="namespace must be specified for every Kubernetes Object and should not be default" />
         </node>
       </node>
-      <node concept="3clFbH" id="7V4I$eI4VD1" role="3cqZAp" />
       <node concept="3cpWs8" id="uFHcxWYIhQ" role="3cqZAp">
         <node concept="3cpWsn" id="uFHcxWYIhT" role="3cpWs9">
           <property role="TrG5h" value="name" />
