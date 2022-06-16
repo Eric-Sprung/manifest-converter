@@ -100,8 +100,8 @@
             <node concept="1LvN49" id="2RKRdmRha2j" role="1o5_ET">
               <ref role="1LvN48" node="56O1kGzKC5J" />
             </node>
-            <node concept="1LvN49" id="2RKRdmRha2g" role="1o5_E6">
-              <ref role="1LvN48" node="56O1kGzKC5J" />
+            <node concept="1L2LFj" id="4W9y5D5Ij1n" role="1o5_E6">
+              <property role="1LuVe3" value="d" />
             </node>
           </node>
         </node>
@@ -128,8 +128,8 @@
           </node>
         </node>
       </node>
-      <node concept="1L2LFj" id="7e5wxXAIZZ5" role="1o5_Ec">
-        <property role="1LuVe3" value="1" />
+      <node concept="1LvN49" id="7V4I$eHQFP0" role="1o5_Ec">
+        <ref role="1LvN48" node="56O1kGzKC5J" />
       </node>
     </node>
     <node concept="1LvN49" id="2RKRdmRha1Y" role="1o5_E9">
@@ -142,14 +142,12 @@
       <node concept="1eFbGX" id="mgjyxkorHI" role="1eEXFe">
         <property role="1eFbGW" value="labelDepl" />
         <node concept="1LvN49" id="2RKRdmRha24" role="1o5_Er">
-          <ref role="1LvN48" node="VSlIPHGmI6" />
+          <ref role="1LvN48" node="56O1kGzKC5o" />
         </node>
       </node>
-      <node concept="1LvN49" id="2RKRdmRha21" role="1eNFMr">
-        <ref role="1LvN48" node="56O1kGzKC5J" />
-      </node>
-      <node concept="1L2LFj" id="7e5wxXAIZZ8" role="1eNFMo">
-        <property role="1LuVe3" value="nginx_deployment" />
+      <node concept="1L2LFj" id="4W9y5D5Ij1d" role="1eNFMo" />
+      <node concept="1L2LFj" id="4W9y5D5Ij1j" role="1eNFMr">
+        <property role="1LuVe3" value="default" />
       </node>
     </node>
   </node>
@@ -170,7 +168,7 @@
         <node concept="1eFbGX" id="mgjyxknSQz" role="1e_Kwn">
           <property role="1eFbGW" value="app" />
           <node concept="1LvN49" id="4Dv1ZG8buaV" role="1o5_Er">
-            <ref role="1LvN48" node="5CIl_avaprr" />
+            <ref role="1LvN48" node="56O1kGzKC5f" />
           </node>
         </node>
       </node>
@@ -182,17 +180,17 @@
       <ref role="1LvN48" node="VSlIPHGmI6" />
     </node>
     <node concept="3yWWW$" id="mgjyxknSQp" role="1NS65M">
-      <node concept="1eFbGX" id="mgjyxknSQv" role="1eEXFe">
-        <property role="1eFbGW" value="SCUSTOM" />
-        <node concept="1LvN49" id="2RKRdmRha30" role="1o5_Er">
-          <ref role="1LvN48" node="2TY_cmoB7o7" />
-        </node>
-      </node>
       <node concept="1L2LFj" id="CvDuMruPaB" role="1eNFMr">
-        <property role="1LuVe3" value="namespacetest" />
+        <property role="1LuVe3" value="d" />
       </node>
       <node concept="1L2LFj" id="4Dv1ZG8buaT" role="1eNFMo">
         <property role="1LuVe3" value="nginx_service" />
+      </node>
+      <node concept="1eFbGX" id="7V4I$eI4Urx" role="1eEXFe">
+        <property role="1eFbGW" value="a" />
+        <node concept="1L2LFj" id="7V4I$eI4Ury" role="1o5_Er">
+          <property role="1LuVe3" value="dsa" />
+        </node>
       </node>
     </node>
   </node>
@@ -238,7 +236,7 @@
                 <node concept="fvZFL" id="56O1kGzKC5J" role="1eMz0a">
                   <property role="fvZFK" value="nested" />
                   <node concept="1eMz0e" id="56O1kGzKC5N" role="f215J">
-                    <property role="191bEX" value="last" />
+                    <property role="191bEX" value="23" />
                   </node>
                 </node>
               </node>
