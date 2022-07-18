@@ -418,7 +418,6 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="7iYxiYmbjKl" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3TPZkJNyQP6" role="1YuTPh">
       <property role="TrG5h" value="container" />
@@ -630,11 +629,26 @@
         </node>
       </node>
       <node concept="2Mj0R9" id="4W9y5D6fp7L" role="3cqZAp">
-        <node concept="2OqwBi" id="4W9y5D6fpAu" role="2MkoU_">
-          <node concept="37vLTw" id="4W9y5D6fpfY" role="2Oq$k0">
-            <ref role="3cqZAo" node="uFHcxWYOd2" resolve="namespace" />
+        <node concept="1Wc70l" id="4idmuQm7AOS" role="2MkoU_">
+          <node concept="3fqX7Q" id="4idmuQm7B_m" role="3uHU7w">
+            <node concept="2OqwBi" id="4idmuQm7B_o" role="3fr31v">
+              <node concept="37vLTw" id="4idmuQm7B_p" role="2Oq$k0">
+                <ref role="3cqZAo" node="uFHcxWYOd2" resolve="namespace" />
+              </node>
+              <node concept="liA8E" id="4idmuQm7B_q" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contentEquals(java.lang.CharSequence)" resolve="contentEquals" />
+                <node concept="Xl_RD" id="4idmuQm7B_r" role="37wK5m">
+                  <property role="Xl_RC" value="default" />
+                </node>
+              </node>
+            </node>
           </node>
-          <node concept="17RvpY" id="4W9y5D6fq6p" role="2OqNvi" />
+          <node concept="2OqwBi" id="4W9y5D6fpAu" role="3uHU7B">
+            <node concept="37vLTw" id="4W9y5D6fpfY" role="2Oq$k0">
+              <ref role="3cqZAo" node="uFHcxWYOd2" resolve="namespace" />
+            </node>
+            <node concept="17RvpY" id="4W9y5D6fq6p" role="2OqNvi" />
+          </node>
         </node>
         <node concept="Xl_RD" id="4W9y5D6fq6K" role="2MkJ7o">
           <property role="Xl_RC" value="namespace must be specified for every Kubernetes Object and should not be default" />
