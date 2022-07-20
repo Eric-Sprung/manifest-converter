@@ -100,8 +100,8 @@
             <node concept="1LvN49" id="2RKRdmRha2j" role="1o5_ET">
               <ref role="1LvN48" node="56O1kGzKC5J" />
             </node>
-            <node concept="1L2LFj" id="4W9y5D5Ij1n" role="1o5_E6">
-              <property role="1LuVe3" value="ddas:latests" />
+            <node concept="1L2LFj" id="5aTvq282WN1" role="1o5_E6">
+              <property role="1LuVe3" value="image:tag" />
             </node>
           </node>
         </node>
@@ -128,7 +128,7 @@
           </node>
         </node>
       </node>
-      <node concept="1L2LFj" id="4W9y5D6jTaY" role="1o5_Ec">
+      <node concept="1L2LFj" id="5aTvq282VOo" role="1o5_Ec">
         <property role="1LuVe3" value="2" />
       </node>
     </node>
@@ -572,7 +572,7 @@
           <property role="1LuVe3" value="test" />
         </node>
         <node concept="1L2LFj" id="7Htz9jnU08Q" role="1o5_E6">
-          <property role="1LuVe3" value="dsa:2" />
+          <property role="1LuVe3" value="nginx:16.0.1" />
         </node>
       </node>
     </node>
@@ -584,9 +584,9 @@
     </node>
     <node concept="3yWWW$" id="7Qj_COLqIYx" role="1NS65M">
       <node concept="1eFbGX" id="7Htz9jnU08i" role="1eEXFe">
-        <property role="1eFbGW" value="app" />
-        <node concept="1L2LFj" id="1q7J$MDJtMa" role="1o5_Er">
-          <property role="1LuVe3" value="nginx" />
+        <property role="1eFbGW" value="a" />
+        <node concept="1L2LFj" id="1gotYsyb6dj" role="1o5_Er">
+          <property role="1LuVe3" value="asd" />
         </node>
       </node>
       <node concept="1eFbGX" id="1q7J$MDJtMd" role="1eEXFe">
@@ -598,8 +598,8 @@
       <node concept="1L2LFj" id="7Qj_COLqIYy" role="1eNFMo">
         <property role="1LuVe3" value="nginx_pod" />
       </node>
-      <node concept="1L2LFj" id="4idmuQmbYin" role="1eNFMr">
-        <property role="1LuVe3" value="test" />
+      <node concept="1L2LFj" id="5aTvq282V1U" role="1eNFMr">
+        <property role="1LuVe3" value="nginx" />
       </node>
     </node>
   </node>

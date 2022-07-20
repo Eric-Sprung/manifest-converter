@@ -838,49 +838,10 @@
   <node concept="18kY7G" id="uFHcxWYHvV">
     <property role="TrG5h" value="checkLabelValues" />
     <node concept="3clFbS" id="uFHcxWYHvW" role="18ibNy">
-      <node concept="2Mj0R9" id="4W9y5D6fuLG" role="3cqZAp">
-        <node concept="2OqwBi" id="4W9y5D6fvOn" role="2MkoU_">
-          <node concept="2OqwBi" id="4W9y5D6fuX9" role="2Oq$k0">
-            <node concept="1YBJjd" id="4W9y5D6fuO0" role="2Oq$k0">
-              <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
-            </node>
-            <node concept="3TrcHB" id="4W9y5D6fvpE" role="2OqNvi">
-              <ref role="3TsBF5" to="2mqg:54YK8Ov$BIL" resolve="key" />
-            </node>
-          </node>
-          <node concept="17RvpY" id="4W9y5D6fwjq" role="2OqNvi" />
-        </node>
-        <node concept="Xl_RD" id="4W9y5D6fwsG" role="2MkJ7o">
-          <property role="Xl_RC" value="a key must be specified for every label" />
-        </node>
-        <node concept="1YBJjd" id="4W9y5D6fw$y" role="1urrMF">
-          <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
-        </node>
-      </node>
-      <node concept="2Mj0R9" id="4W9y5D6fwJ1" role="3cqZAp">
-        <node concept="2OqwBi" id="4W9y5D6fxrR" role="2MkoU_">
-          <node concept="2OqwBi" id="4W9y5D6fwUs" role="2Oq$k0">
-            <node concept="1YBJjd" id="4W9y5D6fwLj" role="2Oq$k0">
-              <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
-            </node>
-            <node concept="3TrEf2" id="4W9y5D6fxdJ" role="2OqNvi">
-              <ref role="3Tt5mk" to="2mqg:1eX1mtbEPZW" resolve="value" />
-            </node>
-          </node>
-          <node concept="3x8VRR" id="4W9y5D6fxJw" role="2OqNvi" />
-        </node>
-        <node concept="1YBJjd" id="4W9y5D6fxRj" role="1urrMF">
-          <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
-        </node>
-        <node concept="Xl_RD" id="4W9y5D6fxNq" role="2MkJ7o">
-          <property role="Xl_RC" value="a value must be specified for every label" />
-        </node>
-      </node>
-      <node concept="3clFbH" id="7V4I$eHXPs6" role="3cqZAp" />
       <node concept="3cpWs8" id="4picSpa9QBE" role="3cqZAp">
         <node concept="3cpWsn" id="4picSpa9QBH" role="3cpWs9">
           <property role="TrG5h" value="key" />
-          <node concept="17QB3L" id="4picSpa9QBD" role="1tU5fm" />
+          <node concept="17QB3L" id="1gotYsy6G1S" role="1tU5fm" />
           <node concept="2OqwBi" id="4picSpa9QL6" role="33vP2m">
             <node concept="1YBJjd" id="4picSpa9QBZ" role="2Oq$k0">
               <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
@@ -954,18 +915,19 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="5aTvq2837mt" role="3cqZAp" />
       <node concept="2Mj0R9" id="4W9y5D6fy1F" role="3cqZAp">
-        <node concept="2OqwBi" id="4W9y5D6fyxI" role="2MkoU_">
-          <node concept="37vLTw" id="4W9y5D6fybe" role="2Oq$k0">
+        <node concept="2OqwBi" id="73QqG$7g163" role="2MkoU_">
+          <node concept="37vLTw" id="73QqG$7g164" role="2Oq$k0">
             <ref role="3cqZAo" node="4picSpa9QBH" resolve="key" />
           </node>
-          <node concept="17RvpY" id="4W9y5D6fyKF" role="2OqNvi" />
+          <node concept="17RvpY" id="73QqG$7g1id" role="2OqNvi" />
         </node>
         <node concept="1YBJjd" id="4W9y5D6fyLr" role="1urrMF">
           <ref role="1YBMHb" node="uFHcxWYHvY" resolve="label" />
         </node>
         <node concept="Xl_RD" id="4W9y5D6fyL2" role="2MkJ7o">
-          <property role="Xl_RC" value="key should not be empty" />
+          <property role="Xl_RC" value="key should not be a empty string" />
         </node>
       </node>
       <node concept="2Mj0R9" id="4W9y5D6fz1g" role="3cqZAp">
@@ -973,7 +935,7 @@
           <node concept="37vLTw" id="4W9y5D6fz3u" role="2Oq$k0">
             <ref role="3cqZAo" node="4picSpa9RsI" resolve="value" />
           </node>
-          <node concept="17RvpY" id="4W9y5D6fz5m" role="2OqNvi" />
+          <node concept="17RvpY" id="73QqG$7g1nr" role="2OqNvi" />
         </node>
         <node concept="2OqwBi" id="4W9y5D6fzdL" role="1urrMF">
           <node concept="1YBJjd" id="4W9y5D6fz66" role="2Oq$k0">
@@ -984,7 +946,7 @@
           </node>
         </node>
         <node concept="Xl_RD" id="4W9y5D6fz5H" role="2MkJ7o">
-          <property role="Xl_RC" value="value should not be empty" />
+          <property role="Xl_RC" value="value should not be a empty string" />
         </node>
       </node>
     </node>
