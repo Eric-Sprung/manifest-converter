@@ -316,7 +316,10 @@
     <ref role="3gUMe" to="80f9:5ByJnQV4n9p" resolve="ObjectMeta" />
     <node concept="3yWWW$" id="2YpWdaHJ46Q" role="13RCb5">
       <node concept="1eFbGX" id="6esuNbpfmgh" role="1eEXFe">
-        <node concept="1L2LFj" id="6esuNbpfmgi" role="1o5_Er" />
+        <property role="1eFbGW" value="generator_key" />
+        <node concept="1L2LFj" id="6esuNbpfmgi" role="1o5_Er">
+          <property role="1LuVe3" value="generator_value" />
+        </node>
         <node concept="1W57fq" id="6esuNbpfmxp" role="lGtFl">
           <node concept="3IZrLx" id="6esuNbpfmxq" role="3IZSJc">
             <node concept="3clFbS" id="6esuNbpfmxr" role="2VODD2">
@@ -354,7 +357,7 @@
         </node>
       </node>
       <node concept="1L2LFj" id="2YpWdaHJ46R" role="1eNFMo">
-        <property role="1LuVe3" value="default" />
+        <property role="1LuVe3" value="generator_default" />
         <node concept="17Uvod" id="2YpWdaHJ46X" role="lGtFl">
           <property role="2qtEX9" value="value" />
           <property role="P4ACc" value="f987a4bd-5afd-4e35-924c-05d449fe3368/5854328277991545438/5854328277992567566" />
@@ -378,7 +381,7 @@
         </node>
       </node>
       <node concept="1L2LFj" id="2YpWdaHJ46S" role="1eNFMr">
-        <property role="1LuVe3" value="default" />
+        <property role="1LuVe3" value="generator_default" />
         <node concept="17Uvod" id="2YpWdaHJ4_N" role="lGtFl">
           <property role="2qtEX9" value="value" />
           <property role="P4ACc" value="f987a4bd-5afd-4e35-924c-05d449fe3368/5854328277991545438/5854328277992567566" />
