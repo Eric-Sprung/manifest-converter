@@ -142,7 +142,7 @@
       <node concept="1eFbGX" id="mgjyxkorHI" role="1eEXFe">
         <property role="1eFbGW" value="labelDepl" />
         <node concept="1LvN49" id="2RKRdmRha24" role="1o5_Er">
-          <ref role="1LvN48" node="56O1kGzKC5o" />
+          <ref role="1LvN48" node="56O1kGzKC5J" />
         </node>
       </node>
       <node concept="1L2LFj" id="rFeH8z5qGr" role="1eNFMo">
@@ -163,20 +163,20 @@
           <ref role="1LvN48" node="2TY_cmoB7o7" />
         </node>
         <node concept="1LvN49" id="2RKRdmRha3c" role="1o5Aly">
-          <ref role="1LvN48" node="56O1kGzKC5f" />
+          <ref role="1LvN48" node="56O1kGzKC5J" />
         </node>
       </node>
       <node concept="1e_Kwo" id="mgjyxknSQm" role="1e$Npo">
         <node concept="1eFbGX" id="mgjyxknSQz" role="1e_Kwn">
           <property role="1eFbGW" value="app" />
           <node concept="1LvN49" id="4Dv1ZG8buaV" role="1o5_Er">
-            <ref role="1LvN48" node="56O1kGzKC5f" />
+            <ref role="1LvN48" node="56O1kGzKC5J" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1LvN49" id="2RKRdmRha2O" role="1o5_E9">
-      <ref role="1LvN48" node="56O1kGzKC5o" />
+      <ref role="1LvN48" node="56O1kGzKC5J" />
     </node>
     <node concept="1LvN49" id="2RKRdmRha2R" role="1o5_Em">
       <ref role="1LvN48" node="VSlIPHGmI6" />
@@ -247,8 +247,8 @@
         </node>
         <node concept="fvZFL" id="5CIl_avaprr" role="1eMz0a">
           <property role="fvZFK" value="app_label" />
-          <node concept="1eMz0e" id="5CIl_avaprB" role="f215J">
-            <property role="191bEX" value="nginx_pod" />
+          <node concept="1eMz0e" id="7jkB5fNZ9Jt" role="f215J">
+            <property role="191bEX" value="appLabel" />
           </node>
         </node>
       </node>

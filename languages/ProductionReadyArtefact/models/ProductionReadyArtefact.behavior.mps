@@ -2636,25 +2636,15 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="7jkB5fNGtmx" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="YS8fn" id="7jkB5fNyghR" role="8Wnug">
-            <node concept="2ShNRf" id="7jkB5fNygjK" role="YScLw">
-              <node concept="1pGfFk" id="7jkB5fNyhts" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
-                <node concept="Xl_RD" id="7jkB5fNyhzH" role="37wK5m">
-                  <property role="Xl_RC" value="ValueFieldReference didn't referenced a Literal" />
-                </node>
+        <node concept="YS8fn" id="7jkB5fNyghR" role="3cqZAp">
+          <node concept="2ShNRf" id="7jkB5fNygjK" role="YScLw">
+            <node concept="1pGfFk" id="7jkB5fNyhts" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
+              <node concept="Xl_RD" id="7jkB5fNyhzH" role="37wK5m">
+                <property role="Xl_RC" value="ValueFieldReference didn't referenced a Literal" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7jkB5fNGt96" role="3cqZAp" />
-        <node concept="3cpWs6" id="3aReBGp0Ceb" role="3cqZAp">
-          <node concept="Xl_RD" id="3aReBGp0Chj" role="3cqZAk">
-            <property role="Xl_RC" value="Reference ValueField does not contain a Literal Attribute" />
           </node>
         </node>
       </node>

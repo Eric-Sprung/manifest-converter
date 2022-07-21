@@ -18,7 +18,7 @@
         <child id="2111394236479369490" name="value" index="bptNd" />
       </concept>
       <concept id="5854328277987291270" name="HelmChart.structure.ValueFieldBody" flags="ng" index="1eMz0b">
-        <child id="5854328277987291271" name="value" index="1eMz0a" />
+        <child id="5854328277987291271" name="items" index="1eMz0a" />
       </concept>
       <concept id="5854328277987291267" name="HelmChart.structure.Literal" flags="ng" index="1eMz0e">
         <property id="5854328277987291269" name="value" index="1eMz08" />
@@ -68,7 +68,7 @@
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
-      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
+      <concept id="5854328277991545438" name="HelmChart.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
       <concept id="5854328277992337796" name="HelmChart.structure.ValueFieldReference" flags="ng" index="1LvN49">
@@ -156,19 +156,8 @@
   <node concept="1ePYff" id="7I50n5gnGmd">
     <node concept="1eMz3M" id="7I50n5gnGme" role="3_28H4">
       <property role="2poYFT" value="name" />
-      <node concept="1eMz0b" id="1nMI905kUgs" role="1eMz07">
-        <node concept="1eMz3M" id="1nMI905kUgz" role="1eMz0a">
-          <property role="2poYFT" value="key1" />
-          <node concept="1eMz0e" id="1nMI905kUgD" role="1eMz07">
-            <property role="1eMz08" value="value1" />
-          </node>
-        </node>
-        <node concept="1eMz3M" id="1nMI905kUgv" role="1eMz0a">
-          <property role="2poYFT" value="key2" />
-          <node concept="1eMz0e" id="1nMI905kUgG" role="1eMz07">
-            <property role="1eMz08" value="value2" />
-          </node>
-        </node>
+      <node concept="1eMz0e" id="7JedvCb59dV" role="1eMz07">
+        <property role="1eMz08" value="chartName" />
       </node>
     </node>
     <node concept="1eMz3M" id="7I50n5gnGmg" role="3_28H4">
@@ -217,7 +206,7 @@
         </node>
       </node>
       <node concept="3xtX_i" id="GrS71C8Ljp" role="b1XYk">
-        <ref role="3xtX_d" node="1nMI905kUgz" />
+        <ref role="3xtX_d" node="7I50n5gnGme" />
       </node>
       <node concept="3xtX_i" id="GrS71C8Ljm" role="1Luyvk">
         <ref role="3xtX_d" node="7I50n5gnGmg" />
