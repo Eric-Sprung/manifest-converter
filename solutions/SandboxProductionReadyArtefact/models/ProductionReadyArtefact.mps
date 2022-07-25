@@ -62,7 +62,7 @@
       <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
-      <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueFieldReference" flags="ng" index="1LvN49">
+      <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueStoreReference" flags="ng" index="1LvN49">
         <reference id="5854328277992337797" name="original" index="1LvN48" />
       </concept>
       <concept id="5176375271270796426" name="ProductionReadyArtefact.structure.KubernetesObject" flags="ng" index="1NS65C">

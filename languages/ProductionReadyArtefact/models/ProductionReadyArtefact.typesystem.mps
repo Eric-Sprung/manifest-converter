@@ -1328,5 +1328,42 @@
       <ref role="1YaFvo" to="2mqg:54YK8Ov$BIK" resolve="Label" />
     </node>
   </node>
+  <node concept="18kY7G" id="3anutJaljm2">
+    <property role="TrG5h" value="checkValueStoreReferenceIsLiteral" />
+    <node concept="3clFbS" id="3anutJaljm3" role="18ibNy">
+      <node concept="2Mj0R9" id="3anutJallnb" role="3cqZAp">
+        <node concept="Xl_RD" id="3anutJallqM" role="2MkJ7o">
+          <property role="Xl_RC" value="A ValueStoreReference always has to reference a Literal" />
+        </node>
+        <node concept="1YBJjd" id="3anutJallwE" role="1urrMF">
+          <ref role="1YBMHb" node="3anutJaljm5" resolve="valueStoreReference" />
+        </node>
+        <node concept="2OqwBi" id="3anutJallnI" role="2MkoU_">
+          <node concept="2OqwBi" id="3anutJallnJ" role="2Oq$k0">
+            <node concept="2OqwBi" id="3anutJallnK" role="2Oq$k0">
+              <node concept="1YBJjd" id="3anutJallnL" role="2Oq$k0">
+                <ref role="1YBMHb" node="3anutJaljm5" resolve="valueStoreReference" />
+              </node>
+              <node concept="3TrEf2" id="3anutJallnM" role="2OqNvi">
+                <ref role="3Tt5mk" to="2mqg:54YK8Owgv65" resolve="original" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="3anutJallnN" role="2OqNvi">
+              <ref role="3Tt5mk" to="2mqg:6HbGAd$gUcc" resolve="value" />
+            </node>
+          </node>
+          <node concept="1mIQ4w" id="3anutJallnO" role="2OqNvi">
+            <node concept="chp4Y" id="3anutJallnP" role="cj9EA">
+              <ref role="cht4Q" to="2mqg:54YK8OvXf23" resolve="Literal" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3anutJaljm5" role="1YuTPh">
+      <property role="TrG5h" value="valueStoreReference" />
+      <ref role="1YaFvo" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
+    </node>
+  </node>
 </model>
 
