@@ -624,7 +624,7 @@
     </node>
     <node concept="3aamgX" id="1cv0AMfir$2" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <node concept="gft3U" id="1cv0AMfir$m" role="1lVwrX">
         <node concept="UIEXO" id="1cv0AMfir$s" role="gfFT$">
           <node concept="17Uvod" id="1cv0AMfir$u" role="lGtFl">
@@ -639,7 +639,7 @@
                     <node concept="2OqwBi" id="2koU2ensYD8" role="33vP2m">
                       <node concept="1PxgMI" id="2koU2ensVUp" role="2Oq$k0">
                         <node concept="chp4Y" id="2koU2ensXk2" role="3oSUPX">
-                          <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+                          <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
                         </node>
                         <node concept="30H73N" id="1cv0AMfir$R" role="1m5AlR" />
                       </node>
@@ -675,7 +675,7 @@
                         <node concept="2OqwBi" id="2koU2ensS8A" role="37vLTx">
                           <node concept="1PxgMI" id="2koU2ensPwK" role="2Oq$k0">
                             <node concept="chp4Y" id="2koU2ensQUc" role="3oSUPX">
-                              <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+                              <ref role="cht4Q" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
                             </node>
                             <node concept="30H73N" id="2koU2ensGaf" role="1m5AlR" />
                           </node>

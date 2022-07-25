@@ -1156,7 +1156,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5EsO1c4xt1B">
-    <ref role="WuzLi" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <ref role="WuzLi" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     <node concept="11bSqf" id="5EsO1c4xt1C" role="11c4hB">
       <node concept="3clFbS" id="5EsO1c4xt1D" role="2VODD2">
         <node concept="lc7rE" id="5EsO1c4xt1W" role="3cqZAp">

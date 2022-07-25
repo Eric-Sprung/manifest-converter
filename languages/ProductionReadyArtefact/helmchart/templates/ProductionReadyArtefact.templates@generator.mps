@@ -292,7 +292,7 @@
         <child id="5854328277982639829" name="selector" index="1e$Npo" />
         <child id="284014218792087663" name="ports" index="1tGzk2" />
       </concept>
-      <concept id="5854328277991545438" name="HelmChart.structure.Attribute" flags="ng" index="1L2LFj">
+      <concept id="5854328277991545438" name="HelmChart.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
       <concept id="5854328277992337796" name="HelmChart.structure.ValueFieldReference" flags="ng" index="1LvN49" />
@@ -332,12 +332,12 @@
     </node>
     <node concept="2rT7sh" id="3kPdiDIJQhi" role="2rTMjI">
       <property role="TrG5h" value="ValueFieldReference" />
-      <ref role="2rTdP9" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="2rTdP9" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <ref role="2rZz_L" to="5l0q:54YK8Owgv64" resolve="ValueFieldReference" />
     </node>
     <node concept="2rT7sh" id="3kPdiDIJQzT" role="2rTMjI">
       <property role="TrG5h" value="ChartReference" />
-      <ref role="2rTdP9" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="2rTdP9" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <ref role="2rZz_L" to="5l0q:5JNGVQUx6FJ" resolve="ChartReference" />
     </node>
     <node concept="3aamgX" id="4$52A0rJgx3" role="3acgRq">
@@ -1551,7 +1551,7 @@
     </node>
     <node concept="3aamgX" id="3kPdiDIJyas" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <node concept="30G5F_" id="3kPdiDIJSAC" role="30HLyM">
         <node concept="3clFbS" id="3kPdiDIJSAD" role="2VODD2">
           <node concept="3clFbF" id="3kPdiDIJSB0" role="3cqZAp">
@@ -1759,7 +1759,7 @@
     </node>
     <node concept="3aamgX" id="3kPdiDIJUcq" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="30HIoZ" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <node concept="30G5F_" id="3kPdiDIJUhR" role="30HLyM">
         <node concept="3clFbS" id="3kPdiDIJUhS" role="2VODD2">
           <node concept="3clFbF" id="13CIoTZsh5M" role="3cqZAp">

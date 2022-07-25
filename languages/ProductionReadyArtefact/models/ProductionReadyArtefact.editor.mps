@@ -979,7 +979,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="5JNGVQU42LY">
-    <ref role="aqKnT" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <ref role="aqKnT" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     <node concept="1Qtc8_" id="5JNGVQU43Kq" role="IW6Ez">
       <node concept="3eGOoe" id="5JNGVQU43Ku" role="1Qtc8$" />
       <node concept="3PzhKR" id="5JNGVQU43Kx" role="1Qtc8A">
@@ -1033,7 +1033,7 @@
     <node concept="22hDWj" id="5JNGVQUoRba" role="22hAXT" />
   </node>
   <node concept="22mcaB" id="5JNGVQUv3Z5">
-    <ref role="aqKnT" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <ref role="aqKnT" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     <node concept="22hDWj" id="5JNGVQUv3Z6" role="22hAXT" />
     <node concept="3XHNnq" id="5JNGVQUv4JU" role="3ft7WO">
       <ref role="3XGfJA" to="2mqg:54YK8Owgv65" resolve="original" />
@@ -1093,7 +1093,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="54YK8OwjiBD">
-    <ref role="1XX52x" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <ref role="1XX52x" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     <node concept="3EZMnI" id="5JNGVQUgQso" role="2wV5jI">
       <node concept="l2Vlx" id="5JNGVQUgQsp" role="2iSdaV" />
       <node concept="3F0ifn" id="28$iz0104Ju" role="3EZMnx">
@@ -1125,7 +1125,7 @@
         <property role="3F0ifm" value=" }}" />
       </node>
       <node concept="A1WHr" id="1PdbtWm5Yez" role="3vIgyS">
-        <ref role="2ZyFGn" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+        <ref role="2ZyFGn" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       </node>
     </node>
   </node>

@@ -394,7 +394,7 @@
   </node>
   <node concept="1TIwiD" id="54YK8Owgv64">
     <property role="EcuMT" value="5854328277992337796" />
-    <property role="TrG5h" value="ValueFieldReference" />
+    <property role="TrG5h" value="ValueStoreReference" />
     <ref role="1TJDcQ" node="6Oz8UK$7Hc6" resolve="AttributeValue" />
     <node concept="1TJgyj" id="54YK8Owgv65" role="1TKVEi">
       <property role="IQ2ns" value="5854328277992337797" />

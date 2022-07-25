@@ -152,7 +152,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="6Oz8UK$gkX$">
-    <ref role="1M2myG" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+    <ref role="1M2myG" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     <node concept="1N5Pfh" id="6Oz8UK$gkX_" role="1Mr941">
       <ref role="1N5Vy1" to="2mqg:54YK8Owgv65" resolve="original" />
       <node concept="3dgokm" id="6Oz8UK$gkZ7" role="1N6uqs">

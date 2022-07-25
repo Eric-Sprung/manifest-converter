@@ -236,13 +236,13 @@
     </node>
     <node concept="2rT7sh" id="6oUDUnYHSg5" role="2rTMjI">
       <property role="TrG5h" value="ValueFieldReference" />
-      <ref role="2rZz_L" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="2rZz_L" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
       <ref role="2rTdP9" to="5l0q:54YK8Owgv64" resolve="ValueFieldReference" />
     </node>
     <node concept="2rT7sh" id="SdE5EJEw4u" role="2rTMjI">
       <property role="TrG5h" value="ChartReference" />
       <ref role="2rTdP9" to="5l0q:5JNGVQUx6FJ" resolve="ChartReference" />
-      <ref role="2rZz_L" to="2mqg:54YK8Owgv64" resolve="ValueFieldReference" />
+      <ref role="2rZz_L" to="2mqg:54YK8Owgv64" resolve="ValueStoreReference" />
     </node>
     <node concept="2rT7sh" id="6oUDUnYO37b" role="2rTMjI">
       <property role="TrG5h" value="ValueField" />
