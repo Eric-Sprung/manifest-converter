@@ -206,7 +206,7 @@
       <concept id="5854328277991545438" name="ProductionReadyArtefact.structure.AttributeValue" flags="ng" index="1L2LFj">
         <property id="5854328277992567566" name="value" index="1LuVe3" />
       </concept>
-      <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueFieldReference" flags="ng" index="1LvN49" />
+      <concept id="5854328277992337796" name="ProductionReadyArtefact.structure.ValueStoreReference" flags="ng" index="1LvN49" />
       <concept id="5176375271270796426" name="ProductionReadyArtefact.structure.KubernetesObject" flags="ng" index="1NS65C">
         <child id="1422298998528237550" name="apiVersion" index="1o5_E9" />
         <child id="1422298998528237553" name="kind" index="1o5_Em" />
@@ -1117,7 +1117,10 @@
     <ref role="3gUMe" to="5l0q:54YK8OvEsyl" resolve="Selector" />
     <node concept="1e_Kwo" id="GrS71C5D9W" role="13RCb5">
       <node concept="1eFbGX" id="GrS71C5Da0" role="1e_Kwn">
-        <node concept="1L2LFj" id="GrS71C5Da1" role="1o5_Er" />
+        <property role="1eFbGW" value="generator_key" />
+        <node concept="1L2LFj" id="GrS71C5Da1" role="1o5_Er">
+          <property role="1LuVe3" value="generator_value" />
+        </node>
         <node concept="1WS0z7" id="GrS71C5Da5" role="lGtFl">
           <node concept="3JmXsc" id="GrS71C5Da8" role="3Jn$fo">
             <node concept="3clFbS" id="GrS71C5Da9" role="2VODD2">

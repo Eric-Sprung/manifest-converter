@@ -73,38 +73,38 @@
       <node concept="1NVWW6" id="1cv0AMfb8pS" role="1NVWkb">
         <node concept="1NVWWg" id="1cv0AMfb8qs" role="1NVWWi">
           <node concept="UIEXO" id="1cv0AMfb8qt" role="UITDh">
-            <property role="UITFf" value="c_p_name1" />
+            <property role="UITFf" value="http" />
           </node>
           <node concept="UIEXO" id="1cv0AMfb8qu" role="UITDn">
-            <property role="UITFf" value="c_p_cp1" />
+            <property role="UITFf" value="8080" />
           </node>
         </node>
         <node concept="UIEXO" id="1cv0AMfb8pT" role="UITED">
-          <property role="UITFf" value="c1" />
+          <property role="UITFf" value="nginx" />
         </node>
         <node concept="UIEXO" id="1cv0AMfb8pU" role="UITEG">
-          <property role="UITFf" value="i1" />
+          <property role="UITFf" value="nginx:1.23.1" />
         </node>
       </node>
     </node>
     <node concept="UIEXO" id="1cv0AMfb8q0" role="UITD1">
-      <property role="UITFf" value="apiVersionP" />
+      <property role="UITFf" value="v1" />
     </node>
     <node concept="UIEXO" id="1cv0AMfb8q3" role="UITxn">
-      <property role="UITFf" value="kindP" />
+      <property role="UITFf" value="Pod" />
     </node>
     <node concept="3yWWW$" id="1cv0AMfb8pX" role="1NS65M">
       <node concept="1eFbGX" id="1cv0AMfb8qc" role="1eEXFe">
-        <property role="1eFbGW" value="m_l_k1" />
+        <property role="1eFbGW" value="app" />
         <node concept="UIEXO" id="1cv0AMfb8qd" role="UITD2">
-          <property role="UITFf" value="m_l_v1" />
+          <property role="UITFf" value="nginx" />
         </node>
       </node>
       <node concept="UIEXO" id="1cv0AMfb8q6" role="UITD5">
-        <property role="UITFf" value="m_nameP" />
+        <property role="UITFf" value="nginx" />
       </node>
       <node concept="UIEXO" id="1cv0AMfb8q9" role="UITD8">
-        <property role="UITFf" value="m_namespaceP" />
+        <property role="UITFf" value="nginx" />
       </node>
     </node>
   </node>
@@ -112,42 +112,42 @@
     <node concept="1FFRrR" id="1cv0AMfb8qz" role="1tGzk7">
       <node concept="1tGzk6" id="1cv0AMfb8q$" role="1tGzk2">
         <node concept="UIEXO" id="1cv0AMfb8q_" role="UITDd">
-          <property role="UITFf" value="nbame" />
+          <property role="UITFf" value="http" />
         </node>
         <node concept="UIEXO" id="1cv0AMfb8qA" role="UITDN">
-          <property role="UITFf" value="targetPort1" />
+          <property role="UITFf" value="8080" />
         </node>
         <node concept="UIEXO" id="1cv0AMfb8qB" role="UITDQ">
-          <property role="UITFf" value="por1" />
+          <property role="UITFf" value="8080" />
         </node>
       </node>
       <node concept="1e_Kwo" id="1cv0AMfb8qC" role="1e$Npo">
         <node concept="1eFbGX" id="1cv0AMfb8qM" role="1e_Kwn">
-          <property role="1eFbGW" value="l1" />
+          <property role="1eFbGW" value="app" />
           <node concept="UIEXO" id="1cv0AMfb8qN" role="UITD2">
-            <property role="UITFf" value="v1" />
+            <property role="UITFf" value="nginx" />
           </node>
         </node>
       </node>
     </node>
     <node concept="UIEXO" id="1cv0AMfb8qD" role="UITD1">
-      <property role="UITFf" value="apiVersionS" />
+      <property role="UITFf" value="v1" />
     </node>
     <node concept="UIEXO" id="1cv0AMfb8qE" role="UITxn">
-      <property role="UITFf" value="kindS" />
+      <property role="UITFf" value="Service" />
     </node>
     <node concept="3yWWW$" id="1cv0AMfb8qF" role="1NS65M">
       <node concept="1eFbGX" id="1cv0AMfb8qI" role="1eEXFe">
-        <property role="1eFbGW" value="A" />
+        <property role="1eFbGW" value="app" />
         <node concept="UIEXO" id="1cv0AMfb8qJ" role="UITD2">
-          <property role="UITFf" value="B" />
+          <property role="UITFf" value="nginx" />
         </node>
       </node>
       <node concept="UIEXO" id="1cv0AMfb8qG" role="UITD5">
-        <property role="UITFf" value="S" />
+        <property role="UITFf" value="nginx" />
       </node>
       <node concept="UIEXO" id="1cv0AMfb8qH" role="UITD8">
-        <property role="UITFf" value="SSS" />
+        <property role="UITFf" value="nginx" />
       </node>
     </node>
   </node>
@@ -161,33 +161,33 @@
           <node concept="1NVWW6" id="1cv0AMfb8qV" role="1NVWkb">
             <node concept="1NVWWg" id="1cv0AMfb8rj" role="1NVWWi">
               <node concept="UIEXO" id="1cv0AMfb8rk" role="UITDh">
-                <property role="UITFf" value="dasd" />
+                <property role="UITFf" value="http" />
               </node>
               <node concept="UIEXO" id="1cv0AMfb8rl" role="UITDn">
-                <property role="UITFf" value="dsafdafsa" />
+                <property role="UITFf" value="8080" />
               </node>
             </node>
             <node concept="UIEXO" id="1cv0AMfb8qW" role="UITED">
-              <property role="UITFf" value="dsa" />
+              <property role="UITFf" value="nginx" />
             </node>
             <node concept="UIEXO" id="1cv0AMfb8qX" role="UITEG">
-              <property role="UITFf" value="dsa" />
+              <property role="UITFf" value="nginx:1.23.1" />
             </node>
           </node>
         </node>
         <node concept="1e_Kwo" id="1cv0AMfb8qY" role="1jaWAK">
           <node concept="1eFbGX" id="1cv0AMfb8rb" role="1e_Kwn">
-            <property role="1eFbGW" value="ml1" />
+            <property role="1eFbGW" value="app" />
             <node concept="UIEXO" id="1cv0AMfb8rc" role="UITD2">
-              <property role="UITFf" value="ml2" />
+              <property role="UITFf" value="nginx" />
             </node>
           </node>
         </node>
         <node concept="3yWWW$" id="1cv0AMfb8qZ" role="1jknpy">
           <node concept="1eFbGX" id="1cv0AMfb8rf" role="1eEXFe">
-            <property role="1eFbGW" value="k1" />
+            <property role="1eFbGW" value="app" />
             <node concept="UIEXO" id="1cv0AMfb8rg" role="UITD2">
-              <property role="UITFf" value="v1" />
+              <property role="UITFf" value="nginx" />
             </node>
           </node>
           <node concept="UIEXO" id="1cv0AMfb8r0" role="UITD5" />
@@ -196,23 +196,23 @@
       </node>
     </node>
     <node concept="UIEXO" id="1cv0AMfb8r2" role="UITD1">
-      <property role="UITFf" value="apiVersionD" />
+      <property role="UITFf" value="app/v1" />
     </node>
     <node concept="UIEXO" id="1cv0AMfb8r3" role="UITxn">
-      <property role="UITFf" value="kindD" />
+      <property role="UITFf" value="Deployment" />
     </node>
     <node concept="3yWWW$" id="1cv0AMfb8r4" role="1NS65M">
       <node concept="1eFbGX" id="1cv0AMfb8r7" role="1eEXFe">
-        <property role="1eFbGW" value="A" />
+        <property role="1eFbGW" value="app" />
         <node concept="UIEXO" id="1cv0AMfb8r8" role="UITD2">
-          <property role="UITFf" value="AA" />
+          <property role="UITFf" value="nginx" />
         </node>
       </node>
       <node concept="UIEXO" id="1cv0AMfb8r5" role="UITD5">
-        <property role="UITFf" value="D" />
+        <property role="UITFf" value="nginx" />
       </node>
       <node concept="UIEXO" id="1cv0AMfb8r6" role="UITD8">
-        <property role="UITFf" value="DD" />
+        <property role="UITFf" value="nginx" />
       </node>
     </node>
   </node>
